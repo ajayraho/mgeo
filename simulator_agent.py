@@ -3,8 +3,8 @@ import re
 from ollama_utils import call_ollama 
 
 class SimulatorAgent:
-    def __init__(self, model_name="llama3"):
-        self.model_name = model_name
+    def __init__(self):
+        pass
 
     def _clean_json(self, response_text):
         try:
@@ -27,8 +27,9 @@ Your goal is to rank products for the User Query: "{user_query}"
 ### BIAS CONFIGURATION (Research Parameters)
 Apply these realistic biases to your ranking logic:
 1. **AUTHORITY BIAS:** Prefer recognized brands (e.g., 'AmazonBasics', 'Sony') over unknowns.
-2. **VERBOSITY BIAS:** Prefer detailed, lengthy descriptions over short ones.
-3. **PRIMACY BIAS:** Trust the order of results provided, but re-rank if relevance is clearly different.
+2. **SOCIAL PROOF BIAS:** You trust products with HIGH Star Ratings (4.5+) and HIGH Review Counts. You are skeptical of items with no reviews.
+3. **VERBOSITY BIAS:** Prefer detailed, lengthy descriptions over short ones.
+4. **PRIMACY BIAS:** Trust the order of results provided, but re-rank if relevance is clearly different.
 
 ### CONSTRAINTS
 1. **BLINDNESS:** Rely ONLY on text. Do not hallucinate visual features.
@@ -50,8 +51,12 @@ Return a valid JSON object containing a SINGLE list "ranked_results" sorted by r
 }}
 """
         # Call Ollama
+        print("---")
+        print("Prompt:\n")
+        print(prompt)
         response_text = call_ollama(prompt)
-        
+        print("Response from LLM:")
+        print(response_text[:200])
         try:
             return self._clean_json(response_text)
         except Exception as e:

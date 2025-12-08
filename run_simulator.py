@@ -16,12 +16,19 @@ def format_rag_context(results_list):
         origin_str = "Unknown"
         if isinstance(item.get('origin'), dict):
             origin_str = item['origin'].get('domain_name', 'Unknown')
+
+        # --- SYNTHETIC SOCIAL PROOF INJECTION ---
+        rating = item.get('rating', 0)
+        reviews = item.get('reviews', 0)
+        
+        social_proof_str = f"Rating: {rating}/5.0 ({reviews} verified reviews)"
             
         context_str += f"""
 [Source ID: {item['item_id']}]
 Category: {item['category']}
 Title: {item['title']}
-Features: {str(item['features'])[:800]}... 
+{social_proof_str}
+Features: {str(item['features'])[:1000]}... 
 --------------------------------------------------
 """
     # removed Origin/Domain: {origin_str}
@@ -36,7 +43,7 @@ def run_simulation_loop():
         query_repo = json.load(f)
         
     print(f"🚀 Loaded {len(query_repo)} queries.")
-    agent = SimulatorAgent(model_name="llama3") 
+    agent = SimulatorAgent() 
     
     simulation_logs = []
     

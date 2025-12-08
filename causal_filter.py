@@ -3,7 +3,7 @@ import numpy as np
 
 # --- CONFIGURATION ---
 INPUT_LOGS = "data/simulation_logs.json"
-REPO_FILE = "data/query_repository.json"
+REPO_FILE = "data/query.json"
 BRAND_FILE = "data/brand_popularity.json"
 OUTPUT_FILTERED = "data/causal_winners.json"
 
@@ -69,7 +69,7 @@ def apply_causal_filter():
         w_brand_score = brand_map.get(brand_key, {}).get('popularity_score', 0.0)
         
         # 3. Rating (From Simulation Log)
-        w_rating = winner.get('sim_rating', 4.0)
+        w_rating = w_data.get('rating', 4.0)
         
         # --- PROPENSITY ---
         e_score = calculate_propensity(w_len, w_brand_score, w_rating)

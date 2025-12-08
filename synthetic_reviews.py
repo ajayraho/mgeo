@@ -29,8 +29,3 @@ class SocialProofGenerator:
         review_count = min(review_count, 50000)
         
         return final_rating, review_count
-
-# Usage in run_simulation.py:
-# generator = SocialProofGenerator()
-# rating, count = generator.generate()
-# social_proof = f"Rating: {rating}/5 ({count} reviews)"

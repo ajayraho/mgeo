@@ -1,9 +1,9 @@
 import json
 import pandas as pd
 from search_engine import LocalSearchEngine
-
+from synthetic_reviews import SocialProofGenerator
 # --- CONFIGURATION ---
-OUTPUT_FILE = "data/query_repository.json"
+OUTPUT_FILE = "data/query.json"
 TOP_K = 10
 DATA_FILE = "data/amazon_dataset.csv"
 
@@ -42,7 +42,8 @@ def build_repository():
 
     # Initialize Engine (Uses Cache if available)
     engine = LocalSearchEngine(df, force_refresh=False)
-    
+    proof_gen = SocialProofGenerator()
+
     repository = []
     
     print(f"\nGeneratng Golden Set ({len(QUERIES)} queries)...")
@@ -52,7 +53,7 @@ def build_repository():
         
         # Run Search
         results_df = engine.search(q, top_k=TOP_K)
-        
+
         # Convert results to Rich JSON
         results_list = []
         for _, row in results_df.iterrows():
@@ -61,7 +62,9 @@ def build_repository():
             # so the final JSON is nested, not double-stringified.
             origin_data = parse_json_col(row.get('origin'))
             specs_data = parse_json_col(row.get('other_attributes'))
-            
+
+            stars, reviews = proof_gen.generate()
+          
             item_data = {
                 "rank": len(results_list) + 1, # Explicit Ranking
                 "item_id": row['item_id'],
@@ -75,7 +78,11 @@ def build_repository():
                 # The "Perfect" Context (What you asked for)
                 "origin": origin_data,       # e.g. {"domain_name": "amazon.co.uk"}
                 "specifications": specs_data, # e.g. {"material": "Leather", "color": "Black"}
-                
+
+                # Frozen Social Proof
+                "rating": stars,
+                "reviews": reviews,
+              
                 # For LLaVA
                 "image_path": row['path']
             }
