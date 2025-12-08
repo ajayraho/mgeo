@@ -6,52 +6,52 @@
             {
                 "rank": 1,
                 "item_id": "B01MTEI8M6",
-                "reason": "Exact keyword match: women's floral embroidery slip\u2011on loafer from a recognized Amazon Brand"
+                "reason": "Exact keyword match: floral embroidery slip\u2011on shoes for women."
             },
             {
                 "rank": 2,
-                "item_id": "B074KPDRLH",
-                "reason": "Slip\u2011on sneaker from a known Amazon Brand but lacks floral embroidery \u2013 still higher authority"
+                "item_id": "B06XKHHTBS",
+                "reason": "High rating (5.0) with 215 verified reviews; detailed description; best social proof among unrelated products."
             },
             {
                 "rank": 3,
                 "item_id": "B01MUHWO28",
-                "reason": "Slip\u2011on loafers from Amazon Brand; longer description but no floral detail"
+                "reason": "Recognized Amazon Brand, good rating (4.8) and 36 reviews; authority bias outweighs fewer reviews."
             },
             {
                 "rank": 4,
-                "item_id": "B06XKHHTBS",
-                "reason": "Espadrille slip\u2011on with detailed description, but no floral pattern"
+                "item_id": "B01N19O15D",
+                "reason": "High rating (5.0) and 154 reviews; strong social proof though brand unknown."
             },
             {
                 "rank": 5,
-                "item_id": "B01MS836FM",
-                "reason": "Low\u2011heel pull shoe with descriptive features, missing floral and slip\u2011on emphasis"
+                "item_id": "B07889HKBZ",
+                "reason": "Amazon Brand with top rating (5.0) but fewer reviews; still authority and social proof."
             },
             {
                 "rank": 6,
-                "item_id": "B01N19O15D",
-                "reason": "Slip\u2011on loafer, brand 206 Collective, but no floral embroidery"
+                "item_id": "B074KPDRLH",
+                "reason": "Amazon Brand, solid rating (4.3) and 19 reviews; moderate social proof."
             },
             {
                 "rank": 7,
-                "item_id": "B072JTL1HX",
-                "reason": "Girls' floral slip\u2011on sneaker \u2013 not adult women's but has floral pattern"
+                "item_id": "B071G16W12",
+                "reason": "High rating (5.0) with 71 reviews; though brand unknown, still strong social proof."
             },
             {
                 "rank": 8,
-                "item_id": "B071G16W12",
-                "reason": "Girls' floral slip\u2011on sneaker, similar to #7 but different size"
+                "item_id": "B072JTL1HX",
+                "reason": "Good rating (4.5) but only 2 reviews; lower social proof than previous."
             },
             {
                 "rank": 9,
                 "item_id": "B071JM2QL7",
-                "reason": "Girls' floral slip\u2011on sneaker, no adult relevance"
+                "reason": "Lower rating (3.8) and 7 reviews; weakest among the remaining."
             },
             {
                 "rank": 10,
-                "item_id": "B07889HKBZ",
-                "reason": "No floral embroidery; only a heart embellishment, lowest relevance"
+                "item_id": "B01MS836FM",
+                "reason": "High rating (5.0) but only 1 review; minimal social proof."
             }
         ]
     },
@@ -61,53 +61,53 @@
         "rankings": [
             {
                 "rank": 1,
-                "item_id": "B07RJXW7ZS",
-                "reason": "Strong keyword match, recognized Arthur Harvey brand, long detailed description"
+                "item_id": "B084MZ4HYV",
+                "reason": "Highest rating (5.0) with 205 verified reviews, leather material, formal Oxford style, recognized brand (Burwood). Strong authority and social proof."
             },
             {
                 "rank": 2,
-                "item_id": "B07RDQJG32",
-                "reason": "Similar Arthur Harvey product, detailed description, excellent match"
+                "item_id": "B084PJLB3V",
+                "reason": "Perfect match: leather Oxford, black, high rating (5.0) though fewer reviews (11). Brand authority (Arthur Harvey) keeps it near the top."
             },
             {
                 "rank": 3,
-                "item_id": "B084PJLB3V",
-                "reason": "Arthur Harvey formal shoes, good brand, slightly shorter description"
+                "item_id": "B07RJXW7ZS",
+                "reason": "Leather Oxford, black, high rating (4.9) with 15 reviews. Slightly lower review count than B084PJLB3V but still solid social proof."
             },
             {
                 "rank": 4,
-                "item_id": "B084MZ4HYV",
-                "reason": "Burwood formal shoes, reputable brand, leather, but description shorter"
+                "item_id": "B01MR4MRAE",
+                "reason": "Brogue (formal) leather shoes, black, 4.1 rating and 23 reviews. Good description depth; still meets user need though slightly lower rating."
             },
             {
                 "rank": 5,
-                "item_id": "B07QDB9V9X",
-                "reason": "Symbol formal shoes, leather, long description, but brand less recognized than Arthur Harvey"
+                "item_id": "B078H8BB11",
+                "reason": "Black leather slip\u2011on dress loafer, 5.0 rating, 26 reviews. Loafers are dress shoes but not Oxford; placed after more accurate Oxford styles."
             },
             {
                 "rank": 6,
-                "item_id": "B07QBNLSJW",
-                "reason": "Symbol shoes but synthetic outer material \u2013 does not fully satisfy leather requirement"
+                "item_id": "B07QDB9V9X",
+                "reason": "Leather formal shoes, black, 3.4 rating but 39 reviews. Lower rating pushes it below looser matches."
             },
             {
                 "rank": 7,
-                "item_id": "B01MR4MRAE",
-                "reason": "Brogues are formal but not oxford style, moderate brand visibility"
+                "item_id": "B06XG6Z54T",
+                "reason": "Leather loafers, black, 4.3 rating but only 9 reviews. Social proof weaker; also not Oxford."
             },
             {
                 "rank": 8,
                 "item_id": "B06XCFTFXQ",
-                "reason": "Addison mocassins, leather but not oxford, lower relevance"
+                "reason": "Mocassins, black, 2.1 rating with 106 reviews. Very low rating and not a formal Oxford; still appears in search due to keyword."
             },
             {
                 "rank": 9,
-                "item_id": "B06XG6Z54T",
-                "reason": "Loafers, leather but not dress oxford style"
+                "item_id": "B07RDQJG32",
+                "reason": "Leather Oxford, black, 4.3 rating but only 1 verified review. Weak social proof pushes it lower."
             },
             {
                 "rank": 10,
-                "item_id": "B078H8BB11",
-                "reason": "Slip-on loafer, leather but lowest relevance to oxford dress shoes"
+                "item_id": "B07QBNLSJW",
+                "reason": "Synthetic formal shoes, black, 4.2 rating with 32 reviews. Material mismatch (synthetic) and lower authority leads to lowest rank."
             }
         ]
     },
@@ -118,52 +118,52 @@
             {
                 "rank": 1,
                 "item_id": "B07QHKYCVB",
-                "reason": "Highly relevant \u2013 bohemian vibe explicitly mentioned; multi\u2011colored bright orange & blue; longest, detailed description."
+                "reason": "Excellent match for bohemian multi\u2011colored style with bright orange and blue diamond pattern; top rating 5.0 and 281 reviews."
             },
             {
                 "rank": 2,
-                "item_id": "B0735SK5LP",
-                "reason": "Strong keyword match \u2013 multi\u2011colored stripe; detailed description; solid boho appeal."
+                "item_id": "B07QFB4XBP",
+                "reason": "High rating 4.8, 18 reviews, and green/cream geometric pattern gives a subtle multi\u2011color feel suitable for boho d\u00e9cor."
             },
             {
                 "rank": 3,
-                "item_id": "B0714MJLPX",
-                "reason": "Bright medallion pattern suggests boho style; moderately long description; clear colorfulness."
+                "item_id": "B0735SK5LP",
+                "reason": "Multi\u2011colored stripe pattern directly meets the \"multi\u2011colored\" requirement; though rating is low (2.3) and reviews few, it is still more relevant than single\u2011color rugs."
             },
             {
                 "rank": 4,
-                "item_id": "B07QFB4XBP",
-                "reason": "Green & cream geometric pattern offers color; description length decent; good but less vibrant than top three."
+                "item_id": "B072PXBV6W",
+                "reason": "Striped design in beige & silver counts as multi\u2011colored; rating 4.8 with 29 reviews gives decent social proof."
             },
             {
                 "rank": 5,
-                "item_id": "B07B4WR39P",
-                "reason": "Blue floral design, less multi\u2011colored but still colorful; shorter description."
+                "item_id": "B07HSNF921",
+                "reason": "High rating 5.0 and 102 reviews; the silver/grey/white geometric pattern is multi\u2011colored, though it leans toward a neutral palette."
             },
             {
                 "rank": 6,
-                "item_id": "B075Z9THV1",
-                "reason": "Marine blue with subtle accents; limited color range; description moderate length."
+                "item_id": "B07HSDXLTW",
+                "reason": "Good rating 5.0 with 17 reviews; single\u2011color gray\u2011taupe but still a reputable product."
             },
             {
                 "rank": 7,
-                "item_id": "B072PXBV6W",
-                "reason": "Beige & silver stripe, leather/cotton mix; minimal boho feel; description moderate."
+                "item_id": "B075Z9THV1",
+                "reason": "Rating 4.9 but only 4 reviews; multi\u2011color marine blue runner is still relevant for a boho look."
             },
             {
                 "rank": 8,
-                "item_id": "B07HSNF921",
-                "reason": "Silver, grey, white runner; neutral palette; description length moderate."
+                "item_id": "B07B4WR39P",
+                "reason": "Top rating 5.0 and 36 reviews; single blue color, less boho but better review profile than later items."
             },
             {
                 "rank": 9,
-                "item_id": "B07HSDXLTW",
-                "reason": "Grey & taupe geometric; neutral and small; description moderate."
+                "item_id": "B071ZJ6CK3",
+                "reason": "Rating 4.7 with 40 reviews; jute material and subtle texture, but single color reduces boho relevance."
             },
             {
                 "rank": 10,
-                "item_id": "B071ZJ6CK3",
-                "reason": "Solid jute shade, no multi\u2011color; brief description; least relevant to boho multi\u2011colored theme."
+                "item_id": "B0714MJLPX",
+                "reason": "Lowest rating 3.2 with 35 reviews; single pink color offers minimal fit for bohemian multi\u2011colored requirement."
             }
         ]
     },
@@ -173,53 +173,53 @@
         "rankings": [
             {
                 "rank": 1,
-                "item_id": "B07374QGD8",
-                "reason": "Strong keyword match with 'Industrial' and 'metal', plus highly detailed description."
+                "item_id": "B07HKGHSJJ",
+                "reason": "Top authority (Amazon Brand \u2013 Rivet), 5.0\u2605 rating with 1575 reviews, very detailed description, perfect industrial metal pendant"
             },
             {
                 "rank": 2,
                 "item_id": "B071F6W28T",
-                "reason": "Contains 'Industrial' and metal mesh diffuser; description is comprehensive."
+                "reason": "Amazon Brand \u2013 Stone & Beam, 5.0\u2605 rating, 37 reviews, long descriptive text, clear industrial metal construction"
             },
             {
                 "rank": 3,
-                "item_id": "B07HKGHSJJ",
-                "reason": "Explicit 'Industrial' wording and metal black finish; decent detail."
+                "item_id": "B0828FDYQ2",
+                "reason": "High 4.9\u2605 rating and 81 reviews, extensive description; brand isn\u2019t Amazon Brand but still very strong social proof and metal design"
             },
             {
                 "rank": 4,
-                "item_id": "B07B4SC2JF",
-                "reason": "Features 'Industrial' and metal cage design with good description."
+                "item_id": "B0825DC7JP",
+                "reason": "Amazon Brand \u2013 Rivet, 4.1\u2605 rating, 121 reviews, decent detail; industrial vibe with marble/ brass accents still matches the query"
             },
             {
                 "rank": 5,
                 "item_id": "B082JHXMHL",
-                "reason": "Mentions 'industrial design' and metal base; detailed specs."
+                "reason": "Stone & Beam, 4.3\u2605 rating, 47 reviews, outdoor\u2011rated but still metal, good descriptive length"
             },
             {
                 "rank": 6,
-                "item_id": "B07HK67M5L",
-                "reason": "Metal finish and pendant type, but no industrial keyword and minimal description."
+                "item_id": "B07B4SC2JF",
+                "reason": "Stone & Beam, 4.1\u2605 rating, 65 reviews, metal cage design, clear description"
             },
             {
                 "rank": 7,
-                "item_id": "B07HK5WXQP",
-                "reason": "Metal and glass, but lacks industrial descriptor and shorter details."
+                "item_id": "B07374QGD8",
+                "reason": "Stone & Beam, 3.7\u2605 rating but only 1 review, moderate description; lower social proof makes it less reliable"
             },
             {
                 "rank": 8,
-                "item_id": "B07HK5LPC1",
-                "reason": "Pendant light with metal accents, no industrial reference and moderate detail."
+                "item_id": "B07HK5WXQP",
+                "reason": "Stone & Beam, 3.1\u2605 rating with 211 reviews, decent description but lower star rating pulls it down"
             },
             {
                 "rank": 9,
-                "item_id": "B0825DC7JP",
-                "reason": "Metal accent but no industrial keyword and minimal description."
+                "item_id": "B07HK67M5L",
+                "reason": "Rivet, 4.8\u2605 rating but only 15 reviews, description is very short \u2013 loses to verbosity bias"
             },
             {
                 "rank": 10,
-                "item_id": "B0828FDYQ2",
-                "reason": "No industrial keyword, minimal relevance to query."
+                "item_id": "B07HK5LPC1",
+                "reason": "Rivet, low 2.4\u2605 rating and just 2 reviews; weak social proof and minimal detail"
             }
         ]
     },
@@ -229,53 +229,53 @@
         "rankings": [
             {
                 "rank": 1,
-                "item_id": "B01N4Q9DLB",
-                "reason": "Direct drawer knob, matches handle type and includes a large round top."
+                "item_id": "B07GF4MRC5",
+                "reason": "Strong keyword match (oil\u2011rubbed bronze brass finish), high 5.0 rating and 44 reviews, detailed description."
             },
             {
                 "rank": 2,
                 "item_id": "B07GDQM2TW",
-                "reason": "Brass knob body with oil\u2011rubbed bronze finish gives a vintage feel, though it is a door knob."
+                "reason": "Brass knob with vintage oil\u2011rubbed bronze, 5.0 rating (though only 6 reviews), and authoritative AmazonBasics brand."
             },
             {
                 "rank": 3,
-                "item_id": "B07GF4MRC5",
-                "reason": "Brass body and oil\u2011rubbed bronze finish provide the desired material; still a door knob."
+                "item_id": "B01N4Q9DLB",
+                "reason": "Explicitly a drawer knob, decent 3.6 rating with many reviews; closest match to 'drawer handle'."
             },
             {
                 "rank": 4,
-                "item_id": "B07RWR52WN",
-                "reason": "Polished brass finish and commercial grade, but is a door lever rather than a drawer handle."
+                "item_id": "B01MTB9VC3",
+                "reason": "Antique silver cabinet handle, high 4.5 rating and 82 reviews; good authority and detail."
             },
             {
                 "rank": 5,
-                "item_id": "B01MTB9VC3",
-                "reason": "Cabinet handle with antique silver finish; could be used on drawers but not explicitly vintage brass."
+                "item_id": "B01N365JFG",
+                "reason": "5.0 rating with 34 reviews; satin nickel finish, but not brass, still high social proof."
             },
             {
                 "rank": 6,
-                "item_id": "B01MS9NRWK",
-                "reason": "Wide modern die\u2011cast cabinet handle, antique silver finish; less relevant to vintage brass."
+                "item_id": "B07RWR52WN",
+                "reason": "Polished brass door lever, 4.4 rating and 34 reviews; relevant brass finish but not a drawer."
             },
             {
                 "rank": 7,
-                "item_id": "B01N365JFG",
-                "reason": "Flat round cabinet knob, satin nickel finish; not brass or vintage."
+                "item_id": "B01MS9NRWK",
+                "reason": "Antique silver cabinet handle, 4.3 rating but only 8 reviews; lower social proof."
             },
             {
                 "rank": 8,
-                "item_id": "B07VM9TN7N",
-                "reason": "Toilet lever with brass elements; irrelevant to drawer handles."
+                "item_id": "B07VM9TN7",
+                "reason": "Toilet lever, 3.5 rating with many reviews; unrelated to drawers but has brass."
             },
             {
                 "rank": 9,
-                "item_id": "B06XZN5PJ3",
-                "reason": "Stainless steel cutlery set; no relevance to handles."
+                "item_id": "B07L8DQQ4Q",
+                "reason": "Vintage\u2011style stool, 5.0 rating but only 7 reviews; irrelevant to handles."
             },
             {
                 "rank": 10,
-                "item_id": "B07L8DQQ4Q",
-                "reason": "Vintage leather stool; completely irrelevant."
+                "item_id": "B06XZN5PJ3",
+                "reason": "Stainless\u2011steel cutlery set, 5.0 rating but irrelevant to handles; lowest relevance."
             }
         ]
     },
@@ -286,52 +286,52 @@
             {
                 "rank": 1,
                 "item_id": "B07RSDRKP7",
-                "reason": "Strong keyword match (running + breathable mesh), detailed description, Amazon brand authority"
+                "reason": "Exact match to running shoes with breathable mesh, 5.0 rating, 41 reviews, detailed mesh description."
             },
             {
                 "rank": 2,
-                "item_id": "B07TNRTJLQ",
-                "reason": "Similar relevance and description length as rank 1, same Amazon brand"
+                "item_id": "B07VHVMZ7X",
+                "reason": "Running shoes, 5.0 rating, 33 reviews, Flyknit breathable upper; similar relevance."
             },
             {
                 "rank": 3,
-                "item_id": "B07TMNVPBN",
-                "reason": "Matching running shoe with breathable mesh, comparable description detail"
+                "item_id": "B07RSDR32B",
+                "reason": "Running shoes, 4.8 rating, 16 reviews; high rating slightly lower but still authoritative."
             },
             {
                 "rank": 4,
-                "item_id": "B07YFB3Y16",
-                "reason": "Running shoe with breathable mesh, good description detail, recognized brand"
+                "item_id": "B07TMNVPBN",
+                "reason": "Running shoes, 5.0 rating, 12 reviews; good rating but few reviews, still top of Symactive line."
             },
             {
                 "rank": 5,
-                "item_id": "B07VHVMZ7X",
-                "reason": "Running shoe with breathable Flyknit mesh, similar detail, Amazon brand"
+                "item_id": "B07YFB3Y16",
+                "reason": "Running shoes, 4.4 rating, 182 reviews; high review count but rating below 4.5 and brand less recognized."
             },
             {
                 "rank": 6,
-                "item_id": "B07RSDR32B",
-                "reason": "Running shoe with breathable mesh, same level of detail as others"
+                "item_id": "B07TNRTJLQ",
+                "reason": "Running shoes, 4.3 rating, 236 reviews; high reviews but rating under 4.5, still better than non\u2011running options."
             },
             {
                 "rank": 7,
-                "item_id": "B07YFGKSWC",
-                "reason": "Mesh upper, decent description length, but not specifically running (slightly lower relevance)"
+                "item_id": "B07R7BHNF4",
+                "reason": "PUMA mesh trainers, 5.0 rating, 97 reviews; strong brand, but not specifically running."
             },
             {
                 "rank": 8,
-                "item_id": "B07R7BHNF4",
-                "reason": "PUMA mesh trainers, good brand authority, but not running focused"
+                "item_id": "B07R8GCZ15",
+                "reason": "PUMA mesh trainers, 5.0 rating, 281 reviews; higher social proof but lower relevance to running."
             },
             {
                 "rank": 9,
-                "item_id": "B07RBLM8J1",
-                "reason": "Same as rank 8, identical description, maintain original order"
+                "item_id": "B07YFGKSWC",
+                "reason": "Skechers sneaker, 2.7 rating, 35 reviews; low rating and not a running shoe."
             },
             {
                 "rank": 10,
-                "item_id": "B07R8GCZ15",
-                "reason": "Same as rank 8 and 9, lowest among the remaining due to identical relevance"
+                "item_id": "B07RBLM8J1",
+                "reason": "PUMA mesh trainers, 1.5 rating, 4 reviews; lowest rating and fewest reviews."
             }
         ]
     },
@@ -342,52 +342,52 @@
             {
                 "rank": 1,
                 "item_id": "B07CB54MM3",
-                "reason": "Matches chesterfield and tufted style, highest style relevance even though no velvet"
+                "reason": "Exact keyword match (Chesterfield, tufted) + 5.0 rating and 110 reviews + very detailed description"
             },
             {
                 "rank": 2,
-                "item_id": "B07B4N29DG",
-                "reason": "Tufted velvet, longest description, strong keyword match"
+                "item_id": "B075X4QMW7",
+                "reason": "Velvet tufted sofa meets part of the query (velvet, tufted) + 5.0 rating, 18 reviews, long description"
             },
             {
                 "rank": 3,
-                "item_id": "B075X4QMW7",
-                "reason": "Tufted velvet, detailed description, good keyword match"
+                "item_id": "B075X4VW2P",
+                "reason": "Velvet tufted daybed/sofa, high 5.0 rating and 28 reviews, detailed text; closest alternate style"
             },
             {
                 "rank": 4,
-                "item_id": "B075X4VW2P",
-                "reason": "Tufted velvet, relevant description"
+                "item_id": "B07B4N29DG",
+                "reason": "Velvet tufted sofa (but not chesterfield), 2.3 rating lowers priority; still relevant material"
             },
             {
                 "rank": 5,
-                "item_id": "B07P5LN16X",
-                "reason": "Tufted leather loveseat, moderate relevance"
+                "item_id": "B07P5LMN2C",
+                "reason": "Tufted loveseat, 4.2 rating, 107 reviews; lower relevance than full sofas but still tufted"
             },
             {
                 "rank": 6,
-                "item_id": "B07P5LMN2C",
-                "reason": "Tufted loveseat, moderate relevance"
+                "item_id": "B07P5LN16X",
+                "reason": "Leather loveseat with tufted back, 3.7 rating and only 5 reviews; lower authority and social proof"
             },
             {
                 "rank": 7,
-                "item_id": "B07DBHCKHY",
-                "reason": "Tufted chair, lower relevance to sofa query"
+                "item_id": "B07HZ1LZS1",
+                "reason": "Sectional sofa, 4.9 rating but only 4 reviews and not velvet; relevance drops"
             },
             {
                 "rank": 8,
-                "item_id": "B07HZ1LZS1",
-                "reason": "Sectional without velvet, lower relevance"
+                "item_id": "B07DBHCKHY",
+                "reason": "Accent chair, no sofa relevance; low rating and few reviews"
             },
             {
                 "rank": 9,
-                "item_id": "B07B4MG9H2",
-                "reason": "Slipcover sectional, no velvet, lower relevance"
+                "item_id": "B07KR86C57",
+                "reason": "Fabric swatch, not furniture; minimal relevance and only 304 reviews but no product"
             },
             {
                 "rank": 10,
-                "item_id": "B07KR86C57",
-                "reason": "No relevant details, lowest relevance"
+                "item_id": "B07B4MG9H2",
+                "reason": "Slipcover for a sectional, not a sofa itself; lowest relevance and only 18 reviews"
             }
         ]
     },
@@ -397,53 +397,53 @@
         "rankings": [
             {
                 "rank": 1,
-                "item_id": "B074VLST26",
-                "reason": "Blue (azure) color and subtle pattern suggest geometric feel, brand Rivet is a recognized Amazon brand, and the description is detailed and authoritative."
+                "item_id": "B07MF1RKS9",
+                "reason": "Exact match for a geometric print throw pillow (though not blue) and top authority brand with perfect rating (5.0) and solid review count (30)."
             },
             {
                 "rank": 2,
-                "item_id": "B07MF1RKS9",
-                "reason": "Clear geometric print and recognized Amazon Brand \u2013 Ravenna Home; color is rust & gold which partially matches the blue theme through brand recognition and detailed description."
+                "item_id": "B08FCMVPHR",
+                "reason": "Geometric printed cushion covers (near match) and navy/grey color close to blue. Excellent rating (5.0) and 20 reviews, though not a full pillow."
             },
             {
                 "rank": 3,
-                "item_id": "B07JPGP3XN",
-                "reason": "Exact blue color and Amazon Basics brand authority, though lacking a pattern; still top of the non\u2011geometric options."
+                "item_id": "B074VLST26",
+                "reason": "Decorative pillow with high authority brand, perfect rating (5.0) and many reviews (89). Lacks geometric pattern but is a pillow."
             },
             {
                 "rank": 4,
                 "item_id": "B074VLQ3GX",
-                "reason": "Stone & Beam stripe pillow in turquoise (blue\u2011ish) and detailed description, but stripe pattern is not geometric."
+                "reason": "Stone & Beam stripe pillow with good rating (4.5) and 47 reviews. Brand recognized, but style not geometric."
             },
             {
                 "rank": 5,
-                "item_id": "B07JLZC571",
-                "reason": "Stone & Beam stripe pillow, color sunshine, not blue; lower relevance despite brand authority."
+                "item_id": "B07BMQXWX1",
+                "reason": "Farmhouse plaid pillow from a known brand with high rating (4.6) and 106 reviews. Not geometric but still close match for throw pillow."
             },
             {
                 "rank": 6,
-                "item_id": "B07JKJSTVJ",
-                "reason": "Rivet macrame fringe white pillow \u2013 no pattern or blue; low relevance."
+                "item_id": "B07JLZC571",
+                "reason": "Stripe pillow with decent rating (4.4) and 23 reviews. Less authority and lower social proof than earlier items."
             },
             {
                 "rank": 7,
-                "item_id": "B07BMQXWX1",
-                "reason": "Stone & Beam plaid grey pillow \u2013 no blue or geometric pattern; lowest relevance among pillows."
+                "item_id": "B07JKJSTVJ",
+                "reason": "Macrame fringe pillow, 4.6 rating but only 2 reviews, lower social proof despite decent authority."
             },
             {
                 "rank": 8,
-                "item_id": "B08FCMVPHR",
-                "reason": "UMI by Amazon cushion covers (grey/navy) \u2013 not a pillow but closest to the concept of throw pillows; lower relevance."
+                "item_id": "B07JPGP3XN",
+                "reason": "Outdoor lounger cushion, blue color, 4.5 rating and 10 reviews. Not a typical throw pillow but color matches."
             },
             {
                 "rank": 9,
-                "item_id": "B07B4SF23K",
-                "reason": "Rivet Geometric wool rug \u2013 not a pillow, lowest relevance among non\u2011pillow items."
+                "item_id": "B073P5QKL4",
+                "reason": "Wall art with geometric print, but not a pillow. Low rating (2.5) and 18 reviews makes it least relevant."
             },
             {
                 "rank": 10,
-                "item_id": "B073P5QKL4",
-                "reason": "Rivet blue & metallic gold geometric print wall art \u2013 not a pillow, lowest relevance overall."
+                "item_id": "B07B4SF23K",
+                "reason": "Geometric wool rug, highest rating (5.0) but completely unrelated product type; lowest relevance for throw pillow."
             }
         ]
     },
@@ -453,53 +453,53 @@
         "rankings": [
             {
                 "rank": 1,
-                "item_id": "B075HWDT12",
-                "reason": "Exact match: ceramic vase, modern design, off\u2011white color, detailed description, recognized brand"
+                "item_id": "B078JGHZT3",
+                "reason": "Strong keyword match to modern white ceramic vase; high rating 4.5/5.0 with 63 reviews; detailed description."
             },
             {
                 "rank": 2,
-                "item_id": "B078JGHZT3",
-                "reason": "Ceramic flower vase, modern style, white tones present, lengthy description, recognized brand"
+                "item_id": "B075HWDT12",
+                "reason": "Off\u2011white modern vase; decent rating 3.2/5.0, moderate review count; acceptable description."
             },
             {
                 "rank": 3,
-                "item_id": "B07QD6ZV9Q",
-                "reason": "Ceramic vase, mid\u2011century modern, but black color makes it less relevant; still a vase with a long description"
+                "item_id": "B078JGLJMQ",
+                "reason": "White ceramic triangle planter \u2013 color close but not a vase, lower relevance and only 2 reviews."
             },
             {
                 "rank": 4,
-                "item_id": "B078JGLJMQ",
-                "reason": "White planter pot with modern geometric shape; close match in material and style but not a vase"
+                "item_id": "B07QD6ZV9Q",
+                "reason": "Black vase \u2013 brand recognized but color mismatch, lower relevance."
             },
             {
                 "rank": 5,
                 "item_id": "B0842H2F7C",
-                "reason": "White mid\u2011century ceramic planter with stand; similar material and color, though not a vase"
+                "reason": "White planter with stand \u2013 not a vase, lower relevance."
             },
             {
                 "rank": 6,
                 "item_id": "B07JM6HFW3",
-                "reason": "White modern ceramic planter with wood stand; similar attributes, lower relevance than pure vases"
+                "reason": "White planter pot \u2013 not a vase, lower relevance."
             },
             {
                 "rank": 7,
                 "item_id": "B07QD6ZDDH",
-                "reason": "Gray\u2011white lattice planter; includes white but secondary color and not a vase"
+                "reason": "Gray and white planter \u2013 not a vase, lower relevance."
             },
             {
                 "rank": 8,
                 "item_id": "B0825DC7JP",
-                "reason": "White marble pendant; shares white color but is a light fixture, not a vase"
+                "reason": "Mid\u2011century marble pendant \u2013 unrelated category."
             },
             {
                 "rank": 9,
                 "item_id": "B07QC76DTB",
-                "reason": "Grey lamp; farthest from a ceramic vase, minimal relevance"
+                "reason": "Modern ceramic lamp \u2013 unrelated category."
             },
             {
                 "rank": 10,
                 "item_id": "B071777YN3",
-                "reason": "Rug, no ceramic vase element; lowest relevance to query"
+                "reason": "Rug \u2013 unrelated category."
             }
         ]
     },
@@ -510,52 +510,52 @@
             {
                 "rank": 1,
                 "item_id": "B072V7LYZC",
-                "reason": "High\u2011heel platform sandal with wide crossed straps and buckled ankle \u2013 clear gladiator\u2011like styling, recognized brand (The Fix) and detailed description."
+                "reason": "Amazon Brand, high\u2011heel cross\u2011strap platform sandal with 48 reviews and 5.0 rating \u2013 very relevant to gladiator\u2011style high heels"
             },
             {
                 "rank": 2,
                 "item_id": "B076RD7SF8",
-                "reason": "High\u2011heel block\u2011heel sandal with slender straps and buckle closure, The Fix brand, fairly detailed features."
+                "reason": "Amazon Brand, high\u2011heel strappy sandal with 7 reviews and 5.0 rating \u2013 good match for gladiator aesthetic"
             },
             {
                 "rank": 3,
-                "item_id": "B06VX446WN",
-                "reason": "Block\u2011heel bootie\u2011style sandal with ankle strap, Amazon Brand, recognized authority though description is shorter."
+                "item_id": "B06XC22L2V",
+                "reason": "Amazon Brand, wide leather straps and block heel, 36 reviews, 4.8 rating \u2013 decent gladiator style though not a heel"
             },
             {
                 "rank": 4,
-                "item_id": "B06XC22L2V",
-                "reason": "Block\u2011heel leather\u2011strap sandal, Amazon Brand, but minimal description and less gladiator\u2011like detail."
+                "item_id": "B06VX446WN",
+                "reason": "Amazon Brand, block\u2011heel sandal with 10 reviews, 5.0 rating \u2013 credible brand but lower relevance than high\u2011heel options"
             },
             {
                 "rank": 5,
-                "item_id": "B08GMSCBLD",
-                "reason": "Stiletto\u2011heel sandal, but no gladiator styling; lower relevance."
+                "item_id": "B01N39COWY",
+                "reason": "Amazon Brand (The Fix), flat gladiator\u2011style sandal, 5 reviews, 5.0 rating \u2013 relevance only to flat style"
             },
             {
                 "rank": 6,
-                "item_id": "B07894CL1P",
-                "reason": "Flat sandal, no high heel; weak match to query."
+                "item_id": "B08GMSCBLD",
+                "reason": "find. brand stiletto heel sandal, 34 reviews, 4.2 rating \u2013 decent heel but brand lacks authority"
             },
             {
                 "rank": 7,
-                "item_id": "B01N39COWY",
-                "reason": "Flat gladiator sandal, no high heel; low relevance."
+                "item_id": "B06XRN9W72",
+                "reason": "find. brand open\u2011toe sandal, 31 reviews, 5.0 rating \u2013 no heel or gladiator design, lower relevance"
             },
             {
                 "rank": 8,
-                "item_id": "B06XRN9W72",
-                "reason": "Open\u2011toe, no heel height indicated; poor fit."
+                "item_id": "B07W1WTR11",
+                "reason": "Amazon Essentials cork slip\u2011on, 1 review, 5.0 rating \u2013 very low social proof and no heel"
             },
             {
                 "rank": 9,
-                "item_id": "B07W1WTR11",
-                "reason": "Minimal description, no heel information; very low relevance."
+                "item_id": "B07FQQ4LMW",
+                "reason": "Amazon Essentials casual strappy sandals, 43 reviews, 3.8 rating \u2013 no heel, low rating"
             },
             {
                 "rank": 10,
-                "item_id": "B07FQQ4LMW",
-                "reason": "Sparse details, no heel or gladiator info; weakest match."
+                "item_id": "B07894CL1P",
+                "reason": "206 Collective flat gladiator sandal, 10 reviews, 4.5 rating \u2013 no heel and brand unknown"
             }
         ]
     }
