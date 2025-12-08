@@ -28,7 +28,7 @@ def format_rag_context(results_list):
 Category: {item['category']}
 Title: {item['title']}
 {social_proof_str}
-Features: {str(item['features'])[:1000]}... 
+Features: {str(item['features'])[:2000]}... 
 --------------------------------------------------
 """
     # removed Origin/Domain: {origin_str}

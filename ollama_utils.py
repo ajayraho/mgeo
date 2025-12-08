@@ -37,7 +37,6 @@ def call_ollama(prompt: str, system: str = "", retries: int = 8) -> str:
     - str: The cleaned text response from the model.
     """
     print("Attempting to generate response with Ollama...")
-
     # Keep track if we already tried to start the server in this call
     tried_start_server = False
 
@@ -53,13 +52,13 @@ def call_ollama(prompt: str, system: str = "", retries: int = 8) -> str:
                     "prompt": prompt,
                     "system": system,
                     "stream": False,  # Disable streaming for simplicity
-                    "max_tokens": 100,  # Adjust max tokens as needed
+                    "max_tokens": 200,  # Adjust max tokens as needed
                     "temperature": 0.2,  # You can tweak temperature or other params
                     "top_p": 1,
                     "frequency_penalty": 0,
                     "presence_penalty": 0
                 },
-                timeout=120
+                timeout=300
             )
 
             response.raise_for_status()  # Raise an exception for bad status codes
