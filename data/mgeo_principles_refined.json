@@ -1,0 +1,28 @@
+{
+    "mgeo_principles": [
+        {
+            "principle_id": "VISUAL_COMPLETENESS",
+            "rule_name": "The Visual Completeness Axiom",
+            "trigger": "Missing Visual Attribute",
+            "action_policy": "Scan the image for every observable object and attribute\u2014material, color, shape, style, closure type, dimensions, and any functional hardware. Generate a definitive list. Compare this list against the current description; for any attribute that is absent, inject it as a comma\u2011separated clause or bullet point. Omit non\u2011visual elements and avoid generic placeholders such as \"object\" or \"item.\""
+        },
+        {
+            "principle_id": "TEXTURE_SPECIFICITY",
+            "rule_name": "Texture Specificity Protocol",
+            "trigger": "Generic or Missing Texture Description",
+            "action_policy": "Identify tactile adjectives depicted in the image (e.g., \"Ribbed\", \"Burnished\", \"Suede\", \"Mesh\"). Replace any vague material terms like \"fabric\" or \"leather\" with these specific descriptors. If no tactile adjective is apparent, introduce a texture term that accurately reflects the visible surface (e.g., \"smooth finish\")."
+        },
+        {
+            "principle_id": "PERFORMANCE_ALIGNED",
+            "rule_name": "Intent\u2011Aligned Performance Language",
+            "trigger": "Vague or Generic Intent Terms",
+            "action_policy": "Extract the core intent keywords from the search query (e.g., \"running\", \"breathable\", \"lightweight\"). Replace or augment any generic words in the description with precise performance descriptors that match the image (e.g., \"breathable mesh upper\", \"supportive arch\"). Ensure these key attributes appear within the opening sentence to signal relevance immediately."
+        },
+        {
+            "principle_id": "MOOD_ALIGNMENT",
+            "rule_name": "Atmosphere and Mood Alignment Protocol",
+            "trigger": "Mismatch Between Description Tone and Image Atmosphere",
+            "action_policy": "Determine the prevailing mood of the image (e.g., sporty, formal, casual). Adjust adjectives, diction, and overall tone of the description so that it evokes the same atmosphere. If the current description is neutral or contradictory, rewrite the narrative to align emotionally with the visual mood."
+        }
+    ]
+}
