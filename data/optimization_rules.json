@@ -1,0 +1,169 @@
+[
+    {
+        "found_gap": true,
+        "relevant_attribute": "Mock Attr",
+        "rule": "IF Image contains Mock, INJECT Mock",
+        "source_query": "Women's floral embroidery slip-on shoes",
+        "source_pair": "B01MTEI8M6_vs_B06XKHHTBS"
+    },
+    {
+        "found_gap": true,
+        "relevant_attribute": "Floral Pattern",
+        "evidence": "Both images feature a floral design on the shoes. The Winner\u2019s text explicitly mentions \"Embroidered flowers bloom\" indicating a floral pattern, whereas the Loser\u2019s text contains no reference to flowers or any floral motif.",
+        "rule": "IF Image contains a floral pattern, INJECT 'Floral Pattern' into the product title or description to accurately reflect the design.",
+        "source_query": "Women's floral embroidery slip-on shoes",
+        "source_pair": "B01MTEI8M6_vs_B01MUHWO28"
+    },
+    {
+        "found_gap": true,
+        "relevant_attribute": "Minimalist heel",
+        "evidence": "The winner\u2019s description explicitly mentions a \"Minimalist heel\" as part of the shoe\u2019s design. The loser\u2019s description does not reference the heel at all, even though the image shows a heel on both shoes.",
+        "rule": "IF Image contains a heel that is described as \"minimalist\" in the title or description, INCLUDE the phrase \"Minimalist heel\" in the product title to highlight this visual attribute.",
+        "source_query": "Women's floral embroidery slip-on shoes",
+        "source_pair": "B01MTEI8M6_vs_B071G16W12"
+    },
+    {
+        "found_gap": true,
+        "relevant_attribute": "sole",
+        "evidence": "Both shoes display a visible sole. The winner\u2019s text explicitly states 'rubber sole', whereas the loser\u2019s text contains no mention of a sole or its material.",
+        "rule": "IF the image shows a sole, INCLUDE the attribute 'sole' in the product title.",
+        "source_query": "Women's floral embroidery slip-on shoes",
+        "source_pair": "B06XKHHTBS_vs_B07889HKBZ"
+    },
+    {
+        "found_gap": true,
+        "relevant_attribute": "sole",
+        "evidence": "Both images display a visible sole. The Winner\u2019s text explicitly mentions a \"Rubber sole\", while the Loser\u2019s text omits any mention of a sole.",
+        "rule": "IF Image contains a visible sole, INJECT the word 'sole' into the title.",
+        "source_query": "Women's floral embroidery slip-on shoes",
+        "source_pair": "B06XKHHTBS_vs_B074KPDRLH"
+    },
+    {
+        "found_gap": true,
+        "relevant_attribute": "Suede leather upper",
+        "evidence": "Both images show a suede upper on the shoe. The winner\u2019s text explicitly states \"Suede leather upper\", while the loser\u2019s text only lists \"Printed floral pattern | Flower embellishment\" and does not mention suede.",
+        "rule": "IF image contains 'Suede leather upper', INJECT 'Suede leather upper' into Title.",
+        "source_query": "Women's floral embroidery slip-on shoes",
+        "source_pair": "B06XKHHTBS_vs_B071G16W12"
+    },
+    {
+        "found_gap": true,
+        "relevant_attribute": "Suede Upper",
+        "evidence": "Both images feature a suede upper. The winner text explicitly states 'Suede leather upper', while the loser text contains no mention of suede.",
+        "rule": "IF Image contains 'Suede Upper', INJECT 'Suede Upper' into Title.",
+        "source_query": "Women's floral embroidery slip-on shoes",
+        "source_pair": "B06XKHHTBS_vs_B072JTL1HX"
+    },
+    {
+        "found_gap": true,
+        "relevant_attribute": "leather",
+        "evidence": "Both shoes feature a leather upper surface. The winner\u2019s description explicitly states \u2018soft leather upper\u2019, whereas the loser\u2019s description only mentions a \u2018smooth, leather\u2011like material\u2019 and does not use the word \u2018leather\u2019.",
+        "rule": "IF the image shows a leather upper but the text does not contain the word \u2018leather\u2019, INJECT \u2018leather\u2019 into the title.",
+        "source_query": "Women's floral embroidery slip-on shoes",
+        "source_pair": "B01MUHWO28_vs_B074KPDRLH"
+    },
+    {
+        "found_gap": true,
+        "relevant_attribute": "Buckle",
+        "evidence": "Both images show a buckle: the winner\u2019s shoe has a side buckle and the loser\u2019s shoe has a silver buckle. The winner\u2019s text explicitly includes \"Buckle and strap embellishment\", while the loser\u2019s text does not mention a buckle at all.",
+        "rule": "IF Image contains a buckle, INCLUDE the keyword \"Buckle\" in the product title or description.",
+        "source_query": "Women's floral embroidery slip-on shoes",
+        "source_pair": "B01MUHWO28_vs_B071JM2QL7"
+    },
+    {
+        "found_gap": true,
+        "relevant_attribute": "Suede",
+        "evidence": "Both product images feature suede material (winner has soft suede loafers, loser has a suede upper). The winner\u2019s text explicitly states \"soft suede\", while the loser\u2019s text does not mention suede at all.",
+        "rule": "IF image contains suede material, INJECT 'Suede' into the product title.",
+        "source_query": "Women's floral embroidery slip-on shoes",
+        "source_pair": "B01N19O15D_vs_B072JTL1HX"
+    },
+    {
+        "found_gap": true,
+        "relevant_attribute": "Soft Suede",
+        "evidence": "Both images show suede material. The winner\u2019s text explicitly states \u2018soft suede\u2019, whereas the loser\u2019s text only mentions a \u2018suede leather upper\u2019 without describing its softness.",
+        "rule": "IF the product image displays a suede texture described as soft, INCLUDE the phrase \u2018Soft Suede\u2019 in the title.",
+        "source_query": "Women's floral embroidery slip-on shoes",
+        "source_pair": "B01N19O15D_vs_B01MS836FM"
+    },
+    {
+        "found_gap": true,
+        "relevant_attribute": "embellishment",
+        "evidence": "The winner\u2019s description explicitly mentions a \"sequin heart embellishment\", and the loser\u2019s description does not refer to any embellishment. Visually, both shoes feature a decorative element \u2013 the sequin heart on the winner and the oversized bow tie on the loser \u2013 so the attribute is present in both images.",
+        "rule": "IF an image contains an embellishment (e.g., sequin, bow, applique), THEN include the word \"embellishment\" in the product title.",
+        "source_query": "Women's floral embroidery slip-on shoes",
+        "source_pair": "B07889HKBZ_vs_B074KPDRLH"
+    },
+    {
+        "found_gap": true,
+        "relevant_attribute": "Upper",
+        "evidence": "Both shoes have an upper part that is visually visible (silver crackle leather upper in the winner, red upper section in the loser). The winner\u2019s description explicitly mentions \"crackle leather upper\", while the loser\u2019s description omits any reference to the upper.",
+        "rule": "IF the image contains an \"Upper\" component, INCLUDE the word \"Upper\" in the title.",
+        "source_query": "Women's floral embroidery slip-on shoes",
+        "source_pair": "B07889HKBZ_vs_B072JTL1HX"
+    },
+    {
+        "found_gap": true,
+        "relevant_attribute": "Leather",
+        "evidence": "Both images show a leather upper. The winner\u2019s text explicitly mentions a \"crackle leather upper\", whereas the loser\u2019s text contains no mention of leather.",
+        "rule": "IF the product image contains a leather upper, THEN include the keyword \"Leather\" in the title to highlight this material.",
+        "source_query": "Women's floral embroidery slip-on shoes",
+        "source_pair": "B07889HKBZ_vs_B071JM2QL7"
+    },
+    {
+        "found_gap": true,
+        "relevant_attribute": "sole",
+        "evidence": "Both images display a visible sole on the shoes. The winner\u2019s text explicitly mentions a 'Rubber sole', while the loser\u2019s text makes no mention of the sole at all.",
+        "rule": "IF Image contains a 'sole', INJECT 'sole' into the product title.",
+        "source_query": "Women's floral embroidery slip-on shoes",
+        "source_pair": "B06XKHHTBS_vs_B01N19O15D"
+    },
+    {
+        "found_gap": true,
+        "relevant_attribute": "Buckle",
+        "evidence": "Both images feature a buckle on the shoe strap. The winner\u2019s text includes the phrase \"Buckled slingback ankle\", while the loser\u2019s text makes no mention of a buckle.",
+        "rule": "IF the product image contains a buckle, include 'Buckle' in the title.",
+        "source_query": "Women's floral embroidery slip-on shoes",
+        "source_pair": "B06XKHHTBS_vs_B071JM2QL7"
+    },
+    {
+        "found_gap": true,
+        "relevant_attribute": "Upper",
+        "evidence": "Both shoes have an upper (the top part of the shoe). The winner\u2019s description explicitly includes the phrase \u2018soft leather upper\u2019, while the loser\u2019s description omits any mention of an upper.",
+        "rule": "IF Image contains an upper, THEN inject \u2018Upper\u2019 into the product title or description to improve visibility.",
+        "source_query": "Women's floral embroidery slip-on shoes",
+        "source_pair": "B01MUHWO28_vs_B072JTL1HX"
+    },
+    {
+        "found_gap": true,
+        "relevant_attribute": "pointed toe",
+        "evidence": "The winner\u2019s description explicitly states 'pointed toe', whereas the loser\u2019s description never mentions toe shape. Visually both shoes show a similar pointed toe design.",
+        "rule": "IF the image contains a pointed toe, INJECT 'pointed toe' into the product title.",
+        "source_query": "Women's floral embroidery slip-on shoes",
+        "source_pair": "B01N19O15D_vs_B074KPDRLH"
+    },
+    {
+        "found_gap": true,
+        "relevant_attribute": "Suede",
+        "evidence": "Winner text explicitly states 'soft suede'; loser text does not mention suede although the visual truth shows a suede upper.",
+        "rule": "IF image contains 'Suede', INJECT 'Suede' into the product title.",
+        "source_query": "Women's floral embroidery slip-on shoes",
+        "source_pair": "B01N19O15D_vs_B071G16W12"
+    },
+    {
+        "found_gap": true,
+        "relevant_attribute": "Leather",
+        "evidence": "Both images show leather construction. The winner\u2019s description explicitly says \u2018Leather lined\u2019, while the loser\u2019s text does not mention leather.",
+        "rule": "IF Image contains 'Leather', INJECT 'Leather' into the title.",
+        "source_query": "Women's floral embroidery slip-on shoes",
+        "source_pair": "B01N19O15D_vs_B071JM2QL7"
+    },
+    {
+        "found_gap": true,
+        "relevant_attribute": "Contrast",
+        "evidence": "Both images exhibit contrasting color elements \u2013 the winner has a silver/white contrast between the shoe and its sole, while the loser shows a gray upper contrasting with a black sole. The winner\u2019s text explicitly mentions \"Contrast tongue and heel counter,\" whereas the loser\u2019s text contains no mention of contrast.",
+        "rule": "IF Image contains 'Contrast', INJECT 'Contrast' into Title.",
+        "source_query": "Women's floral embroidery slip-on shoes",
+        "source_pair": "B07889HKBZ_vs_B01MS836FM"
+    }
+]
