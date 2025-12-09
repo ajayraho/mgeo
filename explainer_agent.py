@@ -28,35 +28,45 @@ class ExplainerAgent:
         """
         prompt = f"""
 ### SYSTEM ROLE
-You are a Causal Search Analyst.
-Investigate why a "Merit Winner" (Rank {w_data['rank']}) beat a "Loser" (Rank {l_data['rank']}).
+You are a Principal Investigator in Multimodal SEO.
+Your task is to analyze the "Translation Gap" between Visual Data (Pixels) and Textual Data (Descriptions).
 
-### GOAL
-Identify a **VISUAL ATTRIBUTE** that is:
-1. Visually present in **BOTH** products (or at least the Loser).
-2. Explicitly mentioned in the **WINNER'S TEXT**.
-3. **MISSING** from the **LOSER'S TEXT**.
+### THE SCENARIO
+We have two products that are visually similar and relevant to the Query: "{query}".
+1. **The Winner** (Rank {w_data['rank']}) -> Optimized its text perfectly for the visual reality.
+2. **The Loser** (Rank {l_data['rank']}) -> Failed to translate its visual reality into text.
 
 ### EVIDENCE
-**1. USER QUERY:** "{query}"
+**A. VISUAL GROUND TRUTH (What LLaVA saw):**
+- Winner Image: "{w_vis}"
+- Loser Image: "{l_vis}"
 
-**2. WINNER (Rank {w_data['rank']})**
-- **Text:** {str(w_data['features'])[:500]}
-- **Visual Truth:** {w_vis}
+**B. TEXTUAL EXECUTION:**
+- Winner Text: "{str(w_data['features'])[:1000]}..."
+- Loser Text: "{str(l_data['features'])[:1000]}..."
 
-**3. LOSER (Rank {l_data['rank']})**
-- **Text:** {str(l_data['features'])[:500]}
-- **Visual Truth:** {l_vis}
+### YOUR MISSION
+Compare how the Winner and Loser described their **Visual Attributes**. 
+Identify the **STRATEGIC DIFFERENCE** that allowed the Winner to rank higher.
+
+Do NOT just look for missing keywords. Look for differences in **Specificity**, **Style**, or **Focus**.
 
 ### OUTPUT JSON
 Return a valid JSON object.
 {{
     "found_gap": true,
-    "relevant_attribute": "e.g. 'Floral Pattern'",
-    "evidence": "Both images show Floral Pattern. Winner text mentions 'Floral', Loser text only says 'Multicolor'.",
-    "rule": "IF Image contains 'Floral Pattern', INJECT 'Floral Pattern' into Title."
+    "gap_category": "Select ONE: [SPECIFICITY | COMPLETENESS | ATMOSPHERE]",
+    "gap_analysis": "e.g. Winner described the 'Distressed Leather texture', whereas Loser just said 'Brown Material'. Winner captured the specific visual texture.",
+    "visual_proof": "Both images clearly show a distressed/vintage leather finish.",
+    "generalized_principle": "e.g. Do not use generic material class names. Always describe the specific visual texture or finish seen in the image."
 }}
-If no clear gap exists, set "found_gap": false.
+
+**Gap Category Definitions:**
+- **SPECIFICITY:** Loser used a broad term (e.g. "Blue"), Winner used a specific visual term (e.g. "Navy Teal").
+- **COMPLETENESS:** Loser completely ignored a visible feature (e.g. Buckles) that Winner mentioned.
+- **ATMOSPHERE:** Loser listed dry specs, Winner described the visual 'vibe' or style (e.g. 'Bohemian', 'Minimalist').
+
+If the texts are effectively identical in how they handle visuals, set "found_gap": false.
 """
         print(f"   prompting LLM for {query[:20]}...")
         try:
@@ -149,7 +159,7 @@ def run_explainer():
             insight = agent.explain_pair(query, w_data, l_data, w_vis, l_vis)
             
             if insight and insight.get('found_gap'):
-                rule_text = insight['rule']
+                rule_text = insight['generalized_principle']
                 h = hashlib.md5(rule_text.encode()).hexdigest()
                 
                 if h not in seen_hashes:
