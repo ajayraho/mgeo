@@ -5,6 +5,21 @@ from simulator_agent import SimulatorAgent
 # --- CONFIGURATION ---
 REPO_FILE = "data/query.json"
 OUTPUT_LOG = "data/simulation_logs.json"
+def smart_truncate(text, max_chars=2000):
+    """Truncates text to max_chars, ensuring we don't cut words in half."""
+    if not text: return ""
+    text = str(text)
+    if len(text) <= max_chars:
+        return text
+    
+    # Cut to limit
+    cut_text = text[:max_chars]
+    # Backtrack to the last space to avoid cutting a word "flowe..."
+    last_space = cut_text.rfind(' ')
+    if last_space != -1:
+        cut_text = cut_text[:last_space]
+    
+    return cut_text + " [TRUNCATED]"
 
 def format_rag_context(results_list):
     """
@@ -28,7 +43,7 @@ def format_rag_context(results_list):
 Category: {item['category']}
 Title: {item['title']}
 {social_proof_str}
-Features: {str(item['features'])[:2000]}... 
+Features: {(smart_truncate(item['features'])).replace(' | ', ',')}... 
 --------------------------------------------------
 """
     # removed Origin/Domain: {origin_str}

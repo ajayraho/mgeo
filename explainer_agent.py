@@ -10,6 +10,22 @@ VISUAL_CAPTIONS = "data/dense_captions.json"
 REPO_DATA = "data/query.json"
 OUTPUT_RULES = "data/optimization_rules.json"
 
+def smart_truncate(text, max_chars=2000):
+    """Truncates text to max_chars, ensuring we don't cut words in half."""
+    if not text: return ""
+    text = str(text)
+    if len(text) <= max_chars:
+        return text
+    
+    # Cut to limit
+    cut_text = text[:max_chars]
+    # Backtrack to the last space to avoid cutting a word "flowe..."
+    last_space = cut_text.rfind(' ')
+    if last_space != -1:
+        cut_text = cut_text[:last_space]
+    
+    return cut_text + " [TRUNCATED]"
+
 class ExplainerAgent:
     def __init__(self):
       pass
@@ -42,8 +58,8 @@ We have two products that are visually similar and relevant to the Query: "{quer
 - Loser Image: "{l_vis}"
 
 **B. TEXTUAL EXECUTION:**
-- Winner Text: "{str(w_data['features'])[:1000]}..."
-- Loser Text: "{str(l_data['features'])[:1000]}..."
+- Winner Text: "{smart_truncate(w_data['features'])}..."
+- Loser Text: "{smart_truncate(l_data['features'])}..."
 
 ### YOUR MISSION
 Compare how the Winner and Loser described their **Visual Attributes**. 

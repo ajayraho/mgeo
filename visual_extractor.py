@@ -52,7 +52,7 @@ def generate_caption(model, processor, image_path):
         # Generate (Greedy decoding is fine for factual extraction)
         output = model.generate(
             **inputs, 
-            max_new_tokens=200,    # Enough for a dense paragraph
+            max_new_tokens=400,    # Enough for a dense paragraph
             do_sample=False,       # Deterministic = Better for facts
             temperature=0.0        # No creativity allowed
         )
