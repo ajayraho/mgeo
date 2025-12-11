@@ -21,6 +21,16 @@ def smart_truncate(text, max_chars=2000):
     
     return cut_text + " [TRUNCATED]"
 
+def parse_hybrid_output(response_text):
+    # Extract JSON
+    json_part = response_text.split("---JSON_START---")[-1].split("---JSON_END---")[0]
+    rankings = json.loads(json_part)
+    
+    # Extract Text
+    text_part = response_text.split("---RESPONSE_START---")[-1].split("---RESPONSE_END---")[0].strip()
+    
+    return text_part, rankings
+  
 def format_rag_context(results_list):
     """
     Formats the 'Blind' text context for the Simulator.

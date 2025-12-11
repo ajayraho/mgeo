@@ -4,7 +4,7 @@
         "pairs": [
             {
                 "winner_id": "B01MTEI8M6",
-                "loser_id": "B06XKHHTBS",
+                "loser_id": "B071G16W12",
                 "winner_rank": 1,
                 "loser_rank": 2,
                 "winner_propensity": 0.769611707862558,
@@ -12,7 +12,7 @@
             },
             {
                 "winner_id": "B01MTEI8M6",
-                "loser_id": "B01MUHWO28",
+                "loser_id": "B074KPDRLH",
                 "winner_rank": 1,
                 "loser_rank": 3,
                 "winner_propensity": 0.769611707862558,
@@ -20,7 +20,7 @@
             },
             {
                 "winner_id": "B01MTEI8M6",
-                "loser_id": "B01N19O15D",
+                "loser_id": "B01MUHWO28",
                 "winner_rank": 1,
                 "loser_rank": 4,
                 "winner_propensity": 0.769611707862558,
@@ -28,7 +28,7 @@
             },
             {
                 "winner_id": "B01MTEI8M6",
-                "loser_id": "B07889HKBZ",
+                "loser_id": "B06XKHHTBS",
                 "winner_rank": 1,
                 "loser_rank": 5,
                 "winner_propensity": 0.769611707862558,
@@ -36,7 +36,7 @@
             },
             {
                 "winner_id": "B01MTEI8M6",
-                "loser_id": "B074KPDRLH",
+                "loser_id": "B01N19O15D",
                 "winner_rank": 1,
                 "loser_rank": 6,
                 "winner_propensity": 0.769611707862558,
@@ -44,7 +44,7 @@
             },
             {
                 "winner_id": "B01MTEI8M6",
-                "loser_id": "B071G16W12",
+                "loser_id": "B071JM2QL7",
                 "winner_rank": 1,
                 "loser_rank": 7,
                 "winner_propensity": 0.769611707862558,
@@ -60,7 +60,7 @@
             },
             {
                 "winner_id": "B01MTEI8M6",
-                "loser_id": "B071JM2QL7",
+                "loser_id": "B07889HKBZ",
                 "winner_rank": 1,
                 "loser_rank": 9,
                 "winner_propensity": 0.769611707862558,
@@ -75,57 +75,201 @@
                 "weight": 1.299356532370459
             },
             {
-                "winner_id": "B06XKHHTBS",
-                "loser_id": "B01MUHWO28",
+                "winner_id": "B071G16W12",
+                "loser_id": "B074KPDRLH",
                 "winner_rank": 2,
                 "loser_rank": 3,
-                "winner_propensity": 0.789148429809638,
-                "weight": 1.2671887343693058
+                "winner_propensity": 0.7402214767539984,
+                "weight": 1.3509470224846436
+            },
+            {
+                "winner_id": "B071G16W12",
+                "loser_id": "B01MUHWO28",
+                "winner_rank": 2,
+                "loser_rank": 4,
+                "winner_propensity": 0.7402214767539984,
+                "weight": 1.3509470224846436
+            },
+            {
+                "winner_id": "B071G16W12",
+                "loser_id": "B06XKHHTBS",
+                "winner_rank": 2,
+                "loser_rank": 5,
+                "winner_propensity": 0.7402214767539984,
+                "weight": 1.3509470224846436
+            },
+            {
+                "winner_id": "B071G16W12",
+                "loser_id": "B01N19O15D",
+                "winner_rank": 2,
+                "loser_rank": 6,
+                "winner_propensity": 0.7402214767539984,
+                "weight": 1.3509470224846436
+            },
+            {
+                "winner_id": "B071G16W12",
+                "loser_id": "B071JM2QL7",
+                "winner_rank": 2,
+                "loser_rank": 7,
+                "winner_propensity": 0.7402214767539984,
+                "weight": 1.3509470224846436
+            },
+            {
+                "winner_id": "B071G16W12",
+                "loser_id": "B072JTL1HX",
+                "winner_rank": 2,
+                "loser_rank": 8,
+                "winner_propensity": 0.7402214767539984,
+                "weight": 1.3509470224846436
+            },
+            {
+                "winner_id": "B071G16W12",
+                "loser_id": "B07889HKBZ",
+                "winner_rank": 2,
+                "loser_rank": 9,
+                "winner_propensity": 0.7402214767539984,
+                "weight": 1.3509470224846436
+            },
+            {
+                "winner_id": "B071G16W12",
+                "loser_id": "B01MS836FM",
+                "winner_rank": 2,
+                "loser_rank": 10,
+                "winner_propensity": 0.7402214767539984,
+                "weight": 1.3509470224846436
+            },
+            {
+                "winner_id": "B074KPDRLH",
+                "loser_id": "B01MUHWO28",
+                "winner_rank": 3,
+                "loser_rank": 4,
+                "winner_propensity": 0.7697535248881567,
+                "weight": 1.299117142913113
+            },
+            {
+                "winner_id": "B074KPDRLH",
+                "loser_id": "B06XKHHTBS",
+                "winner_rank": 3,
+                "loser_rank": 5,
+                "winner_propensity": 0.7697535248881567,
+                "weight": 1.299117142913113
+            },
+            {
+                "winner_id": "B074KPDRLH",
+                "loser_id": "B01N19O15D",
+                "winner_rank": 3,
+                "loser_rank": 6,
+                "winner_propensity": 0.7697535248881567,
+                "weight": 1.299117142913113
+            },
+            {
+                "winner_id": "B074KPDRLH",
+                "loser_id": "B071JM2QL7",
+                "winner_rank": 3,
+                "loser_rank": 7,
+                "winner_propensity": 0.7697535248881567,
+                "weight": 1.299117142913113
+            },
+            {
+                "winner_id": "B074KPDRLH",
+                "loser_id": "B072JTL1HX",
+                "winner_rank": 3,
+                "loser_rank": 8,
+                "winner_propensity": 0.7697535248881567,
+                "weight": 1.299117142913113
+            },
+            {
+                "winner_id": "B074KPDRLH",
+                "loser_id": "B07889HKBZ",
+                "winner_rank": 3,
+                "loser_rank": 9,
+                "winner_propensity": 0.7697535248881567,
+                "weight": 1.299117142913113
+            },
+            {
+                "winner_id": "B074KPDRLH",
+                "loser_id": "B01MS836FM",
+                "winner_rank": 3,
+                "loser_rank": 10,
+                "winner_propensity": 0.7697535248881567,
+                "weight": 1.299117142913113
+            },
+            {
+                "winner_id": "B01MUHWO28",
+                "loser_id": "B06XKHHTBS",
+                "winner_rank": 4,
+                "loser_rank": 5,
+                "winner_propensity": 0.7902113755347403,
+                "weight": 1.265484186839622
+            },
+            {
+                "winner_id": "B01MUHWO28",
+                "loser_id": "B01N19O15D",
+                "winner_rank": 4,
+                "loser_rank": 6,
+                "winner_propensity": 0.7902113755347403,
+                "weight": 1.265484186839622
+            },
+            {
+                "winner_id": "B01MUHWO28",
+                "loser_id": "B071JM2QL7",
+                "winner_rank": 4,
+                "loser_rank": 7,
+                "winner_propensity": 0.7902113755347403,
+                "weight": 1.265484186839622
+            },
+            {
+                "winner_id": "B01MUHWO28",
+                "loser_id": "B072JTL1HX",
+                "winner_rank": 4,
+                "loser_rank": 8,
+                "winner_propensity": 0.7902113755347403,
+                "weight": 1.265484186839622
+            },
+            {
+                "winner_id": "B01MUHWO28",
+                "loser_id": "B07889HKBZ",
+                "winner_rank": 4,
+                "loser_rank": 9,
+                "winner_propensity": 0.7902113755347403,
+                "weight": 1.265484186839622
+            },
+            {
+                "winner_id": "B01MUHWO28",
+                "loser_id": "B01MS836FM",
+                "winner_rank": 4,
+                "loser_rank": 10,
+                "winner_propensity": 0.7902113755347403,
+                "weight": 1.265484186839622
             },
             {
                 "winner_id": "B06XKHHTBS",
                 "loser_id": "B01N19O15D",
-                "winner_rank": 2,
-                "loser_rank": 4,
+                "winner_rank": 5,
+                "loser_rank": 6,
+                "winner_propensity": 0.789148429809638,
+                "weight": 1.2671887343693058
+            },
+            {
+                "winner_id": "B06XKHHTBS",
+                "loser_id": "B071JM2QL7",
+                "winner_rank": 5,
+                "loser_rank": 7,
+                "winner_propensity": 0.789148429809638,
+                "weight": 1.2671887343693058
+            },
+            {
+                "winner_id": "B06XKHHTBS",
+                "loser_id": "B072JTL1HX",
+                "winner_rank": 5,
+                "loser_rank": 8,
                 "winner_propensity": 0.789148429809638,
                 "weight": 1.2671887343693058
             },
             {
                 "winner_id": "B06XKHHTBS",
                 "loser_id": "B07889HKBZ",
-                "winner_rank": 2,
-                "loser_rank": 5,
-                "winner_propensity": 0.789148429809638,
-                "weight": 1.2671887343693058
-            },
-            {
-                "winner_id": "B06XKHHTBS",
-                "loser_id": "B074KPDRLH",
-                "winner_rank": 2,
-                "loser_rank": 6,
-                "winner_propensity": 0.789148429809638,
-                "weight": 1.2671887343693058
-            },
-            {
-                "winner_id": "B06XKHHTBS",
-                "loser_id": "B071G16W12",
-                "winner_rank": 2,
-                "loser_rank": 7,
-                "winner_propensity": 0.789148429809638,
-                "weight": 1.2671887343693058
-            },
-            {
-                "winner_id": "B06XKHHTBS",
-                "loser_id": "B072JTL1HX",
-                "winner_rank": 2,
-                "loser_rank": 8,
-                "winner_propensity": 0.789148429809638,
-                "weight": 1.2671887343693058
-            },
-            {
-                "winner_id": "B06XKHHTBS",
-                "loser_id": "B071JM2QL7",
-                "winner_rank": 2,
+                "winner_rank": 5,
                 "loser_rank": 9,
                 "winner_propensity": 0.789148429809638,
                 "weight": 1.2671887343693058
@@ -133,103 +277,31 @@
             {
                 "winner_id": "B06XKHHTBS",
                 "loser_id": "B01MS836FM",
-                "winner_rank": 2,
+                "winner_rank": 5,
                 "loser_rank": 10,
                 "winner_propensity": 0.789148429809638,
                 "weight": 1.2671887343693058
             },
             {
-                "winner_id": "B01MUHWO28",
-                "loser_id": "B01N19O15D",
-                "winner_rank": 3,
-                "loser_rank": 4,
-                "winner_propensity": 0.7902113755347403,
-                "weight": 1.265484186839622
-            },
-            {
-                "winner_id": "B01MUHWO28",
-                "loser_id": "B07889HKBZ",
-                "winner_rank": 3,
-                "loser_rank": 5,
-                "winner_propensity": 0.7902113755347403,
-                "weight": 1.265484186839622
-            },
-            {
-                "winner_id": "B01MUHWO28",
-                "loser_id": "B074KPDRLH",
-                "winner_rank": 3,
-                "loser_rank": 6,
-                "winner_propensity": 0.7902113755347403,
-                "weight": 1.265484186839622
-            },
-            {
-                "winner_id": "B01MUHWO28",
-                "loser_id": "B071G16W12",
-                "winner_rank": 3,
-                "loser_rank": 7,
-                "winner_propensity": 0.7902113755347403,
-                "weight": 1.265484186839622
-            },
-            {
-                "winner_id": "B01MUHWO28",
-                "loser_id": "B072JTL1HX",
-                "winner_rank": 3,
-                "loser_rank": 8,
-                "winner_propensity": 0.7902113755347403,
-                "weight": 1.265484186839622
-            },
-            {
-                "winner_id": "B01MUHWO28",
+                "winner_id": "B01N19O15D",
                 "loser_id": "B071JM2QL7",
-                "winner_rank": 3,
-                "loser_rank": 9,
-                "winner_propensity": 0.7902113755347403,
-                "weight": 1.265484186839622
+                "winner_rank": 6,
+                "loser_rank": 7,
+                "winner_propensity": 0.7695762440449874,
+                "weight": 1.299416409664463
             },
             {
-                "winner_id": "B01MUHWO28",
-                "loser_id": "B01MS836FM",
-                "winner_rank": 3,
-                "loser_rank": 10,
-                "winner_propensity": 0.7902113755347403,
-                "weight": 1.265484186839622
+                "winner_id": "B01N19O15D",
+                "loser_id": "B072JTL1HX",
+                "winner_rank": 6,
+                "loser_rank": 8,
+                "winner_propensity": 0.7695762440449874,
+                "weight": 1.299416409664463
             },
             {
                 "winner_id": "B01N19O15D",
                 "loser_id": "B07889HKBZ",
-                "winner_rank": 4,
-                "loser_rank": 5,
-                "winner_propensity": 0.7695762440449874,
-                "weight": 1.299416409664463
-            },
-            {
-                "winner_id": "B01N19O15D",
-                "loser_id": "B074KPDRLH",
-                "winner_rank": 4,
-                "loser_rank": 6,
-                "winner_propensity": 0.7695762440449874,
-                "weight": 1.299416409664463
-            },
-            {
-                "winner_id": "B01N19O15D",
-                "loser_id": "B071G16W12",
-                "winner_rank": 4,
-                "loser_rank": 7,
-                "winner_propensity": 0.7695762440449874,
-                "weight": 1.299416409664463
-            },
-            {
-                "winner_id": "B01N19O15D",
-                "loser_id": "B072JTL1HX",
-                "winner_rank": 4,
-                "loser_rank": 8,
-                "winner_propensity": 0.7695762440449874,
-                "weight": 1.299416409664463
-            },
-            {
-                "winner_id": "B01N19O15D",
-                "loser_id": "B071JM2QL7",
-                "winner_rank": 4,
+                "winner_rank": 6,
                 "loser_rank": 9,
                 "winner_propensity": 0.7695762440449874,
                 "weight": 1.299416409664463
@@ -237,85 +309,13 @@
             {
                 "winner_id": "B01N19O15D",
                 "loser_id": "B01MS836FM",
-                "winner_rank": 4,
+                "winner_rank": 6,
                 "loser_rank": 10,
                 "winner_propensity": 0.7695762440449874,
                 "weight": 1.299416409664463
             },
             {
-                "winner_id": "B07889HKBZ",
-                "loser_id": "B074KPDRLH",
-                "winner_rank": 5,
-                "loser_rank": 6,
-                "winner_propensity": 0.771309472006722,
-                "weight": 1.2964964599725348
-            },
-            {
-                "winner_id": "B07889HKBZ",
-                "loser_id": "B071G16W12",
-                "winner_rank": 5,
-                "loser_rank": 7,
-                "winner_propensity": 0.771309472006722,
-                "weight": 1.2964964599725348
-            },
-            {
-                "winner_id": "B07889HKBZ",
-                "loser_id": "B072JTL1HX",
-                "winner_rank": 5,
-                "loser_rank": 8,
-                "winner_propensity": 0.771309472006722,
-                "weight": 1.2964964599725348
-            },
-            {
-                "winner_id": "B07889HKBZ",
-                "loser_id": "B071JM2QL7",
-                "winner_rank": 5,
-                "loser_rank": 9,
-                "winner_propensity": 0.771309472006722,
-                "weight": 1.2964964599725348
-            },
-            {
-                "winner_id": "B07889HKBZ",
-                "loser_id": "B01MS836FM",
-                "winner_rank": 5,
-                "loser_rank": 10,
-                "winner_propensity": 0.771309472006722,
-                "weight": 1.2964964599725348
-            },
-            {
-                "winner_id": "B074KPDRLH",
-                "loser_id": "B071G16W12",
-                "winner_rank": 6,
-                "loser_rank": 7,
-                "winner_propensity": 0.7697535248881567,
-                "weight": 1.299117142913113
-            },
-            {
-                "winner_id": "B074KPDRLH",
-                "loser_id": "B072JTL1HX",
-                "winner_rank": 6,
-                "loser_rank": 8,
-                "winner_propensity": 0.7697535248881567,
-                "weight": 1.299117142913113
-            },
-            {
-                "winner_id": "B074KPDRLH",
-                "loser_id": "B071JM2QL7",
-                "winner_rank": 6,
-                "loser_rank": 9,
-                "winner_propensity": 0.7697535248881567,
-                "weight": 1.299117142913113
-            },
-            {
-                "winner_id": "B074KPDRLH",
-                "loser_id": "B01MS836FM",
-                "winner_rank": 6,
-                "loser_rank": 10,
-                "winner_propensity": 0.7697535248881567,
-                "weight": 1.299117142913113
-            },
-            {
-                "winner_id": "B071G16W12",
+                "winner_id": "B071JM2QL7",
                 "loser_id": "B072JTL1HX",
                 "winner_rank": 7,
                 "loser_rank": 8,
@@ -323,44 +323,44 @@
                 "weight": 1.3509470224846436
             },
             {
-                "winner_id": "B071G16W12",
-                "loser_id": "B071JM2QL7",
+                "winner_id": "B071JM2QL7",
+                "loser_id": "B07889HKBZ",
                 "winner_rank": 7,
                 "loser_rank": 9,
-                "winner_propensity": 0.7402214767539984,
-                "weight": 1.3509470224846436
-            },
-            {
-                "winner_id": "B071G16W12",
-                "loser_id": "B01MS836FM",
-                "winner_rank": 7,
-                "loser_rank": 10,
-                "winner_propensity": 0.7402214767539984,
-                "weight": 1.3509470224846436
-            },
-            {
-                "winner_id": "B072JTL1HX",
-                "loser_id": "B071JM2QL7",
-                "winner_rank": 8,
-                "loser_rank": 9,
-                "winner_propensity": 0.7402214767539984,
-                "weight": 1.3509470224846436
-            },
-            {
-                "winner_id": "B072JTL1HX",
-                "loser_id": "B01MS836FM",
-                "winner_rank": 8,
-                "loser_rank": 10,
                 "winner_propensity": 0.7402214767539984,
                 "weight": 1.3509470224846436
             },
             {
                 "winner_id": "B071JM2QL7",
                 "loser_id": "B01MS836FM",
-                "winner_rank": 9,
+                "winner_rank": 7,
                 "loser_rank": 10,
                 "winner_propensity": 0.7402214767539984,
                 "weight": 1.3509470224846436
+            },
+            {
+                "winner_id": "B072JTL1HX",
+                "loser_id": "B07889HKBZ",
+                "winner_rank": 8,
+                "loser_rank": 9,
+                "winner_propensity": 0.7402214767539984,
+                "weight": 1.3509470224846436
+            },
+            {
+                "winner_id": "B072JTL1HX",
+                "loser_id": "B01MS836FM",
+                "winner_rank": 8,
+                "loser_rank": 10,
+                "winner_propensity": 0.7402214767539984,
+                "weight": 1.3509470224846436
+            },
+            {
+                "winner_id": "B07889HKBZ",
+                "loser_id": "B01MS836FM",
+                "winner_rank": 9,
+                "loser_rank": 10,
+                "winner_propensity": 0.771309472006722,
+                "weight": 1.2964964599725348
             }
         ]
     },
@@ -393,7 +393,7 @@
             },
             {
                 "winner_id": "B084MZ4HYV",
-                "loser_id": "B078H8BB11",
+                "loser_id": "B07QDB9V9X",
                 "winner_rank": 1,
                 "loser_rank": 5,
                 "winner_propensity": 0.6625771248883778,
@@ -401,7 +401,7 @@
             },
             {
                 "winner_id": "B084MZ4HYV",
-                "loser_id": "B07QDB9V9X",
+                "loser_id": "B07RDQJG32",
                 "winner_rank": 1,
                 "loser_rank": 6,
                 "winner_propensity": 0.6625771248883778,
@@ -425,7 +425,7 @@
             },
             {
                 "winner_id": "B084MZ4HYV",
-                "loser_id": "B07RDQJG32",
+                "loser_id": "B078H8BB11",
                 "winner_rank": 1,
                 "loser_rank": 9,
                 "winner_propensity": 0.6625771248883778,
@@ -457,7 +457,7 @@
             },
             {
                 "winner_id": "B084PJLB3V",
-                "loser_id": "B078H8BB11",
+                "loser_id": "B07QDB9V9X",
                 "winner_rank": 2,
                 "loser_rank": 5,
                 "winner_propensity": 0.7116312855308806,
@@ -465,7 +465,7 @@
             },
             {
                 "winner_id": "B084PJLB3V",
-                "loser_id": "B07QDB9V9X",
+                "loser_id": "B07RDQJG32",
                 "winner_rank": 2,
                 "loser_rank": 6,
                 "winner_propensity": 0.7116312855308806,
@@ -489,7 +489,7 @@
             },
             {
                 "winner_id": "B084PJLB3V",
-                "loser_id": "B07RDQJG32",
+                "loser_id": "B078H8BB11",
                 "winner_rank": 2,
                 "loser_rank": 9,
                 "winner_propensity": 0.7116312855308806,
@@ -513,7 +513,7 @@
             },
             {
                 "winner_id": "B07RJXW7ZS",
-                "loser_id": "B078H8BB11",
+                "loser_id": "B07QDB9V9X",
                 "winner_rank": 3,
                 "loser_rank": 5,
                 "winner_propensity": 0.7481029255209832,
@@ -521,7 +521,7 @@
             },
             {
                 "winner_id": "B07RJXW7ZS",
-                "loser_id": "B07QDB9V9X",
+                "loser_id": "B07RDQJG32",
                 "winner_rank": 3,
                 "loser_rank": 6,
                 "winner_propensity": 0.7481029255209832,
@@ -545,7 +545,7 @@
             },
             {
                 "winner_id": "B07RJXW7ZS",
-                "loser_id": "B07RDQJG32",
+                "loser_id": "B078H8BB11",
                 "winner_rank": 3,
                 "loser_rank": 9,
                 "winner_propensity": 0.7481029255209832,
@@ -561,7 +561,7 @@
             },
             {
                 "winner_id": "B01MR4MRAE",
-                "loser_id": "B078H8BB11",
+                "loser_id": "B07QDB9V9X",
                 "winner_rank": 4,
                 "loser_rank": 5,
                 "winner_propensity": 0.7888154509889472,
@@ -569,7 +569,7 @@
             },
             {
                 "winner_id": "B01MR4MRAE",
-                "loser_id": "B07QDB9V9X",
+                "loser_id": "B07RDQJG32",
                 "winner_rank": 4,
                 "loser_rank": 6,
                 "winner_propensity": 0.7888154509889472,
@@ -593,7 +593,7 @@
             },
             {
                 "winner_id": "B01MR4MRAE",
-                "loser_id": "B07RDQJG32",
+                "loser_id": "B078H8BB11",
                 "winner_rank": 4,
                 "loser_rank": 9,
                 "winner_propensity": 0.7888154509889472,
@@ -608,49 +608,17 @@
                 "weight": 1.267723646571943
             },
             {
-                "winner_id": "B078H8BB11",
-                "loser_id": "B07QDB9V9X",
+                "winner_id": "B07QDB9V9X",
+                "loser_id": "B07RDQJG32",
                 "winner_rank": 5,
                 "loser_rank": 6,
-                "winner_propensity": 0.7712036200764791,
-                "weight": 1.2966744112285566
-            },
-            {
-                "winner_id": "B078H8BB11",
-                "loser_id": "B06XG6Z54T",
-                "winner_rank": 5,
-                "loser_rank": 7,
-                "winner_propensity": 0.7712036200764791,
-                "weight": 1.2966744112285566
-            },
-            {
-                "winner_id": "B078H8BB11",
-                "loser_id": "B06XCFTFXQ",
-                "winner_rank": 5,
-                "loser_rank": 8,
-                "winner_propensity": 0.7712036200764791,
-                "weight": 1.2966744112285566
-            },
-            {
-                "winner_id": "B078H8BB11",
-                "loser_id": "B07RDQJG32",
-                "winner_rank": 5,
-                "loser_rank": 9,
-                "winner_propensity": 0.7712036200764791,
-                "weight": 1.2966744112285566
-            },
-            {
-                "winner_id": "B078H8BB11",
-                "loser_id": "B07QBNLSJW",
-                "winner_rank": 5,
-                "loser_rank": 10,
-                "winner_propensity": 0.7712036200764791,
-                "weight": 1.2966744112285566
+                "winner_propensity": 0.8299227671401342,
+                "weight": 1.2049313979491634
             },
             {
                 "winner_id": "B07QDB9V9X",
                 "loser_id": "B06XG6Z54T",
-                "winner_rank": 6,
+                "winner_rank": 5,
                 "loser_rank": 7,
                 "winner_propensity": 0.8299227671401342,
                 "weight": 1.2049313979491634
@@ -658,15 +626,15 @@
             {
                 "winner_id": "B07QDB9V9X",
                 "loser_id": "B06XCFTFXQ",
-                "winner_rank": 6,
+                "winner_rank": 5,
                 "loser_rank": 8,
                 "winner_propensity": 0.8299227671401342,
                 "weight": 1.2049313979491634
             },
             {
                 "winner_id": "B07QDB9V9X",
-                "loser_id": "B07RDQJG32",
-                "winner_rank": 6,
+                "loser_id": "B078H8BB11",
+                "winner_rank": 5,
                 "loser_rank": 9,
                 "winner_propensity": 0.8299227671401342,
                 "weight": 1.2049313979491634
@@ -674,58 +642,90 @@
             {
                 "winner_id": "B07QDB9V9X",
                 "loser_id": "B07QBNLSJW",
-                "winner_rank": 6,
+                "winner_rank": 5,
                 "loser_rank": 10,
                 "winner_propensity": 0.8299227671401342,
                 "weight": 1.2049313979491634
             },
             {
-                "winner_id": "B06XG6Z54T",
+                "winner_id": "B07RDQJG32",
+                "loser_id": "B06XG6Z54T",
+                "winner_rank": 6,
+                "loser_rank": 7,
+                "winner_propensity": 0.7481029255209832,
+                "weight": 1.3367144625234477
+            },
+            {
+                "winner_id": "B07RDQJG32",
                 "loser_id": "B06XCFTFXQ",
-                "winner_rank": 7,
+                "winner_rank": 6,
                 "loser_rank": 8,
-                "winner_propensity": 0.7910721169101766,
-                "weight": 1.2641072522008083
+                "winner_propensity": 0.7481029255209832,
+                "weight": 1.3367144625234477
             },
             {
-                "winner_id": "B06XG6Z54T",
-                "loser_id": "B07RDQJG32",
-                "winner_rank": 7,
+                "winner_id": "B07RDQJG32",
+                "loser_id": "B078H8BB11",
+                "winner_rank": 6,
                 "loser_rank": 9,
-                "winner_propensity": 0.7910721169101766,
-                "weight": 1.2641072522008083
-            },
-            {
-                "winner_id": "B06XG6Z54T",
-                "loser_id": "B07QBNLSJW",
-                "winner_rank": 7,
-                "loser_rank": 10,
-                "winner_propensity": 0.7910721169101766,
-                "weight": 1.2641072522008083
-            },
-            {
-                "winner_id": "B06XCFTFXQ",
-                "loser_id": "B07RDQJG32",
-                "winner_rank": 8,
-                "loser_rank": 9,
-                "winner_propensity": 0.7874127368462794,
-                "weight": 1.2699819969958428
-            },
-            {
-                "winner_id": "B06XCFTFXQ",
-                "loser_id": "B07QBNLSJW",
-                "winner_rank": 8,
-                "loser_rank": 10,
-                "winner_propensity": 0.7874127368462794,
-                "weight": 1.2699819969958428
+                "winner_propensity": 0.7481029255209832,
+                "weight": 1.3367144625234477
             },
             {
                 "winner_id": "B07RDQJG32",
                 "loser_id": "B07QBNLSJW",
-                "winner_rank": 9,
+                "winner_rank": 6,
                 "loser_rank": 10,
                 "winner_propensity": 0.7481029255209832,
                 "weight": 1.3367144625234477
+            },
+            {
+                "winner_id": "B06XG6Z54T",
+                "loser_id": "B06XCFTFXQ",
+                "winner_rank": 7,
+                "loser_rank": 8,
+                "winner_propensity": 0.7910721169101766,
+                "weight": 1.2641072522008083
+            },
+            {
+                "winner_id": "B06XG6Z54T",
+                "loser_id": "B078H8BB11",
+                "winner_rank": 7,
+                "loser_rank": 9,
+                "winner_propensity": 0.7910721169101766,
+                "weight": 1.2641072522008083
+            },
+            {
+                "winner_id": "B06XG6Z54T",
+                "loser_id": "B07QBNLSJW",
+                "winner_rank": 7,
+                "loser_rank": 10,
+                "winner_propensity": 0.7910721169101766,
+                "weight": 1.2641072522008083
+            },
+            {
+                "winner_id": "B06XCFTFXQ",
+                "loser_id": "B078H8BB11",
+                "winner_rank": 8,
+                "loser_rank": 9,
+                "winner_propensity": 0.7874127368462794,
+                "weight": 1.2699819969958428
+            },
+            {
+                "winner_id": "B06XCFTFXQ",
+                "loser_id": "B07QBNLSJW",
+                "winner_rank": 8,
+                "loser_rank": 10,
+                "winner_propensity": 0.7874127368462794,
+                "weight": 1.2699819969958428
+            },
+            {
+                "winner_id": "B078H8BB11",
+                "loser_id": "B07QBNLSJW",
+                "winner_rank": 9,
+                "loser_rank": 10,
+                "winner_propensity": 0.7712036200764791,
+                "weight": 1.2966744112285566
             }
         ]
     },
@@ -734,7 +734,7 @@
         "pairs": [
             {
                 "winner_id": "B07QHKYCVB",
-                "loser_id": "B07QFB4XBP",
+                "loser_id": "B0714MJLPX",
                 "winner_rank": 1,
                 "loser_rank": 2,
                 "winner_propensity": 0.8154229583976669,
@@ -742,7 +742,7 @@
             },
             {
                 "winner_id": "B07QHKYCVB",
-                "loser_id": "B0735SK5LP",
+                "loser_id": "B07QFB4XBP",
                 "winner_rank": 1,
                 "loser_rank": 3,
                 "winner_propensity": 0.8154229583976669,
@@ -750,7 +750,7 @@
             },
             {
                 "winner_id": "B07QHKYCVB",
-                "loser_id": "B072PXBV6W",
+                "loser_id": "B075Z9THV1",
                 "winner_rank": 1,
                 "loser_rank": 4,
                 "winner_propensity": 0.8154229583976669,
@@ -758,7 +758,7 @@
             },
             {
                 "winner_id": "B07QHKYCVB",
-                "loser_id": "B07HSNF921",
+                "loser_id": "B07B4WR39P",
                 "winner_rank": 1,
                 "loser_rank": 5,
                 "winner_propensity": 0.8154229583976669,
@@ -766,7 +766,7 @@
             },
             {
                 "winner_id": "B07QHKYCVB",
-                "loser_id": "B07HSDXLTW",
+                "loser_id": "B072PXBV6W",
                 "winner_rank": 1,
                 "loser_rank": 6,
                 "winner_propensity": 0.8154229583976669,
@@ -774,7 +774,7 @@
             },
             {
                 "winner_id": "B07QHKYCVB",
-                "loser_id": "B075Z9THV1",
+                "loser_id": "B0735SK5LP",
                 "winner_rank": 1,
                 "loser_rank": 7,
                 "winner_propensity": 0.8154229583976669,
@@ -782,7 +782,7 @@
             },
             {
                 "winner_id": "B07QHKYCVB",
-                "loser_id": "B07B4WR39P",
+                "loser_id": "B07HSDXLTW",
                 "winner_rank": 1,
                 "loser_rank": 8,
                 "winner_propensity": 0.8154229583976669,
@@ -790,7 +790,7 @@
             },
             {
                 "winner_id": "B07QHKYCVB",
-                "loser_id": "B071ZJ6CK3",
+                "loser_id": "B07HSNF921",
                 "winner_rank": 1,
                 "loser_rank": 9,
                 "winner_propensity": 0.8154229583976669,
@@ -798,299 +798,299 @@
             },
             {
                 "winner_id": "B07QHKYCVB",
-                "loser_id": "B0714MJLPX",
+                "loser_id": "B071ZJ6CK3",
                 "winner_rank": 1,
                 "loser_rank": 10,
                 "winner_propensity": 0.8154229583976669,
                 "weight": 1.2263574255562206
+            },
+            {
+                "winner_id": "B0714MJLPX",
+                "loser_id": "B07QFB4XBP",
+                "winner_rank": 2,
+                "loser_rank": 3,
+                "winner_propensity": 0.821953635811624,
+                "weight": 1.216613634189436
+            },
+            {
+                "winner_id": "B0714MJLPX",
+                "loser_id": "B075Z9THV1",
+                "winner_rank": 2,
+                "loser_rank": 4,
+                "winner_propensity": 0.821953635811624,
+                "weight": 1.216613634189436
+            },
+            {
+                "winner_id": "B0714MJLPX",
+                "loser_id": "B07B4WR39P",
+                "winner_rank": 2,
+                "loser_rank": 5,
+                "winner_propensity": 0.821953635811624,
+                "weight": 1.216613634189436
+            },
+            {
+                "winner_id": "B0714MJLPX",
+                "loser_id": "B072PXBV6W",
+                "winner_rank": 2,
+                "loser_rank": 6,
+                "winner_propensity": 0.821953635811624,
+                "weight": 1.216613634189436
+            },
+            {
+                "winner_id": "B0714MJLPX",
+                "loser_id": "B0735SK5LP",
+                "winner_rank": 2,
+                "loser_rank": 7,
+                "winner_propensity": 0.821953635811624,
+                "weight": 1.216613634189436
+            },
+            {
+                "winner_id": "B0714MJLPX",
+                "loser_id": "B07HSDXLTW",
+                "winner_rank": 2,
+                "loser_rank": 8,
+                "winner_propensity": 0.821953635811624,
+                "weight": 1.216613634189436
+            },
+            {
+                "winner_id": "B0714MJLPX",
+                "loser_id": "B07HSNF921",
+                "winner_rank": 2,
+                "loser_rank": 9,
+                "winner_propensity": 0.821953635811624,
+                "weight": 1.216613634189436
+            },
+            {
+                "winner_id": "B0714MJLPX",
+                "loser_id": "B071ZJ6CK3",
+                "winner_rank": 2,
+                "loser_rank": 10,
+                "winner_propensity": 0.821953635811624,
+                "weight": 1.216613634189436
+            },
+            {
+                "winner_id": "B07QFB4XBP",
+                "loser_id": "B075Z9THV1",
+                "winner_rank": 3,
+                "loser_rank": 4,
+                "winner_propensity": 0.8159040990894783,
+                "weight": 1.2256342395092348
+            },
+            {
+                "winner_id": "B07QFB4XBP",
+                "loser_id": "B07B4WR39P",
+                "winner_rank": 3,
+                "loser_rank": 5,
+                "winner_propensity": 0.8159040990894783,
+                "weight": 1.2256342395092348
+            },
+            {
+                "winner_id": "B07QFB4XBP",
+                "loser_id": "B072PXBV6W",
+                "winner_rank": 3,
+                "loser_rank": 6,
+                "winner_propensity": 0.8159040990894783,
+                "weight": 1.2256342395092348
             },
             {
                 "winner_id": "B07QFB4XBP",
                 "loser_id": "B0735SK5LP",
-                "winner_rank": 2,
-                "loser_rank": 3,
+                "winner_rank": 3,
+                "loser_rank": 7,
                 "winner_propensity": 0.8159040990894783,
                 "weight": 1.2256342395092348
             },
             {
                 "winner_id": "B07QFB4XBP",
-                "loser_id": "B072PXBV6W",
-                "winner_rank": 2,
-                "loser_rank": 4,
+                "loser_id": "B07HSDXLTW",
+                "winner_rank": 3,
+                "loser_rank": 8,
                 "winner_propensity": 0.8159040990894783,
                 "weight": 1.2256342395092348
             },
             {
                 "winner_id": "B07QFB4XBP",
                 "loser_id": "B07HSNF921",
-                "winner_rank": 2,
-                "loser_rank": 5,
-                "winner_propensity": 0.8159040990894783,
-                "weight": 1.2256342395092348
-            },
-            {
-                "winner_id": "B07QFB4XBP",
-                "loser_id": "B07HSDXLTW",
-                "winner_rank": 2,
-                "loser_rank": 6,
-                "winner_propensity": 0.8159040990894783,
-                "weight": 1.2256342395092348
-            },
-            {
-                "winner_id": "B07QFB4XBP",
-                "loser_id": "B075Z9THV1",
-                "winner_rank": 2,
-                "loser_rank": 7,
-                "winner_propensity": 0.8159040990894783,
-                "weight": 1.2256342395092348
-            },
-            {
-                "winner_id": "B07QFB4XBP",
-                "loser_id": "B07B4WR39P",
-                "winner_rank": 2,
-                "loser_rank": 8,
+                "winner_rank": 3,
+                "loser_rank": 9,
                 "winner_propensity": 0.8159040990894783,
                 "weight": 1.2256342395092348
             },
             {
                 "winner_id": "B07QFB4XBP",
                 "loser_id": "B071ZJ6CK3",
-                "winner_rank": 2,
-                "loser_rank": 9,
-                "winner_propensity": 0.8159040990894783,
-                "weight": 1.2256342395092348
-            },
-            {
-                "winner_id": "B07QFB4XBP",
-                "loser_id": "B0714MJLPX",
-                "winner_rank": 2,
+                "winner_rank": 3,
                 "loser_rank": 10,
                 "winner_propensity": 0.8159040990894783,
                 "weight": 1.2256342395092348
-            },
-            {
-                "winner_id": "B0735SK5LP",
-                "loser_id": "B072PXBV6W",
-                "winner_rank": 3,
-                "loser_rank": 4,
-                "winner_propensity": 0.8287508424051098,
-                "weight": 1.206635274237441
-            },
-            {
-                "winner_id": "B0735SK5LP",
-                "loser_id": "B07HSNF921",
-                "winner_rank": 3,
-                "loser_rank": 5,
-                "winner_propensity": 0.8287508424051098,
-                "weight": 1.206635274237441
-            },
-            {
-                "winner_id": "B0735SK5LP",
-                "loser_id": "B07HSDXLTW",
-                "winner_rank": 3,
-                "loser_rank": 6,
-                "winner_propensity": 0.8287508424051098,
-                "weight": 1.206635274237441
-            },
-            {
-                "winner_id": "B0735SK5LP",
-                "loser_id": "B075Z9THV1",
-                "winner_rank": 3,
-                "loser_rank": 7,
-                "winner_propensity": 0.8287508424051098,
-                "weight": 1.206635274237441
-            },
-            {
-                "winner_id": "B0735SK5LP",
-                "loser_id": "B07B4WR39P",
-                "winner_rank": 3,
-                "loser_rank": 8,
-                "winner_propensity": 0.8287508424051098,
-                "weight": 1.206635274237441
-            },
-            {
-                "winner_id": "B0735SK5LP",
-                "loser_id": "B071ZJ6CK3",
-                "winner_rank": 3,
-                "loser_rank": 9,
-                "winner_propensity": 0.8287508424051098,
-                "weight": 1.206635274237441
-            },
-            {
-                "winner_id": "B0735SK5LP",
-                "loser_id": "B0714MJLPX",
-                "winner_rank": 3,
-                "loser_rank": 10,
-                "winner_propensity": 0.8287508424051098,
-                "weight": 1.206635274237441
-            },
-            {
-                "winner_id": "B072PXBV6W",
-                "loser_id": "B07HSNF921",
-                "winner_rank": 4,
-                "loser_rank": 5,
-                "winner_propensity": 0.8213088016143074,
-                "weight": 1.2175688340785702
-            },
-            {
-                "winner_id": "B072PXBV6W",
-                "loser_id": "B07HSDXLTW",
-                "winner_rank": 4,
-                "loser_rank": 6,
-                "winner_propensity": 0.8213088016143074,
-                "weight": 1.2175688340785702
-            },
-            {
-                "winner_id": "B072PXBV6W",
-                "loser_id": "B075Z9THV1",
-                "winner_rank": 4,
-                "loser_rank": 7,
-                "winner_propensity": 0.8213088016143074,
-                "weight": 1.2175688340785702
-            },
-            {
-                "winner_id": "B072PXBV6W",
-                "loser_id": "B07B4WR39P",
-                "winner_rank": 4,
-                "loser_rank": 8,
-                "winner_propensity": 0.8213088016143074,
-                "weight": 1.2175688340785702
-            },
-            {
-                "winner_id": "B072PXBV6W",
-                "loser_id": "B071ZJ6CK3",
-                "winner_rank": 4,
-                "loser_rank": 9,
-                "winner_propensity": 0.8213088016143074,
-                "weight": 1.2175688340785702
-            },
-            {
-                "winner_id": "B072PXBV6W",
-                "loser_id": "B0714MJLPX",
-                "winner_rank": 4,
-                "loser_rank": 10,
-                "winner_propensity": 0.8213088016143074,
-                "weight": 1.2175688340785702
-            },
-            {
-                "winner_id": "B07HSNF921",
-                "loser_id": "B07HSDXLTW",
-                "winner_rank": 5,
-                "loser_rank": 6,
-                "winner_propensity": 0.8207210043242447,
-                "weight": 1.218440852288614
-            },
-            {
-                "winner_id": "B07HSNF921",
-                "loser_id": "B075Z9THV1",
-                "winner_rank": 5,
-                "loser_rank": 7,
-                "winner_propensity": 0.8207210043242447,
-                "weight": 1.218440852288614
-            },
-            {
-                "winner_id": "B07HSNF921",
-                "loser_id": "B07B4WR39P",
-                "winner_rank": 5,
-                "loser_rank": 8,
-                "winner_propensity": 0.8207210043242447,
-                "weight": 1.218440852288614
-            },
-            {
-                "winner_id": "B07HSNF921",
-                "loser_id": "B071ZJ6CK3",
-                "winner_rank": 5,
-                "loser_rank": 9,
-                "winner_propensity": 0.8207210043242447,
-                "weight": 1.218440852288614
-            },
-            {
-                "winner_id": "B07HSNF921",
-                "loser_id": "B0714MJLPX",
-                "winner_rank": 5,
-                "loser_rank": 10,
-                "winner_propensity": 0.8207210043242447,
-                "weight": 1.218440852288614
-            },
-            {
-                "winner_id": "B07HSDXLTW",
-                "loser_id": "B075Z9THV1",
-                "winner_rank": 6,
-                "loser_rank": 7,
-                "winner_propensity": 0.8193041275945163,
-                "weight": 1.2205479825129262
-            },
-            {
-                "winner_id": "B07HSDXLTW",
-                "loser_id": "B07B4WR39P",
-                "winner_rank": 6,
-                "loser_rank": 8,
-                "winner_propensity": 0.8193041275945163,
-                "weight": 1.2205479825129262
-            },
-            {
-                "winner_id": "B07HSDXLTW",
-                "loser_id": "B071ZJ6CK3",
-                "winner_rank": 6,
-                "loser_rank": 9,
-                "winner_propensity": 0.8193041275945163,
-                "weight": 1.2205479825129262
-            },
-            {
-                "winner_id": "B07HSDXLTW",
-                "loser_id": "B0714MJLPX",
-                "winner_rank": 6,
-                "loser_rank": 10,
-                "winner_propensity": 0.8193041275945163,
-                "weight": 1.2205479825129262
             },
             {
                 "winner_id": "B075Z9THV1",
                 "loser_id": "B07B4WR39P",
-                "winner_rank": 7,
+                "winner_rank": 4,
+                "loser_rank": 5,
+                "winner_propensity": 0.8143368362845167,
+                "weight": 1.2279930803113215
+            },
+            {
+                "winner_id": "B075Z9THV1",
+                "loser_id": "B072PXBV6W",
+                "winner_rank": 4,
+                "loser_rank": 6,
+                "winner_propensity": 0.8143368362845167,
+                "weight": 1.2279930803113215
+            },
+            {
+                "winner_id": "B075Z9THV1",
+                "loser_id": "B0735SK5LP",
+                "winner_rank": 4,
+                "loser_rank": 7,
+                "winner_propensity": 0.8143368362845167,
+                "weight": 1.2279930803113215
+            },
+            {
+                "winner_id": "B075Z9THV1",
+                "loser_id": "B07HSDXLTW",
+                "winner_rank": 4,
                 "loser_rank": 8,
                 "winner_propensity": 0.8143368362845167,
                 "weight": 1.2279930803113215
             },
             {
                 "winner_id": "B075Z9THV1",
-                "loser_id": "B071ZJ6CK3",
-                "winner_rank": 7,
+                "loser_id": "B07HSNF921",
+                "winner_rank": 4,
                 "loser_rank": 9,
                 "winner_propensity": 0.8143368362845167,
                 "weight": 1.2279930803113215
             },
             {
                 "winner_id": "B075Z9THV1",
-                "loser_id": "B0714MJLPX",
-                "winner_rank": 7,
+                "loser_id": "B071ZJ6CK3",
+                "winner_rank": 4,
                 "loser_rank": 10,
                 "winner_propensity": 0.8143368362845167,
                 "weight": 1.2279930803113215
             },
             {
                 "winner_id": "B07B4WR39P",
-                "loser_id": "B071ZJ6CK3",
-                "winner_rank": 8,
+                "loser_id": "B072PXBV6W",
+                "winner_rank": 5,
+                "loser_rank": 6,
+                "winner_propensity": 0.8190019193035925,
+                "weight": 1.2209983596257168
+            },
+            {
+                "winner_id": "B07B4WR39P",
+                "loser_id": "B0735SK5LP",
+                "winner_rank": 5,
+                "loser_rank": 7,
+                "winner_propensity": 0.8190019193035925,
+                "weight": 1.2209983596257168
+            },
+            {
+                "winner_id": "B07B4WR39P",
+                "loser_id": "B07HSDXLTW",
+                "winner_rank": 5,
+                "loser_rank": 8,
+                "winner_propensity": 0.8190019193035925,
+                "weight": 1.2209983596257168
+            },
+            {
+                "winner_id": "B07B4WR39P",
+                "loser_id": "B07HSNF921",
+                "winner_rank": 5,
                 "loser_rank": 9,
                 "winner_propensity": 0.8190019193035925,
                 "weight": 1.2209983596257168
             },
             {
                 "winner_id": "B07B4WR39P",
-                "loser_id": "B0714MJLPX",
-                "winner_rank": 8,
+                "loser_id": "B071ZJ6CK3",
+                "winner_rank": 5,
                 "loser_rank": 10,
                 "winner_propensity": 0.8190019193035925,
                 "weight": 1.2209983596257168
             },
             {
-                "winner_id": "B071ZJ6CK3",
-                "loser_id": "B0714MJLPX",
+                "winner_id": "B072PXBV6W",
+                "loser_id": "B0735SK5LP",
+                "winner_rank": 6,
+                "loser_rank": 7,
+                "winner_propensity": 0.8213088016143074,
+                "weight": 1.2175688340785702
+            },
+            {
+                "winner_id": "B072PXBV6W",
+                "loser_id": "B07HSDXLTW",
+                "winner_rank": 6,
+                "loser_rank": 8,
+                "winner_propensity": 0.8213088016143074,
+                "weight": 1.2175688340785702
+            },
+            {
+                "winner_id": "B072PXBV6W",
+                "loser_id": "B07HSNF921",
+                "winner_rank": 6,
+                "loser_rank": 9,
+                "winner_propensity": 0.8213088016143074,
+                "weight": 1.2175688340785702
+            },
+            {
+                "winner_id": "B072PXBV6W",
+                "loser_id": "B071ZJ6CK3",
+                "winner_rank": 6,
+                "loser_rank": 10,
+                "winner_propensity": 0.8213088016143074,
+                "weight": 1.2175688340785702
+            },
+            {
+                "winner_id": "B0735SK5LP",
+                "loser_id": "B07HSDXLTW",
+                "winner_rank": 7,
+                "loser_rank": 8,
+                "winner_propensity": 0.8287508424051098,
+                "weight": 1.206635274237441
+            },
+            {
+                "winner_id": "B0735SK5LP",
+                "loser_id": "B07HSNF921",
+                "winner_rank": 7,
+                "loser_rank": 9,
+                "winner_propensity": 0.8287508424051098,
+                "weight": 1.206635274237441
+            },
+            {
+                "winner_id": "B0735SK5LP",
+                "loser_id": "B071ZJ6CK3",
+                "winner_rank": 7,
+                "loser_rank": 10,
+                "winner_propensity": 0.8287508424051098,
+                "weight": 1.206635274237441
+            },
+            {
+                "winner_id": "B07HSDXLTW",
+                "loser_id": "B07HSNF921",
+                "winner_rank": 8,
+                "loser_rank": 9,
+                "winner_propensity": 0.8193041275945163,
+                "weight": 1.2205479825129262
+            },
+            {
+                "winner_id": "B07HSDXLTW",
+                "loser_id": "B071ZJ6CK3",
+                "winner_rank": 8,
+                "loser_rank": 10,
+                "winner_propensity": 0.8193041275945163,
+                "weight": 1.2205479825129262
+            },
+            {
+                "winner_id": "B07HSNF921",
+                "loser_id": "B071ZJ6CK3",
                 "winner_rank": 9,
                 "loser_rank": 10,
-                "winner_propensity": 0.8184141559901827,
-                "weight": 1.2218752482233401
+                "winner_propensity": 0.8207210043242447,
+                "weight": 1.218440852288614
             }
         ]
     },
@@ -1099,7 +1099,7 @@
         "pairs": [
             {
                 "winner_id": "B07HKGHSJJ",
-                "loser_id": "B071F6W28T",
+                "loser_id": "B07B4SC2JF",
                 "winner_rank": 1,
                 "loser_rank": 2,
                 "winner_propensity": 0.813852534018118,
@@ -1107,7 +1107,7 @@
             },
             {
                 "winner_id": "B07HKGHSJJ",
-                "loser_id": "B0828FDYQ2",
+                "loser_id": "B071F6W28T",
                 "winner_rank": 1,
                 "loser_rank": 3,
                 "winner_propensity": 0.813852534018118,
@@ -1115,7 +1115,7 @@
             },
             {
                 "winner_id": "B07HKGHSJJ",
-                "loser_id": "B0825DC7JP",
+                "loser_id": "B07HK5WXQP",
                 "winner_rank": 1,
                 "loser_rank": 4,
                 "winner_propensity": 0.813852534018118,
@@ -1131,7 +1131,7 @@
             },
             {
                 "winner_id": "B07HKGHSJJ",
-                "loser_id": "B07B4SC2JF",
+                "loser_id": "B0825DC7JP",
                 "winner_rank": 1,
                 "loser_rank": 6,
                 "winner_propensity": 0.813852534018118,
@@ -1147,7 +1147,7 @@
             },
             {
                 "winner_id": "B07HKGHSJJ",
-                "loser_id": "B07HK5WXQP",
+                "loser_id": "B07HK67M5L",
                 "winner_rank": 1,
                 "loser_rank": 8,
                 "winner_propensity": 0.813852534018118,
@@ -1155,7 +1155,7 @@
             },
             {
                 "winner_id": "B07HKGHSJJ",
-                "loser_id": "B07HK67M5L",
+                "loser_id": "B0828FDYQ2",
                 "winner_rank": 1,
                 "loser_rank": 9,
                 "winner_propensity": 0.813852534018118,
@@ -1168,275 +1168,163 @@
                 "loser_rank": 10,
                 "winner_propensity": 0.813852534018118,
                 "weight": 1.228723826739032
+            },
+            {
+                "winner_id": "B07B4SC2JF",
+                "loser_id": "B071F6W28T",
+                "winner_rank": 2,
+                "loser_rank": 3,
+                "winner_propensity": 0.8220063142137535,
+                "weight": 1.216535667316007
+            },
+            {
+                "winner_id": "B07B4SC2JF",
+                "loser_id": "B07HK5WXQP",
+                "winner_rank": 2,
+                "loser_rank": 4,
+                "winner_propensity": 0.8220063142137535,
+                "weight": 1.216535667316007
+            },
+            {
+                "winner_id": "B07B4SC2JF",
+                "loser_id": "B082JHXMHL",
+                "winner_rank": 2,
+                "loser_rank": 5,
+                "winner_propensity": 0.8220063142137535,
+                "weight": 1.216535667316007
+            },
+            {
+                "winner_id": "B07B4SC2JF",
+                "loser_id": "B0825DC7JP",
+                "winner_rank": 2,
+                "loser_rank": 6,
+                "winner_propensity": 0.8220063142137535,
+                "weight": 1.216535667316007
+            },
+            {
+                "winner_id": "B07B4SC2JF",
+                "loser_id": "B07374QGD8",
+                "winner_rank": 2,
+                "loser_rank": 7,
+                "winner_propensity": 0.8220063142137535,
+                "weight": 1.216535667316007
+            },
+            {
+                "winner_id": "B07B4SC2JF",
+                "loser_id": "B07HK67M5L",
+                "winner_rank": 2,
+                "loser_rank": 8,
+                "winner_propensity": 0.8220063142137535,
+                "weight": 1.216535667316007
+            },
+            {
+                "winner_id": "B07B4SC2JF",
+                "loser_id": "B0828FDYQ2",
+                "winner_rank": 2,
+                "loser_rank": 9,
+                "winner_propensity": 0.8220063142137535,
+                "weight": 1.216535667316007
+            },
+            {
+                "winner_id": "B07B4SC2JF",
+                "loser_id": "B07HK5LPC1",
+                "winner_rank": 2,
+                "loser_rank": 10,
+                "winner_propensity": 0.8220063142137535,
+                "weight": 1.216535667316007
+            },
+            {
+                "winner_id": "B071F6W28T",
+                "loser_id": "B07HK5WXQP",
+                "winner_rank": 3,
+                "loser_rank": 4,
+                "winner_propensity": 0.829657238703735,
+                "weight": 1.2053170313591313
+            },
+            {
+                "winner_id": "B071F6W28T",
+                "loser_id": "B082JHXMHL",
+                "winner_rank": 3,
+                "loser_rank": 5,
+                "winner_propensity": 0.829657238703735,
+                "weight": 1.2053170313591313
+            },
+            {
+                "winner_id": "B071F6W28T",
+                "loser_id": "B0825DC7JP",
+                "winner_rank": 3,
+                "loser_rank": 6,
+                "winner_propensity": 0.829657238703735,
+                "weight": 1.2053170313591313
+            },
+            {
+                "winner_id": "B071F6W28T",
+                "loser_id": "B07374QGD8",
+                "winner_rank": 3,
+                "loser_rank": 7,
+                "winner_propensity": 0.829657238703735,
+                "weight": 1.2053170313591313
+            },
+            {
+                "winner_id": "B071F6W28T",
+                "loser_id": "B07HK67M5L",
+                "winner_rank": 3,
+                "loser_rank": 8,
+                "winner_propensity": 0.829657238703735,
+                "weight": 1.2053170313591313
             },
             {
                 "winner_id": "B071F6W28T",
                 "loser_id": "B0828FDYQ2",
-                "winner_rank": 2,
-                "loser_rank": 3,
+                "winner_rank": 3,
+                "loser_rank": 9,
                 "winner_propensity": 0.829657238703735,
                 "weight": 1.2053170313591313
             },
             {
                 "winner_id": "B071F6W28T",
+                "loser_id": "B07HK5LPC1",
+                "winner_rank": 3,
+                "loser_rank": 10,
+                "winner_propensity": 0.829657238703735,
+                "weight": 1.2053170313591313
+            },
+            {
+                "winner_id": "B07HK5WXQP",
+                "loser_id": "B082JHXMHL",
+                "winner_rank": 4,
+                "loser_rank": 5,
+                "winner_propensity": 0.8210679872994687,
+                "weight": 1.2179259397130402
+            },
+            {
+                "winner_id": "B07HK5WXQP",
                 "loser_id": "B0825DC7JP",
-                "winner_rank": 2,
-                "loser_rank": 4,
-                "winner_propensity": 0.829657238703735,
-                "weight": 1.2053170313591313
-            },
-            {
-                "winner_id": "B071F6W28T",
-                "loser_id": "B082JHXMHL",
-                "winner_rank": 2,
-                "loser_rank": 5,
-                "winner_propensity": 0.829657238703735,
-                "weight": 1.2053170313591313
-            },
-            {
-                "winner_id": "B071F6W28T",
-                "loser_id": "B07B4SC2JF",
-                "winner_rank": 2,
-                "loser_rank": 6,
-                "winner_propensity": 0.829657238703735,
-                "weight": 1.2053170313591313
-            },
-            {
-                "winner_id": "B071F6W28T",
-                "loser_id": "B07374QGD8",
-                "winner_rank": 2,
-                "loser_rank": 7,
-                "winner_propensity": 0.829657238703735,
-                "weight": 1.2053170313591313
-            },
-            {
-                "winner_id": "B071F6W28T",
-                "loser_id": "B07HK5WXQP",
-                "winner_rank": 2,
-                "loser_rank": 8,
-                "winner_propensity": 0.829657238703735,
-                "weight": 1.2053170313591313
-            },
-            {
-                "winner_id": "B071F6W28T",
-                "loser_id": "B07HK67M5L",
-                "winner_rank": 2,
-                "loser_rank": 9,
-                "winner_propensity": 0.829657238703735,
-                "weight": 1.2053170313591313
-            },
-            {
-                "winner_id": "B071F6W28T",
-                "loser_id": "B07HK5LPC1",
-                "winner_rank": 2,
-                "loser_rank": 10,
-                "winner_propensity": 0.829657238703735,
-                "weight": 1.2053170313591313
-            },
-            {
-                "winner_id": "B0828FDYQ2",
-                "loser_id": "B0825DC7JP",
-                "winner_rank": 3,
-                "loser_rank": 4,
-                "winner_propensity": 0.7964609138833904,
-                "weight": 1.2555543939051474
-            },
-            {
-                "winner_id": "B0828FDYQ2",
-                "loser_id": "B082JHXMHL",
-                "winner_rank": 3,
-                "loser_rank": 5,
-                "winner_propensity": 0.7964609138833904,
-                "weight": 1.2555543939051474
-            },
-            {
-                "winner_id": "B0828FDYQ2",
-                "loser_id": "B07B4SC2JF",
-                "winner_rank": 3,
-                "loser_rank": 6,
-                "winner_propensity": 0.7964609138833904,
-                "weight": 1.2555543939051474
-            },
-            {
-                "winner_id": "B0828FDYQ2",
-                "loser_id": "B07374QGD8",
-                "winner_rank": 3,
-                "loser_rank": 7,
-                "winner_propensity": 0.7964609138833904,
-                "weight": 1.2555543939051474
-            },
-            {
-                "winner_id": "B0828FDYQ2",
-                "loser_id": "B07HK5WXQP",
-                "winner_rank": 3,
-                "loser_rank": 8,
-                "winner_propensity": 0.7964609138833904,
-                "weight": 1.2555543939051474
-            },
-            {
-                "winner_id": "B0828FDYQ2",
-                "loser_id": "B07HK67M5L",
-                "winner_rank": 3,
-                "loser_rank": 9,
-                "winner_propensity": 0.7964609138833904,
-                "weight": 1.2555543939051474
-            },
-            {
-                "winner_id": "B0828FDYQ2",
-                "loser_id": "B07HK5LPC1",
-                "winner_rank": 3,
-                "loser_rank": 10,
-                "winner_propensity": 0.7964609138833904,
-                "weight": 1.2555543939051474
-            },
-            {
-                "winner_id": "B0825DC7JP",
-                "loser_id": "B082JHXMHL",
-                "winner_rank": 4,
-                "loser_rank": 5,
-                "winner_propensity": 0.8298324114452192,
-                "weight": 1.2050625960227563
-            },
-            {
-                "winner_id": "B0825DC7JP",
-                "loser_id": "B07B4SC2JF",
                 "winner_rank": 4,
                 "loser_rank": 6,
-                "winner_propensity": 0.8298324114452192,
-                "weight": 1.2050625960227563
+                "winner_propensity": 0.8210679872994687,
+                "weight": 1.2179259397130402
             },
             {
-                "winner_id": "B0825DC7JP",
+                "winner_id": "B07HK5WXQP",
                 "loser_id": "B07374QGD8",
                 "winner_rank": 4,
                 "loser_rank": 7,
-                "winner_propensity": 0.8298324114452192,
-                "weight": 1.2050625960227563
-            },
-            {
-                "winner_id": "B0825DC7JP",
-                "loser_id": "B07HK5WXQP",
-                "winner_rank": 4,
-                "loser_rank": 8,
-                "winner_propensity": 0.8298324114452192,
-                "weight": 1.2050625960227563
-            },
-            {
-                "winner_id": "B0825DC7JP",
-                "loser_id": "B07HK67M5L",
-                "winner_rank": 4,
-                "loser_rank": 9,
-                "winner_propensity": 0.8298324114452192,
-                "weight": 1.2050625960227563
-            },
-            {
-                "winner_id": "B0825DC7JP",
-                "loser_id": "B07HK5LPC1",
-                "winner_rank": 4,
-                "loser_rank": 10,
-                "winner_propensity": 0.8298324114452192,
-                "weight": 1.2050625960227563
-            },
-            {
-                "winner_id": "B082JHXMHL",
-                "loser_id": "B07B4SC2JF",
-                "winner_rank": 5,
-                "loser_rank": 6,
-                "winner_propensity": 0.8290345015714129,
-                "weight": 1.2062224166841387
-            },
-            {
-                "winner_id": "B082JHXMHL",
-                "loser_id": "B07374QGD8",
-                "winner_rank": 5,
-                "loser_rank": 7,
-                "winner_propensity": 0.8290345015714129,
-                "weight": 1.2062224166841387
-            },
-            {
-                "winner_id": "B082JHXMHL",
-                "loser_id": "B07HK5WXQP",
-                "winner_rank": 5,
-                "loser_rank": 8,
-                "winner_propensity": 0.8290345015714129,
-                "weight": 1.2062224166841387
-            },
-            {
-                "winner_id": "B082JHXMHL",
-                "loser_id": "B07HK67M5L",
-                "winner_rank": 5,
-                "loser_rank": 9,
-                "winner_propensity": 0.8290345015714129,
-                "weight": 1.2062224166841387
-            },
-            {
-                "winner_id": "B082JHXMHL",
-                "loser_id": "B07HK5LPC1",
-                "winner_rank": 5,
-                "loser_rank": 10,
-                "winner_propensity": 0.8290345015714129,
-                "weight": 1.2062224166841387
-            },
-            {
-                "winner_id": "B07B4SC2JF",
-                "loser_id": "B07374QGD8",
-                "winner_rank": 6,
-                "loser_rank": 7,
-                "winner_propensity": 0.8220063142137535,
-                "weight": 1.216535667316007
-            },
-            {
-                "winner_id": "B07B4SC2JF",
-                "loser_id": "B07HK5WXQP",
-                "winner_rank": 6,
-                "loser_rank": 8,
-                "winner_propensity": 0.8220063142137535,
-                "weight": 1.216535667316007
-            },
-            {
-                "winner_id": "B07B4SC2JF",
-                "loser_id": "B07HK67M5L",
-                "winner_rank": 6,
-                "loser_rank": 9,
-                "winner_propensity": 0.8220063142137535,
-                "weight": 1.216535667316007
-            },
-            {
-                "winner_id": "B07B4SC2JF",
-                "loser_id": "B07HK5LPC1",
-                "winner_rank": 6,
-                "loser_rank": 10,
-                "winner_propensity": 0.8220063142137535,
-                "weight": 1.216535667316007
-            },
-            {
-                "winner_id": "B07374QGD8",
-                "loser_id": "B07HK5WXQP",
-                "winner_rank": 7,
-                "loser_rank": 8,
-                "winner_propensity": 0.8267547676794401,
-                "weight": 1.2095485131665218
-            },
-            {
-                "winner_id": "B07374QGD8",
-                "loser_id": "B07HK67M5L",
-                "winner_rank": 7,
-                "loser_rank": 9,
-                "winner_propensity": 0.8267547676794401,
-                "weight": 1.2095485131665218
-            },
-            {
-                "winner_id": "B07374QGD8",
-                "loser_id": "B07HK5LPC1",
-                "winner_rank": 7,
-                "loser_rank": 10,
-                "winner_propensity": 0.8267547676794401,
-                "weight": 1.2095485131665218
+                "winner_propensity": 0.8210679872994687,
+                "weight": 1.2179259397130402
             },
             {
                 "winner_id": "B07HK5WXQP",
                 "loser_id": "B07HK67M5L",
-                "winner_rank": 8,
+                "winner_rank": 4,
+                "loser_rank": 8,
+                "winner_propensity": 0.8210679872994687,
+                "weight": 1.2179259397130402
+            },
+            {
+                "winner_id": "B07HK5WXQP",
+                "loser_id": "B0828FDYQ2",
+                "winner_rank": 4,
                 "loser_rank": 9,
                 "winner_propensity": 0.8210679872994687,
                 "weight": 1.2179259397130402
@@ -1444,18 +1332,130 @@
             {
                 "winner_id": "B07HK5WXQP",
                 "loser_id": "B07HK5LPC1",
-                "winner_rank": 8,
+                "winner_rank": 4,
                 "loser_rank": 10,
                 "winner_propensity": 0.8210679872994687,
                 "weight": 1.2179259397130402
+            },
+            {
+                "winner_id": "B082JHXMHL",
+                "loser_id": "B0825DC7JP",
+                "winner_rank": 5,
+                "loser_rank": 6,
+                "winner_propensity": 0.8290345015714129,
+                "weight": 1.2062224166841387
+            },
+            {
+                "winner_id": "B082JHXMHL",
+                "loser_id": "B07374QGD8",
+                "winner_rank": 5,
+                "loser_rank": 7,
+                "winner_propensity": 0.8290345015714129,
+                "weight": 1.2062224166841387
+            },
+            {
+                "winner_id": "B082JHXMHL",
+                "loser_id": "B07HK67M5L",
+                "winner_rank": 5,
+                "loser_rank": 8,
+                "winner_propensity": 0.8290345015714129,
+                "weight": 1.2062224166841387
+            },
+            {
+                "winner_id": "B082JHXMHL",
+                "loser_id": "B0828FDYQ2",
+                "winner_rank": 5,
+                "loser_rank": 9,
+                "winner_propensity": 0.8290345015714129,
+                "weight": 1.2062224166841387
+            },
+            {
+                "winner_id": "B082JHXMHL",
+                "loser_id": "B07HK5LPC1",
+                "winner_rank": 5,
+                "loser_rank": 10,
+                "winner_propensity": 0.8290345015714129,
+                "weight": 1.2062224166841387
+            },
+            {
+                "winner_id": "B0825DC7JP",
+                "loser_id": "B07374QGD8",
+                "winner_rank": 6,
+                "loser_rank": 7,
+                "winner_propensity": 0.8298324114452192,
+                "weight": 1.2050625960227563
+            },
+            {
+                "winner_id": "B0825DC7JP",
+                "loser_id": "B07HK67M5L",
+                "winner_rank": 6,
+                "loser_rank": 8,
+                "winner_propensity": 0.8298324114452192,
+                "weight": 1.2050625960227563
+            },
+            {
+                "winner_id": "B0825DC7JP",
+                "loser_id": "B0828FDYQ2",
+                "winner_rank": 6,
+                "loser_rank": 9,
+                "winner_propensity": 0.8298324114452192,
+                "weight": 1.2050625960227563
+            },
+            {
+                "winner_id": "B0825DC7JP",
+                "loser_id": "B07HK5LPC1",
+                "winner_rank": 6,
+                "loser_rank": 10,
+                "winner_propensity": 0.8298324114452192,
+                "weight": 1.2050625960227563
+            },
+            {
+                "winner_id": "B07374QGD8",
+                "loser_id": "B07HK67M5L",
+                "winner_rank": 7,
+                "loser_rank": 8,
+                "winner_propensity": 0.8267547676794401,
+                "weight": 1.2095485131665218
+            },
+            {
+                "winner_id": "B07374QGD8",
+                "loser_id": "B0828FDYQ2",
+                "winner_rank": 7,
+                "loser_rank": 9,
+                "winner_propensity": 0.8267547676794401,
+                "weight": 1.2095485131665218
+            },
+            {
+                "winner_id": "B07374QGD8",
+                "loser_id": "B07HK5LPC1",
+                "winner_rank": 7,
+                "loser_rank": 10,
+                "winner_propensity": 0.8267547676794401,
+                "weight": 1.2095485131665218
+            },
+            {
+                "winner_id": "B07HK67M5L",
+                "loser_id": "B0828FDYQ2",
+                "winner_rank": 8,
+                "loser_rank": 9,
+                "winner_propensity": 0.7911117806246477,
+                "weight": 1.2640438740659605
             },
             {
                 "winner_id": "B07HK67M5L",
                 "loser_id": "B07HK5LPC1",
-                "winner_rank": 9,
+                "winner_rank": 8,
                 "loser_rank": 10,
                 "winner_propensity": 0.7911117806246477,
                 "weight": 1.2640438740659605
+            },
+            {
+                "winner_id": "B0828FDYQ2",
+                "loser_id": "B07HK5LPC1",
+                "winner_rank": 9,
+                "loser_rank": 10,
+                "winner_propensity": 0.7964609138833904,
+                "weight": 1.2555543939051474
             }
         ]
     },
@@ -1463,292 +1463,356 @@
         "query": "Vintage brass drawer handles",
         "pairs": [
             {
-                "winner_id": "B07GF4MRC5",
-                "loser_id": "B07GDQM2TW",
+                "winner_id": "B01N4Q9DLB",
+                "loser_id": "B01MTB9VC3",
                 "winner_rank": 1,
                 "loser_rank": 2,
-                "winner_propensity": 0.6732232979062566,
-                "weight": 1.4853912559325089
+                "winner_propensity": 0.6549342793039644,
+                "weight": 1.5268707587924033
             },
             {
-                "winner_id": "B07GF4MRC5",
-                "loser_id": "B01N4Q9DLB",
+                "winner_id": "B01N4Q9DLB",
+                "loser_id": "B01MS9NRWK",
                 "winner_rank": 1,
                 "loser_rank": 3,
-                "winner_propensity": 0.6732232979062566,
-                "weight": 1.4853912559325089
+                "winner_propensity": 0.6549342793039644,
+                "weight": 1.5268707587924033
             },
             {
-                "winner_id": "B07GF4MRC5",
-                "loser_id": "B01MTB9VC3",
+                "winner_id": "B01N4Q9DLB",
+                "loser_id": "B07GDQM2TW",
                 "winner_rank": 1,
                 "loser_rank": 4,
-                "winner_propensity": 0.6732232979062566,
-                "weight": 1.4853912559325089
+                "winner_propensity": 0.6549342793039644,
+                "weight": 1.5268707587924033
             },
             {
-                "winner_id": "B07GF4MRC5",
-                "loser_id": "B01N365JFG",
+                "winner_id": "B01N4Q9DLB",
+                "loser_id": "B07GF4MRC5",
                 "winner_rank": 1,
                 "loser_rank": 5,
-                "winner_propensity": 0.6732232979062566,
-                "weight": 1.4853912559325089
+                "winner_propensity": 0.6549342793039644,
+                "weight": 1.5268707587924033
             },
             {
-                "winner_id": "B07GF4MRC5",
+                "winner_id": "B01N4Q9DLB",
                 "loser_id": "B07RWR52WN",
                 "winner_rank": 1,
                 "loser_rank": 6,
-                "winner_propensity": 0.6732232979062566,
-                "weight": 1.4853912559325089
+                "winner_propensity": 0.6549342793039644,
+                "weight": 1.5268707587924033
             },
             {
-                "winner_id": "B07GF4MRC5",
-                "loser_id": "B01MS9NRWK",
+                "winner_id": "B01N4Q9DLB",
+                "loser_id": "B01N365JFG",
                 "winner_rank": 1,
                 "loser_rank": 7,
-                "winner_propensity": 0.6732232979062566,
-                "weight": 1.4853912559325089
+                "winner_propensity": 0.6549342793039644,
+                "weight": 1.5268707587924033
             },
             {
-                "winner_id": "B07GF4MRC5",
-                "loser_id": "B07L8DQQ4Q",
+                "winner_id": "B01N4Q9DLB",
+                "loser_id": "B07VM9TN7N",
                 "winner_rank": 1,
-                "loser_rank": 9,
-                "winner_propensity": 0.6732232979062566,
-                "weight": 1.4853912559325089
+                "loser_rank": 8,
+                "winner_propensity": 0.6549342793039644,
+                "weight": 1.5268707587924033
             },
             {
-                "winner_id": "B07GF4MRC5",
+                "winner_id": "B01N4Q9DLB",
                 "loser_id": "B06XZN5PJ3",
                 "winner_rank": 1,
-                "loser_rank": 10,
-                "winner_propensity": 0.6732232979062566,
-                "weight": 1.4853912559325089
+                "loser_rank": 9,
+                "winner_propensity": 0.6549342793039644,
+                "weight": 1.5268707587924033
             },
             {
-                "winner_id": "B07GDQM2TW",
-                "loser_id": "B01N4Q9DLB",
+                "winner_id": "B01N4Q9DLB",
+                "loser_id": "B07L8DQQ4Q",
+                "winner_rank": 1,
+                "loser_rank": 10,
+                "winner_propensity": 0.6549342793039644,
+                "weight": 1.5268707587924033
+            },
+            {
+                "winner_id": "B01MTB9VC3",
+                "loser_id": "B01MS9NRWK",
                 "winner_rank": 2,
                 "loser_rank": 3,
-                "winner_propensity": 0.6750685490641927,
-                "weight": 1.4813310461378189
+                "winner_propensity": 0.6590806566587109,
+                "weight": 1.517264980995833
             },
             {
-                "winner_id": "B07GDQM2TW",
-                "loser_id": "B01MTB9VC3",
+                "winner_id": "B01MTB9VC3",
+                "loser_id": "B07GDQM2TW",
                 "winner_rank": 2,
                 "loser_rank": 4,
-                "winner_propensity": 0.6750685490641927,
-                "weight": 1.4813310461378189
+                "winner_propensity": 0.6590806566587109,
+                "weight": 1.517264980995833
             },
             {
-                "winner_id": "B07GDQM2TW",
-                "loser_id": "B01N365JFG",
+                "winner_id": "B01MTB9VC3",
+                "loser_id": "B07GF4MRC5",
                 "winner_rank": 2,
                 "loser_rank": 5,
-                "winner_propensity": 0.6750685490641927,
-                "weight": 1.4813310461378189
+                "winner_propensity": 0.6590806566587109,
+                "weight": 1.517264980995833
             },
             {
-                "winner_id": "B07GDQM2TW",
+                "winner_id": "B01MTB9VC3",
                 "loser_id": "B07RWR52WN",
                 "winner_rank": 2,
                 "loser_rank": 6,
-                "winner_propensity": 0.6750685490641927,
-                "weight": 1.4813310461378189
-            },
-            {
-                "winner_id": "B07GDQM2TW",
-                "loser_id": "B01MS9NRWK",
-                "winner_rank": 2,
-                "loser_rank": 7,
-                "winner_propensity": 0.6750685490641927,
-                "weight": 1.4813310461378189
-            },
-            {
-                "winner_id": "B07GDQM2TW",
-                "loser_id": "B07L8DQQ4Q",
-                "winner_rank": 2,
-                "loser_rank": 9,
-                "winner_propensity": 0.6750685490641927,
-                "weight": 1.4813310461378189
-            },
-            {
-                "winner_id": "B07GDQM2TW",
-                "loser_id": "B06XZN5PJ3",
-                "winner_rank": 2,
-                "loser_rank": 10,
-                "winner_propensity": 0.6750685490641927,
-                "weight": 1.4813310461378189
-            },
-            {
-                "winner_id": "B01N4Q9DLB",
-                "loser_id": "B01MTB9VC3",
-                "winner_rank": 3,
-                "loser_rank": 4,
-                "winner_propensity": 0.6549342793039644,
-                "weight": 1.5268707587924033
-            },
-            {
-                "winner_id": "B01N4Q9DLB",
-                "loser_id": "B01N365JFG",
-                "winner_rank": 3,
-                "loser_rank": 5,
-                "winner_propensity": 0.6549342793039644,
-                "weight": 1.5268707587924033
-            },
-            {
-                "winner_id": "B01N4Q9DLB",
-                "loser_id": "B07RWR52WN",
-                "winner_rank": 3,
-                "loser_rank": 6,
-                "winner_propensity": 0.6549342793039644,
-                "weight": 1.5268707587924033
-            },
-            {
-                "winner_id": "B01N4Q9DLB",
-                "loser_id": "B01MS9NRWK",
-                "winner_rank": 3,
-                "loser_rank": 7,
-                "winner_propensity": 0.6549342793039644,
-                "weight": 1.5268707587924033
-            },
-            {
-                "winner_id": "B01N4Q9DLB",
-                "loser_id": "B07L8DQQ4Q",
-                "winner_rank": 3,
-                "loser_rank": 9,
-                "winner_propensity": 0.6549342793039644,
-                "weight": 1.5268707587924033
-            },
-            {
-                "winner_id": "B01N4Q9DLB",
-                "loser_id": "B06XZN5PJ3",
-                "winner_rank": 3,
-                "loser_rank": 10,
-                "winner_propensity": 0.6549342793039644,
-                "weight": 1.5268707587924033
+                "winner_propensity": 0.6590806566587109,
+                "weight": 1.517264980995833
             },
             {
                 "winner_id": "B01MTB9VC3",
                 "loser_id": "B01N365JFG",
-                "winner_rank": 4,
-                "loser_rank": 5,
-                "winner_propensity": 0.6590806566587109,
-                "weight": 1.517264980995833
-            },
-            {
-                "winner_id": "B01MTB9VC3",
-                "loser_id": "B07RWR52WN",
-                "winner_rank": 4,
-                "loser_rank": 6,
-                "winner_propensity": 0.6590806566587109,
-                "weight": 1.517264980995833
-            },
-            {
-                "winner_id": "B01MTB9VC3",
-                "loser_id": "B01MS9NRWK",
-                "winner_rank": 4,
+                "winner_rank": 2,
                 "loser_rank": 7,
                 "winner_propensity": 0.6590806566587109,
                 "weight": 1.517264980995833
             },
             {
                 "winner_id": "B01MTB9VC3",
-                "loser_id": "B07L8DQQ4Q",
-                "winner_rank": 4,
-                "loser_rank": 9,
+                "loser_id": "B07VM9TN7N",
+                "winner_rank": 2,
+                "loser_rank": 8,
                 "winner_propensity": 0.6590806566587109,
                 "weight": 1.517264980995833
             },
             {
                 "winner_id": "B01MTB9VC3",
                 "loser_id": "B06XZN5PJ3",
-                "winner_rank": 4,
-                "loser_rank": 10,
+                "winner_rank": 2,
+                "loser_rank": 9,
                 "winner_propensity": 0.6590806566587109,
                 "weight": 1.517264980995833
             },
             {
-                "winner_id": "B01N365JFG",
-                "loser_id": "B07RWR52WN",
-                "winner_rank": 5,
-                "loser_rank": 6,
-                "winner_propensity": 0.6565596258223505,
-                "weight": 1.5230909131025008
-            },
-            {
-                "winner_id": "B01N365JFG",
-                "loser_id": "B01MS9NRWK",
-                "winner_rank": 5,
-                "loser_rank": 7,
-                "winner_propensity": 0.6565596258223505,
-                "weight": 1.5230909131025008
-            },
-            {
-                "winner_id": "B01N365JFG",
+                "winner_id": "B01MTB9VC3",
                 "loser_id": "B07L8DQQ4Q",
-                "winner_rank": 5,
-                "loser_rank": 9,
-                "winner_propensity": 0.6565596258223505,
-                "weight": 1.5230909131025008
-            },
-            {
-                "winner_id": "B01N365JFG",
-                "loser_id": "B06XZN5PJ3",
-                "winner_rank": 5,
+                "winner_rank": 2,
                 "loser_rank": 10,
-                "winner_propensity": 0.6565596258223505,
-                "weight": 1.5230909131025008
-            },
-            {
-                "winner_id": "B07RWR52WN",
-                "loser_id": "B01MS9NRWK",
-                "winner_rank": 6,
-                "loser_rank": 7,
-                "winner_propensity": 0.7172618962667041,
-                "weight": 1.3941908878819955
-            },
-            {
-                "winner_id": "B07RWR52WN",
-                "loser_id": "B07L8DQQ4Q",
-                "winner_rank": 6,
-                "loser_rank": 9,
-                "winner_propensity": 0.7172618962667041,
-                "weight": 1.3941908878819955
-            },
-            {
-                "winner_id": "B07RWR52WN",
-                "loser_id": "B06XZN5PJ3",
-                "winner_rank": 6,
-                "loser_rank": 10,
-                "winner_propensity": 0.7172618962667041,
-                "weight": 1.3941908878819955
+                "winner_propensity": 0.6590806566587109,
+                "weight": 1.517264980995833
             },
             {
                 "winner_id": "B01MS9NRWK",
-                "loser_id": "B07L8DQQ4Q",
-                "winner_rank": 7,
-                "loser_rank": 9,
+                "loser_id": "B07GDQM2TW",
+                "winner_rank": 3,
+                "loser_rank": 4,
+                "winner_propensity": 0.6719019664234913,
+                "weight": 1.4883123580110384
+            },
+            {
+                "winner_id": "B01MS9NRWK",
+                "loser_id": "B07GF4MRC5",
+                "winner_rank": 3,
+                "loser_rank": 5,
+                "winner_propensity": 0.6719019664234913,
+                "weight": 1.4883123580110384
+            },
+            {
+                "winner_id": "B01MS9NRWK",
+                "loser_id": "B07RWR52WN",
+                "winner_rank": 3,
+                "loser_rank": 6,
+                "winner_propensity": 0.6719019664234913,
+                "weight": 1.4883123580110384
+            },
+            {
+                "winner_id": "B01MS9NRWK",
+                "loser_id": "B01N365JFG",
+                "winner_rank": 3,
+                "loser_rank": 7,
+                "winner_propensity": 0.6719019664234913,
+                "weight": 1.4883123580110384
+            },
+            {
+                "winner_id": "B01MS9NRWK",
+                "loser_id": "B07VM9TN7N",
+                "winner_rank": 3,
+                "loser_rank": 8,
                 "winner_propensity": 0.6719019664234913,
                 "weight": 1.4883123580110384
             },
             {
                 "winner_id": "B01MS9NRWK",
                 "loser_id": "B06XZN5PJ3",
-                "winner_rank": 7,
+                "winner_rank": 3,
+                "loser_rank": 9,
+                "winner_propensity": 0.6719019664234913,
+                "weight": 1.4883123580110384
+            },
+            {
+                "winner_id": "B01MS9NRWK",
+                "loser_id": "B07L8DQQ4Q",
+                "winner_rank": 3,
                 "loser_rank": 10,
                 "winner_propensity": 0.6719019664234913,
                 "weight": 1.4883123580110384
             },
             {
-                "winner_id": "B07L8DQQ4Q",
+                "winner_id": "B07GDQM2TW",
+                "loser_id": "B07GF4MRC5",
+                "winner_rank": 4,
+                "loser_rank": 5,
+                "winner_propensity": 0.6750685490641927,
+                "weight": 1.4813310461378189
+            },
+            {
+                "winner_id": "B07GDQM2TW",
+                "loser_id": "B07RWR52WN",
+                "winner_rank": 4,
+                "loser_rank": 6,
+                "winner_propensity": 0.6750685490641927,
+                "weight": 1.4813310461378189
+            },
+            {
+                "winner_id": "B07GDQM2TW",
+                "loser_id": "B01N365JFG",
+                "winner_rank": 4,
+                "loser_rank": 7,
+                "winner_propensity": 0.6750685490641927,
+                "weight": 1.4813310461378189
+            },
+            {
+                "winner_id": "B07GDQM2TW",
+                "loser_id": "B07VM9TN7N",
+                "winner_rank": 4,
+                "loser_rank": 8,
+                "winner_propensity": 0.6750685490641927,
+                "weight": 1.4813310461378189
+            },
+            {
+                "winner_id": "B07GDQM2TW",
                 "loser_id": "B06XZN5PJ3",
-                "winner_rank": 9,
+                "winner_rank": 4,
+                "loser_rank": 9,
+                "winner_propensity": 0.6750685490641927,
+                "weight": 1.4813310461378189
+            },
+            {
+                "winner_id": "B07GDQM2TW",
+                "loser_id": "B07L8DQQ4Q",
+                "winner_rank": 4,
                 "loser_rank": 10,
-                "winner_propensity": 0.6900600385035925,
-                "weight": 1.4491492684730995
+                "winner_propensity": 0.6750685490641927,
+                "weight": 1.4813310461378189
+            },
+            {
+                "winner_id": "B07GF4MRC5",
+                "loser_id": "B07RWR52WN",
+                "winner_rank": 5,
+                "loser_rank": 6,
+                "winner_propensity": 0.6732232979062566,
+                "weight": 1.4853912559325089
+            },
+            {
+                "winner_id": "B07GF4MRC5",
+                "loser_id": "B01N365JFG",
+                "winner_rank": 5,
+                "loser_rank": 7,
+                "winner_propensity": 0.6732232979062566,
+                "weight": 1.4853912559325089
+            },
+            {
+                "winner_id": "B07GF4MRC5",
+                "loser_id": "B07VM9TN7N",
+                "winner_rank": 5,
+                "loser_rank": 8,
+                "winner_propensity": 0.6732232979062566,
+                "weight": 1.4853912559325089
+            },
+            {
+                "winner_id": "B07GF4MRC5",
+                "loser_id": "B06XZN5PJ3",
+                "winner_rank": 5,
+                "loser_rank": 9,
+                "winner_propensity": 0.6732232979062566,
+                "weight": 1.4853912559325089
+            },
+            {
+                "winner_id": "B07GF4MRC5",
+                "loser_id": "B07L8DQQ4Q",
+                "winner_rank": 5,
+                "loser_rank": 10,
+                "winner_propensity": 0.6732232979062566,
+                "weight": 1.4853912559325089
+            },
+            {
+                "winner_id": "B07RWR52WN",
+                "loser_id": "B01N365JFG",
+                "winner_rank": 6,
+                "loser_rank": 7,
+                "winner_propensity": 0.7172618962667041,
+                "weight": 1.3941908878819955
+            },
+            {
+                "winner_id": "B07RWR52WN",
+                "loser_id": "B07VM9TN7N",
+                "winner_rank": 6,
+                "loser_rank": 8,
+                "winner_propensity": 0.7172618962667041,
+                "weight": 1.3941908878819955
+            },
+            {
+                "winner_id": "B07RWR52WN",
+                "loser_id": "B06XZN5PJ3",
+                "winner_rank": 6,
+                "loser_rank": 9,
+                "winner_propensity": 0.7172618962667041,
+                "weight": 1.3941908878819955
+            },
+            {
+                "winner_id": "B07RWR52WN",
+                "loser_id": "B07L8DQQ4Q",
+                "winner_rank": 6,
+                "loser_rank": 10,
+                "winner_propensity": 0.7172618962667041,
+                "weight": 1.3941908878819955
+            },
+            {
+                "winner_id": "B01N365JFG",
+                "loser_id": "B07VM9TN7N",
+                "winner_rank": 7,
+                "loser_rank": 8,
+                "winner_propensity": 0.6565596258223505,
+                "weight": 1.5230909131025008
+            },
+            {
+                "winner_id": "B01N365JFG",
+                "loser_id": "B06XZN5PJ3",
+                "winner_rank": 7,
+                "loser_rank": 9,
+                "winner_propensity": 0.6565596258223505,
+                "weight": 1.5230909131025008
+            },
+            {
+                "winner_id": "B01N365JFG",
+                "loser_id": "B07L8DQQ4Q",
+                "winner_rank": 7,
+                "loser_rank": 10,
+                "winner_propensity": 0.6565596258223505,
+                "weight": 1.5230909131025008
+            },
+            {
+                "winner_id": "B07VM9TN7N",
+                "loser_id": "B06XZN5PJ3",
+                "winner_rank": 8,
+                "loser_rank": 9,
+                "winner_propensity": 0.6578212552799226,
+                "weight": 1.5201697907655327
+            },
+            {
+                "winner_id": "B07VM9TN7N",
+                "loser_id": "B07L8DQQ4Q",
+                "winner_rank": 8,
+                "loser_rank": 10,
+                "winner_propensity": 0.6578212552799226,
+                "weight": 1.5201697907655327
             }
         ]
     },
@@ -1765,7 +1829,7 @@
             },
             {
                 "winner_id": "B07RSDRKP7",
-                "loser_id": "B07RSDR32B",
+                "loser_id": "B07TMNVPBN",
                 "winner_rank": 1,
                 "loser_rank": 3,
                 "winner_propensity": 0.7413659049725221,
@@ -1773,7 +1837,7 @@
             },
             {
                 "winner_id": "B07RSDRKP7",
-                "loser_id": "B07TMNVPBN",
+                "loser_id": "B07RSDR32B",
                 "winner_rank": 1,
                 "loser_rank": 4,
                 "winner_propensity": 0.7413659049725221,
@@ -1797,7 +1861,7 @@
             },
             {
                 "winner_id": "B07RSDRKP7",
-                "loser_id": "B07R7BHNF4",
+                "loser_id": "B07R8GCZ15",
                 "winner_rank": 1,
                 "loser_rank": 7,
                 "winner_propensity": 0.7413659049725221,
@@ -1805,7 +1869,7 @@
             },
             {
                 "winner_id": "B07RSDRKP7",
-                "loser_id": "B07R8GCZ15",
+                "loser_id": "B07R7BHNF4",
                 "winner_rank": 1,
                 "loser_rank": 8,
                 "winner_propensity": 0.7413659049725221,
@@ -1829,7 +1893,7 @@
             },
             {
                 "winner_id": "B07VHVMZ7X",
-                "loser_id": "B07RSDR32B",
+                "loser_id": "B07TMNVPBN",
                 "winner_rank": 2,
                 "loser_rank": 3,
                 "winner_propensity": 0.7425146928562981,
@@ -1837,7 +1901,7 @@
             },
             {
                 "winner_id": "B07VHVMZ7X",
-                "loser_id": "B07TMNVPBN",
+                "loser_id": "B07RSDR32B",
                 "winner_rank": 2,
                 "loser_rank": 4,
                 "winner_propensity": 0.7425146928562981,
@@ -1861,7 +1925,7 @@
             },
             {
                 "winner_id": "B07VHVMZ7X",
-                "loser_id": "B07R7BHNF4",
+                "loser_id": "B07R8GCZ15",
                 "winner_rank": 2,
                 "loser_rank": 7,
                 "winner_propensity": 0.7425146928562981,
@@ -1869,7 +1933,7 @@
             },
             {
                 "winner_id": "B07VHVMZ7X",
-                "loser_id": "B07R8GCZ15",
+                "loser_id": "B07R7BHNF4",
                 "winner_rank": 2,
                 "loser_rank": 8,
                 "winner_propensity": 0.7425146928562981,
@@ -1892,17 +1956,65 @@
                 "weight": 1.346774696340634
             },
             {
-                "winner_id": "B07RSDR32B",
-                "loser_id": "B07TMNVPBN",
+                "winner_id": "B07TMNVPBN",
+                "loser_id": "B07RSDR32B",
                 "winner_rank": 3,
                 "loser_rank": 4,
-                "winner_propensity": 0.7409822348908256,
-                "weight": 1.3495600203523603
+                "winner_propensity": 0.742055577958616,
+                "weight": 1.3476079551224254
+            },
+            {
+                "winner_id": "B07TMNVPBN",
+                "loser_id": "B07YFB3Y16",
+                "winner_rank": 3,
+                "loser_rank": 5,
+                "winner_propensity": 0.742055577958616,
+                "weight": 1.3476079551224254
+            },
+            {
+                "winner_id": "B07TMNVPBN",
+                "loser_id": "B07TNRTJLQ",
+                "winner_rank": 3,
+                "loser_rank": 6,
+                "winner_propensity": 0.742055577958616,
+                "weight": 1.3476079551224254
+            },
+            {
+                "winner_id": "B07TMNVPBN",
+                "loser_id": "B07R8GCZ15",
+                "winner_rank": 3,
+                "loser_rank": 7,
+                "winner_propensity": 0.742055577958616,
+                "weight": 1.3476079551224254
+            },
+            {
+                "winner_id": "B07TMNVPBN",
+                "loser_id": "B07R7BHNF4",
+                "winner_rank": 3,
+                "loser_rank": 8,
+                "winner_propensity": 0.742055577958616,
+                "weight": 1.3476079551224254
+            },
+            {
+                "winner_id": "B07TMNVPBN",
+                "loser_id": "B07YFGKSWC",
+                "winner_rank": 3,
+                "loser_rank": 9,
+                "winner_propensity": 0.742055577958616,
+                "weight": 1.3476079551224254
+            },
+            {
+                "winner_id": "B07TMNVPBN",
+                "loser_id": "B07RBLM8J1",
+                "winner_rank": 3,
+                "loser_rank": 10,
+                "winner_propensity": 0.742055577958616,
+                "weight": 1.3476079551224254
             },
             {
                 "winner_id": "B07RSDR32B",
                 "loser_id": "B07YFB3Y16",
-                "winner_rank": 3,
+                "winner_rank": 4,
                 "loser_rank": 5,
                 "winner_propensity": 0.7409822348908256,
                 "weight": 1.3495600203523603
@@ -1910,23 +2022,23 @@
             {
                 "winner_id": "B07RSDR32B",
                 "loser_id": "B07TNRTJLQ",
-                "winner_rank": 3,
+                "winner_rank": 4,
                 "loser_rank": 6,
                 "winner_propensity": 0.7409822348908256,
                 "weight": 1.3495600203523603
             },
             {
                 "winner_id": "B07RSDR32B",
-                "loser_id": "B07R7BHNF4",
-                "winner_rank": 3,
+                "loser_id": "B07R8GCZ15",
+                "winner_rank": 4,
                 "loser_rank": 7,
                 "winner_propensity": 0.7409822348908256,
                 "weight": 1.3495600203523603
             },
             {
                 "winner_id": "B07RSDR32B",
-                "loser_id": "B07R8GCZ15",
-                "winner_rank": 3,
+                "loser_id": "B07R7BHNF4",
+                "winner_rank": 4,
                 "loser_rank": 8,
                 "winner_propensity": 0.7409822348908256,
                 "weight": 1.3495600203523603
@@ -1934,7 +2046,7 @@
             {
                 "winner_id": "B07RSDR32B",
                 "loser_id": "B07YFGKSWC",
-                "winner_rank": 3,
+                "winner_rank": 4,
                 "loser_rank": 9,
                 "winner_propensity": 0.7409822348908256,
                 "weight": 1.3495600203523603
@@ -1942,58 +2054,10 @@
             {
                 "winner_id": "B07RSDR32B",
                 "loser_id": "B07RBLM8J1",
-                "winner_rank": 3,
+                "winner_rank": 4,
                 "loser_rank": 10,
                 "winner_propensity": 0.7409822348908256,
                 "weight": 1.3495600203523603
-            },
-            {
-                "winner_id": "B07TMNVPBN",
-                "loser_id": "B07YFB3Y16",
-                "winner_rank": 4,
-                "loser_rank": 5,
-                "winner_propensity": 0.742055577958616,
-                "weight": 1.3476079551224254
-            },
-            {
-                "winner_id": "B07TMNVPBN",
-                "loser_id": "B07TNRTJLQ",
-                "winner_rank": 4,
-                "loser_rank": 6,
-                "winner_propensity": 0.742055577958616,
-                "weight": 1.3476079551224254
-            },
-            {
-                "winner_id": "B07TMNVPBN",
-                "loser_id": "B07R7BHNF4",
-                "winner_rank": 4,
-                "loser_rank": 7,
-                "winner_propensity": 0.742055577958616,
-                "weight": 1.3476079551224254
-            },
-            {
-                "winner_id": "B07TMNVPBN",
-                "loser_id": "B07R8GCZ15",
-                "winner_rank": 4,
-                "loser_rank": 8,
-                "winner_propensity": 0.742055577958616,
-                "weight": 1.3476079551224254
-            },
-            {
-                "winner_id": "B07TMNVPBN",
-                "loser_id": "B07YFGKSWC",
-                "winner_rank": 4,
-                "loser_rank": 9,
-                "winner_propensity": 0.742055577958616,
-                "weight": 1.3476079551224254
-            },
-            {
-                "winner_id": "B07TMNVPBN",
-                "loser_id": "B07RBLM8J1",
-                "winner_rank": 4,
-                "loser_rank": 10,
-                "winner_propensity": 0.742055577958616,
-                "weight": 1.3476079551224254
             },
             {
                 "winner_id": "B07YFB3Y16",
@@ -2005,7 +2069,7 @@
             },
             {
                 "winner_id": "B07YFB3Y16",
-                "loser_id": "B07R7BHNF4",
+                "loser_id": "B07R8GCZ15",
                 "winner_rank": 5,
                 "loser_rank": 7,
                 "winner_propensity": 0.7237860317902717,
@@ -2013,7 +2077,7 @@
             },
             {
                 "winner_id": "B07YFB3Y16",
-                "loser_id": "B07R8GCZ15",
+                "loser_id": "B07R7BHNF4",
                 "winner_rank": 5,
                 "loser_rank": 8,
                 "winner_propensity": 0.7237860317902717,
@@ -2037,7 +2101,7 @@
             },
             {
                 "winner_id": "B07TNRTJLQ",
-                "loser_id": "B07R7BHNF4",
+                "loser_id": "B07R8GCZ15",
                 "winner_rank": 6,
                 "loser_rank": 7,
                 "winner_propensity": 0.742055577958616,
@@ -2045,7 +2109,7 @@
             },
             {
                 "winner_id": "B07TNRTJLQ",
-                "loser_id": "B07R8GCZ15",
+                "loser_id": "B07R7BHNF4",
                 "winner_rank": 6,
                 "loser_rank": 8,
                 "winner_propensity": 0.742055577958616,
@@ -2068,31 +2132,31 @@
                 "weight": 1.3476079551224254
             },
             {
-                "winner_id": "B07R7BHNF4",
-                "loser_id": "B07R8GCZ15",
+                "winner_id": "B07R8GCZ15",
+                "loser_id": "B07R7BHNF4",
                 "winner_rank": 7,
                 "loser_rank": 8,
-                "winner_propensity": 0.7519500944486215,
-                "weight": 1.3298754895871976
-            },
-            {
-                "winner_id": "B07R7BHNF4",
-                "loser_id": "B07YFGKSWC",
-                "winner_rank": 7,
-                "loser_rank": 9,
-                "winner_propensity": 0.7519500944486215,
-                "weight": 1.3298754895871976
-            },
-            {
-                "winner_id": "B07R7BHNF4",
-                "loser_id": "B07RBLM8J1",
-                "winner_rank": 7,
-                "loser_rank": 10,
                 "winner_propensity": 0.7519500944486215,
                 "weight": 1.3298754895871976
             },
             {
                 "winner_id": "B07R8GCZ15",
+                "loser_id": "B07YFGKSWC",
+                "winner_rank": 7,
+                "loser_rank": 9,
+                "winner_propensity": 0.7519500944486215,
+                "weight": 1.3298754895871976
+            },
+            {
+                "winner_id": "B07R8GCZ15",
+                "loser_id": "B07RBLM8J1",
+                "winner_rank": 7,
+                "loser_rank": 10,
+                "winner_propensity": 0.7519500944486215,
+                "weight": 1.3298754895871976
+            },
+            {
+                "winner_id": "B07R7BHNF4",
                 "loser_id": "B07YFGKSWC",
                 "winner_rank": 8,
                 "loser_rank": 9,
@@ -2100,7 +2164,7 @@
                 "weight": 1.3298754895871976
             },
             {
-                "winner_id": "B07R8GCZ15",
+                "winner_id": "B07R7BHNF4",
                 "loser_id": "B07RBLM8J1",
                 "winner_rank": 8,
                 "loser_rank": 10,
@@ -2146,7 +2210,7 @@
             },
             {
                 "winner_id": "B07CB54MM3",
-                "loser_id": "B07P5LMN2C",
+                "loser_id": "B07HZ1LZS1",
                 "winner_rank": 1,
                 "loser_rank": 5,
                 "winner_propensity": 0.8254330756448148,
@@ -2154,7 +2218,7 @@
             },
             {
                 "winner_id": "B07CB54MM3",
-                "loser_id": "B07P5LN16X",
+                "loser_id": "B07P5LMN2C",
                 "winner_rank": 1,
                 "loser_rank": 6,
                 "winner_propensity": 0.8254330756448148,
@@ -2162,7 +2226,7 @@
             },
             {
                 "winner_id": "B07CB54MM3",
-                "loser_id": "B07HZ1LZS1",
+                "loser_id": "B07P5LN16X",
                 "winner_rank": 1,
                 "loser_rank": 7,
                 "winner_propensity": 0.8254330756448148,
@@ -2210,7 +2274,7 @@
             },
             {
                 "winner_id": "B075X4QMW7",
-                "loser_id": "B07P5LMN2C",
+                "loser_id": "B07HZ1LZS1",
                 "winner_rank": 2,
                 "loser_rank": 5,
                 "winner_propensity": 0.8224798704029825,
@@ -2218,7 +2282,7 @@
             },
             {
                 "winner_id": "B075X4QMW7",
-                "loser_id": "B07P5LN16X",
+                "loser_id": "B07P5LMN2C",
                 "winner_rank": 2,
                 "loser_rank": 6,
                 "winner_propensity": 0.8224798704029825,
@@ -2226,7 +2290,7 @@
             },
             {
                 "winner_id": "B075X4QMW7",
-                "loser_id": "B07HZ1LZS1",
+                "loser_id": "B07P5LN16X",
                 "winner_rank": 2,
                 "loser_rank": 7,
                 "winner_propensity": 0.8224798704029825,
@@ -2266,7 +2330,7 @@
             },
             {
                 "winner_id": "B075X4VW2P",
-                "loser_id": "B07P5LMN2C",
+                "loser_id": "B07HZ1LZS1",
                 "winner_rank": 3,
                 "loser_rank": 5,
                 "winner_propensity": 0.8241092438527491,
@@ -2274,7 +2338,7 @@
             },
             {
                 "winner_id": "B075X4VW2P",
-                "loser_id": "B07P5LN16X",
+                "loser_id": "B07P5LMN2C",
                 "winner_rank": 3,
                 "loser_rank": 6,
                 "winner_propensity": 0.8241092438527491,
@@ -2282,7 +2346,7 @@
             },
             {
                 "winner_id": "B075X4VW2P",
-                "loser_id": "B07HZ1LZS1",
+                "loser_id": "B07P5LN16X",
                 "winner_rank": 3,
                 "loser_rank": 7,
                 "winner_propensity": 0.8241092438527491,
@@ -2314,7 +2378,7 @@
             },
             {
                 "winner_id": "B07B4N29DG",
-                "loser_id": "B07P5LMN2C",
+                "loser_id": "B07HZ1LZS1",
                 "winner_rank": 4,
                 "loser_rank": 5,
                 "winner_propensity": 0.8266458848408442,
@@ -2322,7 +2386,7 @@
             },
             {
                 "winner_id": "B07B4N29DG",
-                "loser_id": "B07P5LN16X",
+                "loser_id": "B07P5LMN2C",
                 "winner_rank": 4,
                 "loser_rank": 6,
                 "winner_propensity": 0.8266458848408442,
@@ -2330,7 +2394,7 @@
             },
             {
                 "winner_id": "B07B4N29DG",
-                "loser_id": "B07HZ1LZS1",
+                "loser_id": "B07P5LN16X",
                 "winner_rank": 4,
                 "loser_rank": 7,
                 "winner_propensity": 0.8266458848408442,
@@ -2359,59 +2423,83 @@
                 "loser_rank": 10,
                 "winner_propensity": 0.8266458848408442,
                 "weight": 1.2097078305694728
+            },
+            {
+                "winner_id": "B07HZ1LZS1",
+                "loser_id": "B07P5LMN2C",
+                "winner_rank": 5,
+                "loser_rank": 6,
+                "winner_propensity": 0.8166838803056707,
+                "weight": 1.2244639867579084
+            },
+            {
+                "winner_id": "B07HZ1LZS1",
+                "loser_id": "B07P5LN16X",
+                "winner_rank": 5,
+                "loser_rank": 7,
+                "winner_propensity": 0.8166838803056707,
+                "weight": 1.2244639867579084
+            },
+            {
+                "winner_id": "B07HZ1LZS1",
+                "loser_id": "B07DBHCKHY",
+                "winner_rank": 5,
+                "loser_rank": 8,
+                "winner_propensity": 0.8166838803056707,
+                "weight": 1.2244639867579084
+            },
+            {
+                "winner_id": "B07HZ1LZS1",
+                "loser_id": "B07KR86C57",
+                "winner_rank": 5,
+                "loser_rank": 9,
+                "winner_propensity": 0.8166838803056707,
+                "weight": 1.2244639867579084
+            },
+            {
+                "winner_id": "B07HZ1LZS1",
+                "loser_id": "B07B4MG9H2",
+                "winner_rank": 5,
+                "loser_rank": 10,
+                "winner_propensity": 0.8166838803056707,
+                "weight": 1.2244639867579084
             },
             {
                 "winner_id": "B07P5LMN2C",
                 "loser_id": "B07P5LN16X",
-                "winner_rank": 5,
-                "loser_rank": 6,
-                "winner_propensity": 0.825496467624501,
-                "weight": 1.2113922217955226
-            },
-            {
-                "winner_id": "B07P5LMN2C",
-                "loser_id": "B07HZ1LZS1",
-                "winner_rank": 5,
-                "loser_rank": 7,
-                "winner_propensity": 0.825496467624501,
-                "weight": 1.2113922217955226
-            },
-            {
-                "winner_id": "B07P5LMN2C",
-                "loser_id": "B07DBHCKHY",
-                "winner_rank": 5,
-                "loser_rank": 8,
-                "winner_propensity": 0.825496467624501,
-                "weight": 1.2113922217955226
-            },
-            {
-                "winner_id": "B07P5LMN2C",
-                "loser_id": "B07KR86C57",
-                "winner_rank": 5,
-                "loser_rank": 9,
-                "winner_propensity": 0.825496467624501,
-                "weight": 1.2113922217955226
-            },
-            {
-                "winner_id": "B07P5LMN2C",
-                "loser_id": "B07B4MG9H2",
-                "winner_rank": 5,
-                "loser_rank": 10,
-                "winner_propensity": 0.825496467624501,
-                "weight": 1.2113922217955226
-            },
-            {
-                "winner_id": "B07P5LN16X",
-                "loser_id": "B07HZ1LZS1",
                 "winner_rank": 6,
                 "loser_rank": 7,
-                "winner_propensity": 0.825323537640057,
-                "weight": 1.2116460447249762
+                "winner_propensity": 0.825496467624501,
+                "weight": 1.2113922217955226
+            },
+            {
+                "winner_id": "B07P5LMN2C",
+                "loser_id": "B07DBHCKHY",
+                "winner_rank": 6,
+                "loser_rank": 8,
+                "winner_propensity": 0.825496467624501,
+                "weight": 1.2113922217955226
+            },
+            {
+                "winner_id": "B07P5LMN2C",
+                "loser_id": "B07KR86C57",
+                "winner_rank": 6,
+                "loser_rank": 9,
+                "winner_propensity": 0.825496467624501,
+                "weight": 1.2113922217955226
+            },
+            {
+                "winner_id": "B07P5LMN2C",
+                "loser_id": "B07B4MG9H2",
+                "winner_rank": 6,
+                "loser_rank": 10,
+                "winner_propensity": 0.825496467624501,
+                "weight": 1.2113922217955226
             },
             {
                 "winner_id": "B07P5LN16X",
                 "loser_id": "B07DBHCKHY",
-                "winner_rank": 6,
+                "winner_rank": 7,
                 "loser_rank": 8,
                 "winner_propensity": 0.825323537640057,
                 "weight": 1.2116460447249762
@@ -2419,7 +2507,7 @@
             {
                 "winner_id": "B07P5LN16X",
                 "loser_id": "B07KR86C57",
-                "winner_rank": 6,
+                "winner_rank": 7,
                 "loser_rank": 9,
                 "winner_propensity": 0.825323537640057,
                 "weight": 1.2116460447249762
@@ -2427,34 +2515,10 @@
             {
                 "winner_id": "B07P5LN16X",
                 "loser_id": "B07B4MG9H2",
-                "winner_rank": 6,
+                "winner_rank": 7,
                 "loser_rank": 10,
                 "winner_propensity": 0.825323537640057,
                 "weight": 1.2116460447249762
-            },
-            {
-                "winner_id": "B07HZ1LZS1",
-                "loser_id": "B07DBHCKHY",
-                "winner_rank": 7,
-                "loser_rank": 8,
-                "winner_propensity": 0.8166838803056707,
-                "weight": 1.2244639867579084
-            },
-            {
-                "winner_id": "B07HZ1LZS1",
-                "loser_id": "B07KR86C57",
-                "winner_rank": 7,
-                "loser_rank": 9,
-                "winner_propensity": 0.8166838803056707,
-                "weight": 1.2244639867579084
-            },
-            {
-                "winner_id": "B07HZ1LZS1",
-                "loser_id": "B07B4MG9H2",
-                "winner_rank": 7,
-                "loser_rank": 10,
-                "winner_propensity": 0.8166838803056707,
-                "weight": 1.2244639867579084
             },
             {
                 "winner_id": "B07DBHCKHY",
@@ -2487,7 +2551,7 @@
         "pairs": [
             {
                 "winner_id": "B07MF1RKS9",
-                "loser_id": "B08FCMVPHR",
+                "loser_id": "B074VLST26",
                 "winner_rank": 1,
                 "loser_rank": 2,
                 "winner_propensity": 0.798913899082475,
@@ -2495,7 +2559,7 @@
             },
             {
                 "winner_id": "B07MF1RKS9",
-                "loser_id": "B074VLST26",
+                "loser_id": "B08FCMVPHR",
                 "winner_rank": 1,
                 "loser_rank": 3,
                 "winner_propensity": 0.798913899082475,
@@ -2503,7 +2567,7 @@
             },
             {
                 "winner_id": "B07MF1RKS9",
-                "loser_id": "B074VLQ3GX",
+                "loser_id": "B073P5QKL4",
                 "winner_rank": 1,
                 "loser_rank": 4,
                 "winner_propensity": 0.798913899082475,
@@ -2511,7 +2575,7 @@
             },
             {
                 "winner_id": "B07MF1RKS9",
-                "loser_id": "B07BMQXWX1",
+                "loser_id": "B07B4SF23K",
                 "winner_rank": 1,
                 "loser_rank": 5,
                 "winner_propensity": 0.798913899082475,
@@ -2519,7 +2583,7 @@
             },
             {
                 "winner_id": "B07MF1RKS9",
-                "loser_id": "B07JLZC571",
+                "loser_id": "B07BMQXWX1",
                 "winner_rank": 1,
                 "loser_rank": 6,
                 "winner_propensity": 0.798913899082475,
@@ -2527,7 +2591,7 @@
             },
             {
                 "winner_id": "B07MF1RKS9",
-                "loser_id": "B07JKJSTVJ",
+                "loser_id": "B074VLQ3GX",
                 "winner_rank": 1,
                 "loser_rank": 7,
                 "winner_propensity": 0.798913899082475,
@@ -2535,7 +2599,7 @@
             },
             {
                 "winner_id": "B07MF1RKS9",
-                "loser_id": "B07JPGP3XN",
+                "loser_id": "B07JKJSTVJ",
                 "winner_rank": 1,
                 "loser_rank": 8,
                 "winner_propensity": 0.798913899082475,
@@ -2543,7 +2607,7 @@
             },
             {
                 "winner_id": "B07MF1RKS9",
-                "loser_id": "B073P5QKL4",
+                "loser_id": "B07JLZC571",
                 "winner_rank": 1,
                 "loser_rank": 9,
                 "winner_propensity": 0.798913899082475,
@@ -2551,299 +2615,299 @@
             },
             {
                 "winner_id": "B07MF1RKS9",
-                "loser_id": "B07B4SF23K",
+                "loser_id": "B07JPGP3XN",
                 "winner_rank": 1,
                 "loser_rank": 10,
                 "winner_propensity": 0.798913899082475,
                 "weight": 1.2516993397517122
             },
             {
-                "winner_id": "B08FCMVPHR",
-                "loser_id": "B074VLST26",
+                "winner_id": "B074VLST26",
+                "loser_id": "B08FCMVPHR",
                 "winner_rank": 2,
                 "loser_rank": 3,
-                "winner_propensity": 0.8096041348002017,
-                "weight": 1.235171557327564
+                "winner_propensity": 0.827218345972937,
+                "weight": 1.2088706746751912
+            },
+            {
+                "winner_id": "B074VLST26",
+                "loser_id": "B073P5QKL4",
+                "winner_rank": 2,
+                "loser_rank": 4,
+                "winner_propensity": 0.827218345972937,
+                "weight": 1.2088706746751912
+            },
+            {
+                "winner_id": "B074VLST26",
+                "loser_id": "B07B4SF23K",
+                "winner_rank": 2,
+                "loser_rank": 5,
+                "winner_propensity": 0.827218345972937,
+                "weight": 1.2088706746751912
+            },
+            {
+                "winner_id": "B074VLST26",
+                "loser_id": "B07BMQXWX1",
+                "winner_rank": 2,
+                "loser_rank": 6,
+                "winner_propensity": 0.827218345972937,
+                "weight": 1.2088706746751912
+            },
+            {
+                "winner_id": "B074VLST26",
+                "loser_id": "B074VLQ3GX",
+                "winner_rank": 2,
+                "loser_rank": 7,
+                "winner_propensity": 0.827218345972937,
+                "weight": 1.2088706746751912
+            },
+            {
+                "winner_id": "B074VLST26",
+                "loser_id": "B07JKJSTVJ",
+                "winner_rank": 2,
+                "loser_rank": 8,
+                "winner_propensity": 0.827218345972937,
+                "weight": 1.2088706746751912
+            },
+            {
+                "winner_id": "B074VLST26",
+                "loser_id": "B07JLZC571",
+                "winner_rank": 2,
+                "loser_rank": 9,
+                "winner_propensity": 0.827218345972937,
+                "weight": 1.2088706746751912
+            },
+            {
+                "winner_id": "B074VLST26",
+                "loser_id": "B07JPGP3XN",
+                "winner_rank": 2,
+                "loser_rank": 10,
+                "winner_propensity": 0.827218345972937,
+                "weight": 1.2088706746751912
             },
             {
                 "winner_id": "B08FCMVPHR",
-                "loser_id": "B074VLQ3GX",
-                "winner_rank": 2,
+                "loser_id": "B073P5QKL4",
+                "winner_rank": 3,
                 "loser_rank": 4,
                 "winner_propensity": 0.8096041348002017,
                 "weight": 1.235171557327564
             },
             {
                 "winner_id": "B08FCMVPHR",
-                "loser_id": "B07BMQXWX1",
-                "winner_rank": 2,
+                "loser_id": "B07B4SF23K",
+                "winner_rank": 3,
                 "loser_rank": 5,
                 "winner_propensity": 0.8096041348002017,
                 "weight": 1.235171557327564
             },
             {
                 "winner_id": "B08FCMVPHR",
-                "loser_id": "B07JLZC571",
-                "winner_rank": 2,
+                "loser_id": "B07BMQXWX1",
+                "winner_rank": 3,
                 "loser_rank": 6,
                 "winner_propensity": 0.8096041348002017,
                 "weight": 1.235171557327564
             },
             {
                 "winner_id": "B08FCMVPHR",
-                "loser_id": "B07JKJSTVJ",
-                "winner_rank": 2,
-                "loser_rank": 7,
-                "winner_propensity": 0.8096041348002017,
-                "weight": 1.235171557327564
-            },
-            {
-                "winner_id": "B08FCMVPHR",
-                "loser_id": "B07JPGP3XN",
-                "winner_rank": 2,
-                "loser_rank": 8,
-                "winner_propensity": 0.8096041348002017,
-                "weight": 1.235171557327564
-            },
-            {
-                "winner_id": "B08FCMVPHR",
-                "loser_id": "B073P5QKL4",
-                "winner_rank": 2,
-                "loser_rank": 9,
-                "winner_propensity": 0.8096041348002017,
-                "weight": 1.235171557327564
-            },
-            {
-                "winner_id": "B08FCMVPHR",
-                "loser_id": "B07B4SF23K",
-                "winner_rank": 2,
-                "loser_rank": 10,
-                "winner_propensity": 0.8096041348002017,
-                "weight": 1.235171557327564
-            },
-            {
-                "winner_id": "B074VLST26",
                 "loser_id": "B074VLQ3GX",
                 "winner_rank": 3,
-                "loser_rank": 4,
-                "winner_propensity": 0.827218345972937,
-                "weight": 1.2088706746751912
+                "loser_rank": 7,
+                "winner_propensity": 0.8096041348002017,
+                "weight": 1.235171557327564
             },
             {
-                "winner_id": "B074VLST26",
-                "loser_id": "B07BMQXWX1",
+                "winner_id": "B08FCMVPHR",
+                "loser_id": "B07JKJSTVJ",
                 "winner_rank": 3,
-                "loser_rank": 5,
-                "winner_propensity": 0.827218345972937,
-                "weight": 1.2088706746751912
+                "loser_rank": 8,
+                "winner_propensity": 0.8096041348002017,
+                "weight": 1.235171557327564
             },
             {
-                "winner_id": "B074VLST26",
+                "winner_id": "B08FCMVPHR",
                 "loser_id": "B07JLZC571",
                 "winner_rank": 3,
-                "loser_rank": 6,
-                "winner_propensity": 0.827218345972937,
-                "weight": 1.2088706746751912
+                "loser_rank": 9,
+                "winner_propensity": 0.8096041348002017,
+                "weight": 1.235171557327564
             },
             {
-                "winner_id": "B074VLST26",
-                "loser_id": "B07JKJSTVJ",
-                "winner_rank": 3,
-                "loser_rank": 7,
-                "winner_propensity": 0.827218345972937,
-                "weight": 1.2088706746751912
-            },
-            {
-                "winner_id": "B074VLST26",
+                "winner_id": "B08FCMVPHR",
                 "loser_id": "B07JPGP3XN",
                 "winner_rank": 3,
-                "loser_rank": 8,
-                "winner_propensity": 0.827218345972937,
-                "weight": 1.2088706746751912
-            },
-            {
-                "winner_id": "B074VLST26",
-                "loser_id": "B073P5QKL4",
-                "winner_rank": 3,
-                "loser_rank": 9,
-                "winner_propensity": 0.827218345972937,
-                "weight": 1.2088706746751912
-            },
-            {
-                "winner_id": "B074VLST26",
-                "loser_id": "B07B4SF23K",
-                "winner_rank": 3,
                 "loser_rank": 10,
-                "winner_propensity": 0.827218345972937,
-                "weight": 1.2088706746751912
-            },
-            {
-                "winner_id": "B074VLQ3GX",
-                "loser_id": "B07BMQXWX1",
-                "winner_rank": 4,
-                "loser_rank": 5,
-                "winner_propensity": 0.8364981495116672,
-                "weight": 1.1954599069750271
-            },
-            {
-                "winner_id": "B074VLQ3GX",
-                "loser_id": "B07JLZC571",
-                "winner_rank": 4,
-                "loser_rank": 6,
-                "winner_propensity": 0.8364981495116672,
-                "weight": 1.1954599069750271
-            },
-            {
-                "winner_id": "B074VLQ3GX",
-                "loser_id": "B07JKJSTVJ",
-                "winner_rank": 4,
-                "loser_rank": 7,
-                "winner_propensity": 0.8364981495116672,
-                "weight": 1.1954599069750271
-            },
-            {
-                "winner_id": "B074VLQ3GX",
-                "loser_id": "B07JPGP3XN",
-                "winner_rank": 4,
-                "loser_rank": 8,
-                "winner_propensity": 0.8364981495116672,
-                "weight": 1.1954599069750271
-            },
-            {
-                "winner_id": "B074VLQ3GX",
-                "loser_id": "B073P5QKL4",
-                "winner_rank": 4,
-                "loser_rank": 9,
-                "winner_propensity": 0.8364981495116672,
-                "weight": 1.1954599069750271
-            },
-            {
-                "winner_id": "B074VLQ3GX",
-                "loser_id": "B07B4SF23K",
-                "winner_rank": 4,
-                "loser_rank": 10,
-                "winner_propensity": 0.8364981495116672,
-                "weight": 1.1954599069750271
-            },
-            {
-                "winner_id": "B07BMQXWX1",
-                "loser_id": "B07JLZC571",
-                "winner_rank": 5,
-                "loser_rank": 6,
-                "winner_propensity": 0.8259512039950617,
-                "weight": 1.2107252767028824
-            },
-            {
-                "winner_id": "B07BMQXWX1",
-                "loser_id": "B07JKJSTVJ",
-                "winner_rank": 5,
-                "loser_rank": 7,
-                "winner_propensity": 0.8259512039950617,
-                "weight": 1.2107252767028824
-            },
-            {
-                "winner_id": "B07BMQXWX1",
-                "loser_id": "B07JPGP3XN",
-                "winner_rank": 5,
-                "loser_rank": 8,
-                "winner_propensity": 0.8259512039950617,
-                "weight": 1.2107252767028824
-            },
-            {
-                "winner_id": "B07BMQXWX1",
-                "loser_id": "B073P5QKL4",
-                "winner_rank": 5,
-                "loser_rank": 9,
-                "winner_propensity": 0.8259512039950617,
-                "weight": 1.2107252767028824
-            },
-            {
-                "winner_id": "B07BMQXWX1",
-                "loser_id": "B07B4SF23K",
-                "winner_rank": 5,
-                "loser_rank": 10,
-                "winner_propensity": 0.8259512039950617,
-                "weight": 1.2107252767028824
-            },
-            {
-                "winner_id": "B07JLZC571",
-                "loser_id": "B07JKJSTVJ",
-                "winner_rank": 6,
-                "loser_rank": 7,
-                "winner_propensity": 0.8239294296436935,
-                "weight": 1.2136961783637803
-            },
-            {
-                "winner_id": "B07JLZC571",
-                "loser_id": "B07JPGP3XN",
-                "winner_rank": 6,
-                "loser_rank": 8,
-                "winner_propensity": 0.8239294296436935,
-                "weight": 1.2136961783637803
-            },
-            {
-                "winner_id": "B07JLZC571",
-                "loser_id": "B073P5QKL4",
-                "winner_rank": 6,
-                "loser_rank": 9,
-                "winner_propensity": 0.8239294296436935,
-                "weight": 1.2136961783637803
-            },
-            {
-                "winner_id": "B07JLZC571",
-                "loser_id": "B07B4SF23K",
-                "winner_rank": 6,
-                "loser_rank": 10,
-                "winner_propensity": 0.8239294296436935,
-                "weight": 1.2136961783637803
-            },
-            {
-                "winner_id": "B07JKJSTVJ",
-                "loser_id": "B07JPGP3XN",
-                "winner_rank": 7,
-                "loser_rank": 8,
-                "winner_propensity": 0.8062210681128024,
-                "weight": 1.2403545870375159
-            },
-            {
-                "winner_id": "B07JKJSTVJ",
-                "loser_id": "B073P5QKL4",
-                "winner_rank": 7,
-                "loser_rank": 9,
-                "winner_propensity": 0.8062210681128024,
-                "weight": 1.2403545870375159
-            },
-            {
-                "winner_id": "B07JKJSTVJ",
-                "loser_id": "B07B4SF23K",
-                "winner_rank": 7,
-                "loser_rank": 10,
-                "winner_propensity": 0.8062210681128024,
-                "weight": 1.2403545870375159
-            },
-            {
-                "winner_id": "B07JPGP3XN",
-                "loser_id": "B073P5QKL4",
-                "winner_rank": 8,
-                "loser_rank": 9,
-                "winner_propensity": 0.8411807771917085,
-                "weight": 1.188805102440062
-            },
-            {
-                "winner_id": "B07JPGP3XN",
-                "loser_id": "B07B4SF23K",
-                "winner_rank": 8,
-                "loser_rank": 10,
-                "winner_propensity": 0.8411807771917085,
-                "weight": 1.188805102440062
+                "winner_propensity": 0.8096041348002017,
+                "weight": 1.235171557327564
             },
             {
                 "winner_id": "B073P5QKL4",
                 "loser_id": "B07B4SF23K",
-                "winner_rank": 9,
+                "winner_rank": 4,
+                "loser_rank": 5,
+                "winner_propensity": 0.8187705532830843,
+                "weight": 1.2213433861174252
+            },
+            {
+                "winner_id": "B073P5QKL4",
+                "loser_id": "B07BMQXWX1",
+                "winner_rank": 4,
+                "loser_rank": 6,
+                "winner_propensity": 0.8187705532830843,
+                "weight": 1.2213433861174252
+            },
+            {
+                "winner_id": "B073P5QKL4",
+                "loser_id": "B074VLQ3GX",
+                "winner_rank": 4,
+                "loser_rank": 7,
+                "winner_propensity": 0.8187705532830843,
+                "weight": 1.2213433861174252
+            },
+            {
+                "winner_id": "B073P5QKL4",
+                "loser_id": "B07JKJSTVJ",
+                "winner_rank": 4,
+                "loser_rank": 8,
+                "winner_propensity": 0.8187705532830843,
+                "weight": 1.2213433861174252
+            },
+            {
+                "winner_id": "B073P5QKL4",
+                "loser_id": "B07JLZC571",
+                "winner_rank": 4,
+                "loser_rank": 9,
+                "winner_propensity": 0.8187705532830843,
+                "weight": 1.2213433861174252
+            },
+            {
+                "winner_id": "B073P5QKL4",
+                "loser_id": "B07JPGP3XN",
+                "winner_rank": 4,
                 "loser_rank": 10,
                 "winner_propensity": 0.8187705532830843,
                 "weight": 1.2213433861174252
+            },
+            {
+                "winner_id": "B07B4SF23K",
+                "loser_id": "B07BMQXWX1",
+                "winner_rank": 5,
+                "loser_rank": 6,
+                "winner_propensity": 0.8124547392245954,
+                "weight": 1.230837795289861
+            },
+            {
+                "winner_id": "B07B4SF23K",
+                "loser_id": "B074VLQ3GX",
+                "winner_rank": 5,
+                "loser_rank": 7,
+                "winner_propensity": 0.8124547392245954,
+                "weight": 1.230837795289861
+            },
+            {
+                "winner_id": "B07B4SF23K",
+                "loser_id": "B07JKJSTVJ",
+                "winner_rank": 5,
+                "loser_rank": 8,
+                "winner_propensity": 0.8124547392245954,
+                "weight": 1.230837795289861
+            },
+            {
+                "winner_id": "B07B4SF23K",
+                "loser_id": "B07JLZC571",
+                "winner_rank": 5,
+                "loser_rank": 9,
+                "winner_propensity": 0.8124547392245954,
+                "weight": 1.230837795289861
+            },
+            {
+                "winner_id": "B07B4SF23K",
+                "loser_id": "B07JPGP3XN",
+                "winner_rank": 5,
+                "loser_rank": 10,
+                "winner_propensity": 0.8124547392245954,
+                "weight": 1.230837795289861
+            },
+            {
+                "winner_id": "B07BMQXWX1",
+                "loser_id": "B074VLQ3GX",
+                "winner_rank": 6,
+                "loser_rank": 7,
+                "winner_propensity": 0.8259512039950617,
+                "weight": 1.2107252767028824
+            },
+            {
+                "winner_id": "B07BMQXWX1",
+                "loser_id": "B07JKJSTVJ",
+                "winner_rank": 6,
+                "loser_rank": 8,
+                "winner_propensity": 0.8259512039950617,
+                "weight": 1.2107252767028824
+            },
+            {
+                "winner_id": "B07BMQXWX1",
+                "loser_id": "B07JLZC571",
+                "winner_rank": 6,
+                "loser_rank": 9,
+                "winner_propensity": 0.8259512039950617,
+                "weight": 1.2107252767028824
+            },
+            {
+                "winner_id": "B07BMQXWX1",
+                "loser_id": "B07JPGP3XN",
+                "winner_rank": 6,
+                "loser_rank": 10,
+                "winner_propensity": 0.8259512039950617,
+                "weight": 1.2107252767028824
+            },
+            {
+                "winner_id": "B074VLQ3GX",
+                "loser_id": "B07JKJSTVJ",
+                "winner_rank": 7,
+                "loser_rank": 8,
+                "winner_propensity": 0.8364981495116672,
+                "weight": 1.1954599069750271
+            },
+            {
+                "winner_id": "B074VLQ3GX",
+                "loser_id": "B07JLZC571",
+                "winner_rank": 7,
+                "loser_rank": 9,
+                "winner_propensity": 0.8364981495116672,
+                "weight": 1.1954599069750271
+            },
+            {
+                "winner_id": "B074VLQ3GX",
+                "loser_id": "B07JPGP3XN",
+                "winner_rank": 7,
+                "loser_rank": 10,
+                "winner_propensity": 0.8364981495116672,
+                "weight": 1.1954599069750271
+            },
+            {
+                "winner_id": "B07JKJSTVJ",
+                "loser_id": "B07JLZC571",
+                "winner_rank": 8,
+                "loser_rank": 9,
+                "winner_propensity": 0.8062210681128024,
+                "weight": 1.2403545870375159
+            },
+            {
+                "winner_id": "B07JKJSTVJ",
+                "loser_id": "B07JPGP3XN",
+                "winner_rank": 8,
+                "loser_rank": 10,
+                "winner_propensity": 0.8062210681128024,
+                "weight": 1.2403545870375159
+            },
+            {
+                "winner_id": "B07JLZC571",
+                "loser_id": "B07JPGP3XN",
+                "winner_rank": 9,
+                "loser_rank": 10,
+                "winner_propensity": 0.8239294296436935,
+                "weight": 1.2136961783637803
             }
         ]
     },
@@ -2860,7 +2924,7 @@
             },
             {
                 "winner_id": "B078JGHZT3",
-                "loser_id": "B078JGLJMQ",
+                "loser_id": "B07QD6ZV9Q",
                 "winner_rank": 1,
                 "loser_rank": 3,
                 "winner_propensity": 0.8235228659261363,
@@ -2868,7 +2932,7 @@
             },
             {
                 "winner_id": "B078JGHZT3",
-                "loser_id": "B07QD6ZV9Q",
+                "loser_id": "B07JM6HFW3",
                 "winner_rank": 1,
                 "loser_rank": 4,
                 "winner_propensity": 0.8235228659261363,
@@ -2876,7 +2940,7 @@
             },
             {
                 "winner_id": "B078JGHZT3",
-                "loser_id": "B0842H2F7C",
+                "loser_id": "B07QD6ZDDH",
                 "winner_rank": 1,
                 "loser_rank": 5,
                 "winner_propensity": 0.8235228659261363,
@@ -2884,7 +2948,7 @@
             },
             {
                 "winner_id": "B078JGHZT3",
-                "loser_id": "B07JM6HFW3",
+                "loser_id": "B078JGLJMQ",
                 "winner_rank": 1,
                 "loser_rank": 6,
                 "winner_propensity": 0.8235228659261363,
@@ -2892,7 +2956,7 @@
             },
             {
                 "winner_id": "B078JGHZT3",
-                "loser_id": "B07QD6ZDDH",
+                "loser_id": "B0842H2F7C",
                 "winner_rank": 1,
                 "loser_rank": 7,
                 "winner_propensity": 0.8235228659261363,
@@ -2908,7 +2972,7 @@
             },
             {
                 "winner_id": "B078JGHZT3",
-                "loser_id": "B07QC76DTB",
+                "loser_id": "B071777YN3",
                 "winner_rank": 1,
                 "loser_rank": 9,
                 "winner_propensity": 0.8235228659261363,
@@ -2916,7 +2980,7 @@
             },
             {
                 "winner_id": "B078JGHZT3",
-                "loser_id": "B071777YN3",
+                "loser_id": "B07QC76DTB",
                 "winner_rank": 1,
                 "loser_rank": 10,
                 "winner_propensity": 0.8235228659261363,
@@ -2924,7 +2988,7 @@
             },
             {
                 "winner_id": "B075HWDT12",
-                "loser_id": "B078JGLJMQ",
+                "loser_id": "B07QD6ZV9Q",
                 "winner_rank": 2,
                 "loser_rank": 3,
                 "winner_propensity": 0.8251447014213659,
@@ -2932,7 +2996,7 @@
             },
             {
                 "winner_id": "B075HWDT12",
-                "loser_id": "B07QD6ZV9Q",
+                "loser_id": "B07JM6HFW3",
                 "winner_rank": 2,
                 "loser_rank": 4,
                 "winner_propensity": 0.8251447014213659,
@@ -2940,7 +3004,7 @@
             },
             {
                 "winner_id": "B075HWDT12",
-                "loser_id": "B0842H2F7C",
+                "loser_id": "B07QD6ZDDH",
                 "winner_rank": 2,
                 "loser_rank": 5,
                 "winner_propensity": 0.8251447014213659,
@@ -2948,7 +3012,7 @@
             },
             {
                 "winner_id": "B075HWDT12",
-                "loser_id": "B07JM6HFW3",
+                "loser_id": "B078JGLJMQ",
                 "winner_rank": 2,
                 "loser_rank": 6,
                 "winner_propensity": 0.8251447014213659,
@@ -2956,7 +3020,7 @@
             },
             {
                 "winner_id": "B075HWDT12",
-                "loser_id": "B07QD6ZDDH",
+                "loser_id": "B0842H2F7C",
                 "winner_rank": 2,
                 "loser_rank": 7,
                 "winner_propensity": 0.8251447014213659,
@@ -2972,7 +3036,7 @@
             },
             {
                 "winner_id": "B075HWDT12",
-                "loser_id": "B07QC76DTB",
+                "loser_id": "B071777YN3",
                 "winner_rank": 2,
                 "loser_rank": 9,
                 "winner_propensity": 0.8251447014213659,
@@ -2980,88 +3044,40 @@
             },
             {
                 "winner_id": "B075HWDT12",
-                "loser_id": "B071777YN3",
+                "loser_id": "B07QC76DTB",
                 "winner_rank": 2,
                 "loser_rank": 10,
                 "winner_propensity": 0.8251447014213659,
                 "weight": 1.21190864860119
             },
             {
-                "winner_id": "B078JGLJMQ",
-                "loser_id": "B07QD6ZV9Q",
+                "winner_id": "B07QD6ZV9Q",
+                "loser_id": "B07JM6HFW3",
                 "winner_rank": 3,
                 "loser_rank": 4,
-                "winner_propensity": 0.8233483986678279,
-                "weight": 1.2145526749283695
-            },
-            {
-                "winner_id": "B078JGLJMQ",
-                "loser_id": "B0842H2F7C",
-                "winner_rank": 3,
-                "loser_rank": 5,
-                "winner_propensity": 0.8233483986678279,
-                "weight": 1.2145526749283695
-            },
-            {
-                "winner_id": "B078JGLJMQ",
-                "loser_id": "B07JM6HFW3",
-                "winner_rank": 3,
-                "loser_rank": 6,
-                "winner_propensity": 0.8233483986678279,
-                "weight": 1.2145526749283695
-            },
-            {
-                "winner_id": "B078JGLJMQ",
-                "loser_id": "B07QD6ZDDH",
-                "winner_rank": 3,
-                "loser_rank": 7,
-                "winner_propensity": 0.8233483986678279,
-                "weight": 1.2145526749283695
-            },
-            {
-                "winner_id": "B078JGLJMQ",
-                "loser_id": "B0825DC7JP",
-                "winner_rank": 3,
-                "loser_rank": 8,
-                "winner_propensity": 0.8233483986678279,
-                "weight": 1.2145526749283695
-            },
-            {
-                "winner_id": "B078JGLJMQ",
-                "loser_id": "B07QC76DTB",
-                "winner_rank": 3,
-                "loser_rank": 9,
-                "winner_propensity": 0.8233483986678279,
-                "weight": 1.2145526749283695
-            },
-            {
-                "winner_id": "B078JGLJMQ",
-                "loser_id": "B071777YN3",
-                "winner_rank": 3,
-                "loser_rank": 10,
-                "winner_propensity": 0.8233483986678279,
-                "weight": 1.2145526749283695
+                "winner_propensity": 0.7852824468849717,
+                "weight": 1.2734271649223303
             },
             {
                 "winner_id": "B07QD6ZV9Q",
-                "loser_id": "B0842H2F7C",
-                "winner_rank": 4,
+                "loser_id": "B07QD6ZDDH",
+                "winner_rank": 3,
                 "loser_rank": 5,
                 "winner_propensity": 0.7852824468849717,
                 "weight": 1.2734271649223303
             },
             {
                 "winner_id": "B07QD6ZV9Q",
-                "loser_id": "B07JM6HFW3",
-                "winner_rank": 4,
+                "loser_id": "B078JGLJMQ",
+                "winner_rank": 3,
                 "loser_rank": 6,
                 "winner_propensity": 0.7852824468849717,
                 "weight": 1.2734271649223303
             },
             {
                 "winner_id": "B07QD6ZV9Q",
-                "loser_id": "B07QD6ZDDH",
-                "winner_rank": 4,
+                "loser_id": "B0842H2F7C",
+                "winner_rank": 3,
                 "loser_rank": 7,
                 "winner_propensity": 0.7852824468849717,
                 "weight": 1.2734271649223303
@@ -3069,126 +3085,174 @@
             {
                 "winner_id": "B07QD6ZV9Q",
                 "loser_id": "B0825DC7JP",
-                "winner_rank": 4,
+                "winner_rank": 3,
                 "loser_rank": 8,
                 "winner_propensity": 0.7852824468849717,
                 "weight": 1.2734271649223303
             },
             {
                 "winner_id": "B07QD6ZV9Q",
-                "loser_id": "B07QC76DTB",
-                "winner_rank": 4,
+                "loser_id": "B071777YN3",
+                "winner_rank": 3,
                 "loser_rank": 9,
                 "winner_propensity": 0.7852824468849717,
                 "weight": 1.2734271649223303
             },
             {
                 "winner_id": "B07QD6ZV9Q",
-                "loser_id": "B071777YN3",
-                "winner_rank": 4,
+                "loser_id": "B07QC76DTB",
+                "winner_rank": 3,
                 "loser_rank": 10,
                 "winner_propensity": 0.7852824468849717,
                 "weight": 1.2734271649223303
             },
             {
-                "winner_id": "B0842H2F7C",
-                "loser_id": "B07JM6HFW3",
+                "winner_id": "B07JM6HFW3",
+                "loser_id": "B07QD6ZDDH",
+                "winner_rank": 4,
+                "loser_rank": 5,
+                "winner_propensity": 0.817699725794114,
+                "weight": 1.2229428095121886
+            },
+            {
+                "winner_id": "B07JM6HFW3",
+                "loser_id": "B078JGLJMQ",
+                "winner_rank": 4,
+                "loser_rank": 6,
+                "winner_propensity": 0.817699725794114,
+                "weight": 1.2229428095121886
+            },
+            {
+                "winner_id": "B07JM6HFW3",
+                "loser_id": "B0842H2F7C",
+                "winner_rank": 4,
+                "loser_rank": 7,
+                "winner_propensity": 0.817699725794114,
+                "weight": 1.2229428095121886
+            },
+            {
+                "winner_id": "B07JM6HFW3",
+                "loser_id": "B0825DC7JP",
+                "winner_rank": 4,
+                "loser_rank": 8,
+                "winner_propensity": 0.817699725794114,
+                "weight": 1.2229428095121886
+            },
+            {
+                "winner_id": "B07JM6HFW3",
+                "loser_id": "B071777YN3",
+                "winner_rank": 4,
+                "loser_rank": 9,
+                "winner_propensity": 0.817699725794114,
+                "weight": 1.2229428095121886
+            },
+            {
+                "winner_id": "B07JM6HFW3",
+                "loser_id": "B07QC76DTB",
+                "winner_rank": 4,
+                "loser_rank": 10,
+                "winner_propensity": 0.817699725794114,
+                "weight": 1.2229428095121886
+            },
+            {
+                "winner_id": "B07QD6ZDDH",
+                "loser_id": "B078JGLJMQ",
                 "winner_rank": 5,
                 "loser_rank": 6,
-                "winner_propensity": 0.8277322813637795,
-                "weight": 1.2081200921056148
+                "winner_propensity": 0.817699725794114,
+                "weight": 1.2229428095121886
             },
             {
-                "winner_id": "B0842H2F7C",
-                "loser_id": "B07QD6ZDDH",
+                "winner_id": "B07QD6ZDDH",
+                "loser_id": "B0842H2F7C",
                 "winner_rank": 5,
-                "loser_rank": 7,
-                "winner_propensity": 0.8277322813637795,
-                "weight": 1.2081200921056148
-            },
-            {
-                "winner_id": "B0842H2F7C",
-                "loser_id": "B0825DC7JP",
-                "winner_rank": 5,
-                "loser_rank": 8,
-                "winner_propensity": 0.8277322813637795,
-                "weight": 1.2081200921056148
-            },
-            {
-                "winner_id": "B0842H2F7C",
-                "loser_id": "B07QC76DTB",
-                "winner_rank": 5,
-                "loser_rank": 9,
-                "winner_propensity": 0.8277322813637795,
-                "weight": 1.2081200921056148
-            },
-            {
-                "winner_id": "B0842H2F7C",
-                "loser_id": "B071777YN3",
-                "winner_rank": 5,
-                "loser_rank": 10,
-                "winner_propensity": 0.8277322813637795,
-                "weight": 1.2081200921056148
-            },
-            {
-                "winner_id": "B07JM6HFW3",
-                "loser_id": "B07QD6ZDDH",
-                "winner_rank": 6,
                 "loser_rank": 7,
                 "winner_propensity": 0.817699725794114,
                 "weight": 1.2229428095121886
             },
             {
-                "winner_id": "B07JM6HFW3",
-                "loser_id": "B0825DC7JP",
-                "winner_rank": 6,
-                "loser_rank": 8,
-                "winner_propensity": 0.817699725794114,
-                "weight": 1.2229428095121886
-            },
-            {
-                "winner_id": "B07JM6HFW3",
-                "loser_id": "B07QC76DTB",
-                "winner_rank": 6,
-                "loser_rank": 9,
-                "winner_propensity": 0.817699725794114,
-                "weight": 1.2229428095121886
-            },
-            {
-                "winner_id": "B07JM6HFW3",
-                "loser_id": "B071777YN3",
-                "winner_rank": 6,
-                "loser_rank": 10,
-                "winner_propensity": 0.817699725794114,
-                "weight": 1.2229428095121886
-            },
-            {
                 "winner_id": "B07QD6ZDDH",
                 "loser_id": "B0825DC7JP",
-                "winner_rank": 7,
+                "winner_rank": 5,
                 "loser_rank": 8,
                 "winner_propensity": 0.817699725794114,
                 "weight": 1.2229428095121886
             },
             {
                 "winner_id": "B07QD6ZDDH",
-                "loser_id": "B07QC76DTB",
-                "winner_rank": 7,
+                "loser_id": "B071777YN3",
+                "winner_rank": 5,
                 "loser_rank": 9,
                 "winner_propensity": 0.817699725794114,
                 "weight": 1.2229428095121886
             },
             {
                 "winner_id": "B07QD6ZDDH",
-                "loser_id": "B071777YN3",
-                "winner_rank": 7,
+                "loser_id": "B07QC76DTB",
+                "winner_rank": 5,
                 "loser_rank": 10,
                 "winner_propensity": 0.817699725794114,
                 "weight": 1.2229428095121886
+            },
+            {
+                "winner_id": "B078JGLJMQ",
+                "loser_id": "B0842H2F7C",
+                "winner_rank": 6,
+                "loser_rank": 7,
+                "winner_propensity": 0.8233483986678279,
+                "weight": 1.2145526749283695
+            },
+            {
+                "winner_id": "B078JGLJMQ",
+                "loser_id": "B0825DC7JP",
+                "winner_rank": 6,
+                "loser_rank": 8,
+                "winner_propensity": 0.8233483986678279,
+                "weight": 1.2145526749283695
+            },
+            {
+                "winner_id": "B078JGLJMQ",
+                "loser_id": "B071777YN3",
+                "winner_rank": 6,
+                "loser_rank": 9,
+                "winner_propensity": 0.8233483986678279,
+                "weight": 1.2145526749283695
+            },
+            {
+                "winner_id": "B078JGLJMQ",
+                "loser_id": "B07QC76DTB",
+                "winner_rank": 6,
+                "loser_rank": 10,
+                "winner_propensity": 0.8233483986678279,
+                "weight": 1.2145526749283695
+            },
+            {
+                "winner_id": "B0842H2F7C",
+                "loser_id": "B0825DC7JP",
+                "winner_rank": 7,
+                "loser_rank": 8,
+                "winner_propensity": 0.8277322813637795,
+                "weight": 1.2081200921056148
+            },
+            {
+                "winner_id": "B0842H2F7C",
+                "loser_id": "B071777YN3",
+                "winner_rank": 7,
+                "loser_rank": 9,
+                "winner_propensity": 0.8277322813637795,
+                "weight": 1.2081200921056148
+            },
+            {
+                "winner_id": "B0842H2F7C",
+                "loser_id": "B07QC76DTB",
+                "winner_rank": 7,
+                "loser_rank": 10,
+                "winner_propensity": 0.8277322813637795,
+                "weight": 1.2081200921056148
             },
             {
                 "winner_id": "B0825DC7JP",
-                "loser_id": "B07QC76DTB",
+                "loser_id": "B071777YN3",
                 "winner_rank": 8,
                 "loser_rank": 9,
                 "winner_propensity": 0.8298324114452192,
@@ -3196,19 +3260,19 @@
             },
             {
                 "winner_id": "B0825DC7JP",
-                "loser_id": "B071777YN3",
+                "loser_id": "B07QC76DTB",
                 "winner_rank": 8,
                 "loser_rank": 10,
                 "winner_propensity": 0.8298324114452192,
                 "weight": 1.2050625960227563
             },
             {
-                "winner_id": "B07QC76DTB",
-                "loser_id": "B071777YN3",
+                "winner_id": "B071777YN3",
+                "loser_id": "B07QC76DTB",
                 "winner_rank": 9,
                 "loser_rank": 10,
-                "winner_propensity": 0.8150011627494688,
-                "weight": 1.2269921144976328
+                "winner_propensity": 0.8308410927894521,
+                "weight": 1.2035995916410642
             }
         ]
     },
@@ -3233,7 +3297,7 @@
             },
             {
                 "winner_id": "B072V7LYZC",
-                "loser_id": "B06VX446WN",
+                "loser_id": "B08GMSCBLD",
                 "winner_rank": 1,
                 "loser_rank": 4,
                 "winner_propensity": 0.7703201809752774,
@@ -3241,7 +3305,7 @@
             },
             {
                 "winner_id": "B072V7LYZC",
-                "loser_id": "B01N39COWY",
+                "loser_id": "B06VX446WN",
                 "winner_rank": 1,
                 "loser_rank": 5,
                 "winner_propensity": 0.7703201809752774,
@@ -3249,7 +3313,7 @@
             },
             {
                 "winner_id": "B072V7LYZC",
-                "loser_id": "B08GMSCBLD",
+                "loser_id": "B06XRN9W72",
                 "winner_rank": 1,
                 "loser_rank": 6,
                 "winner_propensity": 0.7703201809752774,
@@ -3257,7 +3321,7 @@
             },
             {
                 "winner_id": "B072V7LYZC",
-                "loser_id": "B06XRN9W72",
+                "loser_id": "B07FQQ4LMW",
                 "winner_rank": 1,
                 "loser_rank": 7,
                 "winner_propensity": 0.7703201809752774,
@@ -3273,7 +3337,7 @@
             },
             {
                 "winner_id": "B072V7LYZC",
-                "loser_id": "B07FQQ4LMW",
+                "loser_id": "B07894CL1P",
                 "winner_rank": 1,
                 "loser_rank": 9,
                 "winner_propensity": 0.7703201809752774,
@@ -3281,7 +3345,7 @@
             },
             {
                 "winner_id": "B072V7LYZC",
-                "loser_id": "B07894CL1P",
+                "loser_id": "B01N39COWY",
                 "winner_rank": 1,
                 "loser_rank": 10,
                 "winner_propensity": 0.7703201809752774,
@@ -3297,7 +3361,7 @@
             },
             {
                 "winner_id": "B076RD7SF8",
-                "loser_id": "B06VX446WN",
+                "loser_id": "B08GMSCBLD",
                 "winner_rank": 2,
                 "loser_rank": 4,
                 "winner_propensity": 0.769611707862558,
@@ -3305,7 +3369,7 @@
             },
             {
                 "winner_id": "B076RD7SF8",
-                "loser_id": "B01N39COWY",
+                "loser_id": "B06VX446WN",
                 "winner_rank": 2,
                 "loser_rank": 5,
                 "winner_propensity": 0.769611707862558,
@@ -3313,7 +3377,7 @@
             },
             {
                 "winner_id": "B076RD7SF8",
-                "loser_id": "B08GMSCBLD",
+                "loser_id": "B06XRN9W72",
                 "winner_rank": 2,
                 "loser_rank": 6,
                 "winner_propensity": 0.769611707862558,
@@ -3321,7 +3385,7 @@
             },
             {
                 "winner_id": "B076RD7SF8",
-                "loser_id": "B06XRN9W72",
+                "loser_id": "B07FQQ4LMW",
                 "winner_rank": 2,
                 "loser_rank": 7,
                 "winner_propensity": 0.769611707862558,
@@ -3337,7 +3401,7 @@
             },
             {
                 "winner_id": "B076RD7SF8",
-                "loser_id": "B07FQQ4LMW",
+                "loser_id": "B07894CL1P",
                 "winner_rank": 2,
                 "loser_rank": 9,
                 "winner_propensity": 0.769611707862558,
@@ -3345,7 +3409,7 @@
             },
             {
                 "winner_id": "B076RD7SF8",
-                "loser_id": "B07894CL1P",
+                "loser_id": "B01N39COWY",
                 "winner_rank": 2,
                 "loser_rank": 10,
                 "winner_propensity": 0.769611707862558,
@@ -3353,7 +3417,7 @@
             },
             {
                 "winner_id": "B06XC22L2V",
-                "loser_id": "B06VX446WN",
+                "loser_id": "B08GMSCBLD",
                 "winner_rank": 3,
                 "loser_rank": 4,
                 "winner_propensity": 0.7017656647467897,
@@ -3361,7 +3425,7 @@
             },
             {
                 "winner_id": "B06XC22L2V",
-                "loser_id": "B01N39COWY",
+                "loser_id": "B06VX446WN",
                 "winner_rank": 3,
                 "loser_rank": 5,
                 "winner_propensity": 0.7017656647467897,
@@ -3369,7 +3433,7 @@
             },
             {
                 "winner_id": "B06XC22L2V",
-                "loser_id": "B08GMSCBLD",
+                "loser_id": "B06XRN9W72",
                 "winner_rank": 3,
                 "loser_rank": 6,
                 "winner_propensity": 0.7017656647467897,
@@ -3377,7 +3441,7 @@
             },
             {
                 "winner_id": "B06XC22L2V",
-                "loser_id": "B06XRN9W72",
+                "loser_id": "B07FQQ4LMW",
                 "winner_rank": 3,
                 "loser_rank": 7,
                 "winner_propensity": 0.7017656647467897,
@@ -3393,7 +3457,7 @@
             },
             {
                 "winner_id": "B06XC22L2V",
-                "loser_id": "B07FQQ4LMW",
+                "loser_id": "B07894CL1P",
                 "winner_rank": 3,
                 "loser_rank": 9,
                 "winner_propensity": 0.7017656647467897,
@@ -3401,179 +3465,179 @@
             },
             {
                 "winner_id": "B06XC22L2V",
-                "loser_id": "B07894CL1P",
+                "loser_id": "B01N39COWY",
                 "winner_rank": 3,
                 "loser_rank": 10,
                 "winner_propensity": 0.7017656647467897,
                 "weight": 1.424977097391647
+            },
+            {
+                "winner_id": "B08GMSCBLD",
+                "loser_id": "B06VX446WN",
+                "winner_rank": 4,
+                "loser_rank": 5,
+                "winner_propensity": 0.7846545374368764,
+                "weight": 1.274446208221217
+            },
+            {
+                "winner_id": "B08GMSCBLD",
+                "loser_id": "B06XRN9W72",
+                "winner_rank": 4,
+                "loser_rank": 6,
+                "winner_propensity": 0.7846545374368764,
+                "weight": 1.274446208221217
+            },
+            {
+                "winner_id": "B08GMSCBLD",
+                "loser_id": "B07FQQ4LMW",
+                "winner_rank": 4,
+                "loser_rank": 7,
+                "winner_propensity": 0.7846545374368764,
+                "weight": 1.274446208221217
+            },
+            {
+                "winner_id": "B08GMSCBLD",
+                "loser_id": "B07W1WTR11",
+                "winner_rank": 4,
+                "loser_rank": 8,
+                "winner_propensity": 0.7846545374368764,
+                "weight": 1.274446208221217
+            },
+            {
+                "winner_id": "B08GMSCBLD",
+                "loser_id": "B07894CL1P",
+                "winner_rank": 4,
+                "loser_rank": 9,
+                "winner_propensity": 0.7846545374368764,
+                "weight": 1.274446208221217
+            },
+            {
+                "winner_id": "B08GMSCBLD",
+                "loser_id": "B01N39COWY",
+                "winner_rank": 4,
+                "loser_rank": 10,
+                "winner_propensity": 0.7846545374368764,
+                "weight": 1.274446208221217
+            },
+            {
+                "winner_id": "B06VX446WN",
+                "loser_id": "B06XRN9W72",
+                "winner_rank": 5,
+                "loser_rank": 6,
+                "winner_propensity": 0.786406641364437,
+                "weight": 1.2716067583877122
+            },
+            {
+                "winner_id": "B06VX446WN",
+                "loser_id": "B07FQQ4LMW",
+                "winner_rank": 5,
+                "loser_rank": 7,
+                "winner_propensity": 0.786406641364437,
+                "weight": 1.2716067583877122
+            },
+            {
+                "winner_id": "B06VX446WN",
+                "loser_id": "B07W1WTR11",
+                "winner_rank": 5,
+                "loser_rank": 8,
+                "winner_propensity": 0.786406641364437,
+                "weight": 1.2716067583877122
+            },
+            {
+                "winner_id": "B06VX446WN",
+                "loser_id": "B07894CL1P",
+                "winner_rank": 5,
+                "loser_rank": 9,
+                "winner_propensity": 0.786406641364437,
+                "weight": 1.2716067583877122
             },
             {
                 "winner_id": "B06VX446WN",
                 "loser_id": "B01N39COWY",
-                "winner_rank": 4,
-                "loser_rank": 5,
-                "winner_propensity": 0.786406641364437,
-                "weight": 1.2716067583877122
-            },
-            {
-                "winner_id": "B06VX446WN",
-                "loser_id": "B08GMSCBLD",
-                "winner_rank": 4,
-                "loser_rank": 6,
-                "winner_propensity": 0.786406641364437,
-                "weight": 1.2716067583877122
-            },
-            {
-                "winner_id": "B06VX446WN",
-                "loser_id": "B06XRN9W72",
-                "winner_rank": 4,
-                "loser_rank": 7,
-                "winner_propensity": 0.786406641364437,
-                "weight": 1.2716067583877122
-            },
-            {
-                "winner_id": "B06VX446WN",
-                "loser_id": "B07W1WTR11",
-                "winner_rank": 4,
-                "loser_rank": 8,
-                "winner_propensity": 0.786406641364437,
-                "weight": 1.2716067583877122
-            },
-            {
-                "winner_id": "B06VX446WN",
-                "loser_id": "B07FQQ4LMW",
-                "winner_rank": 4,
-                "loser_rank": 9,
-                "winner_propensity": 0.786406641364437,
-                "weight": 1.2716067583877122
-            },
-            {
-                "winner_id": "B06VX446WN",
-                "loser_id": "B07894CL1P",
-                "winner_rank": 4,
-                "loser_rank": 10,
-                "winner_propensity": 0.786406641364437,
-                "weight": 1.2716067583877122
-            },
-            {
-                "winner_id": "B01N39COWY",
-                "loser_id": "B08GMSCBLD",
-                "winner_rank": 5,
-                "loser_rank": 6,
-                "winner_propensity": 0.7685461301440173,
-                "weight": 1.3011580707752841
-            },
-            {
-                "winner_id": "B01N39COWY",
-                "loser_id": "B06XRN9W72",
-                "winner_rank": 5,
-                "loser_rank": 7,
-                "winner_propensity": 0.7685461301440173,
-                "weight": 1.3011580707752841
-            },
-            {
-                "winner_id": "B01N39COWY",
-                "loser_id": "B07W1WTR11",
-                "winner_rank": 5,
-                "loser_rank": 8,
-                "winner_propensity": 0.7685461301440173,
-                "weight": 1.3011580707752841
-            },
-            {
-                "winner_id": "B01N39COWY",
-                "loser_id": "B07FQQ4LMW",
-                "winner_rank": 5,
-                "loser_rank": 9,
-                "winner_propensity": 0.7685461301440173,
-                "weight": 1.3011580707752841
-            },
-            {
-                "winner_id": "B01N39COWY",
-                "loser_id": "B07894CL1P",
                 "winner_rank": 5,
                 "loser_rank": 10,
-                "winner_propensity": 0.7685461301440173,
-                "weight": 1.3011580707752841
+                "winner_propensity": 0.786406641364437,
+                "weight": 1.2716067583877122
             },
             {
-                "winner_id": "B08GMSCBLD",
-                "loser_id": "B06XRN9W72",
-                "winner_rank": 6,
-                "loser_rank": 7,
-                "winner_propensity": 0.7846545374368764,
-                "weight": 1.274446208221217
-            },
-            {
-                "winner_id": "B08GMSCBLD",
-                "loser_id": "B07W1WTR11",
-                "winner_rank": 6,
-                "loser_rank": 8,
-                "winner_propensity": 0.7846545374368764,
-                "weight": 1.274446208221217
-            },
-            {
-                "winner_id": "B08GMSCBLD",
+                "winner_id": "B06XRN9W72",
                 "loser_id": "B07FQQ4LMW",
                 "winner_rank": 6,
-                "loser_rank": 9,
-                "winner_propensity": 0.7846545374368764,
-                "weight": 1.274446208221217
-            },
-            {
-                "winner_id": "B08GMSCBLD",
-                "loser_id": "B07894CL1P",
-                "winner_rank": 6,
-                "loser_rank": 10,
-                "winner_propensity": 0.7846545374368764,
-                "weight": 1.274446208221217
+                "loser_rank": 7,
+                "winner_propensity": 0.789081864837447,
+                "weight": 1.2672956312410026
             },
             {
                 "winner_id": "B06XRN9W72",
                 "loser_id": "B07W1WTR11",
-                "winner_rank": 7,
+                "winner_rank": 6,
                 "loser_rank": 8,
                 "winner_propensity": 0.789081864837447,
                 "weight": 1.2672956312410026
             },
             {
                 "winner_id": "B06XRN9W72",
-                "loser_id": "B07FQQ4LMW",
-                "winner_rank": 7,
+                "loser_id": "B07894CL1P",
+                "winner_rank": 6,
                 "loser_rank": 9,
                 "winner_propensity": 0.789081864837447,
                 "weight": 1.2672956312410026
             },
             {
                 "winner_id": "B06XRN9W72",
-                "loser_id": "B07894CL1P",
-                "winner_rank": 7,
+                "loser_id": "B01N39COWY",
+                "winner_rank": 6,
                 "loser_rank": 10,
                 "winner_propensity": 0.789081864837447,
                 "weight": 1.2672956312410026
             },
             {
-                "winner_id": "B07W1WTR11",
-                "loser_id": "B07FQQ4LMW",
-                "winner_rank": 8,
-                "loser_rank": 9,
-                "winner_propensity": 0.7701998485008378,
-                "weight": 1.2983643166724308
-            },
-            {
-                "winner_id": "B07W1WTR11",
-                "loser_id": "B07894CL1P",
-                "winner_rank": 8,
-                "loser_rank": 10,
-                "winner_propensity": 0.7701998485008378,
-                "weight": 1.2983643166724308
+                "winner_id": "B07FQQ4LMW",
+                "loser_id": "B07W1WTR11",
+                "winner_rank": 7,
+                "loser_rank": 8,
+                "winner_propensity": 0.767569897222294,
+                "weight": 1.3028129472232188
             },
             {
                 "winner_id": "B07FQQ4LMW",
                 "loser_id": "B07894CL1P",
-                "winner_rank": 9,
+                "winner_rank": 7,
+                "loser_rank": 9,
+                "winner_propensity": 0.767569897222294,
+                "weight": 1.3028129472232188
+            },
+            {
+                "winner_id": "B07FQQ4LMW",
+                "loser_id": "B01N39COWY",
+                "winner_rank": 7,
                 "loser_rank": 10,
                 "winner_propensity": 0.767569897222294,
                 "weight": 1.3028129472232188
+            },
+            {
+                "winner_id": "B07W1WTR11",
+                "loser_id": "B07894CL1P",
+                "winner_rank": 8,
+                "loser_rank": 9,
+                "winner_propensity": 0.7701998485008378,
+                "weight": 1.2983643166724308
+            },
+            {
+                "winner_id": "B07W1WTR11",
+                "loser_id": "B01N39COWY",
+                "winner_rank": 8,
+                "loser_rank": 10,
+                "winner_propensity": 0.7701998485008378,
+                "weight": 1.2983643166724308
+            },
+            {
+                "winner_id": "B07894CL1P",
+                "loser_id": "B01N39COWY",
+                "winner_rank": 9,
+                "loser_rank": 10,
+                "winner_propensity": 0.7711330329814469,
+                "weight": 1.296793104730166
             }
         ]
     }

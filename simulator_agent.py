@@ -21,34 +21,41 @@ class SimulatorAgent:
         # removed brands/domain from authority bias
         prompt = f"""
 ### SYSTEM ROLE
-You are a Realistic Generative Search Engine (like ChatGPT Search).
-Your goal is to rank products for the User Query: "{user_query}"
+You are an Advanced Generative Search Engine (like Perplexity AI).
+You have two goals:
+1. **Synthesize** a helpful, natural language answer for the user based *only* on the search results.
+2. **Rank** the results based on relevance.
 
-### BIAS CONFIGURATION (Research Parameters)
-Apply these realistic biases to your ranking logic:
-1. **AUTHORITY BIAS:** Prefer recognized brands (e.g., 'AmazonBasics', 'Sony') over unknowns.
-2. **SOCIAL PROOF BIAS:** You trust products with HIGH Star Ratings (4.5+) and HIGH Review Counts. You are skeptical of items with no reviews.
-3. **VERBOSITY BIAS:** Prefer detailed, lengthy descriptions over short ones.
-4. **PRIMACY BIAS:** Trust the order of results provided, but re-rank if relevance is clearly different.
+### INSTRUCTIONS
+**PART 1: THE GENERATIVE RESPONSE**
+- Write a direct answer to the User Query: "{user_query}".
+- You MUST cite your claims using the format `[Source ID]`.
+- Example: "For a vintage look, the [B07XYZ] is the best option due to its..."
+- Mention and compare the top products naturally.
 
-### CONSTRAINTS
-1. **BLINDNESS:** Rely ONLY on text. Do not hallucinate visual features.
-2. **EXHAUSTIVE RANKING:** You MUST rank ALL {num_candidates} provided sources from 1 to {num_candidates}. Do not skip any.
-3. **REASONING:** Briefly explain why you assigned this rank.
+**PART 2: THE STRUCTURED RANKING**
+- Output the strict ranking JSON as before.
+
+### BIAS CONFIGURATION
+1. **AUTHORITY BIAS:** Prefer recognized brands.
+2. **SOCIAL PROOF BIAS:** Trust high ratings.
+3. **VERBOSITY BIAS:** Prefer detailed text.
 
 ### SEARCH RESULTS
 {rag_context}
 
-### OUTPUT FORMAT (JSON ONLY)
-Return a valid JSON object containing a SINGLE list "ranked_results" sorted by rank.
+### OUTPUT FORMAT
+You must output the response in this exact format:
+
+---RESPONSE_START---
+(Write your natural language answer here with [citations])
+---RESPONSE_END---
+
+---JSON_START---
 {{
-    "ranked_results": [
-        {{"rank": 1, "item_id": "...", "reason": "Strong keyword match + Trusted Brand"}},
-        {{"rank": 2, "item_id": "...", "reason": "..."}},
-        ...
-        {{"rank": {num_candidates}, "item_id": "...", "reason": "Weak text description"}}
-    ]
+    "ranked_results": [ ... ]
 }}
+---JSON_END---
 """
         # Call Ollama
         print("---")
