@@ -23,7 +23,7 @@ def run():
     time.sleep(5)
 
 
-def call_ollama(prompt: str, system: str = "", retries: int = 8) -> str:
+def call_ollama(prompt: str, system: str = "", retries: int = 8, temperature=0.2) -> str:
     """
     This function sends a prompt to the Ollama API, with retries in case of failure.
     It returns only the cleaned response text (discarding the thinking part).
@@ -53,7 +53,7 @@ def call_ollama(prompt: str, system: str = "", retries: int = 8) -> str:
                     "system": system,
                     "stream": False,  # Disable streaming for simplicity
                     "max_tokens": 200,  # Adjust max tokens as needed
-                    "temperature": 0.2,  # You can tweak temperature or other params
+                    "temperature": temperature,  # You can tweak temperature or other params
                     "top_p": 1,
                     "frequency_penalty": 0,
                     "presence_penalty": 0

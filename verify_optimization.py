@@ -4,11 +4,15 @@ import argparse
 import math
 import re
 from simulator_agent import SimulatorAgent
-
+from visual_grounding import VisualGroundingScorer
 # --- CONFIGURATION ---
 REPO_FILE = "data/query.json"
 OPTIMIZED_FILE = "data/optimized_product.json"
 OUTPUT_VERIFICATION = "data/verification_result.json"
+
+# Lambda Penalty Weight (How much we hate hallucination)
+# 1.0 means a 10% hallucination error cancels out a 0.1 gain in visibility.
+LAMBDA_PENALTY = 0.5
 
 def format_rag_context(results_list):
     """
@@ -30,7 +34,7 @@ Category: {item['category']}
 Title: {item['title']}
 Brand/Domain: {origin_str}
 {social_proof}
-Features: {str(item['features'])[:1500]}
+Features: {str(item['features'])}
 --------------------------------------------------
 """
     return context_str
@@ -90,6 +94,7 @@ def run_verification():
         
     # 3. THE HOT SWAP
     test_candidates = []
+    image_url = None
     for item in query_group['results']:
         if item['item_id'] == target_id:
             print("   🔄 Swapping in Optimized Content...")
@@ -97,6 +102,7 @@ def run_verification():
             modified_item['title'] = new_product['title']
             modified_item['features'] = new_product['features']
             test_candidates.append(modified_item)
+            image_url = item.get('image_path', item.get('image_url'))
         else:
             test_candidates.append(item)
 
@@ -134,7 +140,21 @@ def run_verification():
             new_rank = i + 1 # 1-based index
             new_vis_score = candidate['visibility_score']
             break
-            
+
+    # ---VGS CHECK---
+    print("   👁️ Running Utility Judge (Safety Check)...")
+    judge = VisualGroundingScorer()
+    # We judge the combined title + features
+    optimized_text = f"{new_product['title']} {new_product['features']}"
+    vgs_score = judge.calculate_vgs(target_id, optimized_text, image_url)
+
+    # --- 3. REWARD CALCULATION ---
+    # Reward = R_vis - lambda * (1 - R_util)
+    # The penalty applies if VGS is less than perfect (1.0).
+    hallucination_penalty = LAMBDA_PENALTY * (1.0 - vgs_score)
+    final_reward = new_vis_score - hallucination_penalty
+
+  
     # 5. Analyze Results
     print(f"\n✨ FINAL VERIFICATION RESULTS:")
     print(f"   [Retrieval] Old Rank: {old_rank} -> New Rank: {new_rank}")
@@ -150,6 +170,11 @@ def run_verification():
         success_msg = "👻 STILL INVISIBLE."
         
     print(f"   Verdict: {success_msg}")
+    print("Final Reward: ", final_reward)
+    if final_reward > 0:
+        print("   🏆 OPTIMIZATION ACCEPTED (Good Vis + Safe)")
+    else:
+        print("   ⚠️ OPTIMIZATION REJECTED (High Hallucination or Low Gain)")
 
     # Save Result
     result_log = {
@@ -161,7 +186,9 @@ def run_verification():
         "new_vis": new_vis_score,
         "rank_improvement": old_rank - new_rank,
         "vis_improvement": round(new_vis_score - old_vis, 4),
-        "generated_text": gen_text
+        "vgs_score": vgs_score,
+        "final_reward": final_reward,
+        "generated_text": gen_text,
     }
     with open(OUTPUT_VERIFICATION, 'w') as f:
         json.dump(result_log, f, indent=4)
