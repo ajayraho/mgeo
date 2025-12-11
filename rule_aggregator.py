@@ -67,7 +67,7 @@ Analyze these specific observations of Search Engine Ranking Failures.
 
 ### TASK
 Identify the **Common Semantic Theme** across these failures.
-Summarize the **core optimization lesson** that solves them all.
+Write the **core optimization lesson** that solves them all in detail.
 
 ### OUTPUT JSON
 {{
@@ -119,7 +119,7 @@ Create a final **MGEO Principle** based on these findings.
 {{
     "strategy_name": "High-Level Strategy Name",
     "gap_type": "Dominant Gap Type (SPECIFICITY/COMPLETENESS/ATMOSPHERE)",
-    "observation_summary": "Concise summary of the failure pattern.",
+    "observation_summary": "Summary of the failure pattern.",
     "action_policy": "Universal instruction for the Optimizer Agent."
 }}
 """

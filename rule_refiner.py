@@ -33,7 +33,7 @@ class PolicyRefiner:
         prompt = f"""
 ### SYSTEM ROLE
 You are a Senior Editor for an AI System.
-You have been handed a draft of "Optimization Rules" that is **highly repetitive**.
+You have been handed a draft of "Optimization Rules" that is **little repetitive**.
 Your job is to **Deduplicate** and **Sharpen** these rules.
 
 ### INPUT DATA (The Redundant Draft)
