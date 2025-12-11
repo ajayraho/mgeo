@@ -5,9 +5,9 @@ from optimizer_agent import OptimizerAgent
 
 # --- CONFIGURATION ---
 CANDIDATES_FILE = "data/target_candidates.json"
-REPO_FILE = "data/query_repository.json"
+REPO_FILE = "data/query.json"
 VISUALS_FILE = "data/dense_captions.json"
-PRINCIPLES_FILE = "data/mgeo_principles_refined.json" # Using the refined set
+PRINCIPLES_FILE = "data/mgeo_principles_refined.json" 
 OUTPUT_FILE = "data/optimized_product.json"
 
 def load_json(filepath):
@@ -20,7 +20,6 @@ def load_json(filepath):
 def get_full_product_data(repo_data, query_str, item_id):
     """Finds the full product object in the repository."""
     for q_obj in repo_data:
-        # We try to match query, but item_id is unique enough usually
         if q_obj['query'] == query_str:
             for res in q_obj['results']:
                 if res['item_id'] == item_id:
@@ -43,43 +42,45 @@ def main():
     if not (candidates_map and repo_data and captions and principles_data):
         return
 
-    # Extract the list of principles
-    mgeo_rules = principles_data.get('mgeo_principles', [])
-    if not mgeo_rules:
-        # Fallback if structure is different
-        mgeo_rules = principles_data.get('refined_principles', [])
+    # Handle different principle file structures
+    mgeo_rules = principles_data.get('mgeo_principles', []) or principles_data.get('refined_principles', [])
 
     # 2. Select the Target
     queries = list(candidates_map.keys())
     if args.q_idx >= len(queries):
-        print(f"❌ Query Index {args.q_idx} out of range (Max: {len(queries)-1})")
+        print(f"❌ Query Index {args.q_idx} out of range.")
         return
     
     target_query = queries[args.q_idx]
     candidate_list = candidates_map[target_query]
     
     if args.c_idx >= len(candidate_list):
-        print(f"❌ Candidate Index {args.c_idx} out of range (Max: {len(candidate_list)-1})")
+        print(f"❌ Candidate Index {args.c_idx} out of range.")
         return
 
     target_candidate = candidate_list[args.c_idx]
     target_id = target_candidate['item_id']
     
+    # Extract Metadata for Surgical Optimization
+    # diagnosis = target_candidate.get('diagnosis_summary', 'No diagnosis available.')
+    current_vis = target_candidate.get('current_vis', 0.0)
+    current_rank = target_candidate.get('current_rank', 99)
+
     print(f"\n🎯 TARGET SELECTED:")
     print(f"   Query: {target_query}")
     print(f"   Item ID: {target_id}")
-    print(f"   Current Rank: {target_candidate['current_rank']}")
-    print(f"   Diagnosis: {target_candidate['diagnosis']}")
+    print(f"   Current Visibility: {current_vis}")
+    # print(f"   Diagnosis: {diagnosis}")
 
     # 3. Fetch Context
     product_data = get_full_product_data(repo_data, target_query, target_id)
     if not product_data:
-        print("❌ Could not find full product data in Repository.")
+        print("❌ Could not find full product data.")
         return
         
     visual_desc = captions.get(target_id, "")
     if not visual_desc:
-        print("⚠️ Warning: No visual description found. Optimization may be weak.")
+        print("⚠️ Warning: No visual description found.")
 
     # 4. Run Optimization
     agent = OptimizerAgent()
@@ -90,14 +91,16 @@ def main():
         print(f"   Old Title: {product_data['title'][:50]}...")
         print(f"   New Title: {result['optimized_title'][:50]}...")
         
-        # 5. Create the "Intervention Object" (Clone + Update)
+        # 5. Create the "Intervention Object"
         optimized_product = product_data.copy()
         optimized_product['title'] = result['optimized_title']
         optimized_product['features'] = result['optimized_features']
         
-        # Add metadata for the experiment record
+        # Add metadata for Verification
         optimized_product['optimization_log'] = {
-            "original_rank": target_candidate['current_rank'],
+            "original_rank": current_rank,
+            "original_vis": current_vis,
+            # "diagnosis": diagnosis,
             "modifications": result['modifications_made'],
             "applied_query": target_query
         }
@@ -106,7 +109,7 @@ def main():
         with open(OUTPUT_FILE, 'w') as f:
             json.dump(optimized_product, f, indent=4)
         print(f"   💾 Saved optimized product to {OUTPUT_FILE}")
-        print("   Ready for A/B Testing.")
+        print("   Ready for Verification.")
 
 if __name__ == "__main__":
     main()

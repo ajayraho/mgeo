@@ -11,7 +11,7 @@ class TargetSelector:
         pass
 
     def select_targets(self):
-        print("🚀 identifying High-Potential Targets...")
+        print("🚀 Identifying High-Potential Targets...")
 
         # 1. Load Data
         if not (os.path.exists(PAIRS_FILE) and os.path.exists(RULES_FILE)):
@@ -22,18 +22,29 @@ class TargetSelector:
         with open(RULES_FILE, 'r') as f: rules = json.load(f)
 
         # 2. Map Rules to Losers (Validation Step)
-        # We only care about losers that have a verified Optimization Rule.
-        valid_losers = {} # Key: "query|loser_id", Value: Rule Data
+        # We need to quickly find if a specific loser in a specific query has a rule.
+        # Structure of Rule: { "source_query": "...", "source_pair": "Wid_vs_Lid", ... }
+        valid_rules = {} 
+        
         for r in rules:
-            # We construct a key to ensure we match the right query context
-            if 'source_query' in r and 'source_pair' in r:
-                # source_pair is usually "winID_vs_loseID"
-                try:
-                    l_id = r['source_pair'].split('_vs_')[-1]
-                    key = f"{r['source_query']}|{l_id}"
-                    valid_losers[key] = r
-                except:
+            # Construct a robust key: "Query|LoserID"
+            # We iterate through keys to handle potential schema variations
+            query = r.get('source_query')
+            pair_sig = r.get('source_pair') or r.get('source_pair_id')
+            
+            if query and pair_sig:
+                # pair_sig usually looks like "B07..._vs_B08..." or "Query|W|L"
+                # We try to extract the Loser ID from the end
+                if "_vs_" in pair_sig:
+                    l_id = pair_sig.split('_vs_')[-1]
+                elif "|" in pair_sig:
+                    l_id = pair_sig.split('|')[-1]
+                else:
                     continue
+                    
+                key = f"{query}|{l_id}"
+                # Store the full rule data
+                valid_rules[key] = r
 
         candidates_by_query = {}
 
@@ -45,37 +56,48 @@ class TargetSelector:
             candidates = []
             
             for pair in pairs:
-                w_id = pair['winner_id']
                 l_id = pair['loser_id']
+                w_id = pair['winner_id']
                 
-                # CHECK: Does this loser have a diagnosis?
+                # KEY CHECK: Do we have a diagnosis (Rule) for this loser?
                 key = f"{query}|{l_id}"
-                if key not in valid_losers:
+                if key not in valid_rules:
                     continue 
 
                 # METRICS
+                # Rank Gap: How many spots can we climb?
                 rank_gap = pair['loser_rank'] - pair['winner_rank']
+                
+                # Visibility Gap: How much "voice" are we missing?
+                vis_gap = pair['winner_vis'] - pair['loser_vis']
+                
+                # Weight: Trust "Merit" pairings more
                 weight = pair.get('weight', 1.0)
                 
-                # SCORING: 
-                # High Gap + High Merit Weight = High Opportunity
+                # OPPORTUNITY SCORE FORMULA
+                # We prize Rank Gap (Retrieval Potential) scaled by Causal Confidence.
+                # If Rank Gap is small (e.g., Rank 2 vs 1), score is low.
                 opportunity_score = rank_gap * weight
                 
-                # Filter: We usually want to target items in the "Strike Zone" (Rank 4-10)
-                # If it's already Rank 2, optimizing it is low impact.
-                if pair['loser_rank'] < 3:
+                # Filter: Don't optimize if it's already Top 3 (Diminishing returns)
+                if pair['loser_rank'] <= 3:
                     continue
 
                 candidate = {
                     "item_id": l_id,
                     "current_rank": pair['loser_rank'],
-                    "beaten_by_rank": pair['winner_rank'],
+                    "current_vis": pair['loser_vis'],
+                    "target_gap_vis": round(vis_gap, 4),
+                    "beaten_by": w_id,
                     "opportunity_score": round(opportunity_score, 2),
-                    "diagnosis": valid_losers[key].get('gap_analysis', 'N/A'),
-                    "suggested_rule": valid_losers[key].get('rule', 'N/A')
+                    # Diagnosis Info for the Optimizer
+                    "diagnosis_summary": valid_rules[key].get('gap_analysis', 'N/A')[:200],
+                    "suggested_principle": valid_rules[key].get('generalized_principle', 'N/A')
                 }
                 
-                # Deduplicate: A loser might lose to multiple winners. Keep the highest score entry.
+                # Deduplication
+                # A loser might be beaten by 5 different winners. 
+                # We keep the entry with the HIGHEST Opportunity Score (i.e., the biggest gap it lost).
                 existing = next((x for x in candidates if x['item_id'] == l_id), None)
                 if existing:
                     if opportunity_score > existing['opportunity_score']:
@@ -84,7 +106,7 @@ class TargetSelector:
                 else:
                     candidates.append(candidate)
 
-            # Sort by Score (Descending) - Most Deserving First
+            # Sort by Score (Descending)
             candidates.sort(key=lambda x: x['opportunity_score'], reverse=True)
             
             if candidates:
@@ -98,13 +120,15 @@ class TargetSelector:
         print(f"   Identified targets for {len(candidates_by_query)} queries.")
         print(f"   Saved to {OUTPUT_CANDIDATES}")
         
-        # Preview top candidate for first query
-        first_q = list(candidates_by_query.keys())[0]
-        top_c = candidates_by_query[first_q][0]
-        print(f"\nExample Top Candidate for '{first_q}':")
-        print(f"   ID: {top_c['item_id']} (Rank {top_c['current_rank']})")
-        print(f"   Score: {top_c['opportunity_score']}")
-        print(f"   Reason: {top_c['diagnosis']}")
+        # Preview
+        if candidates_by_query:
+            first_q = list(candidates_by_query.keys())[0]
+            if candidates_by_query[first_q]:
+                top_c = candidates_by_query[first_q][0]
+                print(f"\nExample Top Candidate for '{first_q}':")
+                print(f"   ID: {top_c['item_id']} (Rank {top_c['current_rank']} | Vis {top_c['current_vis']})")
+                print(f"   Score: {top_c['opportunity_score']}")
+                print(f"   Diagnosis: {top_c['diagnosis_summary']}")
 
 if __name__ == "__main__":
     selector = TargetSelector()

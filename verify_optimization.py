@@ -1,6 +1,8 @@
 import json
 import os
 import argparse
+import math
+import re
 from simulator_agent import SimulatorAgent
 
 # --- CONFIGURATION ---
@@ -8,30 +10,18 @@ REPO_FILE = "data/query.json"
 OPTIMIZED_FILE = "data/optimized_product.json"
 OUTPUT_VERIFICATION = "data/verification_result.json"
 
-def parse_hybrid_output(response_text):
-    # Extract JSON
-    json_part = response_text.split("---JSON_START---")[-1].split("---JSON_END---")[0]
-    rankings = json.loads(json_part)
-    
-    # Extract Text
-    text_part = response_text.split("---RESPONSE_START---")[-1].split("---RESPONSE_END---")[0].strip()
-    
-    return text_part, rankings
-  
 def format_rag_context(results_list):
     """
-    Reusing the exact same formatting logic to ensure a fair test.
+    Standard formatting for the Simulator.
     """
     context_str = ""
     for item in results_list:
         origin_str = "Unknown"
         if isinstance(item.get('origin'), dict):
             origin_str = item['origin'].get('domain_name', 'Unknown')
-            
-        # Use existing social proof or default
-        rating = item.get('sim_rating', 'N/A')
-        reviews = item.get('sim_reviews', 0)
         
+        rating = item.get('sim_rating', item.get('rating', 0))
+        reviews = item.get('sim_reviews', item.get('reviews', 0))
         social_proof = f"Rating: {rating}/5.0 ({reviews} verified reviews)"
             
         context_str += f"""
@@ -40,15 +30,36 @@ Category: {item['category']}
 Title: {item['title']}
 Brand/Domain: {origin_str}
 {social_proof}
-Features: {str(item['features'])[:800]}... 
+Features: {str(item['features'])[:1500]}
 --------------------------------------------------
 """
     return context_str
 
+def calculate_visibility_score(generated_text, item_id):
+    """
+    Implements the Impression Score (WordPos).
+    """
+    if not generated_text: return 0.0
+    
+    sentences = re.split(r'(?<=[.!?]) +', generated_text)
+    total_score = 0.0
+    
+    for i, sent in enumerate(sentences):
+        if item_id in sent:
+            # Decay factor (Earlier sentences matter more)
+            pos_weight = math.exp(-1 * i / max(len(sentences), 1))
+            
+            # Count factor (Shared credit)
+            citation_count = len(re.findall(r'\[', sent)) or 1
+            
+            total_score += (1.0 * pos_weight) / citation_count
+            
+    return round(total_score, 4)
+
 def run_verification():
-    # 1. Load the Optimized Patient
+    # 1. Load Data
     if not os.path.exists(OPTIMIZED_FILE):
-        print(f"❌ Error: {OPTIMIZED_FILE} not found. Run optimizer first.")
+        print("❌ Optimized file not found.")
         return
 
     with open(OPTIMIZED_FILE, 'r') as f:
@@ -57,33 +68,31 @@ def run_verification():
     # Extract Metadata
     target_query = new_product['optimization_log']['applied_query']
     target_id = new_product['item_id']
-    old_rank = new_product['optimization_log']['original_rank']
+    old_rank = new_product['optimization_log'].get('original_rank', 99)
+    old_vis = new_product['optimization_log'].get('original_vis', 0.0)
     
     print(f"🚀 Verifying Optimization for '{target_id}'...")
     print(f"   Query: {target_query}")
-    print(f"   Old Rank: {old_rank}")
+    print(f"   Baseline: Rank {old_rank} | Vis {old_vis}")
 
-    # 2. Load the Competition (The Original Context)
+    # 2. Load the Competition
+    if not os.path.exists(REPO_FILE):
+        print("❌ Repo file missing.")
+        return
+
     with open(REPO_FILE, 'r') as f:
         repo = json.load(f)
         
-    # Find the specific query group
     query_group = next((q for q in repo if q['query'] == target_query), None)
     if not query_group:
-        print("❌ Original query group not found in repo.")
+        print("❌ Original query group not found.")
         return
         
-    original_candidates = query_group['results']
-    
-    # 3. THE HOT SWAP (Replace Old with New)
-    # We create a new list for the simulation so we don't corrupt the repo
+    # 3. THE HOT SWAP
     test_candidates = []
-    
-    for item in original_candidates:
+    for item in query_group['results']:
         if item['item_id'] == target_id:
             print("   🔄 Swapping in Optimized Content...")
-            # Inject the NEW text, but keep the OLD social proof/metadata
-            # This ensures the ONLY variable changing is the Content (Title/Features)
             modified_item = item.copy()
             modified_item['title'] = new_product['title']
             modified_item['features'] = new_product['features']
@@ -91,49 +100,72 @@ def run_verification():
         else:
             test_candidates.append(item)
 
-    # 4. Run the Simulation
-    agent = SimulatorAgent(model_name="llama3")
-    
+    # 4. Run Hybrid Simulation (Two-Step Mode)
+    agent = SimulatorAgent()
     rag_context = format_rag_context(test_candidates)
     
-    # Run ranking on the modified list
-    print("   🤖 Running Simulator on New Context...")
-    rank_output = agent.rank_products(target_query, rag_context, len(test_candidates))
+    print("   🤖 Running Simulator (Generation Step)...")
     
-    # 5. Analyze Results
-    if rank_output and 'ranked_results' in rank_output:
-        # Find new rank
-        new_rank_obj = next((r for r in rank_output['ranked_results'] if r['item_id'] == target_id), None)
-        
-        if new_rank_obj:
-            new_rank = new_rank_obj['rank']
-            print(f"\n✨ RESULTS:")
-            print(f"   Old Rank: {old_rank}")
-            print(f"   New Rank: {new_rank}")
+    # STEP 1: Generate Text
+    gen_text = agent.generate_response(target_query, rag_context)
+    
+    if not gen_text:
+        print("❌ Simulation Failed: No text generated.")
+        return
+
+    # STEP 2: Calculate Visibility for ALL items to determine Rank
+    scored_candidates = []
+    for item in test_candidates:
+        v_score = calculate_visibility_score(gen_text, item['item_id'])
+        scored_candidates.append({
+            "item_id": item['item_id'],
+            "visibility_score": v_score
+        })
+    
+    # Sort by Visibility (Highest Score = Rank 1)
+    scored_candidates.sort(key=lambda x: x['visibility_score'], reverse=True)
+    
+    # Find our Target's new position
+    new_rank = 99
+    new_vis_score = 0.0
+    
+    for i, candidate in enumerate(scored_candidates):
+        if candidate['item_id'] == target_id:
+            new_rank = i + 1 # 1-based index
+            new_vis_score = candidate['visibility_score']
+            break
             
-            improvement = old_rank - new_rank
-            if improvement > 0:
-                print(f"   📈 SUCCESS! Gained {improvement} spots.")
-            elif improvement < 0:
-                print(f"   📉 FAIL. Dropped {-improvement} spots.")
-            else:
-                print(f"   😐 NO CHANGE.")
-                
-            # Save Result
-            result_log = {
-                "item_id": target_id,
-                "query": target_query,
-                "old_rank": old_rank,
-                "new_rank": new_rank,
-                "improvement": improvement,
-                "reasoning": new_rank_obj.get('reason', 'N/A')
-            }
-            with open(OUTPUT_VERIFICATION, 'w') as f:
-                json.dump(result_log, f, indent=4)
-        else:
-            print("❌ Error: Target item not found in ranking results.")
-    else:
-        print("❌ Simulation Failed.")
+    # 5. Analyze Results
+    print(f"\n✨ FINAL VERIFICATION RESULTS:")
+    print(f"   [Retrieval] Old Rank: {old_rank} -> New Rank: {new_rank}")
+    print(f"   [Generative] Old Vis: {old_vis} -> New Vis: {new_vis_score}")
+    
+    # Success Logic
+    success_msg = "😐 NO CHANGE"
+    if new_vis_score > old_vis:
+        success_msg = "🏆 GEO SUCCESS! Visibility Increased."
+    elif new_rank < old_rank:
+        success_msg = "📈 PARTIAL SUCCESS! Rank Improved (Latent Optimization)."
+    elif new_vis_score == 0 and old_vis == 0:
+        success_msg = "👻 STILL INVISIBLE."
+        
+    print(f"   Verdict: {success_msg}")
+
+    # Save Result
+    result_log = {
+        "item_id": target_id,
+        "query": target_query,
+        "old_rank": old_rank,
+        "new_rank": new_rank,
+        "old_vis": old_vis,
+        "new_vis": new_vis_score,
+        "rank_improvement": old_rank - new_rank,
+        "vis_improvement": round(new_vis_score - old_vis, 4),
+        "generated_text": gen_text
+    }
+    with open(OUTPUT_VERIFICATION, 'w') as f:
+        json.dump(result_log, f, indent=4)
+    print(f"   💾 Saved verification to {OUTPUT_VERIFICATION}")
 
 if __name__ == "__main__":
     run_verification()

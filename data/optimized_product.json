@@ -1,0 +1,63 @@
+{
+    "rank": 4,
+    "item_id": "B071JM2QL7",
+    "relevance_score": 0.7186892032623291,
+    "category": "SHOES",
+    "title": "Women's White Leather Slip\u2011On Shoes with Pink Sole, Diamond Pattern, Silver Buckle, Floral Embroidery",
+    "features": "White leather upper | Smooth luxurious texture | Pink sole with diamond pattern | Silver buckle accent | Floral embroidery detail",
+    "origin": {
+        "marketplace": "Amazon",
+        "domain_name": "amazon.com"
+    },
+    "specifications": {
+        "brand": "Red Wagon",
+        "color": "Beige Nude",
+        "model_name": "Slip on Skate",
+        "model_number": [
+            {
+                "value": "K0076A"
+            }
+        ],
+        "model_year": [
+            {
+                "value": 2017
+            }
+        ],
+        "style": "Slip on Skate",
+        "other_image_id": [
+            "81j7An+nenL",
+            "81n8VB92EDL",
+            "71ET2yjVnTL"
+        ],
+        "item_keywords": [
+            "Fashion Shoes",
+            "Girls",
+            "Low",
+            "Sneakers",
+            "Top"
+        ],
+        "country": "US",
+        "node": [
+            {
+                "node_id": 3420857011,
+                "node_name": "/Departments/Girls/Shoes/Sneakers"
+            }
+        ],
+        "color_code": [
+            "#C2AC99"
+        ],
+        "origin": {
+            "marketplace": "Amazon",
+            "domain_name": "amazon.com"
+        }
+    },
+    "rating": 3.8,
+    "reviews": 7,
+    "image_path": "32/32800bc1.jpg",
+    "optimization_log": {
+        "original_rank": 10,
+        "original_vis": 0.0,
+        "modifications": "Applied Principle #1 to add all visual attributes present in the image, Principle #2 to replace generic material with tactile descriptor \"smooth luxurious leather\", Principle #3 to specify the exact patterns \"floral embroidery\" and \"diamond pattern\", and omitted Principle #4 to avoid marketing fluff.",
+        "applied_query": "Women's floral embroidery slip-on shoes"
+    }
+}
