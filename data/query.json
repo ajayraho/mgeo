@@ -10826,7 +10826,7 @@
                         }
                     },
                     "material": "stone",
-                    "spin_id": Infinity,
+                    "spin_id": 99999,
                     "3dmodel_id": "B071777YN3",
                     "pattern": "Oriental",
                     "origin": {
