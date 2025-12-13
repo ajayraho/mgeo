@@ -3,7 +3,7 @@ import re
 from ollama_utils import call_ollama 
 
 class OptimizerAgent:
-    def __init__(self, model_name="llama3"):
+    def __init__(self, model_name="geo-optimizer"):
         self.model_name = model_name
 
     def _clean_json(self, text):
@@ -62,7 +62,7 @@ You must rigorously apply these rules to bridge the gap between the Visual Truth
 """
         print(f"   ✍️ Optimizer applying principles to '{product_data.get('item_id')}'...")
         try:
-            response = call_ollama(prompt)
+            response = call_ollama(prompt, model=self.model_name)
             return self._clean_json(response)
         except Exception as e:
             print(f"   ⚠️ Optimization Failed: {e}")

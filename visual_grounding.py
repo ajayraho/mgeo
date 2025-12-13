@@ -52,7 +52,8 @@ class VisualGroundingScorer:
             text=[text[:300]], # CLIP has short context, grab the first chunk
             images=image, 
             return_tensors="pt", 
-            padding=True
+            truncation=True,    # <--- CRITICAL FIX
+            max_length=77       # <--- CRITICAL FIX
         ).to(self.device)
 
         with torch.no_grad():
