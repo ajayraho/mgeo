@@ -23,7 +23,7 @@ def run():
     time.sleep(5)
 
 
-def call_ollama(prompt: str, system: str = "", retries: int = 8, temperature=0.2) -> str:
+def call_ollama(prompt: str, system: str = "", retries: int = 8, temperature=0.2, model="gpt-oss") -> str:
     """
     This function sends a prompt to the Ollama API, with retries in case of failure.
     It returns only the cleaned response text (discarding the thinking part).
@@ -36,7 +36,7 @@ def call_ollama(prompt: str, system: str = "", retries: int = 8, temperature=0.2
     Returns:
     - str: The cleaned text response from the model.
     """
-    print("Attempting to generate response with Ollama...")
+    print(f"Attempting to generate response with model `{model}` via Ollama...")
     # Keep track if we already tried to start the server in this call
     tried_start_server = False
 
@@ -48,7 +48,7 @@ def call_ollama(prompt: str, system: str = "", retries: int = 8, temperature=0.2
             response = requests.post(
                 "http://127.0.0.1:11434/api/generate",  # Ollama API endpoint
                 json={
-                    "model": "gpt-oss",  # Use the locally pulled model (adjust if needed)
+                    "model": model,  # Use the locally pulled model (adjust if needed)
                     "prompt": prompt,
                     "system": system,
                     "stream": False,  # Disable streaming for simplicity
