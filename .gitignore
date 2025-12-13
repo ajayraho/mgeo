@@ -1,3 +1,71 @@
-.ipynb_checkpoints/
+
+
+# ---- Python ----
 __pycache__/
+*.pyc
+*.pyo
+
+# Virtual env
+.venv/
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ---- Data Artifacts ----
+# keep dataset csv/json if they are inputs, but ignore generated logs & cache
+data/*_checkpoint*
 data/.ipynb_checkpoints/
+
+# ---- Model artifacts ----
+fine_tuned_optimizer
+fine_tuned_optimizer/checkpoint-*/
+fine_tuned_optimizer/**/*.pt
+fine_tuned_optimizer/**/*.bin
+fine_tuned_optimizer/**/*.safetensors
+fine_tuned_optimizer/*trainer_state.json
+
+models/chat_template.jinja
+models/config.json
+models/llama-3-8b-instruct.Q4_K_M.gguf
+models/model-00001-of-00004.safetensors
+models/model-00002-of-00004.safetensors
+models/model-00003-of-00004.safetensors
+models/model-00004-of-00004.safetensors
+models/model.safetensors.index.json
+models/special_tokens_map.json
+models/tokenizer.json
+models/tokenizer_config.json
+
+# ---- Unsloth & llama.cpp build artifacts ----
+llama.cpp
+llama.cpp/build/
+llama.cpp/bin/
+llama.cpp/*.so
+llama.cpp/*.dll
+llama.cpp/*.dylib
+unsloth_compiled_cache
+
+# CMake build folders
+**/CMakeCache.txt
+**/CMakeFiles/
+**/Makefile
+**/cmake_install.cmake
+**/install_manifest.txt
+
+# ---- Logs ----
+*.log
+logs/
+**/run-*.log
+
+# ---- IDE/Editor ----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- Misc ----
+*.tmp
+*.bak
+
