@@ -1,28 +1,22 @@
 {
     "mgeo_principles": [
         {
-            "principle_id": "VISUAL_COMPLETENESS",
-            "rule_name": "Visual Completeness Protocol",
-            "trigger": "Missing attribute in description",
-            "action_policy": "Enumeration Strategy: Scan the image for every distinct visual element\u2014material, color, shape, size, functional feature, and measurable dimension. For any element present in the image but absent from the text, inject a concise, image\u2011aligned phrase into the description. Verify the final copy contains the full attribute set."
+            "principle_id": "GEO_COMPLETENESS",
+            "rule_name": "Visual Completeness Axiom",
+            "trigger": "Any visible attribute absent from the text (e.g., objects, shapes, dimensions, hardware, or functional features)",
+            "action_policy": "Enumeration Strategy: Scan the image to create a comprehensive, comma\u2011separated list of all distinct visual objects and features that are present but not mentioned. The list must include items such as buckles, straps, soles, logos, size markings, and any structural details. If any element is missing from the existing description, append it to the description immediately, ensuring no overlap with Texture or Pattern rules."
         },
         {
-            "principle_id": "TEXTURE_SPECIFICITY",
+            "principle_id": "GEO_TEXTURE",
             "rule_name": "Texture Specificity Protocol",
-            "trigger": "Generic or absent texture descriptors",
-            "action_policy": "Tactile Refinement: Replace generic material nouns (e.g., \u2018cloth\u2019, \u2018leather\u2019) with tactile adjectives observed in the image such as \u2018velvet\u2019, \u2018suede\u2019, \u2018ribbed\u2019, or \u2018burnished\u2019. If no tactile descriptor is visually evident, add a phrase like \u2018richly textured\u2019 or \u2018soft suede finish\u2019 that matches the observed texture."
+            "trigger": "Use of generic material terms (e.g., 'cloth', 'leather') or absence of a tactile descriptor",
+            "action_policy": "Refinement Strategy: Replace every generic material noun with the most specific tactile adjective observed in the image (e.g., 'distressed suede', 'ribbed knit', 'smooth satin'). If a tactile descriptor is not visually evident, leave the material noun unchanged. Ensure that each material mention is accompanied by a texture adjective, and no generic terms remain."
         },
         {
-            "principle_id": "PATTERN_SPECIFICITY",
-            "rule_name": "Pattern Specificity Protocol",
-            "trigger": "Generic or missing pattern descriptors",
-            "action_policy": "Pattern Refinement: Substitute generic pattern terms (e.g., \u2018print\u2019, \u2018design\u2019) with precise pattern descriptors seen in the image such as \u2018floral\u2019, \u2018striped\u2019, \u2018paisley\u2019, or \u2018plaid\u2019. Ensure the pattern detail is explicitly stated and matches the visual reality."
-        },
-        {
-            "principle_id": "NARRATIVE_ENHANCEMENT",
-            "rule_name": "Atmospheric Narrative Protocol",
-            "trigger": "Checklist\u2011only description",
-            "action_policy": "Narrative Integration: Weave key attributes into a short, evocative lifestyle sentence that sets a scene, uses sensory and mood\u2011building language, and subtly embeds product specifications. Avoid generic adjectives like \u2018nice\u2019 or \u2018stylish\u2019; instead use words that reflect the product\u2019s ambiance and pairing cues."
+            "principle_id": "GEO_PATTERN",
+            "rule_name": "Pattern Identification Protocol",
+            "trigger": "No explicit pattern description or use of generic pattern terms (e.g., 'print', 'design')",
+            "action_policy": "Pattern Discovery Strategy: Identify the exact pattern type (floral, striped, geometric, abstract), color palette, arrangement, and any embellishments visible in the image. Replace any generic phrase with a precise, vivid description such as 'printed floral pattern with embroidered roses in emerald green' or 'black-and-white pinstripe with diagonal offset'. Ensure the resulting phrase fully reflects the pattern\u2019s visual characteristics."
         }
     ]
 }

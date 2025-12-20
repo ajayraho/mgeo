@@ -3,8 +3,8 @@
     "item_id": "B071JM2QL7",
     "relevance_score": 0.7186892032623291,
     "category": "SHOES",
-    "title": "Women's White Leather Slip\u2011On Shoes with Pink Sole, Diamond Pattern, Silver Buckle, Floral Embroidery",
-    "features": "White leather upper | Smooth luxurious texture | Pink sole with diamond pattern | Silver buckle accent | Floral embroidery detail",
+    "title": "Summer breeze on your feet: white leather slip\u2011ons with pink diamond\u2011patterned sole & silver buckle",
+    "features": "Smooth leather | White upper | Pink diamond\u2011patterned sole | Silver buckle",
     "origin": {
         "marketplace": "Amazon",
         "domain_name": "amazon.com"
@@ -57,7 +57,7 @@
     "optimization_log": {
         "original_rank": 10,
         "original_vis": 0.0,
-        "modifications": "Applied Principle #1 to add all visual attributes present in the image, Principle #2 to replace generic material with tactile descriptor \"smooth luxurious leather\", Principle #3 to specify the exact patterns \"floral embroidery\" and \"diamond pattern\", and omitted Principle #4 to avoid marketing fluff.",
+        "modifications": "Applied Principle #1 (Visual Completeness) by listing all visible attributes\u2014material, color, sole pattern, buckle\u2014 and Principle #2 (Texture Specificity) to describe the leather as \"smooth\". Used Principle #3 (Pattern Specificity) to replace generic terms with \"diamond\u2011patterned\". The title weaves a concise lifestyle sentence as per Principle #4, embedding key specs without generic fluff.",
         "applied_query": "Women's floral embroidery slip-on shoes"
     }
 }

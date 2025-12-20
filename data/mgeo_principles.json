@@ -1,172 +1,236 @@
 {
     "mgeo_principles": [
         {
-            "strategy_name": "Full Visual Attribute Alignment",
+            "strategy_name": "Visual Fidelity Precision",
             "gap_type": "COMPLETENESS",
-            "observation_summary": "Product descriptions frequently omit or generalize key visual attributes from images\u2014colors, patterns, materials, silhouettes, and decorative details\u2014leading to mismatched search intent, low relevance, and poor ranking.",
-            "action_policy": "For every product image, the Optimizer Agent must generate a description that enumerates all prominent visual attributes (color, pattern, material, silhouette, style, contrast, decorative features) using precise, texture\u2011rich, query\u2011aligned terminology. Avoid generic placeholders; ensure the description fully mirrors the visual reality to improve intent alignment and ranking.",
-            "support_count": 20,
+            "observation_summary": "Descriptions frequently omit or mislabel visible attributes (color, material, silhouette, pattern, embellishments), leading to a mismatch with shopper expectations and lower search ranking.",
+            "action_policy": "When crafting product descriptions from images, explicitly list every observable attribute using precise, match\u2011level terminology. Avoid generic or inaccurate terms, ensure all salient visual cues are covered, and verify that each mentioned element actually appears in the image before finalizing the description.",
+            "support_count": 21,
             "cluster_id": 0
         },
         {
-            "strategy_name": "Explicit Visual Attribute Detailing",
-            "gap_type": "SPECIFICITY",
-            "observation_summary": "Snippet descriptions often lack detailed, non\u2011generic visual cues\u2014color, material, texture, design motifs, closure type, and unique details\u2014resulting in low specificity and incomplete differentiation from competitors, which hampers search relevance and click\u2011through.",
-            "action_policy": "When crafting or optimizing a snippet, first analyze the product image to identify every prominent visual attribute. Explicitly list each attribute\u2014color, material, texture, design motifs (e.g., oversize bow, satin finish, low\u2011top collar), closure type, and any unique details\u2014using precise, non\u2011generic language that mirrors the image. Ensure the description is both specific and complete so the product is uniquely identified and search engines can recognize its relevance.",
+            "strategy_name": "Pattern Visibility Principle",
+            "gap_type": "COMPLETENESS",
+            "observation_summary": "Descriptions that omit or generalize the product\u2019s visible pattern\u2014especially printed floral motifs and embroidered details\u2014result in lower search relevance scores. The absence of precise, descriptive language about the pattern prevents alignment with shopper search intent.",
+            "action_policy": "Always capture every visible pattern or design element in the product description using specific, vivid language (e.g., 'printed floral pattern with embroidered flowers in tan suede'). This ensures the text fully mirrors the image\u2019s distinctive features and meets user search intent.",
             "support_count": 8,
             "cluster_id": 1
         },
         {
-            "strategy_name": "Comprehensive Visual Attribute Mapping",
-            "gap_type": "SPECIFICITY",
-            "observation_summary": "Descriptions frequently miss or generalize key visual cues (e.g., using \"soft leather\" or \"fashionable\"), causing ranking failures because the text does not fully reflect the image\u2019s visible attributes.",
-            "action_policy": "For every product description, explicitly list all visible features\u2014silhouette, material, construction, embellishments, colors, and functional details\u2014using precise, sensory\u2011rich language that matches the image (e.g., replace generic terms with descriptors like \"soft polished suede upper,\" \"silver buckle with strap,\" \"fringed leather toe,\" \"rubber woven outsole\").",
-            "support_count": 13,
+            "strategy_name": "Visual Feature Enumeration Principle",
+            "gap_type": "COMPLETENESS",
+            "observation_summary": "Omitting or misrepresenting any major visual attribute\u2014material, color, shape, number of parts, arrangement, or distinguishing cues\u2014weakens semantic alignment with the image, leading to lower relevance and ranking failure.",
+            "action_policy": "Always scan the image for all prominent features, list them explicitly in the description, avoid contradictory or irrelevant details, and verify the description matches the visual reality before publishing.",
+            "support_count": 8,
             "cluster_id": 2
         },
         {
-            "strategy_name": "Visual Attribute Fidelity",
-            "gap_type": "COMPLETENESS",
-            "observation_summary": "Descriptive text often omits, mislabels, or oversimplifies prominent visual cues in product images\u2014such as material, color, closure style, toe shape, heel type, sole material, pattern, and embellishments\u2014leading to a mismatch between the visual reality and the textual description. This misalignment reduces relevance signals for search\u2011engine ranking algorithms.",
-            "action_policy": "For every product, enumerate **all** observable visual traits with precise, image\u2011aligned terminology. Explicitly state material, color, closure, toe shape, heel type, sole material, pattern, and any distinguishing embellishments. Avoid generic, contradictory, or omitted language to ensure the description fully captures the image content.",
-            "support_count": 9,
+            "strategy_name": "Image\u2011Text Detail Convergence",
+            "gap_type": "SPECIFICITY",
+            "observation_summary": "Product copy often lacks the concrete, material\u2011level details that are immediately visible in the accompanying image, creating a mismatch between what shoppers see and what the description says. This generic, incomplete language reduces perceived quality, hampers keyword relevance, and ultimately hurts ranking and click\u2011through.",
+            "action_policy": "For every product image, list every material, dimension, and functional component that is clearly visible. Use precise, technical language (e.g., \"brass body\", \"zinc alloy latch bolt\", \"10\u2011inch adjustable latch width\"). Ensure the copy mirrors the image\u2019s concrete details, avoids generic adjectives, and directly addresses user intent, thereby increasing specificity, trust, and search\u2011ranking performance.",
+            "support_count": 16,
             "cluster_id": 3
         },
         {
-            "strategy_name": "Visual Attribute Fidelity & Completeness Principle",
+            "strategy_name": "Complete Visual Attribute Precision Principle",
             "gap_type": "COMPLETENESS",
-            "observation_summary": "Product listings frequently omit or misrepresent every visual trait shown in the images\u2014using generic descriptors, contradictory qualifiers, or including non\u2011existent features\u2014causing a misalignment between the textual data and the visual content. This reduces crawler matching accuracy and weakens search\u2011engine relevance and ranking.",
-            "action_policy": "For each product, conduct a detailed attribute audit: identify all visible traits (toe shape, heel type and height, material finish, closure style, distinct design details, etc.) and describe each with precise, non\u2011generic terms that exactly match the image. Exclude any feature that is not actually present and avoid contradictory qualifiers. Use a structured checklist to verify completeness before publishing.",
-            "support_count": 11,
-            "cluster_id": 4
-        },
-        {
-            "strategy_name": "Visual\u2011Textual Completeness & Specificity Alignment",
-            "gap_type": "COMPLETENESS/SPECIFICITY",
-            "observation_summary": "Product descriptions frequently omit or generalize key visual details\u2014materials, colors, shapes, finishes, dimensions, and counts\u2014causing misalignment with the image and harming search visibility.",
-            "action_policy": "Explicitly list every visual element the user can see in the image using concrete, searchable language. Replace generic adjectives with precise descriptors, include all measurable attributes, and match terminology to common search queries to signal strong relevance and improve click\u2011through.",
-            "support_count": 9,
-            "cluster_id": 5
-        },
-        {
-            "strategy_name": "Complete Visual Attribute Coverage",
-            "gap_type": "COMPLETENESS",
-            "observation_summary": "Listings that omit detailed visual descriptors\u2014material, color, shape, dimensions, and functional traits\u2014fail to resonate with search engines and shoppers, leading to low rankings. Successful products embed a full visual narrative, turning generic labels into rich, query\u2011friendly content.",
-            "action_policy": "For every product, ensure the description and structured data enumerate all observable visual attributes: material, color, geometry (size, shape, proportions), and functional elements (bulb type, mounting style, adjustability). This exhaustive coverage must be consistent across all listings to provide search engines with the richest contextual signals.",
+            "observation_summary": "Omitting or glossing over any visible attribute in an image-based product description\u2014such as type, style cue, material, color, texture, pattern, or shape\u2014creates an incomplete listing. This deficiency reduces relevance for user queries and lowers search ranking.",
+            "action_policy": "When optimizing a description for image\u2011based search, list every visible attribute explicitly and use precise, specific terminology that matches the visual content and aligns with typical user search terms.",
             "support_count": 8,
-            "cluster_id": 6
-        },
-        {
-            "strategy_name": "Accurate Visual Attribute Naming",
-            "gap_type": "SPECIFICITY",
-            "observation_summary": "Product descriptions frequently omit or misrepresent key visual characteristics (color, material, shape, finish), leading to poor visual match and weakened relevance signals.",
-            "action_policy": "Ensure every prominent visual attribute in the product image is explicitly and accurately named in the description. Use precise terms for color, material, shape, and finish, and avoid generic or incorrect substitutions.",
-            "support_count": 9,
-            "cluster_id": 7
-        },
-        {
-            "strategy_name": "Concrete Visual Material Detailing",
-            "gap_type": "SPECIFICITY",
-            "observation_summary": "Descriptions often use generic or vague material terms (e.g., \"brass body\", \"various colors\"), which do not align with the actual visual content. This mismatch leads to inaccurate search signals, reduced user trust, and poorer discoverability.",
-            "action_policy": "Always list every visible material component in the product description\u2014color, finish, texture, and internal structure\u2014using precise, concrete language. Replace generic phrases with specific details (e.g., \"brass knob body with steel internal structure, zinc alloy handle set, antique brass finish\"). Ensure the text mirrors the imagery exactly to provide consistent, descriptive signals for search engines and users.",
-            "support_count": 7,
-            "cluster_id": 8
-        },
-        {
-            "strategy_name": "Mirror\u2011Image Copy Strategy",
-            "gap_type": "SPECIFICITY",
-            "observation_summary": "Product descriptions that omit or use generic wording for visible details fail to provide a clear, relevant signal to search engines, leading to inconsistent ranking performance.",
-            "action_policy": "For every product, deconstruct the image first: list all materials, shapes, sizes, finishes, and functional hardware. Describe each item with precise, unambiguous terms and include measurable data whenever possible. Avoid vague adjectives such as \"vintage\u2011inspired\" or \"clean profile\" and instead provide concrete, photo\u2011aligned details that can be parsed and indexed by search algorithms.",
-            "support_count": 13,
-            "cluster_id": 9
-        },
-        {
-            "strategy_name": "Visual Detail Completeness Strategy",
-            "gap_type": "COMPLETENESS",
-            "observation_summary": "Product descriptions frequently omit or generalize visible attributes (material, finish, color, texture, structural components), causing a mismatch with user intent and reducing search relevance.",
-            "action_policy": "Ensure every visible detail is explicitly named in the description using precise, user\u2011expected terminology. The text must mirror the image by listing all materials, finishes, colors, textures, and structural components without resorting to generic phrases.",
-            "support_count": 9,
-            "cluster_id": 10
-        },
-        {
-            "strategy_name": "Complete Visual Attribute Capture",
-            "gap_type": "COMPLETENESS",
-            "observation_summary": "Product descriptions often omit key visual details\u2014finish, material, color, shape, dimensions, and functional traits\u2014resulting in generic text that fails to mirror what the user sees and lowers search relevance.",
-            "action_policy": "For every image-driven query, the Optimizer Agent must list every observable feature of the product in precise, query-aligned language. Include finish, material, color, shape, measurements, and functional details, ensuring the description is fully descriptive, specific, and mirrors the visual content presented.",
-            "support_count": 5,
-            "cluster_id": 11
-        },
-        {
-            "strategy_name": "Visual Feature Completeness",
-            "gap_type": "COMPLETENESS",
-            "observation_summary": "Copy often omits or glosses over key visual elements\u2014components, hardware, and exact measurements\u2014leading to incomplete, vague descriptions that fail to satisfy search\u2011ranking signals for detail-rich content.",
-            "action_policy": "When crafting product copy, explicitly identify every prominent visual element shown in the image\u2014including components, hardware, and precise measurements\u2014and weave those details into the description, ensuring the text mirrors the image\u2019s full visual story.",
-            "support_count": 3,
-            "cluster_id": 12
-        },
-        {
-            "strategy_name": "Complete Visual Feature Description",
-            "gap_type": "COMPLETENESS",
-            "observation_summary": "Product listings that omit any visible attribute (e.g., a door handle, its shape, finish, or size) fail to satisfy user intent and are penalized in rankings.",
-            "action_policy": "Ensure every key visual element in the image is explicitly named and described in the product description, covering its presence, dimensions, shape, finish, and any distinguishing characteristics highlighted by the query or image.",
-            "support_count": 3,
-            "cluster_id": 13
-        },
-        {
-            "strategy_name": "Atmospheric Lifestyle Narrative",
-            "gap_type": "ATMOSPHERE",
-            "observation_summary": "Product listings that rely solely on dry technical specs lack relevance and engagement. They fail to resonate with users\u2019 search intent and obscure the lifestyle context that drives buying decisions, leading to lower rankings and reduced click\u2011through rates.",
-            "action_policy": "Replace mechanical checklists with vivid, brand\u2011aligned lifestyle scenes. Introduce a use\u2011case scenario, use sensory, mood\u2011building adjectives, embed key specs within the story, mirror the searcher\u2019s intent, and reference pairing cues to create an aspirational, contextual image.",
-            "support_count": 16,
-            "cluster_id": 14
+            "cluster_id": 4
         },
         {
             "strategy_name": "Visual Attribute Precision Principle",
             "gap_type": "SPECIFICITY",
-            "observation_summary": "Copy often fails to fully and precisely describe every prominent visual trait in product images, using generic or vague descriptors that miss key details such as color, texture, material, shape, size, and design cues. This leaves shoppers uncertain and hampers search alignment.",
-            "action_policy": "For every product image, translate every observable visual attribute into the copy with explicit, vivid, and specific terminology. Include colors, textures, materials, shapes, sizes, and design cues (e.g., floral pattern, velvet with subtle grooves, mid\u2011century style, yarn\u2011dyed stripe). Avoid generic words such as 'nice', 'beautiful', or 'stylish'. Ensure the description is complete and mirrors exactly what shoppers see to close the translation gap and improve search relevance.",
-            "support_count": 12,
+            "observation_summary": "Product descriptions that fail to explicitly name every observable visual attribute\u2014texture, material, color, finish, pattern, structural elements, and style cues\u2014are penalized in search\u2011engine rankings. This lack of concrete, vivid detail makes the content less relevant, less authoritative, and harder for crawlers to index effectively.",
+            "action_policy": "When generating or optimizing a product description, the agent must: 1) Identify all visual attributes present in the image; 2) Use precise, vivid terminology for each attribute (e.g., \"velvet\", \"brushed brass\", \"deep burgundy\", \"herringbone pattern\", \"low\u2011profile frame\"); 3) Ensure no observable feature is omitted or generalized; and 4) Align the language tightly with the photo\u2019s visual reality to maximize relevance and indexability.",
+            "support_count": 15,
+            "cluster_id": 5
+        },
+        {
+            "strategy_name": "Explicit Visual & Detail Enumeration",
+            "gap_type": "SPECIFICITY",
+            "observation_summary": "Product listings frequently omit concrete visual cues (pattern, colors, shape, material, texture) and key functional attributes, resulting in vague, incomplete copy that fails to align with shopper intent and image content.",
+            "action_policy": "When drafting or revising a product description, always begin by deconstructing the image: list every visible pattern, primary colors, their arrangement, shape/size, material, and texture. Then confirm all essential product details\u2014type, construction, durability, functional use, and color/pattern options\u2014are fully captured. Avoid generic adjectives and ensure the copy is a precise, exhaustive reflection of the image and product attributes.",
+            "support_count": 17,
+            "cluster_id": 6
+        },
+        {
+            "strategy_name": "Image\u2011Aligned Descriptive Precision",
+            "gap_type": "SPECIFICITY",
+            "observation_summary": "Product descriptions often omit or generalize key visual features shown in the image, leading to weak search signals and poor ranking.",
+            "action_policy": "For every product image, list each visible attribute\u2014material, shape, heel type, strap style, buckle, color, embellishment, silhouette, and any distinguishing detail\u2014and translate them into concrete, specific language. Avoid generic or vague phrases that do not match the eye. Align the copy tightly with the image\u2019s visual reality to strengthen relevance and improve search performance.",
+            "support_count": 10,
+            "cluster_id": 7
+        },
+        {
+            "strategy_name": "Feature Completeness Enforcement",
+            "gap_type": "COMPLETENESS",
+            "observation_summary": "Descriptions frequently omit key visual or structural attributes (heel type, strap arrangement, platform, closure, material, etc.), leading to incomplete matches with user search intent and lower ranking.",
+            "action_policy": "When generating product copy, always list every essential visual and structural feature that users are likely to search for\u2014heel type, strap configuration, platform height, closure style, material, and any distinguishing detail\u2014explicitly naming each one to ensure full alignment with user expectations.",
+            "support_count": 8,
+            "cluster_id": 8
+        },
+        {
+            "strategy_name": "Visual Attribute Inclusion Mandate",
+            "gap_type": "COMPLETENESS",
+            "observation_summary": "Optimizers frequently omit or over\u2011generalize visible product features, instead inserting unrelated sizing or generic descriptors. This neglect of material, color, shape, embellishments, and functional elements erodes relevance signals for search engines and weakens the user\u2019s contextual understanding.",
+            "action_policy": "Before appending any optional or promotional text, generate a structured, exhaustive list of all visible attributes\u2014materials, colors, shapes, sizes, embellishments, and functional components (e.g., straps, buckles, heels, toe styles). Only after this mandatory coverage should additional context or style guidance be added.",
+            "support_count": 9,
+            "cluster_id": 9
+        },
+        {
+            "strategy_name": "Complete Visual Attribute Mapping",
+            "gap_type": "COMPLETENESS",
+            "observation_summary": "Rankings degrade when product descriptions omit essential visual details\u2014color, shape, material, texture, branding, functional gauges, weight, or distinctive patterns\u2014causing misalignment with user intent and the displayed image.",
+            "action_policy": "For every product, explicitly list all salient visual attributes in the description: use precise, non\u2011generic terms for color, shape, material, texture, branding, and any functional gauges or weight. Include unique patterns, logos, and distinctive visual cues. Avoid placeholders or vague wording. Ensure the description text fully maps to the image so that search engines recognize the completeness of the visual attributes.",
+            "support_count": 6,
+            "cluster_id": 10
+        },
+        {
+            "strategy_name": "Visual Attribute Alignment",
+            "gap_type": "SPECIFICITY",
+            "observation_summary": "Product listings consistently omit explicit, exhaustive visual details\u2014color, shape, texture, dimensions, finishes, logos, and functional markings\u2014leading to a mismatch between image context and descriptive text.",
+            "action_policy": "For every image\u2011paired product description, explicitly enumerate every observable visual attribute: color names, material, texture, shape/silhouette, dimensions, finish, functional markings (gauge, cut\u2011outs, logos, etc.), and any other distinguishing visual cues. Align the language precisely with the image to close the specificity gap and enhance search relevance, click\u2011through, and ranking.",
+            "support_count": 18,
+            "cluster_id": 11
+        },
+        {
+            "strategy_name": "Visual Attribute Precision & Atmosphere",
+            "gap_type": "COMPLETENESS",
+            "observation_summary": "Listings that omit, mislabel, or under\u2011describe any species, color, pattern, texture, or form fail to match the image and dilute relevance signals, causing lower search rankings.",
+            "action_policy": "Ensure every product listing explicitly references all visually relevant features shown in the image and enrich the description with evocative, atmosphere\u2011matching language that reflects the product\u2019s natural or playful vibe.",
+            "support_count": 15,
+            "cluster_id": 12
+        },
+        {
+            "strategy_name": "Explicit Visual Attribute Detailing Principle",
+            "gap_type": "COMPLETENESS",
+            "observation_summary": "Product descriptions that omit or generalize key visual cues (color, pattern, texture, shape, size, material) fail to match the image, leading to lower perceived relevance and ranking drops.",
+            "action_policy": "When generating product descriptions, the Optimizer Agent must explicitly list every significant visual attribute present in the image\u2014color(s), pattern(s), texture(s), shape(s), size(s), and material(s)\u2014to ensure complete and accurate text\u2011image alignment.",
+            "support_count": 7,
+            "cluster_id": 13
+        },
+        {
+            "strategy_name": "Visual Precision Alignment",
+            "gap_type": "SPECIFICITY",
+            "observation_summary": "Generic visual descriptors (e.g., \"cool white\", \"warm white\") create a mismatch between product copy and images, undermining search\u2011engine relevance and confusing shoppers.",
+            "action_policy": "When writing copy, always include exact, matchable visual details\u2014specific Kelvin ratings, lumen counts, and concrete ambient descriptors that reflect the product\u2019s true appearance. Avoid vague terms without numeric anchors.",
+            "support_count": 14,
+            "cluster_id": 14
+        },
+        {
+            "strategy_name": "Accurate Visual Alignment",
+            "gap_type": "COMPLETENESS",
+            "observation_summary": "Descriptions frequently omit or misrepresent key visual attributes (shape, quantity, base color, arrangement, distinctive design elements), leading to incomplete or inaccurate representations of the image content.",
+            "action_policy": "When drafting or ranking product snippets, explicitly enumerate every observable visual attribute present in the image\u2014number of units, shape, base color, layout, and any distinctive design elements\u2014and never add invented attributes or make assumptions. Ensure the textual description matches the image exactly to achieve full completeness and alignment.",
+            "support_count": 9,
             "cluster_id": 15
         },
         {
-            "strategy_name": "Complete Visual Detail Optimization",
+            "strategy_name": "Visual Fidelity Principle",
             "gap_type": "COMPLETENESS",
-            "observation_summary": "Product descriptions frequently omit explicit visual attributes\u2014shape, material, color, texture, style, size, and unique design cues\u2014relying instead on generic metadata like origin or assembly. This leads to incomplete, flat listings that fail to satisfy user intent and hurt ranking performance.",
-            "action_policy": "When generating or revising product descriptions, first enumerate every visible attribute: shape, material, color, texture, style, size, and distinctive design cues. Use precise, sensory adjectives (e.g., \"hand\u2011tufted velvet,\" \"solid\u2011wood frame,\" \"blackened pewter legs,\" \"tapered wooden supports\") and concrete details. Then craft a short, evocative narrative that weaves these facts into an atmospheric portrayal of the product. Avoid generic metadata such as origin or assembly unless it is a direct visual attribute. This completes the description, enriches the user experience, and aligns with ranking signals.",
+            "observation_summary": "Descriptions frequently omit or misrepresent visible attributes\u2014colors, patterns, textures, and stylistic cues\u2014leading to a mismatch between text and image.",
+            "action_policy": "When drafting a product description, first enumerate every visible color, pattern, texture, and stylistic element in the image. Ensure that each is explicitly mentioned in the text, and avoid adding technical details or attributes that are not visually present. This guarantees a fully aligned, visually complete description.",
             "support_count": 7,
             "cluster_id": 16
         },
         {
-            "strategy_name": "Visual Accuracy & Detail Principle",
-            "gap_type": "SPECIFICITY",
-            "observation_summary": "Product copy frequently generalizes or omits concrete visual cues (color, pattern, texture, shape, material) present in the image, leading to misalignment between what the shopper sees and what the title/description promises, which hurts relevance and SEO performance.",
-            "action_policy": "For every product image, review all visible attributes\u2014exact hues, patterns, textures, shapes, and structural features. Translate those observations into concise, precise, image\u2011aligned language in both title and description. Avoid generic descriptors; use specific adjectives that mirror the visual experience. Verify each claim can be visually confirmed. This alignment ensures higher relevance for search engines and greater trust for shoppers, boosting CTR and conversion.",
-            "support_count": 17,
+            "strategy_name": "Complete Visual Attribute Translation",
+            "gap_type": "COMPLETENESS",
+            "observation_summary": "Product descriptions frequently omit visible or functional cues\u2014such as zipper style, corner ties, envelope opening, dimensions, fabric, and care instructions\u2014creating a completeness gap that reduces relevance and search ranking.",
+            "action_policy": "The Optimizer Agent must audit every product description to ensure all visual and functional attributes present on the item are explicitly and accurately reflected in the text. Any missing cue must be added before finalizing the description.",
+            "support_count": 14,
             "cluster_id": 17
         },
         {
-            "strategy_name": "Image-Driven Completeness Alignment",
+            "strategy_name": "Feature-Full Descriptions",
             "gap_type": "COMPLETENESS",
-            "observation_summary": "Product descriptions frequently fail to reflect the full set of observable attributes in the image\u2014type, shape, size, color palette, pattern, material, and functional features\u2014resulting in incomplete and misaligned content that does not satisfy user intent.",
-            "action_policy": "For every image-based product description, explicitly list all visible attributes\u2014product type, shape, dimensions, color scheme, pattern, material composition, and functional features\u2014using precise, descriptive language, and omit unrelated or generic details. The description must fully mirror the visual reality to enhance relevance and search performance.",
-            "support_count": 7,
+            "observation_summary": "Copy that omits visible product features (closures, handles, straps, pocket count, size, material, color, style adjectives, etc.) fails to match the image, causing ranking drops.",
+            "action_policy": "Always enumerate every visible functional feature, dimension, and aesthetic cue shown in the image when crafting product descriptions.",
+            "support_count": 4,
             "cluster_id": 18
         },
         {
-            "strategy_name": "Image\u2011Anchored Visual Detail Specificity",
+            "strategy_name": "Visual Attribute Precision Alignment",
             "gap_type": "SPECIFICITY",
-            "observation_summary": "Product copy frequently overlooks or generalizes the visual cues present in the image\u2014color palette, patterns, textures, shapes, and materials\u2014leading to weaker search signals and lower ranking. Users and search engines expect the copy to reflect exactly what they see; omission of these details causes intent mismatch.",
-            "action_policy": "Prior to finalizing any product description, perform a systematic image audit: enumerate every prominent visual attribute (color, pattern, texture, shape, material, style, etc.). Rewrite the copy so that each listed attribute is explicitly described with concrete, precise language. Avoid generic or incomplete statements, and ensure the description mirrors the image as closely as possible.",
-            "support_count": 8,
+            "observation_summary": "Product copy frequently omits or generalizes key visual traits\u2014color, material, pattern, size, shape\u2014causing a disconnect between user intent and image content, which negatively impacts ranking performance.",
+            "action_policy": "For every image, the Optimizer Agent must list the exact color(s), material(s), pattern(s), size(s), shape(s), and any other observable attributes in concrete, measurable terms. Avoid generic descriptors such as \"bright,\" \"fabric,\" or \"large.\" Ensure each attribute is explicitly named so the copy mirrors the visual reality and satisfies user intent.",
+            "support_count": 15,
             "cluster_id": 19
         },
         {
-            "strategy_name": "Comprehensive Visual Detail Strategy",
+            "strategy_name": "Visual Detail Precision",
             "gap_type": "COMPLETENESS",
-            "observation_summary": "Product listings often fail to rank because descriptions omit key visual elements or use generic wording, reducing relevance to user queries.",
-            "action_policy": "When generating or revising a product description, always enumerate every visual attribute\u2014material, color, texture, finish, dimensions, and spatial arrangement of components\u2014using a structured template. Verify each element against the source image, replace generic terms with precise descriptors (e.g., \"solid brown\u2011stained wood with a smooth finish\"), and ensure no key visual detail is omitted.",
-            "support_count": 7,
-            "cluster_id": 20
+            "observation_summary": "Product descriptions often omit or generalize key visual elements in the accompanying image, such as the exact stone shapes, cuts, sizes, arrangements, band designs, and materials, resulting in a weak semantic match and lower relevance.",
+            "action_policy": "Always enumerate every prominent visual feature visible in the image using precise terminology (e.g., \"Swarovski Zirconia, round brilliant cut, half\u2011eternity band\") and ensure that every stone, band style, and arrangement is explicitly described. Avoid generic placeholders and confirm that the description fully mirrors the image\u2019s visible details.",
+            "support_count": 11,
+            "cluster_id": 21
+        },
+        {
+            "strategy_name": "Visual Attribute Precision Strategy",
+            "gap_type": "COMPLETENESS",
+            "observation_summary": "Listings often omit or use generic/mis\u2011named visual attributes (e.g., \"pave\u2011set\", \"Princess\u2011Cut\"), resulting in incomplete, inconsistent descriptions that lower relevance scores.",
+            "action_policy": "For every product listing, enforce a standardized, detailed specification of all key visual attributes\u2014cut shape, stone count, arrangement (halo, band style), and material\u2014using the defined taxonomy. Run an automated audit that cross\u2011checks the text, schema, and imagery for consistency, flagging and correcting any gaps before publication.",
+            "support_count": 8,
+            "cluster_id": 22
+        },
+        {
+            "strategy_name": "Sensory Detail Alignment",
+            "gap_type": "SPECIFICITY",
+            "observation_summary": "Product descriptions routinely omit or generalize visual cues from the image\u2014color, pattern, texture, finish, weave, shape, and overall aesthetic\u2014using vague, generic language that fails to match what shoppers actually see. This results in incomplete, non\u2011sensory content that does not satisfy search intent or search engine relevance.",
+            "action_policy": "For every product image, the Optimizer Agent must translate each observable visual feature into explicit, sensory\u2011rich language. Use precise terms such as \u2018100\u202f% linen\u2019, \u2018wrinkle\u2011resistant microfiber\u2019, \u2018satin weave\u2019, \u2018hand\u2011stitched boucle\u2019, or \u2018matte\u2011finish chrome\u2019. Ensure texture, finish, weave, and material are named concretely, mirroring the shopper\u2019s visual experience, and replace all generic or non\u2011specific phrases with concrete, descriptive terms.",
+            "support_count": 17,
+            "cluster_id": 23
+        },
+        {
+            "strategy_name": "Full Visual Detail Alignment",
+            "gap_type": "COMPLETENESS",
+            "observation_summary": "Descriptions frequently omit or generalize key visual attributes\u2014color, pattern, texture, shape, material, dimensions, and distinctive design elements\u2014leading to incomplete coverage and misalignment with the shopper\u2019s visual intent.",
+            "action_policy": "For every product description, the Optimizer Agent must explicitly enumerate all observable visual attributes present in the image, ensuring both breadth (every attribute is listed) and depth (each attribute is described with specific, sensory language). The copy must mirror the image\u2019s visual narrative, match size, color, material, and style, and avoid extraneous technical specs that are not visible. This guarantees complete, specific, and atmospheric alignment with the shopper\u2019s visual perception.",
+            "support_count": 19,
+            "cluster_id": 24
+        },
+        {
+            "strategy_name": "Full Visual & Specification Alignment Principle",
+            "gap_type": "COMPLETENESS",
+            "observation_summary": "Product descriptions often omit or generalize the visual traits and functional specifications shown in the product image, leading to incomplete, ambiguous content that fails to meet user expectations and harms search ranking.",
+            "action_policy": "When generating or revising product descriptions, always extract every observable visual attribute (color, texture, material, shape) and every measurable functional specification (dimensions, fit type, pocket depth, etc.) directly from the product image. Use concrete, image\u2011grounded language and avoid generic placeholders. Ensure the description fully reflects the image\u2019s details to maximize relevance and ranking.",
+            "support_count": 5,
+            "cluster_id": 25
+        },
+        {
+            "strategy_name": "Visual\u2011Text Alignment Principle",
+            "gap_type": "SPECIFICITY",
+            "observation_summary": "Copy that omits or generalizes any visually observable detail\u2014product type, packaging shape/color, brand, or certification icons\u2014produces a mismatch between image and description. This dilution of relevance lowers search\u2011engine ranking and click\u2011through rates.",
+            "action_policy": "For every listing, explicitly name every item the shopper can see in the image: product type as labeled, exact packaging style (resealable bag, pouch, size), visible color/shape cues, brand name, and any certification or icon. Avoid generic descriptors or substitutions that do not match the visual reality.",
+            "support_count": 25,
+            "cluster_id": 26
+        },
+        {
+            "strategy_name": "Visual Completeness & Relevance Principle",
+            "gap_type": "COMPLETENESS",
+            "observation_summary": "Product descriptions frequently omit or misrepresent key visual attributes and often include emotive or abstract language that distracts from shopper intent, resulting in incomplete visual translation and reduced search relevance.",
+            "action_policy": "For every listing, incorporate every salient visual feature present in the product image that aligns with the search query (shape, size, color, closure, packaging, visible accessories, etc.). Use concise, factual, feature\u2011based language and explicitly avoid emotive, superfluous, or abstract wording that does not convey observable attributes.",
+            "support_count": 10,
+            "cluster_id": 27
+        },
+        {
+            "strategy_name": "Sensory-Driven Product Descriptions",
+            "gap_type": "ATMOSPHERE",
+            "observation_summary": "Product listings frequently rely on dry specifications and fail to evoke a vivid, sensory image of the item, preventing shoppers from forming a clear mental picture and emotional connection. This lack of atmospheric detail diminishes relevance, differentiation, and click\u2011through rates.",
+            "action_policy": "Embed rich, sensory language that describes material, clarity, shape, color, sheen, and design style in a narrative form. Use vivid adjectives and evocative imagery that align with the actual appearance of the product, creating a clear mental visual and emotional anchor for the shopper.",
+            "support_count": 9,
+            "cluster_id": 28
+        },
+        {
+            "strategy_name": "Precision Visual Narrative",
+            "gap_type": "SPECIFICITY",
+            "observation_summary": "Product listings frequently omit concrete visual details\u2014using vague terms or generic phrasing that fails to mirror the image\u2019s material, color, shape, dimensions, and unique design elements. This mismatch causes search\u2011engine relevance penalties and reduces buyer trust.",
+            "action_policy": "The Optimizer Agent must craft descriptions that explicitly enumerate every observable cue in the image: material type, exact color(s), shape descriptors, measured dimensions, and distinctive design features (e.g., rim style, stem type, finish). Avoid generic adjectives; instead, provide a vivid, item\u2011specific narrative that aligns perfectly with the visual content to satisfy both shoppers and search\u2011engine algorithms.",
+            "support_count": 14,
+            "cluster_id": 29
         }
     ]
 }

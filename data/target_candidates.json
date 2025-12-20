@@ -1,218 +1,116 @@
 {
     "Women's floral embroidery slip-on shoes": [
         {
-            "item_id": "B071JM2QL7",
+            "item_id": "B01N19O15D",
             "current_rank": 10,
             "current_vis": 0.0,
-            "target_gap_vis": 3.2492,
-            "beaten_by": "B071G16W12",
-            "opportunity_score": 12.16,
-            "diagnosis_summary": "The Winner\u2019s text highlights the actual suede texture, the slip\u2011on form and the pointed toe shape that are visible in the image, while also noting the leather lining \u2013 capturing every prominent visual",
-            "suggested_principle": "When describing visual content, enumerate all prominent attributes\u2014material, texture, shape, pattern, and color\u2014in the exact order they appear in the image.  Avoid fabricating patterns or missing features, as incomplete or inaccurate descriptions create a translation gap that hurts relevance and ranking."
-        },
-        {
-            "item_id": "B072JTL1HX",
-            "current_rank": 9,
-            "current_vis": 0.0,
-            "target_gap_vis": 3.2492,
-            "beaten_by": "B071G16W12",
-            "opportunity_score": 10.81,
-            "diagnosis_summary": "The Winner explicitly details the shoe\u2019s suede texture, pointed\u2011toe shape, leather lining, and slip\u2011on form\u2014capturing material, silhouette, and functional attributes. The Loser reduces the visual narr",
-            "suggested_principle": "For high SEO ranking, fully enumerate all salient visual attributes: material texture, color, shape/silhouette, sole type, and any distinctive patterns or embellishments. Omitting any of these renders the description incomplete and less aligned with user intent."
-        },
-        {
-            "item_id": "B01N19O15D",
-            "current_rank": 8,
-            "current_vis": 1.0617,
-            "target_gap_vis": 2.1875,
-            "beaten_by": "B071G16W12",
-            "opportunity_score": 9.46,
-            "diagnosis_summary": "The winner\u2019s description explicitly includes the buckle strap, the sling\u2011back ankle style, and the woven rubber outsole \u2013 all of which are visible in the image. The loser\u2019s text omits the buckle and m",
-            "suggested_principle": "When translating visual data to text, ensure every prominent physical feature\u2014such as buckles, straps, outsole construction, and toe shape\u2014is captured. Missing or mischaracterizing these details reduces the textual representation\u2019s completeness and can hurt ranking performance."
+            "target_gap_vis": 0.9917,
+            "beaten_by": "B01MTEI8M6",
+            "opportunity_score": 11.69,
+            "diagnosis_summary": "The Winner text emphasizes the visual style\u2014\"Printed floral pattern | Flower embellishment\"\u2014which conveys a specific aesthetic and directly relates to the query\u2019s floral theme. The Loser text concentr",
+            "suggested_principle": "When optimizing product titles or snippets, prioritize describing the visual vibe or style (patterns, colors, embellishments) that evokes the desired aesthetic, especially when it aligns with user intent, rather than focusing solely on materials or structural details."
         },
         {
             "item_id": "B07889HKBZ",
-            "current_rank": 7,
-            "current_vis": 1.0759,
-            "target_gap_vis": 2.1733,
-            "beaten_by": "B071G16W12",
-            "opportunity_score": 8.11,
-            "diagnosis_summary": "The Winner\u2019s description accurately lists the visible buckle, leather strap, flat sole, and suede upper that the image shows. The Loser, on the other hand, omits these key visual elements, invents a s",
-            "suggested_principle": "When translating visual data into text, always capture all prominent features that the image displays\u2014strap type, closure mechanism, sole material, color, and any distinctive adornments. Do not add or mislabel elements that are absent; ensure completeness to align the textual description with the visual reality."
+            "current_rank": 9,
+            "current_vis": 0.0,
+            "target_gap_vis": 0.9917,
+            "beaten_by": "B01MTEI8M6",
+            "opportunity_score": 10.39,
+            "diagnosis_summary": "Winner explicitly highlights the printed floral pattern and flower embellishment that are the key visual attributes of the shoe. Loser instead focuses on a sequin heart and metallic details, completel",
+            "suggested_principle": "Always ensure that the textual description captures all dominant visual features\u2014color, pattern, material, and design elements\u2014especially those directly requested in the query. Missing or misrepresenting key attributes leads to lower relevance and poorer ranking."
         },
         {
             "item_id": "B01MS836FM",
-            "current_rank": 6,
-            "current_vis": 1.0904,
-            "target_gap_vis": 2.1588,
-            "beaten_by": "B071G16W12",
-            "opportunity_score": 6.75,
-            "diagnosis_summary": "The Winner\u2019s description captures all key visual cues present in the image: it mentions the buckle on the slingback ankle strap, the suede leather upper, and the rubber sole, directly matching the san",
-            "suggested_principle": "Ensure every prominent visual feature (shape, color, key hardware such as buckles or straps, and sole type/color) is explicitly described. Missing such details reduces completeness and can lower search relevance."
+            "current_rank": 8,
+            "current_vis": 0.0,
+            "target_gap_vis": 0.9917,
+            "beaten_by": "B01MTEI8M6",
+            "opportunity_score": 9.1,
+            "diagnosis_summary": "The Winner\u2019s text zeroes in on the distinct visual motif\u2014\"Printed floral pattern\" and \"Flower embellishment\"\u2014that the image displays. These terms directly translate the visible design into a keyword\u2011r",
+            "suggested_principle": "When describing products, prioritize specific visual motifs or patterns that the user is likely searching for (e.g., floral, embroidered, diamond\u2011cut) rather than generic material or shape terms. Specificity in visual details drives relevance and improves ranking."
         },
         {
             "item_id": "B06XKHHTBS",
-            "current_rank": 5,
-            "current_vis": 1.691,
-            "target_gap_vis": 1.5582,
-            "beaten_by": "B071G16W12",
-            "opportunity_score": 5.4,
-            "diagnosis_summary": "The Winner highlighted a distinct visual element \u2013 an oversize bow tie \u2013 and described its satin finish, low\u2011top collar, and twin gores, giving a clear sense of texture, shape, and style. The Loser\u2019s ",
-            "suggested_principle": "When describing a product\u2019s visual reality, avoid broad material labels; instead, pinpoint specific features such as distinctive design elements (bow, buckle), texture cues (satin, suede), and stylistic details (low\u2011top collar, twin gores) to convey the exact look and feel seen in the image."
+            "current_rank": 7,
+            "current_vis": 0.0,
+            "target_gap_vis": 0.9917,
+            "beaten_by": "B01MTEI8M6",
+            "opportunity_score": 7.8,
+            "diagnosis_summary": "The winner\u2019s text highlighted the printed floral pattern that is clearly visible in the image, directly addressing the query\u2019s focus on floral embroidery. The loser\u2019s text omitted any mention of a flo",
+            "suggested_principle": "Always ensure that the textual description includes the most salient visual attributes that answer the search intent. Omit only non\u2011essential details; include every key visual cue (pattern, color, texture) that the query is likely to prioritize."
         },
         {
             "item_id": "B01MUHWO28",
-            "current_rank": 4,
-            "current_vis": 1.76,
-            "target_gap_vis": 1.4892,
-            "beaten_by": "B071G16W12",
-            "opportunity_score": 4.05,
-            "diagnosis_summary": "The Winner\u2019s copy explicitly captures the visible bow detail with an \"oversize bow tie\" and highlights the shoe\u2019s satin finish and low\u2011top collar, directly mirroring the burgundy, maroon\u2011bow, polished",
-            "suggested_principle": "When describing a visual asset, always identify and name the concrete, distinct elements that viewers see (color, texture, specific embellishments, structural details). Avoid generic or unrelated terms; specificity grounds the description in the actual visual reality and boosts relevance in search ranking."
-        }
-    ],
-    "Men's leather oxford dress shoes black": [
-        {
-            "item_id": "B07RDQJG32",
-            "current_rank": 10,
-            "current_vis": 0.0,
-            "target_gap_vis": 0.93,
-            "beaten_by": "B084MZ4HYV",
-            "opportunity_score": 12.07,
-            "diagnosis_summary": "The Winner\u2019s description uses precise, sensory language\u2014\u2018Soft, polished leather upper\u2019 and explicit detailing such as \u2018Punch\u2011hole detailing from toe to sides\u2019. The Loser merely states the broad materi",
-            "suggested_principle": "For multimodal SEO, prioritize specific, sensory\u2011rich visual descriptors (texture, finish, unique design details) over generic material or product category terms. Highlighting concrete visual traits ensures that the textual description mirrors the actual visual reality, enhancing relevance and ranking."
-        },
-        {
-            "item_id": "B01MR4MRAE",
-            "current_rank": 9,
-            "current_vis": 0.6221,
-            "target_gap_vis": 0.3079,
-            "beaten_by": "B084MZ4HYV",
-            "opportunity_score": 10.56,
-            "diagnosis_summary": "The Winner\u2019s text enumerates every prominent visual cue \u2013 toe shape (Round Toe), heel style and height (Block Heel, 1\u2033), the polished leather surface, lace\u2011up closure, and even interior details like m",
-            "suggested_principle": "When translating visual data to text, aim for a comprehensive, feature\u2011rich description that covers all observable elements (toe, heel, material, finish, interior comfort, care, and warranty). A partial or overly generic description leaves critical visual cues missing and weakens the search relevance."
-        },
-        {
-            "item_id": "B078H8BB11",
-            "current_rank": 8,
-            "current_vis": 0.6546,
-            "target_gap_vis": 0.2754,
-            "beaten_by": "B084MZ4HYV",
-            "opportunity_score": 9.06,
-            "diagnosis_summary": "The winner\u2019s text explicitly describes the visual features present in the image: a lace\u2011up closure, round toe, block heel, synthetic outer material, and the overall formal oxford silhouette. The loser",
-            "suggested_principle": "When describing a product, always ensure that the text reflects all observable visual attributes\u2014style, closure type, shape, material, and any distinguishing design elements. Omitting or misrepresenting these features leads to a loss in relevance and ranking."
-        },
-        {
-            "item_id": "B06XG6Z54T",
-            "current_rank": 7,
-            "current_vis": 0.6772,
-            "target_gap_vis": 0.2528,
-            "beaten_by": "B084MZ4HYV",
-            "opportunity_score": 7.55,
-            "diagnosis_summary": "The Winner text enumerates all prominent visual traits of the shoe\u2014black polished leather, lace\u2011up closure, round toe, block heel, and black sole\u2014matching the image. The Loser text omits key elements ",
-            "suggested_principle": "To avoid a translation gap, always provide a fully comprehensive visual description that lists every significant attribute observed in the image\u2014color, material, texture, shape, closure type, and sole style. Ensure each descriptor accurately matches the visual reality; omit nothing that could help the search engine and never introduce incorrect details."
-        },
-        {
-            "item_id": "B084PJLB3V",
             "current_rank": 6,
-            "current_vis": 0.6885,
-            "target_gap_vis": 0.2415,
-            "beaten_by": "B084MZ4HYV",
-            "opportunity_score": 6.04,
-            "diagnosis_summary": "The winner\u2019s text lists a broader set of product specifications\u2014shoe width, insole type, warranty details, and care instructions\u2014providing a fuller picture of the shoe\u2019s functionality and care. The lo",
-            "suggested_principle": "To outperform competitors, include a complete set of relevant product attributes\u2014material, fit, closure, heel, insole, warranty, and care instructions\u2014so shoppers see all that matters in a single, well-structured description."
+            "current_vis": 0.0,
+            "target_gap_vis": 0.9917,
+            "beaten_by": "B01MTEI8M6",
+            "opportunity_score": 6.5,
+            "diagnosis_summary": "The Winner\u2019s description focuses on a distinct visual element \u2013 a printed floral pattern \u2013 using a precise and evocative phrase. The Loser\u2019s text lists generic form descriptors (e.g., \u201cFlat shoe,\u201d \u201cSl",
+            "suggested_principle": "When describing visually similar products, always pinpoint and articulate the most distinctive visual motif or pattern (e.g., floral print, diamond tread, metallic buckle). Generic structural or material terms dilute the impact; specificity drives relevance and conversion."
         },
         {
-            "item_id": "B07RJXW7ZS",
+            "item_id": "B074KPDRLH",
             "current_rank": 5,
-            "current_vis": 0.6885,
-            "target_gap_vis": 0.2534,
-            "beaten_by": "B07QDB9V9X",
-            "opportunity_score": 4.82,
-            "diagnosis_summary": "The Winner\u2019s description identifies the material as *Synthetic* and the toe style as *Round Toe*, terms that directly correspond to the shoe\u2019s visual appearance in the image (a polished, round\u2011toed bl",
-            "suggested_principle": "When mapping visual data to text, always use the most specific, visually\u2011relevant descriptors (e.g., exact toe shape, finish, or material type) that match the image. Generic or inaccurate terms create a translation gap that hurts relevance and ranking."
+            "current_vis": 0.0,
+            "target_gap_vis": 0.9917,
+            "beaten_by": "B01MTEI8M6",
+            "opportunity_score": 5.2,
+            "diagnosis_summary": "The Winner explicitly highlights the shoe\u2019s printed floral pattern and flower embellishment\u2014key visual cues that directly answer the query for \"floral embroidery\". The Loser focuses on secondary detai",
+            "suggested_principle": "When converting visuals to text, prioritize the most distinctive, query\u2011relevant features (e.g., pattern, embellishment) before adding secondary accessories. This ensures completeness and aligns the description with user intent."
         },
         {
-            "item_id": "B06XCFTFXQ",
+            "item_id": "B071JM2QL7",
             "current_rank": 4,
-            "current_vis": 0.7125,
-            "target_gap_vis": 0.2294,
-            "beaten_by": "B07QDB9V9X",
-            "opportunity_score": 3.61,
-            "diagnosis_summary": "The Winner lists a full set of visual features that align with the image\u2014material (leather upper), closure (lace\u2011up), heel type (block heel), heel height, toe style (round toe)\u2014and thus paints a compl",
-            "suggested_principle": "When describing visual data for search optimization, always provide a complete list of observable attributes\u2014material, color, closure, heel type, heel height, toe shape, and any distinguishing details\u2014so that the textual description fully reflects what the image actually shows."
+            "current_vis": 0.6539,
+            "target_gap_vis": 0.3378,
+            "beaten_by": "B01MTEI8M6",
+            "opportunity_score": 3.9,
+            "diagnosis_summary": "The Winner\u2019s description enumerates multiple visible attributes \u2013 the backless loafer silhouette, apron toe, cross strap, minimalist heel, tan suede material, and embroidered floral motif \u2013 giving a f",
+            "suggested_principle": "For high SEO ranking, fully capture every visible attribute in the image\u2014color, material, silhouette, decorative details, and style cues\u2014rather than summarizing with generic pattern labels. This comprehensive, specific depiction aligns the textual content with the visual reality, driving relevance and authority."
         }
     ],
     "Industrial style metal pendant light": [
         {
-            "item_id": "B07HK67M5L",
+            "item_id": "B0828FDYQ2",
             "current_rank": 10,
-            "current_vis": 0.5048,
-            "target_gap_vis": 0.8437,
-            "beaten_by": "B07HKGHSJJ",
-            "opportunity_score": 11.06,
-            "diagnosis_summary": "The winner\u2019s description enumerates the pendant\u2019s dimensions, shade, rod color, material finishes (oil\u2011rubbed bronze, steel, glass), and design inspiration. The loser only lists a generic category and",
-            "suggested_principle": "When translating visual data into text, always provide a comprehensive, feature\u2011rich description: include shape, dimensions, material finishes, and design cues. Avoid leaving out any visible attribute, as completeness directly impacts relevance and ranking."
+            "current_vis": 0.4206,
+            "target_gap_vis": 0.3134,
+            "beaten_by": "B07374QGD8",
+            "opportunity_score": 10.89,
+            "diagnosis_summary": "The Winner\u2019s description mentions the black metal frame, brown metal shade, and a metal mesh diffuser\u2014all visibly present in the image\u2014while the Loser\u2019s text omits the wooden frame, glass shade, and a",
+            "suggested_principle": "Ensure every prominent visual element in the image\u2014materials, colors, shapes, and lighting state\u2014is explicitly mentioned. A complete visual narrative not only improves keyword matching but also gives users an accurate mental picture, boosting relevance and ranking."
         },
         {
             "item_id": "B0825DC7JP",
             "current_rank": 9,
-            "current_vis": 0.5802,
-            "target_gap_vis": 0.7683,
-            "beaten_by": "B07HKGHSJJ",
-            "opportunity_score": 9.83,
-            "diagnosis_summary": "Winner described the lamp\u2019s wooden accents and matte\u2011black metal base\u2014exactly what the image shows\u2014a wooden frame and a black metal base. Loser, on the other hand, claimed a \u2018white faux marble finish\u2019",
-            "suggested_principle": "Always use precise, accurate material descriptors that mirror the actual finishes visible in the image, rather than generic or speculative terms."
-        },
-        {
-            "item_id": "B07HK5LPC1",
-            "current_rank": 8,
-            "current_vis": 0.6182,
-            "target_gap_vis": 0.7303,
-            "beaten_by": "B07HKGHSJJ",
-            "opportunity_score": 8.6,
-            "diagnosis_summary": "The winner\u2019s description explicitly identifies the wooden frame and matte\u2011black metal base that are clearly visible in the image, while the loser\u2019s text only mentions generic \"metal accents\" and \"blac",
-            "suggested_principle": "For each visual element that a product displays\u2014materials, structural components, and finishes\u2014include a specific mention in the description. Avoid generic references or omission; completeness ensures the text fully maps the visual reality and improves relevance for targeted queries."
-        },
-        {
-            "item_id": "B07HK5WXQP",
-            "current_rank": 7,
-            "current_vis": 0.7666,
-            "target_gap_vis": 0.5819,
-            "beaten_by": "B07HKGHSJJ",
-            "opportunity_score": 7.37,
-            "diagnosis_summary": "The Winner\u2019s copy explicitly references the product\u2019s style \u2013 it calls the fixture a \"black\u2011finished wire cage\" that \"brings together vintage and modern industrial influences.\"  This directly communic",
-            "suggested_principle": "When describing visual products, always embed the specific style or mood (e.g., industrial, vintage, rustic) into the text.  This aligns the description with the visual reality and satisfies user intent more effectively than generic or purely technical wording."
-        },
-        {
-            "item_id": "B0828FDYQ2",
-            "current_rank": 6,
-            "current_vis": 0.9622,
-            "target_gap_vis": 0.3863,
-            "beaten_by": "B07HKGHSJJ",
-            "opportunity_score": 6.14,
-            "diagnosis_summary": "The winner\u2019s description uses precise visual details\u2014\"oil\u2011rubbed bronze exterior\", \"copper\u2011finished inside\", and a \"metal mesh diffuser\"\u2014that directly correspond to the image\u2019s black metal frame and b",
-            "suggested_principle": "When describing visually similar products, always match the exact material finishes, textures, and colors seen in the image with specific terminology. Avoid generic or contradictory terms, and ensure all prominent visual elements are captured. This precision boosts relevance signals and improves ranking."
-        },
-        {
-            "item_id": "B07374QGD8",
-            "current_rank": 5,
-            "current_vis": 0.9627,
-            "target_gap_vis": 0.3858,
-            "beaten_by": "B07HKGHSJJ",
-            "opportunity_score": 4.91,
-            "diagnosis_summary": "Winner\u2019s description highlights the exact visual finishes\u2014an oil\u2011rubbed bronze exterior, copper\u2011finished interior and a metal mesh diffuser\u2014while the loser only notes \"black metal\" and \"clear glass\". ",
-            "suggested_principle": "When describing visual data, always use the most specific material descriptors and finish details observed (e.g., \"oil\u2011rubbed bronze\" vs. \"black metal\"). Generic class names dilute the product\u2019s unique visual appeal and reduce SEO impact."
+            "current_vis": 0.4475,
+            "target_gap_vis": 0.2865,
+            "beaten_by": "B07374QGD8",
+            "opportunity_score": 9.68,
+            "diagnosis_summary": "The Winner explicitly identifies the black metal frame, brown metal shade, oil\u2011rubbed bronze exterior, and copper\u2011finished interior\u2014detailing both material type and color texture. The Loser only uses ",
+            "suggested_principle": "When describing visual data for SEO, replace generic terms (white, gold, faux) with precise material, color, and texture descriptors (black metal, brown metal, oil\u2011rubbed bronze). This specificity ensures the textual content accurately reflects the visual reality and aligns closely with user intent for niche queries like \"industrial style metal pendant light.\""
         },
         {
             "item_id": "B07B4SC2JF",
-            "current_rank": 4,
-            "current_vis": 1.0898,
-            "target_gap_vis": 0.2587,
-            "beaten_by": "B07HKGHSJJ",
-            "opportunity_score": 3.69,
-            "diagnosis_summary": "The winner\u2019s text explicitly mentions the \"clear glass\" shade and a \"black base/cord\", directly matching the visual evidence of a white glass fixture with a black base. The loser\u2019s description focuses",
-            "suggested_principle": "When describing a product, always include every prominent visual component\u2014material, color, shape, and any structural elements\u2014so the textual content fully reflects what the user sees. Missing such details can lower perceived relevance and SEO performance."
+            "current_rank": 8,
+            "current_vis": 0.481,
+            "target_gap_vis": 0.253,
+            "beaten_by": "B07374QGD8",
+            "opportunity_score": 8.47,
+            "diagnosis_summary": "The Winner\u2019s description lists every prominent visual element\u2014black cord, black\u2011painted fixture, round stepped glass shade, and clear glass\u2014giving a full picture of the fixture\u2019s appearance. The Loser",
+            "suggested_principle": "Always enumerate all major visual attributes\u2014shape, material clarity, finishing details, and structural components\u2014to create a complete, faithful representation of the product\u2019s appearance. A thorough visual description boosts relevance and clarity, improving ranking potential."
+        },
+        {
+            "item_id": "B07HK5LPC1",
+            "current_rank": 7,
+            "current_vis": 0.5117,
+            "target_gap_vis": 0.2223,
+            "beaten_by": "B07374QGD8",
+            "opportunity_score": 7.26,
+            "diagnosis_summary": "The winner explicitly describes the key visual components that are present in the image: a black metal frame and *three* clear glass globes, matching the visual evidence. The loser\u2019s description only ",
+            "suggested_principle": "When translating visual data to text, ensure that every visible feature\u2014number, material, color, and structure\u2014is explicitly mentioned. Missing or vague descriptors lead to incompleteness and dilute relevance, especially for search queries that depend on precise visual attributes."
         }
     ],
     "Vintage brass drawer handles": [
@@ -220,145 +118,133 @@
             "item_id": "B07L8DQQ4Q",
             "current_rank": 10,
             "current_vis": 0.0,
-            "target_gap_vis": 4.2481,
+            "target_gap_vis": 0.7339,
             "beaten_by": "B07GDQM2TW",
             "opportunity_score": 13.33,
-            "diagnosis_summary": "The winner\u2019s description contains the critical visual attributes of the handle \u2013 its projection (2.62\u202fcm), diameter (3.85\u202fcm) and finish \u2013 directly addressing what a user sees. The loser, however, dev",
-            "suggested_principle": "When writing product snippets for SEO, always ensure the visual attributes described are complete and relevant to the queried item. Include all observable dimensions, materials, and finishes that a buyer can see, and avoid extraneous details that distract from the product\u2019s visual identity."
+            "diagnosis_summary": "Winner described the visual details with precise material names and functional dimensions \u2013 e.g., \"brass body\", \"steel internal structure\", \"zinc alloy latch bolt\" \u2013 whereas Loser used only generic ae",
+            "suggested_principle": "When translating visual data into text, always use specific material and functional descriptors that match what is actually visible in the image. Generic style or mood terms alone do not capture the distinct attributes that help the product rank higher."
         },
         {
             "item_id": "B07VM9TN7N",
             "current_rank": 9,
             "current_vis": 0.0,
-            "target_gap_vis": 4.2481,
+            "target_gap_vis": 0.7339,
             "beaten_by": "B07GDQM2TW",
             "opportunity_score": 11.85,
-            "diagnosis_summary": "The Winner\u2019s description explicitly lists the handle\u2019s projection (2.62\u202fcm) and diameter (3.85\u202fcm) along with mounting screw sizes, giving a clear sense of scale and visual proportion. The Loser only ",
-            "suggested_principle": "When translating visual data to text, always provide complete dimensional and shape information\u2014size, projection, and proportion\u2014so the user can mentally reconstruct the object\u2019s appearance. Omitting such details forces the user to rely on guesswork and reduces relevance."
+            "diagnosis_summary": "The Winner\u2019s description includes precise visual details that the Loser omits: it specifies a brass body, a steel internal structure, an adjustable latch (2\u20113/8\u202f\u2013\u202f2\u20113/4\u202fin.), four brass keyed\u2011alike ke",
+            "suggested_principle": "When describing a product, use specific visual attributes that match the image\u2014include material finishes, dimensional details, and component shapes. Generic or mismatched terms dilute the visual translation and reduce relevance to the search query."
         },
         {
             "item_id": "B06XZN5PJ3",
             "current_rank": 8,
             "current_vis": 0.0,
-            "target_gap_vis": 4.2481,
+            "target_gap_vis": 0.7339,
             "beaten_by": "B07GDQM2TW",
             "opportunity_score": 10.37,
-            "diagnosis_summary": "The Winner explicitly described the wooden circle, the silver hexagonal screw, and included exact measurements (diameter, projection, mounting screws). The Loser omitted any mention of the screw or th",
-            "suggested_principle": "When translating visual reality to text, always list every visible component and its attributes (size, shape, material, color). A description that omits key visual features loses relevance and ranking potential."
-        },
-        {
-            "item_id": "B01N4Q9DLB",
-            "current_rank": 7,
-            "current_vis": 1.732,
-            "target_gap_vis": 2.5161,
-            "beaten_by": "B07GDQM2TW",
-            "opportunity_score": 8.89,
-            "diagnosis_summary": "The Winner text includes a reference to the handle\u2019s color and finish\u2014suggesting a brass or gold surface\u2014while the Loser text omits any visual description beyond dimensions and mounting hardware. This",
-            "suggested_principle": "When translating visual data into text, always include specific visual attributes\u2014material, finish, or design details\u2014beyond mere dimensions. This completeness gives the description a clearer, more compelling visual context for both users and ranking algorithms."
+            "diagnosis_summary": "The Winner\u2019s description enumerates precise visual features\u2014\"Brass body\", \"steel internal structure\", \"zinc alloy latch bolt\", and the exact latch width (2\u20113/8\u20112\u20113/4 inches). These terms match the con",
+            "suggested_principle": "When describing visually\u2011rich products, always translate the concrete material, finish, and dimensional cues from the image into text. Use precise terms (e.g., \"brass body\", \"adjustable latch 2\u20113/8\"\u20112\u20113/4\") instead of broad categories like \"metal\" or \"stainless steel\". This specificity anchors the textual description to what the user actually sees, improving relevance and search ranking."
         },
         {
             "item_id": "B07RWR52WN",
+            "current_rank": 7,
+            "current_vis": 0.0,
+            "target_gap_vis": 0.7339,
+            "beaten_by": "B07GDQM2TW",
+            "opportunity_score": 8.89,
+            "diagnosis_summary": "The Winner explicitly states the visual material as \"Brass body\" and notes \"brass keyed alike keys,\" providing a concrete visual cue that the handle is made of brass. The Loser merely mentions \"a vari",
+            "suggested_principle": "Always describe the exact visual material or finish (e.g., \"brass body\") rather than using broad terms like \"various colors\". Specificity in material description strengthens the translation between what is seen and what is written, improving relevance and ranking."
+        },
+        {
+            "item_id": "B01N365JFG",
             "current_rank": 6,
-            "current_vis": 2.164,
-            "target_gap_vis": 2.0841,
+            "current_vis": 0.0,
+            "target_gap_vis": 0.7339,
             "beaten_by": "B07GDQM2TW",
             "opportunity_score": 7.41,
-            "diagnosis_summary": "The Winner\u2019s description directly references visual elements that are present in the image: the matte black bar, the four screws of varying lengths, and the precise dimensions of the pull. The Loser, ",
-            "suggested_principle": "When describing a product, always include the concrete visual components\u2014color, texture, and any hardware or decorative elements\u2014that a customer can see. Technical specs are important, but they should complement, not replace, a description that paints the actual look and feel of the item."
+            "diagnosis_summary": "The Winner explicitly states the handles are made of \"brass\"\u2014the exact material highlighted in the query and visually present in the image\u2014while the Loser only mentions a \"satin nickel finish,\" which ",
+            "suggested_principle": "When describing visual attributes, always identify and use the exact material names that match what the image shows and the search query seeks. Generic or unrelated finish terms dilute relevance and hurt ranking."
         },
         {
             "item_id": "B01MS9NRWK",
             "current_rank": 5,
-            "current_vis": 2.3606,
-            "target_gap_vis": 1.8875,
+            "current_vis": 0.0,
+            "target_gap_vis": 0.7339,
             "beaten_by": "B07GDQM2TW",
             "opportunity_score": 5.93,
-            "diagnosis_summary": "The Winner\u2019s text lists multiple visible components \u2013 a brass body, steel internal structure, keyed brass keys, a rounded steel faceplate and a zinc\u2011alloy latch bolt \u2013 giving a full picture of the han",
-            "suggested_principle": "When translating visual data to text, always enumerate all visible parts and material details, not just the overall finish. A comprehensive, component\u2011by\u2011component description captures the true appearance and gives search algorithms more cues to match the query."
+            "diagnosis_summary": "Winner explicitly states \"Brass body\"\u2014the key visual material that matches the query for vintage brass drawer handles. Loser only mentions an \"Antique Silver Finish,\" which neither specifies the brass",
+            "suggested_principle": "Always name the exact material or finish that is visibly present in the image, especially when the query specifies a particular material. Generic or unrelated finish terms create a translation gap that hurts relevance and ranking."
         },
         {
             "item_id": "B01MTB9VC3",
             "current_rank": 4,
-            "current_vis": 2.4048,
-            "target_gap_vis": 1.8433,
+            "current_vis": 0.0,
+            "target_gap_vis": 0.7339,
             "beaten_by": "B07GDQM2TW",
             "opportunity_score": 4.44,
-            "diagnosis_summary": "The Winner text explicitly states a 'Brass body' and a 'steel internal structure', directly reflecting the visual hue and composition visible in the image. The Loser text uses a generic 'Antique Silve",
-            "suggested_principle": "Always describe the exact visual material and finish that the consumer can see (e.g., 'Brass', 'Copper', 'Distressed Oak') rather than using broad or inaccurate terms. Including internal structural details (like 'steel internal structure') further reinforces authenticity and helps the search engine match the product to the query."
-        }
-    ],
-    "Running shoes with breathable mesh": [
-        {
-            "item_id": "B07RSDR32B",
-            "current_rank": 10,
-            "current_vis": 0.5562,
-            "target_gap_vis": 0.4046,
-            "beaten_by": "B07R7BHNF4",
-            "opportunity_score": 11.97,
-            "diagnosis_summary": "The Winner explicitly described the upper as a \"soft woven lightweight breathable mesh fabric with layered texture detail\" and noted \"smooth hot\u2011melt synthetic overlays at sides, heel and laces,\" whic",
-            "suggested_principle": "When describing visual attributes, always use specific, visually grounded descriptors that highlight texture, layering, and material details.  Avoid broad, generic labels like \"textile\" or brand\u2011generic terms; instead, reference the exact visual cues\u2014e.g., \"mesh fabric with layered texture\" or \"hot\u2011melt overlay\"\u2014to give readers a vivid, accurate mental image of the product."
-        },
-        {
-            "item_id": "B07VHVMZ7X",
-            "current_rank": 9,
-            "current_vis": 0.5789,
-            "target_gap_vis": 0.3819,
-            "beaten_by": "B07R7BHNF4",
-            "opportunity_score": 10.64,
-            "diagnosis_summary": "Winner\u2019s description includes the exact visual texture \u2013 a \"soft woven lightweight breathable mesh fabric upper with layered texture detail\" \u2013 and additional visible features such as hot\u2011melt overlays",
-            "suggested_principle": "Always describe the exact visual material and texture seen in the image\u2014use terms like \"mesh fabric with layered texture\" instead of generic material classes such as \"Flyknit\" or \"textile.\" Detailed, specific visual descriptors align the text with the product image and improve relevance for SEO and user intent."
-        },
-        {
-            "item_id": "B07TMNVPBN",
-            "current_rank": 8,
-            "current_vis": 0.5945,
-            "target_gap_vis": 0.3663,
-            "beaten_by": "B07R7BHNF4",
-            "opportunity_score": 9.31,
-            "diagnosis_summary": "The winner\u2019s copy frames the shoe as part of an \"athleisure\" lifestyle\u2014highlighting comfort, breathability, and a sleek, modern vibe that matches the black\u2011and\u2011white image. The loser sticks to a dry l",
-            "suggested_principle": "When translating visual attributes into text, prioritize atmosphere and lifestyle framing over raw technical specs. Describe how the visual look conveys comfort, style, or an emotional vibe, rather than simply listing materials or colors."
-        },
-        {
-            "item_id": "B07TNRTJLQ",
-            "current_rank": 7,
-            "current_vis": 0.6106,
-            "target_gap_vis": 0.3502,
-            "beaten_by": "B07R7BHNF4",
-            "opportunity_score": 7.98,
-            "diagnosis_summary": "Winner\u2019s copy emphasizes a lifestyle vibe\u2014\"comfort\u2011first athleisure collection\", \"careful fit\", and brand collaboration\u2014creating an evocative visual story that matches the sleek, modern look of the bl",
-            "suggested_principle": "When translating visual data into text, pair brand or lifestyle descriptors with key visual cues. Use evocative, atmosphere\u2011building language (e.g., \"sleek modern\", \"athleisure vibe\") alongside concrete details to create a richer, more engaging description that resonates with search intent."
-        },
-        {
-            "item_id": "B07RSDRKP7",
-            "current_rank": 6,
-            "current_vis": 0.6355,
-            "target_gap_vis": 0.3253,
-            "beaten_by": "B07R7BHNF4",
-            "opportunity_score": 6.65,
-            "diagnosis_summary": "The Winner\u2019s description focuses on lifestyle and visual vibe\u2014using phrases such as \u2018comfort\u2011first athleisure collection\u2019 and \u2018pair with joggers or chinos\u2019\u2014which implicitly conveys the sleek, modern l",
-            "suggested_principle": "When translating visual data into text, go beyond listing specs; embed lifestyle cues and visual atmosphere (e.g., \u2018sleek modern\u2019, \u2018athleisure vibe\u2019) so that the description evokes the product\u2019s appearance in the reader\u2019s mind."
-        },
-        {
-            "item_id": "B07YFB3Y16",
-            "current_rank": 5,
-            "current_vis": 0.707,
-            "target_gap_vis": 0.2538,
-            "beaten_by": "B07R7BHNF4",
-            "opportunity_score": 5.32,
-            "diagnosis_summary": "The Winner\u2019s copy focuses on the shoe\u2019s overall vibe \u2013 a \u201ccomfort\u2011first athleisure collection\u201d that hints at a sleek, modern, breathable aesthetic. The Loser, meanwhile, only lists dry technical detai",
-            "suggested_principle": "When writing product descriptions, prioritize evocative, style\u2011driven language that reflects the visual feel of the item. Avoid overly technical or generic lists; instead, paint a quick visual picture (e.g., \u2018athleisure\u2011ready\u2019, \u2018sleek and breathable\u2019, \u2018modern runway\u2011style\u2019) so that the description aligns with what users actually see."
+            "diagnosis_summary": "Winner\u2019s text captures the exact visual material mix of the handle\u2014\u2018Brass body; steel internal structure\u2019\u2014and highlights functional detail (\u2018adjustable latch\u2019). Loser\u2019s text resorts to a generic finis",
+            "suggested_principle": "When translating visual data to text, always describe the exact material composition and structural features you see. Avoid generic finish descriptors and include key functional elements that differentiate the item visually."
         }
     ],
     "Tufted velvet chesterfield sofa": [
         {
-            "item_id": "B07KR86C57",
+            "item_id": "B07B4MG9H2",
             "current_rank": 10,
             "current_vis": 0.0,
-            "target_gap_vis": 0.7165,
+            "target_gap_vis": 0.3988,
             "beaten_by": "B07CB54MM3",
             "opportunity_score": 10.9,
-            "diagnosis_summary": "The Winner\u2019s description captures the full visual reality of the sofa: it mentions the light linen-colored upholstery, the soft textured fabric, the modern clean lines, the solid\u2011wood frame, and even ",
-            "suggested_principle": "In SEO for visual products, always translate every observable visual cue\u2014color, texture, shape, style, material\u2014into the product description. Generic or omitted details dilute relevance; a complete, specific portrayal of the item\u2019s visual attributes aligns the description with user intent and boosts ranking."
+            "diagnosis_summary": "The Winner\u2019s text explicitly names the tufted cushion, soft velvet upholstery, and blackened pewter metal legs\u2014exact visual elements seen in the image. The Loser only refers to a generic linen\u2011colored",
+            "suggested_principle": "When translating visual data into text, always describe the specific textures, finishes, and distinctive visual cues present in the image (e.g., tufted cushion, velvet upholstery, metal leg finish). Generic material names or omitted details weaken the connection between what the customer sees and what the text conveys, reducing relevance and click\u2011through potential."
+        },
+        {
+            "item_id": "B07KR86C57",
+            "current_rank": 9,
+            "current_vis": 0.0,
+            "target_gap_vis": 0.3988,
+            "beaten_by": "B07CB54MM3",
+            "opportunity_score": 9.69,
+            "diagnosis_summary": "The Winner\u2019s description lists all visible attributes: it specifies the material (soft velvet upholstery), the finish (blackened pewter metal legs), the design feature (long tufted cushion, side bolst",
+            "suggested_principle": "When writing product listings, always cover every visible attribute of the item\u2014color, material, texture, shape, and design details. Avoid leaving any visual feature unmentioned, as a complete description aligns better with user expectations and improves ranking."
+        },
+        {
+            "item_id": "B07HZ1LZS1",
+            "current_rank": 8,
+            "current_vis": 0.0,
+            "target_gap_vis": 0.3988,
+            "beaten_by": "B07CB54MM3",
+            "opportunity_score": 8.48,
+            "diagnosis_summary": "The Winner explicitly describes visual textures and finishes\u2014\"soft velvet upholstery\", \"blackened pewter metal finish\", and a \"long tufted cushion\"\u2014directly mirroring what the image shows. The Loser u",
+            "suggested_principle": "When describing furniture, avoid broad material categories. Specify the exact visual texture, finish, and color that a shopper can see\u2014e.g., \"soft velvet upholstery in charcoal\" or \"blackened pewter metal legs\"\u2014instead of vague terms like \"fabric\" or \"wood.\" This precision aligns the textual description with the visual reality, improves relevance, and boosts ranking."
+        },
+        {
+            "item_id": "B07DBHCKHY",
+            "current_rank": 7,
+            "current_vis": 0.0,
+            "target_gap_vis": 0.3988,
+            "beaten_by": "B07CB54MM3",
+            "opportunity_score": 7.27,
+            "diagnosis_summary": "The Winner describes the couch\u2019s visual details with precise terms such as \"soft velvet upholstery\", \"blackened pewter metal finish\", and \"long tufted cushion\". The Loser merely uses broad, generic ph",
+            "suggested_principle": "Always describe the exact visual characteristics seen in the image\u2014texture, finish, color nuance, and any distinctive structural details\u2014rather than relying on generic material or finish labels."
+        },
+        {
+            "item_id": "B07P5LMN2C",
+            "current_rank": 6,
+            "current_vis": 0.0,
+            "target_gap_vis": 0.3988,
+            "beaten_by": "B07CB54MM3",
+            "opportunity_score": 6.06,
+            "diagnosis_summary": "The Winner\u2019s description references a distinctive blackened pewter metal finish, soft velvet upholstery, and a long tufted cushion with side bolster pillows\u2014visual details that are directly observable",
+            "suggested_principle": "When translating visual attributes to text, prioritize specificity: name the exact material, finish, color, and tactile texture visible in the image. Generic descriptors (e.g., \"wooden legs\", \"polyester upholstery\") dilute the visual impact and reduce SEO advantage."
+        },
+        {
+            "item_id": "B07P5LN16X",
+            "current_rank": 5,
+            "current_vis": 0.0,
+            "target_gap_vis": 0.3988,
+            "beaten_by": "B07CB54MM3",
+            "opportunity_score": 4.85,
+            "diagnosis_summary": "The winner\u2019s description captured all visible visual cues: it identified the soft velvet upholstery, the tufted cushion detail, the blackened pewter metal leg finish, and the overall gray, sleek silho",
+            "suggested_principle": "Ensure every observable feature\u2014color, material type, texture, pattern, and finish\u2014is correctly and explicitly described. Mis\u2011labeling a material (e.g., calling suede leather) or ignoring a prominent pattern dilutes the translation of visual reality into text and reduces search relevance."
         }
     ],
     "Geometric print throw pillow blue": [
@@ -366,143 +252,761 @@
             "item_id": "B073P5QKL4",
             "current_rank": 10,
             "current_vis": 0.0,
-            "target_gap_vis": 0.8421,
+            "target_gap_vis": 0.8165,
             "beaten_by": "B07MF1RKS9",
             "opportunity_score": 11.27,
-            "diagnosis_summary": "Winner\u2019s copy explicitly mentions the visible tufted surface and the ties that anchor the cushion, directly echoing the tufted texture shown in the photo. Loser\u2019s copy only speaks of abstract shapes a",
-            "suggested_principle": "When describing visual products, match the text to the precise visual details in the image\u2014specific textures, patterns, or structural features\u2014rather than relying on generic or abstract language. This specificity bridges the perception gap and boosts relevance in search."
+            "diagnosis_summary": "The winner\u2019s description correctly identifies the item as a cushion (product type) and provides functional attributes (durable canvas, decorative tufting, overstuffed, indoor/outdoor suitability). It ",
+            "suggested_principle": "For multimodal SEO, ensure your textual description is complete with respect to the product\u2019s identity and key visual attributes. Always state the product type, the primary color and pattern, and functional qualities that match the search intent. Omitting or misrepresenting these elements reduces relevance and hurts ranking."
         },
         {
             "item_id": "B07BMQXWX1",
             "current_rank": 9,
             "current_vis": 0.0,
-            "target_gap_vis": 0.8421,
+            "target_gap_vis": 0.8165,
             "beaten_by": "B07MF1RKS9",
             "opportunity_score": 10.01,
-            "diagnosis_summary": "The winner\u2019s description highlights specific visual details such as \"decorative tufting\" and a \"soft, textured fabric\" with a deep blue hue, directly tying the text to the visible qualities of the ite",
-            "suggested_principle": "When describing visually rich products, use precise, texture\u2011oriented terms that mirror the actual appearance (e.g., tufting, weave, pattern geometry, color depth). Avoid generic descriptors that leave visual context vague; the more the copy mirrors what the eye sees, the stronger the SEO signal and the higher the ranking."
+            "diagnosis_summary": "The winner\u2019s description focuses on material composition, durability treatments, and dimensional specs, but it omits several key visual cues present in the image\u2014such as the deep blue hue, the distinc",
+            "suggested_principle": "Always list every salient visual feature that a shopper can see\u2014color, pattern, shape, texture, and any unique design elements\u2014so that the text fully mirrors the image. Missing any of these creates a completeness gap that hurts relevance."
         },
         {
             "item_id": "B07B4SF23K",
             "current_rank": 8,
             "current_vis": 0.0,
-            "target_gap_vis": 0.8421,
+            "target_gap_vis": 0.8165,
             "beaten_by": "B07MF1RKS9",
             "opportunity_score": 8.76,
-            "diagnosis_summary": "Winner\u2019s description directly translates the visual attributes of its product \u2013 it mentions a blue, plush fabric lounge chair with a curved back, accurately reflecting the image\u2019s color, material, and",
-            "suggested_principle": "Always include the most salient visual traits that a user will see \u2013 primary color, material texture, and shape \u2013 in the product description. Omitting these core attributes creates a completeness gap that can hurt relevance and ranking."
+            "diagnosis_summary": "The winner\u2019s description covers a full set of visual and functional cues\u2014material type (100\u202f% polyester canvas), construction (decorative tufting, overstuffed), durability (water\u2011, oil\u2011, UV\u2011resistant)",
+            "suggested_principle": "When describing a product\u2019s visual attributes, aim for completeness: include material, texture, construction, color, and pattern in a single, cohesive narrative. This not only satisfies user intent but also enhances SEO by embedding diverse, relevant keywords and giving the search engine a fuller picture of the item."
         },
         {
             "item_id": "B07JKJSTVJ",
             "current_rank": 7,
             "current_vis": 0.0,
-            "target_gap_vis": 0.8421,
+            "target_gap_vis": 0.8165,
             "beaten_by": "B07MF1RKS9",
             "opportunity_score": 7.51,
-            "diagnosis_summary": "The Winner\u2019s description captures a full suite of visible details\u2014decorative tufting, tying hardware, choice of color/pattern, and material texture\u2014while the Loser mentions only the white fabric and m",
-            "suggested_principle": "To translate visual reality into effective SEO copy, list all visible decorative elements (e.g., tufting, hardware, trim) and material textures, not just color or a single aesthetic feature. This completeness ensures the text mirrors the full visual experience."
-        },
-        {
-            "item_id": "B074VLQ3GX",
-            "current_rank": 6,
-            "current_vis": 0.0,
-            "target_gap_vis": 0.8421,
-            "beaten_by": "B07MF1RKS9",
-            "opportunity_score": 6.26,
-            "diagnosis_summary": "Winner\u2019s description explicitly mentions the decorative tufting and the tying hardware that are visually prominent on the pillow, giving a concrete visual cue to the pattern\u2019s geometry. Loser\u2019s text o",
-            "suggested_principle": "When describing a product\u2019s visual reality, always list all prominent surface patterns and features (e.g., tufting, stitching, knots, ties) that a viewer can see. Avoid relying solely on generic terms like \u2018stripe\u2019 or \u2018color\u2019\u2014include the specific texture or pattern that distinguishes the item."
-        },
-        {
-            "item_id": "B07JPGP3XN",
-            "current_rank": 5,
-            "current_vis": 0.4369,
-            "target_gap_vis": 0.4052,
-            "beaten_by": "B07MF1RKS9",
-            "opportunity_score": 5.01,
-            "diagnosis_summary": "The Winner\u2019s text explicitly names the material and visible textures\u2014\u2018soft velvet\u2019 with \u2018subtle grooves\u2019\u2014and notes the bright blue hue and understated pattern, directly mirroring what the image shows.",
-            "suggested_principle": "In SEO content for visual products, always translate the image into precise visual language\u2014name the exact color, material, and texture that a viewer can see\u2014rather than using generic or technical terms. This specificity bridges the translation gap and improves relevance to the query."
+            "diagnosis_summary": "The Winner\u2019s text explicitly names the decorative tufting and the ties that attach the cushion\u2014visible, distinct texture features that the image shows. The Loser\u2019s description only mentions a macram\u00e9 ",
+            "suggested_principle": "When translating visual data to text, ensure you enumerate all prominent texture and construction elements (e.g., tufting, ties, seams) rather than just mentioning a general style or color. A more complete visual description improves search relevance and aligns better with the product\u2019s actual appearance."
         },
         {
             "item_id": "B07JLZC571",
+            "current_rank": 6,
+            "current_vis": 0.0,
+            "target_gap_vis": 0.8165,
+            "beaten_by": "B07MF1RKS9",
+            "opportunity_score": 6.26,
+            "diagnosis_summary": "The winner explicitly references the product\u2019s visual style by noting a \"choice of color/pattern,\" acknowledging that the pillow comes in various hues and designs. The loser, however, focuses almost e",
+            "suggested_principle": "When translating visual data into text, ensure that all prominent visual attributes\u2014color, pattern, shape\u2014are explicitly covered in the description. A product description that omits or misrepresents key visual cues fails to satisfy user intent and harms ranking."
+        },
+        {
+            "item_id": "B08FCMVPHR",
+            "current_rank": 5,
+            "current_vis": 0.0,
+            "target_gap_vis": 0.8165,
+            "beaten_by": "B07MF1RKS9",
+            "opportunity_score": 5.01,
+            "diagnosis_summary": "The winner\u2019s description cites concrete visual details\u2014\u2018decorative tufting\u2019, \u2018choice of color/pattern\u2019, and material specifics\u2014while the loser merely repeats generic marketing buzz such as \u2018printed cu",
+            "suggested_principle": "Always describe the precise visual characteristics that the image exhibits\u2014material texture, pattern geometry, color shades, and structural details\u2014rather than relying on generic or marketing phrases. Specificity bridges the translation gap between what the image shows and what the text conveys."
+        },
+        {
+            "item_id": "B07JPGP3XN",
             "current_rank": 4,
-            "current_vis": 0.495,
-            "target_gap_vis": 0.3471,
+            "current_vis": 0.502,
+            "target_gap_vis": 0.3145,
             "beaten_by": "B07MF1RKS9",
             "opportunity_score": 3.76,
-            "diagnosis_summary": "The Winner\u2019s description captures every major visual cue present in the image \u2013 the square shape, the bright geometric pattern with metallic accents, and the contrasting solid back fabric. The Loser, ",
-            "suggested_principle": "When describing a product for SEO, always enumerate every key visual attribute that a user can see: shape, pattern, color palette, texture, and any distinctive design elements. Missing or oversimplifying these cues creates a translation gap that lowers relevance and click\u2011through potential."
+            "diagnosis_summary": "The Winner\u2019s description explicitly references the pillow\u2019s geometric print, bright colors, and metallic accents\u2014key visual elements that define the product\u2019s aesthetic. The Loser\u2019s text focuses on fu",
+            "suggested_principle": "When translating visual data to text, ensure all dominant visual features\u2014patterns, colors, textures, and overall style\u2014are explicitly mentioned. Do not rely solely on functional or material specs; completeness of visual description is essential for higher relevance and SEO ranking."
         }
     ],
-    "Ceramic vase modern white": [
+    "Women's high heel sandals gladiator style": [
         {
-            "item_id": "B071777YN3",
+            "item_id": "B07FQQ4LMW",
             "current_rank": 10,
             "current_vis": 0.0,
-            "target_gap_vis": 0.3319,
-            "beaten_by": "B078JGHZT3",
-            "opportunity_score": 10.93,
-            "diagnosis_summary": "The Winner\u2019s text directly captures all key visual elements: a matte white ceramic vase, a solid brown\u2011stained wooden base, the cylindrical shape and minimalistic contrast between the white bowl and t",
-            "suggested_principle": "Always ensure the textual description is a complete, faithful translation of the visible product. Include every prominent visual attribute (shape, material, color, context) that a viewer can see. Avoid describing unrelated items or generic style cues that do not reflect the actual object in the image."
+            "target_gap_vis": 0.9228,
+            "beaten_by": "B06VX446WN",
+            "opportunity_score": 11.44,
+            "diagnosis_summary": "Winner highlighted specific visual elements such as slender toe\u2011to\u2011ankle straps, a barely\u2011there silhouette, a block heel, and an ankle buckle. Loser provided no visual description, focusing instead on",
+            "suggested_principle": "Always enumerate the key visual attributes present in the image\u2014strap style, heel type, closure details, texture, and color. Omiting these details deprives the description of completeness and SEO relevance."
         },
         {
-            "item_id": "B0825DC7JP",
+            "item_id": "B07W1WTR11",
             "current_rank": 9,
             "current_vis": 0.0,
-            "target_gap_vis": 0.3319,
-            "beaten_by": "B078JGHZT3",
-            "opportunity_score": 9.71,
-            "diagnosis_summary": "The winner\u2019s text explicitly identifies the white ceramic vase and its wooden base, describing the matte glaze, brown stain, and dimensions\u2014key visual attributes that match the image and the query. Th",
-            "suggested_principle": "Accurately capture the primary visual components and product type present in the image; omitting or misrepresenting core features causes the description to fail the relevance check and drop in ranking."
+            "target_gap_vis": 0.9228,
+            "beaten_by": "B06VX446WN",
+            "opportunity_score": 10.17,
+            "diagnosis_summary": "The Winner\u2019s copy highlights *slender* straps, a *barely\u2011there* silhouette, and a *block\u2011heel* design, giving precise visual cues about the shoe\u2019s shape and style. The Loser\u2019s text only mentions \"adju",
+            "suggested_principle": "When describing footwear, use precise visual terminology (e.g., slender, block\u2011heel, barely\u2011there silhouette) rather than broad, generic phrases (e.g., adjustable straps). This specificity directly links the description to the product\u2019s visual identity and improves relevance for the query."
         },
         {
-            "item_id": "B07QC76DTB",
+            "item_id": "B01N39COWY",
             "current_rank": 8,
             "current_vis": 0.0,
-            "target_gap_vis": 0.3319,
-            "beaten_by": "B078JGHZT3",
-            "opportunity_score": 8.5,
-            "diagnosis_summary": "The winner\u2019s description exhaustively lists the visible features of the white ceramic vase\u2014its cylindrical shape, matte white glaze, wooden base with a rich brown stain, and dimensions\u2014thereby mirrori",
-            "suggested_principle": "When translating visual data to text, always describe every prominent visual feature\u2014shape, material, color, finish, dimensions, and supporting elements. Ensure the product type matches what is actually visible, and avoid switching to a different item or leaving out critical attributes. This completeness aligns the description with the viewer\u2019s expectations and boosts relevance."
+            "target_gap_vis": 0.9228,
+            "beaten_by": "B06VX446WN",
+            "opportunity_score": 8.9,
+            "diagnosis_summary": "The Winner\u2019s text conveys the visual vibe of the sandals\u2014describing a \u2018barely\u2011there silhouette\u2019 and a \u2018block\u2011heel\u2019 that signals a sleek, minimalist style. The Loser\u2019s description focuses on concrete d",
+            "suggested_principle": "When describing visually similar products, pair precise structural details with atmospheric or stylistic language (e.g., \u2018minimalist\u2019, \u2018elegant\u2019, \u2018vibrant\u2019) to communicate the overall vibe, not just the components."
         },
         {
-            "item_id": "B07QD6ZV9Q",
+            "item_id": "B07894CL1P",
             "current_rank": 7,
-            "current_vis": 0.1304,
-            "target_gap_vis": 0.2015,
-            "beaten_by": "B078JGHZT3",
-            "opportunity_score": 7.29,
-            "diagnosis_summary": "Winner explicitly described the wooden stand and its rich brown, smooth finish that complements the matte white ceramic vase, thereby capturing the full visual arrangement. Loser omitted the stand ent",
-            "suggested_principle": "When translating visual data into text, ensure all visible components (e.g., base, stand, material finish) are captured; missing any element reduces completeness and can hurt ranking."
+            "current_vis": 0.0,
+            "target_gap_vis": 0.9228,
+            "beaten_by": "B06VX446WN",
+            "opportunity_score": 7.63,
+            "diagnosis_summary": "The winner\u2019s description captured all key visual features: a block\u2011heel sandal, slender toe/ankle straps and an ankle\u2011level buckle closure. The loser omitted the prominent brass buckles, incorrectly c",
+            "suggested_principle": "When translating visual reality into text, always mention every visible structural element (buckles, heel type, strap arrangement). Mislabeling or omitting key features creates a completeness gap that hurts ranking."
         },
         {
-            "item_id": "B07QD6ZDDH",
+            "item_id": "B076RD7SF8",
             "current_rank": 6,
-            "current_vis": 0.1304,
-            "target_gap_vis": 0.2015,
-            "beaten_by": "B078JGHZT3",
-            "opportunity_score": 6.07,
-            "diagnosis_summary": "The Winner\u2019s description mentions the wooden base with a rich brown stain and a smooth finish, and notes the planter\u2019s matte white glaze\u2014specific visual details that align with the image\u2019s contrast be",
-            "suggested_principle": "When optimizing for visual relevance, describe each visible material, finish, and architectural element with specific terminology that mirrors what is actually seen in the image. Avoid generic class names; instead, include concrete descriptors such as color, texture, and finish details to bridge the translation gap."
+            "current_vis": 0.5673,
+            "target_gap_vis": 0.3555,
+            "beaten_by": "B06VX446WN",
+            "opportunity_score": 6.36,
+            "diagnosis_summary": "The Winner explicitly mentions the platform type, heel height, and crossed wide straps that balance the block heel\u2014features that are visually present in the image. The Loser focuses only on the slende",
+            "suggested_principle": "When describing footwear, always include all visible structural features\u2014strap width and pattern, platform or sole type, heel height, and closure style\u2014so the text fully reflects the visual reality."
         },
         {
-            "item_id": "B0842H2F7C",
+            "item_id": "B08GMSCBLD",
             "current_rank": 5,
-            "current_vis": 0.1304,
-            "target_gap_vis": 0.2015,
-            "beaten_by": "B078JGHZT3",
-            "opportunity_score": 4.86,
-            "diagnosis_summary": "The Winner explicitly details the wood base as a solid wood with a rich brown stain and smooth finish and the ceramic glaze as matte white, thereby capturing the exact color contrast and texture seen ",
-            "suggested_principle": "When translating visual data to text, use specific material names, color nuances, and finish details that mirror what is actually seen. Generic terms dilute the relevance and hinder SEO performance."
+            "current_vis": 0.6818,
+            "target_gap_vis": 0.241,
+            "beaten_by": "B06VX446WN",
+            "opportunity_score": 5.09,
+            "diagnosis_summary": "The Winner enumerates several structural and design cues\u2014open toe, open heel, built\u2011block heel, ankle strap\u2014that collectively map the high\u2011top gladiator silhouette and distinguish it from other high h",
+            "suggested_principle": "When describing a product, list all major structural and design attributes that define its silhouette and unique style. A complete, feature\u2011rich description aligns better with visual cues and improves relevance for search queries."
         },
         {
-            "item_id": "B078JGLJMQ",
+            "item_id": "B06XRN9W72",
             "current_rank": 4,
-            "current_vis": 0.1304,
-            "target_gap_vis": 0.2015,
-            "beaten_by": "B078JGHZT3",
-            "opportunity_score": 3.64,
-            "diagnosis_summary": "The Winner\u2019s description captured all key visual elements: a matte white ceramic pot, a solid wood base with a rich brown stain and smooth finish, and the overall minimalistic contrast between the two",
-            "suggested_principle": "When describing a product, ensure that every prominent visual component\u2014material, color, shape, and any contrasting elements\u2014is explicitly mentioned. Omitting a major feature (e.g., a wood base) creates a completeness gap that harms relevance and SEO performance."
+            "current_vis": 0.6965,
+            "target_gap_vis": 0.2263,
+            "beaten_by": "B06VX446WN",
+            "opportunity_score": 3.81,
+            "diagnosis_summary": "The winner\u2019s description captured the key visual cues that satisfy the query: an open\u2011heel with a built block heel and an ankle strap, directly signaling a high\u2011heel sandal. The loser omitted these hi",
+            "suggested_principle": "Describe all salient visual features that directly answer the user\u2019s query and avoid adding or inventing attributes that are not present. This completeness drives higher relevance and ranking."
+        }
+    ],
+    "3D printer": [
+        {
+            "item_id": "B07T9TKK6L",
+            "current_rank": 10,
+            "current_vis": 0.0,
+            "target_gap_vis": 2.0682,
+            "beaten_by": "B07D6BYW4R",
+            "opportunity_score": 13.24,
+            "diagnosis_summary": "The Winner\u2019s description explicitly names visual details such as \"Translucent Yellow\" filament color, PETG plastic material, and a glossy finish, along with a gauge that shows remaining length. The Lo",
+            "suggested_principle": "When describing an item, always identify concrete visual attributes\u2014specific colors, textures, materials, or finishes\u2014rather than using generic terms like \"stylish\" or \"unique.\" This ensures the textual description mirrors what the viewer sees in the image."
+        },
+        {
+            "item_id": "B07T2BYTP2",
+            "current_rank": 9,
+            "current_vis": 0.0,
+            "target_gap_vis": 2.0682,
+            "beaten_by": "B07D6BYW4R",
+            "opportunity_score": 11.77,
+            "diagnosis_summary": "The Winner\u2019s description lists concrete visual details \u2013 a translucent yellow color, PETG plastic composition, glossy finish, exact spool dimensions, and a gauge marking remaining filament. The Loser\u2019",
+            "suggested_principle": "When writing product listings, ensure that all key visual attributes shown in the image are explicitly described. Include color, material, texture, size, and any visible functional features. Omitting these details results in a completeness gap that hurts relevance and ranking."
+        },
+        {
+            "item_id": "B07TG4VKSG",
+            "current_rank": 8,
+            "current_vis": 0.0,
+            "target_gap_vis": 2.0682,
+            "beaten_by": "B07D6BYW4R",
+            "opportunity_score": 10.3,
+            "diagnosis_summary": "Winner\u2019s description includes precise visual details\u2014color ('translucent yellow'), finish ('glossy'), measurable attributes (spool dimensions, gauge, weight)\u2014directly tied to what the image shows. Los",
+            "suggested_principle": "When translating visual data to text, prioritize concrete, specific descriptors\u2014exact color names, surface finish, dimensions, and visible features\u2014rather than vague adjectives. Such specificity anchors the description to what shoppers can see, improving relevance and SEO performance."
+        },
+        {
+            "item_id": "B07TC5XF48",
+            "current_rank": 7,
+            "current_vis": 0.0,
+            "target_gap_vis": 2.0682,
+            "beaten_by": "B07D6BYW4R",
+            "opportunity_score": 8.83,
+            "diagnosis_summary": "The Winner\u2019s description is packed with concrete visual details: it names the filament\u2019s color (translucent yellow), material (PETG plastic), precise diameter (1.75\u202fmm \u00b1\u202f0.05\u202fmm), spool dimensions, an",
+            "suggested_principle": "Always ground your description in specific visual attributes\u2014exact colors, textures, materials, and dimensions. Avoid generic adjectives like \u2018stylish\u2019 or \u2018slim\u2019; instead, describe what the user actually sees in the image."
+        },
+        {
+            "item_id": "B07TG3MZL4",
+            "current_rank": 6,
+            "current_vis": 0.0,
+            "target_gap_vis": 2.0682,
+            "beaten_by": "B07D6BYW4R",
+            "opportunity_score": 7.35,
+            "diagnosis_summary": "Winner text directly references the filament spool\u2014its black and yellow coloration, PETG material, built\u2011in gauge, and resealable bag\u2014while the Loser text describes an unrelated phone case with cutout",
+            "suggested_principle": "When the query and visual reality focus on a specific product, the textual description must cover that product\u2019s key visual attributes. Ensure the text mentions the primary item (e.g., filament spool) and details its appearance\u2014color, material, shape, accessories\u2014so the description is complete and aligned with what the user sees."
+        },
+        {
+            "item_id": "B07TRX462D",
+            "current_rank": 5,
+            "current_vis": 0.0,
+            "target_gap_vis": 2.0682,
+            "beaten_by": "B07D6BYW4R",
+            "opportunity_score": 5.88,
+            "diagnosis_summary": "The Winner\u2019s description includes concrete visual details\u2014color (translucent yellow), gauge, dimensions, material (PETG), and functional visual cues (built\u2011in gauge, resealable bag). The Loser\u2019s text ",
+            "suggested_principle": "To rank higher, fully describe every visible feature of the product\u2014color, material, shape, size, and any functional visual cues\u2014rather than relying on generic style adjectives. Completeness in visual detail builds clarity and trust for the buyer."
+        },
+        {
+            "item_id": "B07TC5HFKY",
+            "current_rank": 4,
+            "current_vis": 0.0,
+            "target_gap_vis": 2.0682,
+            "beaten_by": "B07D6BYW4R",
+            "opportunity_score": 4.41,
+            "diagnosis_summary": "Winner explicitly mentions the black and translucent yellow color, the PETG material, and the gauge on the spool\u2014visual cues that are unmistakably visible. Loser focuses solely on functional attribute",
+            "suggested_principle": "When describing a product, always include all prominent visual attributes\u2014color, pattern, material, and any graphic text\u2014so the description fully represents what the customer sees."
+        }
+    ],
+    "Soft plush lemur toy for kids": [
+        {
+            "item_id": "B07TB54XSS",
+            "current_rank": 10,
+            "current_vis": 0.0,
+            "target_gap_vis": 1.0031,
+            "beaten_by": "B081ZKMNN3",
+            "opportunity_score": 12.37,
+            "diagnosis_summary": "The Winner\u2019s text explicitly describes the plush toy\u2019s visual qualities\u2014soft, anti\u2011allergenic polyester fabric, fiber\u2011filled stuffing, and a detailed jaguar\u2011like pattern\u2014providing a clear picture of t",
+            "suggested_principle": "When translating visual data into text, always ensure that every prominent visual attribute\u2014material feel, color, pattern, texture\u2014is explicitly described. Omission of these details creates a completeness gap that can hurt relevance and ranking."
+        },
+        {
+            "item_id": "B0853XRRSQ",
+            "current_rank": 9,
+            "current_vis": 0.0,
+            "target_gap_vis": 1.0031,
+            "beaten_by": "B081ZKMNN3",
+            "opportunity_score": 11.0,
+            "diagnosis_summary": "The Winner\u2019s text explicitly describes the plush\u2019s visual attributes\u2014its color scheme, pattern, softness, size, and safe materials\u2014directly aligning with the image. The Loser\u2019s description focuses ent",
+            "suggested_principle": "Ensure the product description captures all key visual traits of the item shown. For plush toys, mention fur color, pattern, texture, size, and material safety; avoid describing unrelated objects or features that do not appear in the image."
+        },
+        {
+            "item_id": "B07ZDPY389",
+            "current_rank": 8,
+            "current_vis": 0.0,
+            "target_gap_vis": 1.0031,
+            "beaten_by": "B081ZKMNN3",
+            "opportunity_score": 9.62,
+            "diagnosis_summary": "Winner\u2019s description enumerates the plush toy\u2019s key visual features\u2014brown\u2011and\u2011white spotted pattern, soft plush texture, size, and material\u2014directly mirroring what the image shows. The Loser\u2019s text ig",
+            "suggested_principle": "When writing product copy, explicitly list every visible feature of the target item\u2014color, pattern, texture, material, size, and any unique visual traits. Avoid describing unrelated objects or using generic terms that do not map to what the customer sees in the image."
+        },
+        {
+            "item_id": "B07THV4NVV",
+            "current_rank": 7,
+            "current_vis": 0.0,
+            "target_gap_vis": 1.0031,
+            "beaten_by": "B081ZKMNN3",
+            "opportunity_score": 8.25,
+            "diagnosis_summary": "The Winner\u2019s copy explicitly mentions the toy\u2019s soft, plush texture, fibre\u2011filled stuffing, and its jaguar\u2011like pattern\u2014visual details that the image actually shows. The Loser\u2019s copy focuses on genera",
+            "suggested_principle": "For visual products, always capture every visible attribute\u2014texture, pattern, color nuance, and material feel\u2014in the textual copy. Omitting these details or relying only on generic specs creates a translation gap that hurts relevance and ranking."
+        },
+        {
+            "item_id": "B085D5892D",
+            "current_rank": 6,
+            "current_vis": 0.0,
+            "target_gap_vis": 1.0031,
+            "beaten_by": "B081ZKMNN3",
+            "opportunity_score": 6.87,
+            "diagnosis_summary": "The Winner\u2019s description explicitly references a jaguar, a big\u2011cat species that naturally features a spotted pattern, and states it was designed to \"closely resemble a jaguar,\" thereby acknowledging t",
+            "suggested_principle": "When translating visual data into text, always fully describe the key visible features\u2014animal species, color palette, and pattern\u2014so the description is both accurate and complete.  Generic or misleading terms (e.g., \"dino\" for a giraffe) dilute the connection between the image and the text, harming relevance and ranking."
+        },
+        {
+            "item_id": "B081ZK5BL7",
+            "current_rank": 5,
+            "current_vis": 0.0,
+            "target_gap_vis": 1.0031,
+            "beaten_by": "B081ZKMNN3",
+            "opportunity_score": 5.5,
+            "diagnosis_summary": "The winner\u2019s text explicitly references the animal\u2019s distinctive pattern and species \u2013 a jaguar/leopard with a spotted brown\u2011and\u2011white coat \u2013 highlighting visual details that are clearly visible in th",
+            "suggested_principle": "Always enumerate the key visual traits that a shopper can see\u2014color, pattern, texture, and animal type\u2014so that the textual description fully reflects the product\u2019s appearance. Omitting such details makes the description feel generic and less convincing."
+        },
+        {
+            "item_id": "B0843ZFHBS",
+            "current_rank": 4,
+            "current_vis": 0.0,
+            "target_gap_vis": 1.0031,
+            "beaten_by": "B081ZKMNN3",
+            "opportunity_score": 4.12,
+            "diagnosis_summary": "The Winner\u2019s copy accurately mirrors the visual reality by detailing the plush, spotted, white\u2011nose jaguar and its texture, size, and safety features. The Loser\u2019s copy, however, describes a blanket an",
+            "suggested_principle": "Always ensure that the textual description fully reflects every prominent visual element present in the product image\u2014especially when the product category is specified. Missing or misaligned visual details create a completeness gap that harms ranking."
+        }
+    ],
+    "Daylight LED GU10 spotlight bulbs 50W": [
+        {
+            "item_id": "B074M93NZG",
+            "current_rank": 10,
+            "current_vis": 0.0,
+            "target_gap_vis": 2.1777,
+            "beaten_by": "B07SRBSWZB",
+            "opportunity_score": 12.72,
+            "diagnosis_summary": "The Winner explicitly describes visual quality attributes such as \"High colour rendering (CRI > 80) provides vivid and natural light\" and emphasises the ambience \"bright atmosphere in any facility\". T",
+            "suggested_principle": "When translating visual reality into text, always cover all observable visual quality facets\u2014colour rendering, brightness, ambience, and physical fit\u2014so that the description feels complete and compelling, not just a list of functional specs."
+        },
+        {
+            "item_id": "B07W91H828",
+            "current_rank": 9,
+            "current_vis": 0.0,
+            "target_gap_vis": 2.1777,
+            "beaten_by": "B07SRBSWZB",
+            "opportunity_score": 11.31,
+            "diagnosis_summary": "The Winner explicitly emphasizes the bulb\u2019s daylight quality\u2014\"simulates daylight\" with a 5000\u202fK color temperature\u2014directly reflecting the user\u2019s desire for a daylight\u2011spectrum light. The Loser instead",
+            "suggested_principle": "When describing visual attributes, align the described ambiance (daylight vs. warm) with the query\u2019s intent. Highlighting the exact atmosphere requested by the search (e.g., daylight) gives the content a competitive advantage over generic or mismatched descriptions."
+        },
+        {
+            "item_id": "B07YJ652YK",
+            "current_rank": 8,
+            "current_vis": 0.0,
+            "target_gap_vis": 2.1777,
+            "beaten_by": "B07SRBSWZB",
+            "opportunity_score": 9.9,
+            "diagnosis_summary": "The loser\u2019s text mistakenly identifies the bulb shape as PAR38, a flood\u2011light form that is not present in the image.  The image actually shows six round GU10 spotlights with a gold/silver base, so the",
+            "suggested_principle": "Always match the described bulb shape and base to the actual visual evidence.  Use the precise product terminology (e.g., GU10 vs PAR38) and include the visible base color or material to avoid misalignment and improve relevance."
+        },
+        {
+            "item_id": "B07W3TF3FN",
+            "current_rank": 7,
+            "current_vis": 0.0,
+            "target_gap_vis": 2.1777,
+            "beaten_by": "B07SRBSWZB",
+            "opportunity_score": 8.48,
+            "diagnosis_summary": "The winner\u2019s description references key visual cues present in the image\u2014multiple round GU10 fixtures with gold bases\u2014by noting \u201ccompatible with most existing fixtures; designed as a retrofit for trad",
+            "suggested_principle": "When describing visually similar products, always include all prominent visual attributes\u2014shape, base color, number of units, and style cues.  This completeness ensures that the textual narrative fully matches what the user sees, reinforcing relevance and boosting ranking."
+        },
+        {
+            "item_id": "B0825Z4HPK",
+            "current_rank": 6,
+            "current_vis": 0.0,
+            "target_gap_vis": 2.1777,
+            "beaten_by": "B07SRBSWZB",
+            "opportunity_score": 7.07,
+            "diagnosis_summary": "The winner text explicitly calls the bulb a \"daylight\" LED (5000\u202fK), directly reflecting the bright white glow seen in the single\u2011bulb image. The loser text defaults to a generic \"warm white\" (3000\u202fK)",
+            "suggested_principle": "When translating visual data to product copy, use the most specific and accurate descriptors that mirror what the eye actually sees\u2014particularly for attributes like color temperature or lighting mood. Generic or contradictory terms (e.g., \"warm white\" when the bulb looks daylight) create a perception\u2011text mismatch that can hurt relevance and ranking."
+        },
+        {
+            "item_id": "B07DD1PJDC",
+            "current_rank": 5,
+            "current_vis": 0.0,
+            "target_gap_vis": 2.1777,
+            "beaten_by": "B07SRBSWZB",
+            "opportunity_score": 5.65,
+            "diagnosis_summary": "The Winner\u2019s description explicitly matches the visual evidence: a single round white bulb with a filament inside and a matte finish. The Loser\u2019s text diverges by adding a \"clear bulb\" and a \"traditio",
+            "suggested_principle": "Always enumerate every visible element in the image. If a product image shows a single simple bulb, describe that bulb\u2019s shape, finish, and internal features. Avoid inventing attributes (like a clear bulb or nostalgic filament) that are not present, and ensure every depicted item (e.g., a group of lamps) is accounted for in the text."
+        },
+        {
+            "item_id": "B07WCGT4ZH",
+            "current_rank": 4,
+            "current_vis": 0.5134,
+            "target_gap_vis": 1.6643,
+            "beaten_by": "B07SRBSWZB",
+            "opportunity_score": 4.24,
+            "diagnosis_summary": "The Winner\u2019s description emphasizes the *visual feel* of the light: it talks about a \u2018Cool White\u2019 spectrum, 370 lumens that \u2018provide vivid and natural light\u2019, and a design that \u2018retrofits traditional ",
+            "suggested_principle": "When describing lighting products, prioritize evocative language that conveys the *visual experience*\u2014color tone, brightness, and mood\u2014rather than only listing specs or cost. Use terms that describe how the light feels in a space (e.g., \u2018cool white\u2019, \u2018vivid\u2019, \u2018natural\u2019) to create a stronger connection with the reader and improve SEO relevance."
+        }
+    ],
+    "Pink duvet cover set with zipper": [
+        {
+            "item_id": "B014RGV7XQ",
+            "current_rank": 10,
+            "current_vis": 0.0,
+            "target_gap_vis": 2.1205,
+            "beaten_by": "B00SB0JAPM",
+            "opportunity_score": 13.55,
+            "diagnosis_summary": "The winner\u2019s description explicitly mentions a YKK zipper closure and corner ties\u2014visible details that satisfy the query\u2019s focus on a \"zipper\" duvet cover. The loser\u2019s text omits any reference to a zi",
+            "suggested_principle": "Always include all visible functional elements (e.g., zippers, ties, closures) in the product description. Omitting such features can make the listing seem incomplete and diminish its relevance to users searching for those specific attributes."
+        },
+        {
+            "item_id": "B01LTI1KFA",
+            "current_rank": 9,
+            "current_vis": 0.0,
+            "target_gap_vis": 2.1205,
+            "beaten_by": "B00SB0JAPM",
+            "opportunity_score": 12.04,
+            "diagnosis_summary": "The winner\u2019s text explicitly describes a YKK zipper closure and four corner ties\u2014key visual and functional details visible on the duvet cover in the image. The loser\u2019s description, while mentioning a ",
+            "suggested_principle": "When translating visual data into text, always list all prominent functional elements\u2014such as zippers, closures, buttons, or reversible panels\u2014that appear in the image. Omitting these features creates a completeness gap that can lower relevance scores, especially for queries that specifically mention those elements."
+        },
+        {
+            "item_id": "B001E4PXJO",
+            "current_rank": 8,
+            "current_vis": 0.0,
+            "target_gap_vis": 2.1205,
+            "beaten_by": "B00SB0JAPM",
+            "opportunity_score": 10.54,
+            "diagnosis_summary": "The Winner explicitly references a visible YKK zipper closure and the presence of four corner ties that keep the duvet in place \u2013 features that are directly observable in the image. The Loser, however",
+            "suggested_principle": "When translating visual data into text, ensure all key observable features\u2014especially those that define the user\u2019s search intent (e.g., closure type, functional ties, visible patterns)\u2014are explicitly described. Omission of such details leads to a completeness gap that can cost ranking relevance."
+        },
+        {
+            "item_id": "B07HG3SZQ8",
+            "current_rank": 7,
+            "current_vis": 0.0,
+            "target_gap_vis": 2.1205,
+            "beaten_by": "B00SB0JAPM",
+            "opportunity_score": 9.03,
+            "diagnosis_summary": "The Winner\u2019s description enumerates multiple visible attributes\u2014exact dimensions (200x220\u202fcm duvet, 80x80\u202fcm pillowcases), fabric type (lightweight polyester), functional details (YKK zipper, four cor",
+            "suggested_principle": "Ensure that every discernible visual element in the product image\u2014dimensions, color, texture, functional features, and design cues\u2014is explicitly described in the text. A comprehensive visual description not only aligns better with user expectations but also improves search relevance and click\u2011through performance."
+        },
+        {
+            "item_id": "B07PQB2VLV",
+            "current_rank": 6,
+            "current_vis": 0.1323,
+            "target_gap_vis": 1.9882,
+            "beaten_by": "B00SB0JAPM",
+            "opportunity_score": 7.53,
+            "diagnosis_summary": "The Winner\u2019s listing highlights the exact material\u2014\u2018100% Linen\u2019\u2014which signals a distinct, high\u2011quality texture and lends the set a visual sense of weight, breathability, and softness. The Loser\u2019s desc",
+            "suggested_principle": "When optimizing listings for visual queries, replace vague fabric terms with precise, material\u2011specific descriptors that reflect the actual texture and quality shown in the image. This increases relevance, improves keyword match, and enhances the product\u2019s perceived visual appeal to both users and search engines."
+        },
+        {
+            "item_id": "B07PP643NJ",
+            "current_rank": 5,
+            "current_vis": 0.6139,
+            "target_gap_vis": 1.5066,
+            "beaten_by": "B00SB0JAPM",
+            "opportunity_score": 6.02,
+            "diagnosis_summary": "The Winner\u2019s description lists exactly one duvet cover and one pillowcase, matching the actual product shown. The Loser\u2019s text mistakenly includes two pillowcases, a feature that is not visible in the",
+            "suggested_principle": "Always align the quantity and type of items described in the text with what is actually shown in the visual. Adding incorrect or extraneous details harms relevance and can lower ranking."
+        },
+        {
+            "item_id": "B07PQC2BD6",
+            "current_rank": 4,
+            "current_vis": 0.642,
+            "target_gap_vis": 1.4785,
+            "beaten_by": "B00SB0JAPM",
+            "opportunity_score": 4.52,
+            "diagnosis_summary": "The Winner text succinctly identifies the duvet cover as \"100% Linen,\" a specific material that conveys texture, sheen, and a natural, breathable vibe directly observable in the image. The Loser text ",
+            "suggested_principle": "Always translate the exact visual material into the product description. Use specific material names (e.g., linen, cotton, silk) that reveal texture and visual cues, rather than generic fabric descriptors, to strengthen the visual-to-textual alignment and improve SEO relevance."
+        }
+    ],
+    "Camel top handle bag": [
+        {
+            "item_id": "B07XF6F7X7",
+            "current_rank": 10,
+            "current_vis": 0.0,
+            "target_gap_vis": 6.512,
+            "beaten_by": "B07ZXPWZRS",
+            "opportunity_score": 12.69,
+            "diagnosis_summary": "The Winner explicitly mentions the bag\u2019s exact visual attributes \u2013 its camel (tan) color and faux\u2011leather material \u2013 directly mirroring the image\u2019s appearance. The Loser instead uses a generic label (",
+            "suggested_principle": "When describing a product\u2019s visual reality, always use precise, image\u2011driven descriptors\u2014specific colors, materials, and textures\u2014rather than generic terms. This specificity bridges the gap between what the image shows and what the search engine expects, improving relevance and ranking."
+        },
+        {
+            "item_id": "B07ZPGLKPX",
+            "current_rank": 9,
+            "current_vis": 0.0,
+            "target_gap_vis": 6.512,
+            "beaten_by": "B07ZXPWZRS",
+            "opportunity_score": 11.28,
+            "diagnosis_summary": "The Winner\u2019s description explicitly references the bag\u2019s camel\u2011colored faux\u2011leather material and its dimensions, mirroring the visible features in the image. The Loser\u2019s text, however, omits every vis",
+            "suggested_principle": "Always ensure the description covers all observable visual attributes\u2014color, material, pattern, and style\u2014so that the textual content aligns with what the user actually sees. This completeness gives relevance and boosts ranking."
+        },
+        {
+            "item_id": "B07BL6RDW7",
+            "current_rank": 8,
+            "current_vis": 0.0,
+            "target_gap_vis": 6.512,
+            "beaten_by": "B07ZXPWZRS",
+            "opportunity_score": 9.87,
+            "diagnosis_summary": "The winner\u2019s description enumerates multiple visual attributes\u2014material (faux leather), color (camel), size (25\u202fcm \u00d7 36\u202fcm), and implied functionality (handbag vs. suitcase). The loser only lists a si",
+            "suggested_principle": "For high\u2011ranking SEO descriptions, fully capture the visual reality: list material, color, dimensions, shape, and functional cues. Avoid leaving out visible attributes; completeness in describing the product\u2019s appearance directly supports better alignment with user intent and improves search relevance."
+        },
+        {
+            "item_id": "B07XBZR7SR",
+            "current_rank": 7,
+            "current_vis": 0.0,
+            "target_gap_vis": 6.512,
+            "beaten_by": "B07ZXPWZRS",
+            "opportunity_score": 8.46,
+            "diagnosis_summary": "The winner\u2019s description includes the material type (faux leather), the exact camel hue, and a clear reference to the handbag shape. It also mentions dimensions, which align with the visual size cues ",
+            "suggested_principle": "For multimodal SEO, always capture all salient visual cues\u2014material, color, texture, shape, strap type, and dimensions\u2014in the text. Omitting or mislabeling key attributes creates a translation gap that directly lowers relevance scores and SERP rankings."
+        },
+        {
+            "item_id": "B07D7XH2Q9",
+            "current_rank": 6,
+            "current_vis": 0.0,
+            "target_gap_vis": 6.512,
+            "beaten_by": "B07ZXPWZRS",
+            "opportunity_score": 7.05,
+            "diagnosis_summary": "Winner\u2019s text states \u2018Faux leather material camel colored handbag\u2019, directly citing the exact material and color that the image displays. Loser\u2019s description uses generic terms like \u2018simple whitish co",
+            "suggested_principle": "Always describe the precise visual attributes\u2014material type, color, texture, and distinctive pattern\u2014using specific terms that match what the image shows. Avoid generic or overly broad descriptors, and keep the focus on what the shopper sees, not on unrelated specifications."
+        },
+        {
+            "item_id": "B078TB6WWP",
+            "current_rank": 5,
+            "current_vis": 0.0,
+            "target_gap_vis": 6.512,
+            "beaten_by": "B07ZXPWZRS",
+            "opportunity_score": 5.64,
+            "diagnosis_summary": "The winner text explicitly describes visual attributes\u2014material type (faux leather), color (camel), and exact dimensions\u2014while the loser text only lists functional details (pocket count). By neglectin",
+            "suggested_principle": "Ensure every visual product description contains the core visual attributes\u2014material type, color tone, and size/shape\u2014before listing functional details. Complete visual coverage gives the search engine richer signals for matching the query and improves ranking."
+        },
+        {
+            "item_id": "B06XPFNLVC",
+            "current_rank": 4,
+            "current_vis": 0.0,
+            "target_gap_vis": 6.512,
+            "beaten_by": "B07ZXPWZRS",
+            "opportunity_score": 4.23,
+            "diagnosis_summary": "The Winner explicitly highlights the camel\u2011colored, faux\u2011leather material\u2014matching the query\u2019s color cue\u2014while the Loser only mentions \"faux leather\" and omits any color reference. The Winner\u2019s use of",
+            "suggested_principle": "When describing a visual product, always capture the key color or other specific visual attribute that aligns with the user\u2019s query. Generic material terms (e.g., \"faux leather\") are insufficient; include the exact hue or distinctive visual cue to bridge the translation gap."
+        }
+    ],
+    "Platinum plated pearl and zirconia ring": [
+        {
+            "item_id": "B014WC3D6Y",
+            "current_rank": 10,
+            "current_vis": 0.0,
+            "target_gap_vis": 4.2959,
+            "beaten_by": "B0154UQXEC",
+            "opportunity_score": 10.6,
+            "diagnosis_summary": "The Winner text highlights the exact visual feature of the ring: a single, square\u2011cut (emerald\u2011cut) diamond in a solitaire setting, directly matching the large square stone shown. The Loser text uses ",
+            "suggested_principle": "When translating visual data into text, always specify the most salient visual details\u2014cut, shape, arrangement\u2014rather than generic terms. Precise descriptors anchor the description to what the viewer actually sees and strengthen relevance for search ranking."
+        },
+        {
+            "item_id": "B01N7TG3LB",
+            "current_rank": 9,
+            "current_vis": 0.0,
+            "target_gap_vis": 4.2959,
+            "beaten_by": "B0154UQXEC",
+            "opportunity_score": 9.42,
+            "diagnosis_summary": "The winner\u2019s text captures the actual visual reality of the ring\u2014 a single silver band with one prominent emerald\u2011cut diamond\u2014providing a concise, accurate picture. The loser\u2019s description adds extran",
+            "suggested_principle": "When translating visual data to text, ensure the description is complete and faithful to what is actually seen. Avoid adding extra items or features that do not exist in the image\u2014focus on the core visual attributes and provide only relevant specifics."
+        },
+        {
+            "item_id": "B014WC3IVY",
+            "current_rank": 8,
+            "current_vis": 0.0,
+            "target_gap_vis": 4.2959,
+            "beaten_by": "B0154UQXEC",
+            "opportunity_score": 8.25,
+            "diagnosis_summary": "Winner accurately described the visual reality of a single large emerald\u2011cut (square) stone set in a platinum\u2011plated band, matching the image that shows one prominent diamond. Loser claimed the ring h",
+            "suggested_principle": "When describing jewelry, ensure that every visible attribute\u2014stone count, cut, arrangement, and size\u2014is accurately reflected. Misrepresenting these elements not only degrades SEO relevance but also erodes buyer trust."
+        },
+        {
+            "item_id": "B01IQU0F28",
+            "current_rank": 7,
+            "current_vis": 0.0,
+            "target_gap_vis": 4.2959,
+            "beaten_by": "B0154UQXEC",
+            "opportunity_score": 7.07,
+            "diagnosis_summary": "The Winner\u2019s text zeroes in on the exact visual cut and style\u2014calling it a \"classic emerald\u2011cut solitaire\"\u2014and ties that description to a single, visually dominant stone. The Loser, by contrast, uses ",
+            "suggested_principle": "When translating visual data into text, prioritize specific visual descriptors that tie directly to a single, defining element of the image (e.g., a particular cut or arrangement). Avoid broad or fragmented references that spread attention across multiple components, as this dilutes the visual narrative and reduces the text\u2019s impact."
+        },
+        {
+            "item_id": "B01N9SYC75",
+            "current_rank": 6,
+            "current_vis": 0.4778,
+            "target_gap_vis": 3.8181,
+            "beaten_by": "B0154UQXEC",
+            "opportunity_score": 5.89,
+            "diagnosis_summary": "The winner\u2019s description pinpoints the diamond as a \"round brilliant cut\"\u2014matching the clearly round, large stone visible in the image\u2014while the loser mislabels the stone as \"emerald\u2011cut,\" which is a ",
+            "suggested_principle": "Always use the exact gemstone cut and shape that the image displays. Precise visual terminology (e.g., \"round brilliant cut\" vs. \"emerald cut\") ensures the description reflects the visual reality, boosting relevance and search ranking."
+        },
+        {
+            "item_id": "B074PV823T",
+            "current_rank": 5,
+            "current_vis": 0.5747,
+            "target_gap_vis": 3.7212,
+            "beaten_by": "B0154UQXEC",
+            "opportunity_score": 4.71,
+            "diagnosis_summary": "Winner accurately describes the central stone as a \"round brilliant cut Swarovski Zirconia\", matching the single, large, clear diamond visible in the image. Loser uses the vague phrase \"Round Multi\u2011St",
+            "suggested_principle": "When translating visual attributes to text, always use specific descriptors (e.g., stone cut, number of stones, exact placement) that mirror what the viewer sees. Avoid generic terms like \"multi\u2011stone\" or \"round\" that can mislead or omit key details."
+        },
+        {
+            "item_id": "B014WC311G",
+            "current_rank": 4,
+            "current_vis": 1.247,
+            "target_gap_vis": 3.0489,
+            "beaten_by": "B0154UQXEC",
+            "opportunity_score": 3.53,
+            "diagnosis_summary": "The Winner\u2019s description includes all visible structural elements of the ring: a two\u2011piece set, a half\u2011eternity band, and a large round brilliant\u2011cut center stone flanked by additional stones. The Los",
+            "suggested_principle": "When translating visual data into text, always describe every visible design element\u2014band shape, stone arrangement, and any distinguishing features\u2014so the textual description fully mirrors the visual reality and improves semantic relevance."
+        }
+    ],
+    "Microfiber fitted sheet wrinkle resistant": [
+        {
+            "item_id": "B0886QY5X8",
+            "current_rank": 10,
+            "current_vis": 0.0,
+            "target_gap_vis": 5.6996,
+            "beaten_by": "B00M92MKSM",
+            "opportunity_score": 12.28,
+            "diagnosis_summary": "Winner\u2019s description focuses on the visual style \u2013 a smooth, wrinkle\u2011resistant plain blue sheet that conveys a minimalistic, elegant look \u2013 whereas Loser\u2019s text overemphasizes product features (water ",
+            "suggested_principle": "When describing a product\u2019s visual attributes, prioritize the overall atmosphere or style conveyed by the image\u2014such as minimalism, elegance, or comfort\u2014rather than a laundry list of technical specs or mismatched color details. A concise, vibe\u2011oriented description that aligns tightly with the visual reality helps rank higher in search relevance."
+        },
+        {
+            "item_id": "B08FBZPGBK",
+            "current_rank": 9,
+            "current_vis": 0.0,
+            "target_gap_vis": 5.6996,
+            "beaten_by": "B00M92MKSM",
+            "opportunity_score": 10.92,
+            "diagnosis_summary": "The winner\u2019s description explicitly references visual traits that match the image \u2013 a plain, wrinkle\u2011resistant, blue\u2011tone sheet made from microfiber. It ties the product\u2019s look and feel to what the bu",
+            "suggested_principle": "When writing product text, always incorporate the key visual attributes shown in the image\u2014color, material finish, texture, and relevance to the query. Omitting these details creates a mismatch that harms relevance and ranking."
+        },
+        {
+            "item_id": "B08FBYSKZC",
+            "current_rank": 8,
+            "current_vis": 0.0,
+            "target_gap_vis": 5.6996,
+            "beaten_by": "B00M92MKSM",
+            "opportunity_score": 9.55,
+            "diagnosis_summary": "Winner\u2019s description pinpoints concrete, observable qualities\u2014\"durable, soft 100% polyester microfiber, wrinkle\u2011resistant plain colour, elastic all\u2011around\"\u2014directly reflecting the sheet\u2019s texture, mat",
+            "suggested_principle": "When describing visual data, use specific, observable terms (material, texture, functional attributes) that map directly to what the user sees, rather than generic marketing buzzwords. This alignment boosts relevance and ranking."
+        },
+        {
+            "item_id": "B00M92O7HE",
+            "current_rank": 7,
+            "current_vis": 0.8557,
+            "target_gap_vis": 4.8439,
+            "beaten_by": "B00M92MKSM",
+            "opportunity_score": 8.19,
+            "diagnosis_summary": "The Winner\u2019s copy paints a vivid sensory picture \u2013 it talks about a \"beautiful sateen weave\" and a \"silk\u2011like, extravagant softness\" that convey the sheet\u2019s sheen, texture and luxurious feel. The Lose",
+            "suggested_principle": "To translate visual reality into compelling text, go beyond basic specs and weave sensory, texture\u2011focused language that evokes the product\u2019s look, feel, and vibe. Describing how a material glimmers, feels smooth, or feels luxurious turns abstract attributes into vivid, memorable imagery."
+        },
+        {
+            "item_id": "B08FCKFFR3",
+            "current_rank": 6,
+            "current_vis": 2.069,
+            "target_gap_vis": 3.6306,
+            "beaten_by": "B00M92MKSM",
+            "opportunity_score": 6.82,
+            "diagnosis_summary": "The winner\u2019s description explicitly matches the visual reality of a blue, single\u2011piece mattress cover: it notes the smooth, matte texture, the snug elastic fit, and the wrinkle\u2011resistant quality\u2014all o",
+            "suggested_principle": "When writing product copy, translate every observable visual feature\u2014color, shape, texture, arrangement\u2014into the description. Avoid inserting unrelated product specifications or generic terms that do not match the image; this ensures the text accurately reflects what buyers see, enhancing relevance and search performance."
+        },
+        {
+            "item_id": "B00M92L4PC",
+            "current_rank": 5,
+            "current_vis": 3.1007,
+            "target_gap_vis": 2.5989,
+            "beaten_by": "B00M92MKSM",
+            "opportunity_score": 5.46,
+            "diagnosis_summary": "The winner\u2019s description moves beyond raw specs and captures the visual mood of the bedding \u2013 it references a \u2018timeless design\u2019, the ability to match with a duvet cover, and offers a range of colours ",
+            "suggested_principle": "When translating visual data into text, always convey the product\u2019s aesthetic vibe or atmosphere (e.g., \u2018cozy\u2019, \u2018modern\u2019, \u2018minimalist\u2019, \u2018timeless\u2019) and how it can visually integrate into a space. Purely functional language may describe the item but fails to help the buyer visualize it in their environment."
+        },
+        {
+            "item_id": "B08FCKGMJV",
+            "current_rank": 4,
+            "current_vis": 3.2821,
+            "target_gap_vis": 2.4175,
+            "beaten_by": "B00M92MKSM",
+            "opportunity_score": 4.09,
+            "diagnosis_summary": "The Winner\u2019s description directly mirrors the visual elements: it notes the sheet\u2019s plain, light\u2011brown hue, its wrinkle\u2011resistant finish, and the all\u2011around elastic that matches the mattress\u2019s smooth,",
+            "suggested_principle": "Always anchor product copy to the concrete visual attributes present in the image\u2014color, texture, shape, and style. Omitting or misrepresenting these facts creates a completeness gap that harms relevance and ranking."
+        }
+    ],
+    "Low moisture mozzarella cheese bar": [
+        {
+            "item_id": "B0754CYF2M",
+            "current_rank": 10,
+            "current_vis": 0.0,
+            "target_gap_vis": 3.7935,
+            "beaten_by": "B074H6X724",
+            "opportunity_score": 11.07,
+            "diagnosis_summary": "The winner\u2019s description explicitly enumerates all visible visual attributes\u2014an 8\u2011ounce resealable pouch, shredded cheese texture, the multi\u2011cheese blend, and packaging color\u2014while the loser\u2019s placeho",
+            "suggested_principle": "Always ensure that every prominent visual element (packaging type, material, texture, color, and quantity cues) present in the image is explicitly mentioned in the text. Omitting such features creates a completeness gap that weakens relevance and search ranking."
+        },
+        {
+            "item_id": "B07VM5HQCN",
+            "current_rank": 9,
+            "current_vis": 0.0,
+            "target_gap_vis": 3.7935,
+            "beaten_by": "B074H6X724",
+            "opportunity_score": 9.84,
+            "diagnosis_summary": "Winner explicitly described the visible pouch (8\u2011ounce resealable bag, shredded pizza\u2011blend cheese, low\u2011moisture mozzarella) \u2013 the exact physical item shown in the image. Loser\u2019s text omitted all bag\u2011",
+            "suggested_principle": "When writing product descriptions, always include a complete set of visible attributes: packaging shape, size, seal, and any notable visual cues (color, material). Omitting these details creates a translation gap that can hurt relevance and ranking."
+        },
+        {
+            "item_id": "B0812LVQ2S",
+            "current_rank": 8,
+            "current_vis": 0.0,
+            "target_gap_vis": 3.7935,
+            "beaten_by": "B074H6X724",
+            "opportunity_score": 8.61,
+            "diagnosis_summary": "Winner explicitly states \"low\u2011moisture whole milk mozzarella cheese\", giving a precise moisture attribute that matches the query. Loser only says \"whole milk mozzarella\" and focuses on narrative eleme",
+            "suggested_principle": "When describing visual attributes, include specific product qualifiers (e.g., moisture level, exact cheese blend) rather than broad or generic terms. This precision aligns the text with what the user sees and searches for, improving relevance and ranking."
+        },
+        {
+            "item_id": "B07GL6G724",
+            "current_rank": 7,
+            "current_vis": 0.0,
+            "target_gap_vis": 3.7935,
+            "beaten_by": "B074H6X724",
+            "opportunity_score": 7.38,
+            "diagnosis_summary": "Winner explicitly details the pouch shape (resealable 8\u2011ounce) and the shredded texture of the cheese, offering a clear visual expectation. Loser omits any mention of the pouch, its size, or the shred",
+            "suggested_principle": "When describing a product, always include the most salient visual features\u2014shape, packaging style, and texture\u2014so shoppers can form an accurate mental image before purchase."
+        },
+        {
+            "item_id": "B07WNG3HDT",
+            "current_rank": 6,
+            "current_vis": 0.0,
+            "target_gap_vis": 3.7935,
+            "beaten_by": "B074H6X724",
+            "opportunity_score": 6.15,
+            "diagnosis_summary": "The Winner explicitly described the bag\u2019s form (resealable pouch), the shredded texture of the cheese, and the 8\u2011ounce size\u2014all visible in the image. The Loser only noted a generic \"15\u2011ounce pack\" and",
+            "suggested_principle": "When translating visual attributes into text, cover every observable feature of packaging and product form\u2014shape, size, texture, and closure\u2014rather than relying on generic terms. This completeness ensures the description accurately mirrors what the consumer sees."
+        },
+        {
+            "item_id": "B0883R3BW7",
+            "current_rank": 5,
+            "current_vis": 0.0,
+            "target_gap_vis": 3.7935,
+            "beaten_by": "B074H6X724",
+            "opportunity_score": 4.92,
+            "diagnosis_summary": "The Winner text describes the exact visual texture and composition\u2014\"shredded\" and lists four distinct cheese varieties (mozzarella, provolone, Parmesan, Romano). The Loser text only calls the product ",
+            "suggested_principle": "When translating visual data to text, always name the concrete, observable features\u2014texture, color, and specific components\u2014rather than generic labels. Detailed, concrete descriptors align the description with the image, improving relevance and ranking."
+        },
+        {
+            "item_id": "B07WGKZRHQ",
+            "current_rank": 4,
+            "current_vis": 0.992,
+            "target_gap_vis": 2.8015,
+            "beaten_by": "B074H6X724",
+            "opportunity_score": 3.69,
+            "diagnosis_summary": "The Winner explicitly describes the visual aspects of the packaging \u2013 a white bag, a fresh new look, a resealable closure, a green organic label with a cow icon \u2013 all of which match what the viewer se",
+            "suggested_principle": "When describing a product, always include all observable packaging features\u2014color, label design, seal type, and any visual cues that set the brand apart. Omitting these details leaves the description incomplete and can hurt relevance and ranking."
+        }
+    ],
+    "Clear glass cooler drinkware set 15 ounce": [
+        {
+            "item_id": "B07VG9FWNM",
+            "current_rank": 10,
+            "current_vis": 0.0,
+            "target_gap_vis": 1.2043,
+            "beaten_by": "B0896L76B3",
+            "opportunity_score": 12.8,
+            "diagnosis_summary": "The winner\u2019s description covers every visible feature of the glass: its exact volume and dimensions, the use of high\u2011quality crystal, the elegant stem design, the laser\u2011cut thin rim, and even the crys",
+            "suggested_principle": "When converting visual data into text, always provide a complete visual narrative: describe shape, material, finish, and any design details that are visible in the image. Avoid leaving out key features; completeness drives relevance and higher ranking."
+        },
+        {
+            "item_id": "B074MF89T4",
+            "current_rank": 9,
+            "current_vis": 0.0,
+            "target_gap_vis": 1.2043,
+            "beaten_by": "B0896L76B3",
+            "opportunity_score": 11.38,
+            "diagnosis_summary": "The Winner\u2019s description explicitly details visual features\u2014clear crystal glass, diamond\u2011filled stem, laser\u2011cut thin rims, and an elegant, straight shape\u2014providing a full visual picture. The Loser\u2019s t",
+            "suggested_principle": "When describing a product, always include the key visual attributes\u2014material, finish, shape, and distinctive design details. Omitting these features results in a loss of context and relevance, especially for visually driven queries."
+        },
+        {
+            "item_id": "B07GL8GHLH",
+            "current_rank": 8,
+            "current_vis": 0.0,
+            "target_gap_vis": 1.2043,
+            "beaten_by": "B0896L76B3",
+            "opportunity_score": 9.96,
+            "diagnosis_summary": "The winner\u2019s description is richly detailed: it names the exact wine color (\u201cdeep red, possibly Merlot or Cabernet Sauvignon\u201d), references the glass\u2019s slender elegant shape, stem, and wide base, and e",
+            "suggested_principle": "When translating visual data into text for SEO, always use specific, perceptible descriptors (exact color shades, precise shapes, and material textures). Generic or functional language (e.g., \u2018blue lid\u2019, \u2018clear plastic\u2019) dilutes visual relevance and hurts ranking."
+        },
+        {
+            "item_id": "B086XG9GMF",
+            "current_rank": 7,
+            "current_vis": 0.0,
+            "target_gap_vis": 1.2043,
+            "beaten_by": "B0896L76B3",
+            "opportunity_score": 8.53,
+            "diagnosis_summary": "The winner\u2019s text paints a clear visual vibe: it mentions the slender, elegant shape, the laser\u2011cut thin rim, and the crystal\u2011diamond filled stem, creating a distinct stylistic image. The loser\u2019s desc",
+            "suggested_principle": "Prioritize describing the product\u2019s visual vibe and design details (shape, rim, decorative elements) rather than listing generic functional specs. This helps search engines and shoppers visualize the item and improves relevance to the query."
         }
     ]
 }
