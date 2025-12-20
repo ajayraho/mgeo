@@ -27,10 +27,7 @@ class OptimizerAgent:
         Rewrites content applying MGEO principles autonomously.
         """
         rules_text = self._format_principles(mgeo_principles)
-        
-        # We give it the 'style' of the original data to mimic
-        original_features = str(product_data.get('features', ''))[:200]
-        
+                
         prompt = f"""
 ### SYSTEM ROLE
 You are an Elite GEO (Generative Engine Optimization) Specialist working as E-Commerce Copywriter.
@@ -63,6 +60,7 @@ You must rigorously apply these rules to bridge the gap between the Visual Truth
         print(f"   ✍️ Optimizer applying principles to '{product_data.get('item_id')}'...")
         try:
             response = call_ollama(prompt, model=self.model_name)
+            print(f"\nResponse from Optimizer: ```\n{response}\n```\n")
             return self._clean_json(response)
         except Exception as e:
             print(f"   ⚠️ Optimization Failed: {e}")

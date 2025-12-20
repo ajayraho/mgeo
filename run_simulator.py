@@ -26,7 +26,7 @@ Category: {item['category']}
 Title: {item['title']}
 Brand/Domain: {origin_str}
 {social_proof}
-Features: {str(item['features'])[:1500]}
+Features: {str(item['features'])}
 --------------------------------------------------
 """
     return context_str

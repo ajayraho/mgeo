@@ -91,7 +91,7 @@ class TargetSelector:
                     "beaten_by": w_id,
                     "opportunity_score": round(opportunity_score, 2),
                     # Diagnosis Info for the Optimizer
-                    "diagnosis_summary": valid_rules[key].get('gap_analysis', 'N/A')[:200],
+                    "diagnosis_summary": valid_rules[key].get('gap_analysis', 'N/A'),
                     "suggested_principle": valid_rules[key].get('generalized_principle', 'N/A')
                 }
                 

@@ -108,7 +108,7 @@ class LocalSearchEngine:
 [Result #{i+1} | ID: {row['item_id']}]
 Category: {row['category']}
 Title: {row['title']}
-Features: {str(row['features'])[:500]}...
+Features: {str(row['features'])}...
 Score: {row['relevance_score']:.4f}
 --------------------------------------------------
 """

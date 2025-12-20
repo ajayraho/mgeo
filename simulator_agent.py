@@ -61,7 +61,7 @@ You are a Search Algorithm Auditor.
 
 3. **Generated Response (The Output):**
 ```
-{generated_text[:3000]}
+{generated_text}
 ```
 
 ### TASK
@@ -81,5 +81,8 @@ Return a list of objects for EVERY source in the context.
 }}
 """
         # print(f"   Auditing visibility decisions...")
+        est_tokens = len(prompt) / 3.0
+        if est_tokens > 2048:
+             print(f"\n⚠️ SIMULATOR PROMPT IS HUGE ({int(est_tokens)} tokens). Ensure num_ctx > {int(est_tokens)}!\n")
         response = call_ollama(prompt)
         return self._clean_json(response)

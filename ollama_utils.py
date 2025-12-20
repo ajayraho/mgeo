@@ -56,7 +56,10 @@ def call_ollama(prompt: str, system: str = "", retries: int = 8, temperature=0.2
                     "temperature": temperature,  # You can tweak temperature or other params
                     "top_p": 1,
                     "frequency_penalty": 0,
-                    "presence_penalty": 0
+                    "presence_penalty": 0,
+                    "options": {
+                        "num_ctx": 8192
+                    }
                 },
                 timeout=300
             )
