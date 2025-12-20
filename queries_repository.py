@@ -17,7 +17,17 @@ QUERIES = [
     "Tufted velvet chesterfield sofa",
     "Geometric print throw pillow blue",
     "Ceramic vase modern white",
-    "Women's high heel sandals gladiator style"
+    "Women's high heel sandals gladiator style",
+    "mobile back cover",
+    "3D printer",
+    "Soft plush lemur toy for kids",
+    "Daylight LED GU10 spotlight bulbs 50W",
+    "Pink duvet cover set with zipper",
+    "Camel top handle bag",
+    "Platinum plated pearl and zirconia ring",
+    "Microfiber fitted sheet wrinkle resistant",
+    "Low moisture mozzarella cheese bar",
+    "Clear glass cooler drinkware set 15 ounce",
 ]
 
 def parse_json_col(val):
