@@ -1,0 +1,61 @@
+query,product_id,Baseline_Vis,Baseline_VGS,Baseline_Overall,Trained_Vis,Trained_VGS,Trained_Overall,Winner
+mid century modern accent chair with wooden legs,B07J2R9Y7F,0.1578,0.723,0.4404,0.4598,0.7174,0.5886,Trained
+mid century modern accent chair with wooden legs,B0853L358V,0,0.7573,0.37865,0.5444,0.5964,0.5704,Trained
+mid century modern accent chair with wooden legs,B07BWJCZJX,0.9643,0.7023,0.8333,0.4169,0.7967,0.6068,Baseline
+industrial style floating shelves for wall storage,B07S7DDWJ6,0.5647,0,0.28235,0.4487,0.7916,0.62015,Trained
+industrial style floating shelves for wall storage,B07HSG8DPR,0,0.8082,0.4041,0.5214,0.6724,0.5969,Trained
+industrial style floating shelves for wall storage,B07B7J5BC2,3.4695,0.6882,2.07885,1.0063,0.5244,0.76535,Baseline
+bohemian geometric area rug 5x7,B07NXTJV7L,0.3847,0.8042,0.59445,2.198,0.7582,1.4781,Trained
+bohemian geometric area rug 5x7,B07Q5ZXC59,0.7834,0.5749,0.67915,1.0996,0.5611,0.83035,Trained
+bohemian geometric area rug 5x7,B07HSDXLTW,2.4889,0.5999,1.5444,4.5575,0.676,2.61675,Trained
+ceramic minimalist flower vase white,B07Y9WZK4F,0,0.6564,0.3282,0,0.7535,0.37675,Trained
+ceramic minimalist flower vase white,B07JM6HFW3,1.0444,0.6034,0.8239,0.68,0.6857,0.68285,Baseline
+ceramic minimalist flower vase white,B07TG4YCCZ,0.6447,0.0393,0.342,0,0.7716,0.3858,Trained
+stainless steel kitchen knife set with block,B07XBRRJ3H,0,0.456,0.228,0,0.9282,0.4641,Trained
+stainless steel kitchen knife set with block,B081TGCNF3,1.8807,0.5401,1.2104,0,0.9801,0.49005,Baseline
+stainless steel kitchen knife set with block,B07M9YRFKW,1.0948,0.1028,0.5988,0.4801,0.6345,0.5573,Baseline
+bamboo adjustable shoe rack organizer,B07WP76J5R,1.1241,0.038,0.58105,0,0.1575,0.07875,Baseline
+bamboo adjustable shoe rack organizer,B07PGQYRYY,0.7562,0.3251,0.54065,1.4055,0.3628,0.88415,Trained
+bamboo adjustable shoe rack organizer,B07W1WTR11,0,0.7324,0.3662,0,0.4111,0.20555,Baseline
+led desk lamp with usb charging port,B07MBFDJQ3,1.2813,0.9221,1.1017,3.7441,0.8807,2.3124,Trained
+led desk lamp with usb charging port,B073P3562J,1.8381,0.9118,1.37495,1.4998,0.881,1.1904,Baseline
+led desk lamp with usb charging port,B07HK3PNSK,0.9732,0.6641,0.81865,2.3811,0.7641,1.5726,Trained
+vintage leather crossbody bag for women,B07WNNYYDJ,0.5457,0.6966,0.62115,0.6265,0.5381,0.5823,Baseline
+vintage leather crossbody bag for women,B07WRL3WYP,0,0,0,2.5391,1,1.76955,Trained
+vintage leather crossbody bag for women,B07WRJFP49,0.4521,0.5378,0.49495,0.6421,0.568,0.60505,Trained
+ergonomic mesh office chair with lumbar support,B07P9P8LZ6,1.3365,0.1629,0.7497,1.5449,0.2947,0.9198,Trained
+ergonomic mesh office chair with lumbar support,B07Q3WM678,2.1983,0.3527,1.2755,0.4913,0.5612,0.52625,Baseline
+ergonomic mesh office chair with lumbar support,B07B7B6PL8,0,0,0,0.9486,0.8125,0.88055,Trained
+glass food storage containers with airtight lids,B07DGQYHYY,0,0.3224,0.1612,0,0.597,0.2985,Trained
+glass food storage containers with airtight lids,B072WW22SH,0.9892,0.2933,0.64125,0,0.8187,0.40935,Baseline
+glass food storage containers with airtight lids,B07GL8GHLH,0,0.9647,0.48235,0,1,0.5,Trained
+rustic wooden serving tray with handles,B07VG9FWNM,0,0,0,3.0278,1,2.0139,Trained
+rustic wooden serving tray with handles,B07M6PKCM3,6.6354,0.2535,3.44445,2.4581,0.3535,1.4058,Baseline
+rustic wooden serving tray with handles,B01MEEBCHA,0,0,0,1.5461,0.9163,1.2312,Trained
+soft faux fur throw blanket for couch,B082Q98JRB,0,0,0,1.0394,0.5581,0.79875,Trained
+soft faux fur throw blanket for couch,B07XYNVF6L,3.415,0.3424,1.8787,0.5805,0.6063,0.5934,Baseline
+soft faux fur throw blanket for couch,B07Q5ZXC59,2.3235,0.6583,1.4909,0.4962,0.848,0.6721,Baseline
+modern pendant light fixture gold,B071FS1QRJ,0,0,0,0,0.6911,0.34555,Trained
+modern pendant light fixture gold,B07B4YZWKD,0.9311,0.6916,0.81135,2.3691,0.7285,1.5488,Trained
+modern pendant light fixture gold,B07HK85JKQ,0.66,0.4757,0.56785,0,0.5921,0.29605,Baseline
+decorative throw pillows for living room sofa,B07JLSNZ1K,0,0,0,1.4202,0.8245,1.12235,Trained
+decorative throw pillows for living room sofa,B07JLZC571,0,0,0,0.8543,0.9916,0.92295,Trained
+decorative throw pillows for living room sofa,B07HZ7634C,0,0,0,0,0.8338,0.4169,Trained
+portable bluetooth speaker waterproof,B00LRK8HJ8,1.5286,0.265,0.8968,0,0.8664,0.4332,Baseline
+portable bluetooth speaker waterproof,B0857LB5GX,0.541,0,0.2705,0,0.5076,0.2538,Baseline
+portable bluetooth speaker waterproof,B0856BPTY5,1.1494,0,0.5747,0,0.4094,0.2047,Baseline
+non stick frying pan skillet induction,B07NVLWGQ6,0,0.6393,0.31965,0,0.5382,0.2691,Baseline
+non stick frying pan skillet induction,B083M2Y9V3,0.4534,0.5935,0.52345,2.0681,0.5097,1.2889,Trained
+non stick frying pan skillet induction,B07F8CL9PC,0,0.5497,0.27485,0,0.8232,0.4116,Trained
+large round wall mirror black frame,B07TTD7KDM,1.9868,0.3755,1.18115,4.1961,0.5756,2.38585,Trained
+large round wall mirror black frame,B08GL2N8B2,0,0.757,0.3785,0,0.7478,0.3739,Baseline
+large round wall mirror black frame,B08GL2N8FK,0,1,0.5,0,1,0.5,Tie
+electric kettle stainless steel auto shut off,B07XDSBBM7,0.7247,0.3258,0.52525,0,0.5015,0.25075,Baseline
+electric kettle stainless steel auto shut off,B0731G364H,0.8917,0,0.44585,0,1,0.5,Trained
+electric kettle stainless steel auto shut off,B07V6M4MSN,0,0.5748,0.2874,0,0.6673,0.33365,Trained
+waffle weave shower curtain grey,B007M6GP9U,3.4007,0.3826,1.89165,0,0.9236,0.4618,Baseline
+waffle weave shower curtain grey,B07QC76DTB,7.4173,0.3214,3.86935,5.0345,0.2198,2.62715,Baseline
+waffle weave shower curtain grey,B003S9W4ZY,2.1225,0.4574,1.28995,0,0.9322,0.4661,Baseline
+ceramic coffee mug set with stand,B07GNNPB3M,0,0,0,0,0.8091,0.40455,Trained
+ceramic coffee mug set with stand,B07HCMJ6G7,4.1118,0,2.0559,2.068,0.3088,1.1884,Baseline
+ceramic coffee mug set with stand,B07HCRTHX1,3.6779,0.1223,1.9001,0,0.7878,0.3939,Baseline

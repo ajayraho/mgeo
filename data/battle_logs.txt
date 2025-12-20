@@ -1,0 +1,811 @@
+--- BATTLE START: 2025-12-18 16:13:02.085491 ---
+
+============================================================
+⚔️ BATTLE 1: B07J2R9Y7F | Q: mid century modern accent chair with wooden legs
+👉 BASELINE Thinking...
+   📝 BASELINE Output:
+      Title: Mid Century Modern Accent Chair with Wooden Legs - Rivet Willard Contemporary Lounge Chair, 26"W, Slate
+      Feat : The chair features a unique design with high-top style and V-neck cut. It has a ...
+   📊 BASELINE Stats: Vis=0.16 | VGS=0.72 | Overall=0.44
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: Mid-Century Modern Accent Chair – Teal Suede & Ribbed Fabric, Wooden Legs, V-Neck Cut High-top style with V-neck cut | Rich teal color with suede and ribbed fabric upholstery | Solid wood legs | Brass buckles for elegant accents | 26"W x 30"D x 34"H; Seat Height: 17.32"H; Seat Depth: 20.47"D; Seat Back Height: 34"H; Arm Height: 24.8"H; Leg Height: 19.68"H
+      Feat : ...
+   📊 TRAINED Stats: Vis=0.46 | VGS=0.72 | Overall=0.59
+🏆 WINNER: Trained
+
+============================================================
+⚔️ BATTLE 2: B0853L358V | Q: mid century modern accent chair with wooden legs
+👉 BASELINE Thinking...
+   📝 BASELINE Output:
+      Title: Mid Century Modern Accent Chair with Wooden Legs: Rivet Lundberg Upholstered Counter-Height Barstool with Brass Legs, 40.6"H, Graphite
+      Feat : Comfortable and stylish, this mid century modern accent chair features a soft gr...
+   📊 BASELINE Stats: Vis=0.00 | VGS=0.76 | Overall=0.38
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: Mid-Century Modern Grey Accent Chair with Wooden Frame and Curved Back Grey fabric seat | Soft, grey upholstery | Tall, sturdy wooden frame | Unique curved backrest | Comfortable cushioning | Brass accents on legs
+      Feat : ...
+   📊 TRAINED Stats: Vis=0.54 | VGS=0.60 | Overall=0.57
+🏆 WINNER: Trained
+
+============================================================
+⚔️ BATTLE 3: B07BWJCZJX | Q: mid century modern accent chair with wooden legs
+👉 BASELINE Thinking...
+   📝 BASELINE Output:
+      Title: Mid Century Modern Accent Chair with Wooden Legs: Stone & Beam Lummi Modern Armless Living Room Chair, 21.6" W, Denim
+      Feat : Soft, textured denim fabric, Beech wood frame covered in polyester fabric, Minim...
+   📊 BASELINE Stats: Vis=0.96 | VGS=0.70 | Overall=0.83
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: Mid-Century Modern Accent Chair with Wooden Legs – Soft Blue Velvet Upholstery Soft blue velvet upholstery | Sturdy wooden legs | Solid blue color | Cushion made of soft, textured fabric | Simple and elegant design | Versatile piece of furniture for various interior styles
+      Feat : ...
+   📊 TRAINED Stats: Vis=0.42 | VGS=0.80 | Overall=0.61
+🏆 WINNER: Baseline
+
+============================================================
+⚔️ BATTLE 4: B07S7DDWJ6 | Q: industrial style floating shelves for wall storage
+👉 BASELINE Thinking...
+   📝 BASELINE Output:
+      Title: Industrial Style Floating Shelves for Wall Storage: Modern Shelving Solutions
+      Feat : Discover our industrial-style floating shelves designed for wall storage, featur...
+   📊 BASELINE Stats: Vis=0.56 | VGS=0.00 | Overall=0.28
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: Industrial Style Floating Shelves for Wall Storage – 3-Pack, White & Gold White bowls with gold accents (3-pack) | Round, elongated, oval shapes | Clean simple design on white background | Indoor wall-mounted planter for small plants like air plants or succulents | Stoneware ceramic and durable steel construction
+      Feat : ...
+   📊 TRAINED Stats: Vis=0.45 | VGS=0.79 | Overall=0.62
+🏆 WINNER: Trained
+
+============================================================
+⚔️ BATTLE 5: B07HSG8DPR | Q: industrial style floating shelves for wall storage
+👉 BASELINE Thinking...
+   📝 BASELINE Output:
+      Title: Amazon Brand – Stone & Beam Industrial Round Coffee Table, 48"W, Wood & Dark Metal
+      Feat : This stunning industrial-style coffee table features a solid mango top with a Fr...
+   📊 BASELINE Stats: Vis=0.00 | VGS=0.81 | Overall=0.40
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: Industrial Style Floating Shelves – Solid Mango Wood Top with French Onyx Finish, Dark Metal Legs 48"W x 48"D x 18"H | Solid mango wood top with French onyx finish | Sturdy steel legs with dark-gunmetal powder-coated finish | Modern industrial styling with rich casual look from natural wood parquetry top | Assemble in 15 minutes or less | Free returns for 30 days, 3-year warranty
+      Feat : ...
+   📊 TRAINED Stats: Vis=0.52 | VGS=0.67 | Overall=0.60
+🏆 WINNER: Trained
+
+============================================================
+⚔️ BATTLE 6: B07B7J5BC2 | Q: industrial style floating shelves for wall storage
+👉 BASELINE Thinking...
+   📝 BASELINE Output:
+      Title: Industrial Style Floating Shelves for Wall Storage: Stone & Beam Alan Casual Wood Media TV Console Table, 62"W x 18"D x 28.25"H
+      Feat : Washed navy finish with gold hardware, four self-close drawers for storage, 62"W...
+   📊 BASELINE Stats: Vis=3.47 | VGS=0.69 | Overall=2.08
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: Industrial Style Floating Shelves for Wall Storage – Dark Wood, Gray Top, Gold Knobs Large dark wood dresser with gray top | Three drawers with gold knobs | Simple elegant design | Wooden legs support the dresser | Contrast between dark wood and gray top | No assembly required | Free returns for 30 days. 3-year warranty
+      Feat : ...
+   📊 TRAINED Stats: Vis=1.01 | VGS=0.52 | Overall=0.77
+🏆 WINNER: Baseline
+
+============================================================
+⚔️ BATTLE 7: B07NXTJV7L | Q: bohemian geometric area rug 5x7
+👉 BASELINE Thinking...
+   📝 BASELINE Output:
+      Title: Bohemian Geometric Area Rug 5x7 - Ravenna Home Esquire Rug, Feathery Ogee Design
+      Feat : 100% microfiber polyester, Power-loomed low .25" pile; suits any indoor space, T...
+   📊 BASELINE Stats: Vis=0.38 | VGS=0.80 | Overall=0.59
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: Bohemian Geometric Area Rug, 5x7, Soft Grey and Blue Soft grey and blue geometric pattern | 100% polyester microfiber | Low 0.25" pile height | Power-loomed for durability | Suitable for high traffic areas | Pair with rug pad (sold separately)
+      Feat : ...
+   📊 TRAINED Stats: Vis=2.20 | VGS=0.76 | Overall=1.48
+🏆 WINNER: Trained
+
+============================================================
+⚔️ BATTLE 8: B07Q5ZXC59 | Q: bohemian geometric area rug 5x7
+👉 BASELINE Thinking...
+   📝 BASELINE Output:
+      Title: Bohemian Geometric Area Rug 5x7 - Modern Plush Standard-Pile Shag Rug in Grey
+      Feat : Standard pile shag area rug with lush geometric pattern and soft texture; Made o...
+   📊 BASELINE Stats: Vis=0.78 | VGS=0.57 | Overall=0.68
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: Bohemian Geometric Area Rug 5x7 – Brown Leather Couch Living Room Soft plush shag area rug with geometric pattern in warm brown color | Lush shag texture adds softness and warmth to any room | Made of power-loomed polypropylene for extra durability | Fade, stain, and wear resistant construction for fuss-free maintenance | Does well in high-traffic areas and adds a beautiful centerpiece to any room | Easy to care for: spot clean, vacuum, and rotate regularly for even wear; do not dry clean
+      Feat : ...
+   📊 TRAINED Stats: Vis=1.10 | VGS=0.56 | Overall=0.83
+🏆 WINNER: Trained
+
+============================================================
+⚔️ BATTLE 9: B07HSDXLTW | Q: bohemian geometric area rug 5x7
+👉 BASELINE Thinking...
+   📝 BASELINE Output:
+      Title: Bohemian Geometric Area Rug 5x7 - Modern Grey and Taupe Design
+      Feat : Handmade from a blend of polyester, polypropylene, jute, and cotton; Medium .39 ...
+   📊 BASELINE Stats: Vis=2.49 | VGS=0.60 | Overall=1.54
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: Amazon Brand – Rivet Bohemian Geometric Area Rug, 5' x 7', Grey and Taupe With a modern interpretation of a classic geometric design, this rug fits wonderfully in transitional-theme rooms. With a large size perfect for spacious floor spaces and a versatile gray-and-taupe color scheme, this rug is the ideal finishing touch for your home décor. | 5' x 7' | Imported. 49% polyester, 29% polypropylene, 16% jute, 6% cotton | Machine made with a textured geometric pattern | Medium .39" pile suits any indoor space | Pair with rug pad (sold separately)
+      Feat : ...
+   📊 TRAINED Stats: Vis=4.56 | VGS=0.68 | Overall=2.62
+🏆 WINNER: Trained
+
+============================================================
+⚔️ BATTLE 10: B07Y9WZK4F | Q: ceramic minimalist flower vase white
+👉 BASELINE Thinking...
+   📝 BASELINE Output:
+      Title: AmazonBasics Ultrasonic Ceramic Aromatherapy Essential Oil Diffuser with Wood Grain Finish Base, Floral Pattern and 7 Colored Night Light Options
+      Feat : Ultrasonic electronic aromatherapy diffuser with 120ml water capacity; ceramic b...
+   📊 BASELINE Stats: Vis=0.00 | VGS=0.66 | Overall=0.33
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: AmazonBasics Ceramic Minimalist White Air Freshener with Wooden Base – Hole Pattern, 120ml Water Capacity White ceramic air freshener with hole pattern design | Wooden base for warmth and natural texture | 120ml water capacity | Ultrasonic technology for whisper-quiet operation | 7 colored night light options for ambiance | Continuous (5.5-10 hour) and intermittent (11-20 hour) operating modes | Automatically shuts off when water tank is empty
+      Feat : ...
+   📊 TRAINED Stats: Vis=0.00 | VGS=0.75 | Overall=0.38
+🏆 WINNER: Trained
+
+============================================================
+⚔️ BATTLE 11: B07JM6HFW3 | Q: ceramic minimalist flower vase white
+👉 BASELINE Thinking...
+   📝 BASELINE Output:
+      Title: Minimalist White Ceramic Flower Vase with Wooden Stand, 13.6H
+      Feat : 100% ceramic planter in matte white glaze; solid wood base with rich brown stain...
+   📊 BASELINE Stats: Vis=1.04 | VGS=0.60 | Overall=0.82
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: White Minimalist Ceramic Vase with Brown Wooden Stand – Tall Cylindrical Shape White ceramic vase with tall cylindrical shape and slightly rounded top | Brown wooden stand with angled legs providing stable base | Minimalistic elegant design contrasting white vase with brown wood base | 11.3" diameter x 13.6" height (exterior) | 8.25" diameter x 8.5" height (interior)
+      Feat : ...
+   📊 TRAINED Stats: Vis=0.68 | VGS=0.69 | Overall=0.68
+🏆 WINNER: Baseline
+
+============================================================
+⚔️ BATTLE 12: B07TG4YCCZ | Q: ceramic minimalist flower vase white
+👉 BASELINE Thinking...
+   📝 BASELINE Output:
+      Title: Amazon Brand Solimo White Minimalist Flower Vase Ceramic Design
+      Feat : Ceramic minimalist flower vase design | Unique white floral pattern on a smooth,...
+   📊 BASELINE Stats: Vis=0.64 | VGS=0.04 | Overall=0.34
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: Black and White Leaf Pattern 3D Printed Smooth Glossy Cell Phone Case Black and white leaf pattern with overlapping leaves for a unique design | Smooth glossy finish | Easy access to volume buttons, audio ports, charging port | Raised bezel protects screen and camera from flat surface | Slim hard back case
+      Feat : ...
+   📊 TRAINED Stats: Vis=0.00 | VGS=0.77 | Overall=0.39
+🏆 WINNER: Trained
+
+============================================================
+⚔️ BATTLE 13: B07XBRRJ3H | Q: stainless steel kitchen knife set with block
+👉 BASELINE Thinking...
+   📝 BASELINE Output:
+      Title: Stainless Steel Kitchen Knife Set with Block - 10-Piece, Ergonomic Handles, Sharp Blades for Precise Cutting
+      Feat : 【HIGH-QUALITY MATERIALS】Sharp stainless steel blades ensure long-lasting perform...
+   📊 BASELINE Stats: Vis=0.00 | VGS=0.46 | Overall=0.23
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: Umi by Amazon – 10-Piece Reciprocating Saw Blades Set with Organizer Pouch for Metal, Wood and Wood with Nails, BIM/HCS, Compatible with DEWALT, Bosch, Black & Decker, Makita
+      Feat : Excellent M2 HSS high-speed steel teeth for long lifetime on cutting wood and me...
+   📊 TRAINED Stats: Vis=0.00 | VGS=0.93 | Overall=0.46
+🏆 WINNER: Trained
+
+============================================================
+⚔️ BATTLE 14: B081TGCNF3 | Q: stainless steel kitchen knife set with block
+👉 BASELINE Thinking...
+   📝 BASELINE Output:
+      Title: Stainless Steel Kitchen Knife Set with Block for Efficient Cooking
+      Feat : 8-piece stainless steel knife set includes 2 chef knives, 1 utility knife, 1 par...
+   📊 BASELINE Stats: Vis=1.88 | VGS=0.54 | Overall=1.21
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: Black Stainless Steel Kitchen Knife Set with Block 8-piece non-stick cookware set for daily home cooking includes 2 fry pans, 1 saucepan with lid, 2 casserole pans with lids, and a utensil set with soup ladle, slotted turner and serving spoon | Aluminium body with non-stick coating offers the ease of cooking and cleaning | BPA-free and safe to use | Soft-touch riveted handles to protect your hands from heat transfer | Spiral bottom helps heat and cook food evenly | Vented glass lid lets steam escape | Compatible with gas stove only; Do not use on induction cooktop | Hand wash only; not dishwasher safe | 1 year warranty against manufacturing defects | Package Contents: 1 x fry pan 8 in (20.32 cm); 1 x fry pan 10 in (25.4 cm); 1 x saucepan with lid 1.89 litre (1890 ml); 1 x casserole pan with lid 2.8 litre (2800 ml); 1 x casserole pan with lid 4.7 litre (4700 ml); 1 x soup ladle; 1 x slotted turner; 1 x serving spoon
+      Feat : ...
+   📊 TRAINED Stats: Vis=0.00 | VGS=0.98 | Overall=0.49
+🏆 WINNER: Baseline
+
+============================================================
+⚔️ BATTLE 15: B07M9YRFKW | Q: stainless steel kitchen knife set with block
+👉 BASELINE Thinking...
+   📝 BASELINE Output:
+      Title: Stainless Steel Kitchen Knife Set with Block
+      Feat : High-quality stainless steel blades for smooth cutting, compact block design for...
+   📊 BASELINE Stats: Vis=1.09 | VGS=0.10 | Overall=0.60
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: Solimo Stainless Steel Kitchen Knife Set with Block – 3 Blades, 400ml Green Plastic Container High-quality 100% food-grade plastic container with smooth glossy surface | Clear lid for easy visibility | Simple functional shape with no prints or patterns | Sleek modern design | BPA-free | Imported spring action mechanism for easy pulling and long-lasting performance | Multifunctional – chopping preparing blending pureeing ingredients including fruits vegetables nuts herbs dicer creating fresh salsas coleslaws salads | Compact 400ml capacity compact to use store | Dimensions: 12.49 (Dia) X 9.37 (Height) cm blades measuring 4.31X1.65cm overall weight 200gm | 3 sharp stainless steel blades cut through vegetables easily | Anti-skid base for smooth surfaces glass tops granite polished wood | Locking mechanism prevents spillage contents outside ensures safety | Easy to use clean dishwasher safe | Attractive green color enhances kitchen look
+      Feat : ...
+   📊 TRAINED Stats: Vis=0.48 | VGS=0.63 | Overall=0.56
+🏆 WINNER: Baseline
+
+============================================================
+⚔️ BATTLE 16: B07WP76J5R | Q: bamboo adjustable shoe rack organizer
+👉 BASELINE Thinking...
+   📝 BASELINE Output:
+      Title: Bamboo Adjustable Shoe Rack Organizer for Classic and Versatile Storage
+      Feat : Timeless design, Black and white color scheme, Simple and clean aesthetic, Adjus...
+   📊 BASELINE Stats: Vis=1.12 | VGS=0.04 | Overall=0.58
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: Bamboo Adjustable Shoe Rack Organizer – Black & White Classic Style Black upper | White sole | Simple clean design | Timeless versatile style
+      Feat : ...
+   📊 TRAINED Stats: Vis=0.00 | VGS=0.16 | Overall=0.08
+🏆 WINNER: Baseline
+
+============================================================
+⚔️ BATTLE 17: B07PGQYRYY | Q: bamboo adjustable shoe rack organizer
+👉 BASELINE Thinking...
+   📝 BASELINE Output:
+      Title: Amazon Essentials Bamboo Adjustable Shoe Rack Organizer for Sandals, 5-Piece Set with Natural Wood Finish and Soft-Grip Feet
+      Feat : 5-piece bamboo shoe rack organizer designed for adjustable sandals with natural ...
+   📊 BASELINE Stats: Vis=0.76 | VGS=0.33 | Overall=0.54
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: Bamboo Adjustable Shoe Rack Organizer – 5-Width Settings, Natural Brown Leather Upper & Sole Adjustable buckle closure with five fit settings for superior fit | Faux leather dip-dye upper in natural brown color with burnishing and soft hand | Hidden elastic on back strap for flexible fit | Soft faux leather sock with natural grip and ornamental stitching | High quality smooth TPR outsole for exceptional flexibility and traction | Minimalist heel added for extra comfort and support
+      Feat : ...
+   📊 TRAINED Stats: Vis=1.41 | VGS=0.36 | Overall=0.88
+🏆 WINNER: Trained
+
+============================================================
+⚔️ BATTLE 18: B07W1WTR11 | Q: bamboo adjustable shoe rack organizer
+👉 BASELINE Thinking...
+   📝 BASELINE Output:
+      Title: Amazon Essentials Women's Casual Cork Sandal - Adjustable Buckle Straps, Textured Outsole, Padded Footbed
+      Feat : Adjustable buckle straps, textured outsole with distressed cork finish, padded f...
+   📊 BASELINE Stats: Vis=0.00 | VGS=0.73 | Overall=0.37
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: Bamboo Adjustable Shoe Rack Organizer – Black Leather Upper & Brown Wooden Sole Square Toe Flat Sandals with Buckle Fastening System Black leather upper | Brown wooden sole | Square toe | Flat sandal design | Buckle fastening system | Padded footbed
+      Feat : ...
+   📊 TRAINED Stats: Vis=0.00 | VGS=0.41 | Overall=0.21
+🏆 WINNER: Baseline
+
+============================================================
+⚔️ BATTLE 19: B07MBFDJQ3 | Q: led desk lamp with usb charging port
+👉 BASELINE Thinking...
+   📝 BASELINE Output:
+      Title: Ravenna Home LED Desk Lamp with USB Charging Port, Textured Ceramic Base, Silver
+      Feat : 8.5"W x 8.5"D x 18"H | Textured ceramic base with silver reactive glaze and brus...
+   📊 BASELINE Stats: Vis=1.28 | VGS=0.92 | Overall=1.10
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: Ravenna Home Metallic Curved Desk Lamp with White Shade, USB Charging Port, 18"H Metallic curved base with shiny texture | Distinctive pattern on the metallic surface | White shade complements the metallic base | Hanging from ceiling for stylish display | Includes one 60W LED bulb and a USB charging port
+      Feat : ...
+   📊 TRAINED Stats: Vis=3.74 | VGS=0.88 | Overall=2.31
+🏆 WINNER: Trained
+
+============================================================
+⚔️ BATTLE 20: B073P3562J | Q: led desk lamp with usb charging port
+👉 BASELINE Thinking...
+   📝 BASELINE Output:
+      Title: Elegant Rivet Lux LED Desk Lamp with USB Charging Port, Marble Base & Brass Frame, Adjustable Arm and Glass Shade
+      Feat : Adjustable arm with decorative joints for customized lighting; Classic marble ba...
+   📊 BASELINE Stats: Vis=1.84 | VGS=0.91 | Overall=1.37
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: Rivet Lux Bendable Arm Gold Metal Frame White Shade LED Desk Lamp with USB Charging Port – 22.5" Height, Glass Shade Gold metal frame and white shade | Adjustable bendable arm with decorative joints | Marble base with gold accents | Glass shade for a clean finish | 7.5"Wx13"Dx22.5"H | Easy assembly in 15-30 minutes | USB charging port for convenient device charging
+      Feat : ...
+   📊 TRAINED Stats: Vis=1.50 | VGS=0.88 | Overall=1.19
+🏆 WINNER: Baseline
+
+============================================================
+⚔️ BATTLE 21: B07HK3PNSK | Q: led desk lamp with usb charging port
+👉 BASELINE Thinking...
+   📝 BASELINE Output:
+      Title: Rivet Contemporary Palm Tree Neon Desk Lamp with USB Charging Port, Pineapple Shape, White AF44228
+      Feat : Dream of warmer climes with this fun LED neon lamp in the shape of a pineapple. ...
+   📊 BASELINE Stats: Vis=0.97 | VGS=0.66 | Overall=0.82
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: Rivet Contemporary Neon Pineapple Desk Lamp with USB Charging Port, 11.75"H, White AF44228 Dream of warmer climes with this fun LED neon lamp in the shape of a pineapple. This lamp can make a wonderfully quirky addition to your living space. You can place it on a table or desk or hang it from the wall. | 3.5"W x 3.5"D x 11.75"H | Pineapple LED neon | Has wall hooks to hang on the wall; takes 3 AA batteries; 1-watt LED; on/off push-button switch | Integrated LED included | No assembly required | Intended for indoor use only
+      Feat : ...
+   📊 TRAINED Stats: Vis=2.38 | VGS=0.76 | Overall=1.57
+🏆 WINNER: Trained
+
+============================================================
+⚔️ BATTLE 22: B07WNNYYDJ | Q: vintage leather crossbody bag for women
+👉 BASELINE Thinking...
+   📝 BASELINE Output:
+      Title: Vintage-Style Leather Crossbody Bag for Women - Flavia Satchel
+      Feat : Tan-colored, suede-textured leather handbag with gold buckle and geometric diamo...
+   📊 BASELINE Stats: Vis=0.55 | VGS=0.70 | Overall=0.62
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: Flavia Women's Satchel Bag – Brown Leather, Gold Buckle, Diamond Pattern Brown suede leather | Unique diamond pattern in gold and black | Satchel style with gold buckle on front | Elegant and stylish design
+      Feat : ...
+   📊 TRAINED Stats: Vis=0.63 | VGS=0.54 | Overall=0.58
+🏆 WINNER: Baseline
+
+============================================================
+⚔️ BATTLE 23: B07WRL3WYP | Q: vintage leather crossbody bag for women
+👉 BASELINE Thinking...
+   ❌ BASELINE Failed to parse output.
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: Flavia Women's Vintage Leather Crossbody Bag – Pink Smooth Leather, Gold Buckle, Rectangular Shape, Zipper Top Vintage smooth leather crossbody bag in solid pink color | 28 cm height × 22 cm length | Gold buckle and zipper top | Rectangular shape with clean lines | Smooth leather texture
+      Feat : ...
+   📊 TRAINED Stats: Vis=2.54 | VGS=1.00 | Overall=1.77
+🏆 WINNER: Trained
+
+============================================================
+⚔️ BATTLE 24: B07WRJFP49 | Q: vintage leather crossbody bag for women
+👉 BASELINE Thinking...
+   📝 BASELINE Output:
+      Title: Vintage Leather Crossbody Bag for Women - Flavia Handbag (Black) with Gold Buckle and Strap
+      Feat : Faux leather material, 22 cm height x 22 cm length, gold buckle, strap with gold...
+   📊 BASELINE Stats: Vis=0.45 | VGS=0.54 | Overall=0.49
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: Flavia Women's Vintage Leather Crossbody Bag – Black, Gold Buckle Smooth black faux leather texture | Small rectangular shape | Adjustable leather strap with gold buckle | 22 cm height × 22 cm length | Do not expose to extreme heat
+      Feat : ...
+   📊 TRAINED Stats: Vis=0.64 | VGS=0.57 | Overall=0.61
+🏆 WINNER: Trained
+
+============================================================
+⚔️ BATTLE 25: B07P9P8LZ6 | Q: ergonomic mesh office chair with lumbar support
+👉 BASELINE Thinking...
+   📝 BASELINE Output:
+      Title: Ergonomic Mesh Office Chair with Lumbar Support: High-Back, Adjustable Armrest and Breathable Mesh Fabric for Comfort and Productivity
+      Feat : Breathable mesh fabric provides ventilation and comfort; adjustable armrests ens...
+   📊 BASELINE Stats: Vis=1.34 | VGS=0.16 | Overall=0.75
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: Ergonomic Mesh Office Chair with Lumbar Support Black mesh fabric provides ventilation and breathability | Adjustable lumbar support for optimal spinal alignment | Sturdy metal frame with a durable black finish | Padded seat and backrest for comfort | Stackable design for efficient storage | Dimensions: 12.4" L x 12.3" W x 15" H
+      Feat : ...
+   📊 TRAINED Stats: Vis=1.54 | VGS=0.29 | Overall=0.92
+🏆 WINNER: Trained
+
+============================================================
+⚔️ BATTLE 26: B07Q3WM678 | Q: ergonomic mesh office chair with lumbar support
+👉 BASELINE Thinking...
+   📝 BASELINE Output:
+      Title: Ergonomic Mesh Office Chair with Lumbar Support: Adjustable Seat and Backrest
+      Feat : Adjustable lumbar support, breathable mesh fabric, sturdy metal frame, ergonomic...
+   📊 BASELINE Stats: Vis=2.20 | VGS=0.35 | Overall=1.28
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: Ergohuman High-Back Executive Chair – Blue Denim Fabric High-back executive chair with adjustable lumbar support for optimal spinal alignment | Adjustable tilt tension and seat height for customizable fit | Durable steel frame and base for stability and long life | Breathable mesh fabric for ventilation and comfort | Assembled in USA
+      Feat : ...
+   📊 TRAINED Stats: Vis=0.49 | VGS=0.56 | Overall=0.53
+🏆 WINNER: Baseline
+
+============================================================
+⚔️ BATTLE 27: B07B7B6PL8 | Q: ergonomic mesh office chair with lumbar support
+👉 BASELINE Thinking...
+   ❌ BASELINE Failed to parse output.
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: Stone & Beam Hughes Casual Wood Office Chair, Set of 2, Beige – Ergonomic Mesh Back with Lumbar Support Simple lines, traditional fabric and an armless design make this chair an attractive yet practical choice for modern, transitional or farmhouse décor. Performance fabric and solid construction will enable them to last through years of family meals. | 24"L x 19"W x 39"H | Polyester performance fabric on hardwood frame; hardwood legs | A transitional style that can blend with most any décor | Performance fabric makes it easy to care for; quality construction makes it last | Assembly in 30 minutes or less; bolt-on back and legs | Free returns for 30 days; 3-year warranty
+      Feat : ...
+   📊 TRAINED Stats: Vis=0.95 | VGS=0.81 | Overall=0.88
+🏆 WINNER: Trained
+
+============================================================
+⚔️ BATTLE 28: B07DGQYHYY | Q: glass food storage containers with airtight lids
+👉 BASELINE Thinking...
+   📝 BASELINE Output:
+      Title: Amazon Brand - Solimo 16oz Paper Hot Cup with Airtight Lid, Checkered Pattern, 75 Count
+      Feat : Includes 75 hot beverage cups and lids with airtight snap-on design | Each paper...
+   📊 BASELINE Stats: Vis=0.00 | VGS=0.32 | Overall=0.16
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: Solimo 16oz Paper Hot Cups with Airtight Lids (75 Count) – Orange & White Checkered Pattern Includes 75 hot beverage cups and lids | Each paper cup holds 16 ounces | Lid snaps onto each cup for airtight seal | Hot cup is microwave safe | Perfect to take coffee, tea or your favorite beverage to-go | Cups are Sustainable Forestry Initiative (SFI) certified; made with pulp from responsibly managed forest | Satisfaction Guarantee: We’re proud of our products. If you aren’t satisfied, we’ll refund you for any reason within a year of purchase. 1-877-485-0385 | An Amazon brand
+      Feat : ...
+   📊 TRAINED Stats: Vis=0.00 | VGS=0.60 | Overall=0.30
+🏆 WINNER: Trained
+
+============================================================
+⚔️ BATTLE 29: B072WW22SH | Q: glass food storage containers with airtight lids
+👉 BASELINE Thinking...
+   📝 BASELINE Output:
+      Title: Glass Food Storage Containers with Airtight Lids - Durable, Leak-Proof, and Easy to Clean
+      Feat : Made from high-quality borosilicate glass | Features airtight, leak-proof lids f...
+   📊 BASELINE Stats: Vis=0.99 | VGS=0.29 | Overall=0.64
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: Glass Food Storage Containers with Airtight Lids – Pink Suede Leather Round Zipper Closure Pink suede leather textured finish | Deep pink purple hue | Round shape | Closed zipper closure | Airtight seal for freshness preservation | Durable borosilicate glass material | Freezer safe dishwasher safe odour resistant
+      Feat : ...
+   📊 TRAINED Stats: Vis=0.00 | VGS=0.82 | Overall=0.41
+🏆 WINNER: Baseline
+
+============================================================
+⚔️ BATTLE 30: B07GL8GHLH | Q: glass food storage containers with airtight lids
+👉 BASELINE Thinking...
+   📝 BASELINE Output:
+      Title: Glass-Like Food Storage Containers with Airtight Lids, Set of 5, Blue: Premium Polypropylene Pitcher and Tumblers for Water, Juices, and Food
+      Feat : Made from high-quality premium Polypropylene (Grade 5) plastic material with a g...
+   📊 BASELINE Stats: Vis=0.00 | VGS=0.96 | Overall=0.48
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: Glass Food Storage Containers with Airtight Lids – Set of 5 (2.1L Pitcher + 4 x 300ml Cups) – Clear Plastic, Smooth Glossy Finish, BPA-Free Clear plastic pitcher with blue lid | 2.1L capacity | Flip-lock mechanism for one-hand operation | 4 tumblers each 300ml capacity | Smooth glossy finish | BPA-free food-grade material | Dishwasher safe and freezer safe
+      Feat : ...
+   📊 TRAINED Stats: Vis=0.00 | VGS=1.00 | Overall=0.50
+🏆 WINNER: Trained
+
+============================================================
+⚔️ BATTLE 31: B07VG9FWNM | Q: rustic wooden serving tray with handles
+👉 BASELINE Thinking...
+   ❌ BASELINE Failed to parse output.
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: Rustic Wooden Serving Tray with Handles – 45-Piece Stainless Steel Flatware Set (8 Forks, 8 Knives, 8 Spoons) and 5-Piece Serving Set Rustic wooden serving tray with handles | 45-piece stainless steel flatware set for everyday use or special occasions | Includes 8 salad forks, 8 dinner forks, 8 place knives, 8 soup spoons, and 8 teaspoons, plus a 5-piece serving set that includes 1 slotted serving spoon, 1 serving spoon, 1 serving fork, 1 sugar spoon, and 1 butter knife | Dishwasher-safe for easy cleaning | Elegant design with silver satin matte finish | Backed by an AmazonBasics 1-year limited warranty
+      Feat : ...
+   📊 TRAINED Stats: Vis=3.03 | VGS=1.00 | Overall=2.01
+🏆 WINNER: Trained
+
+============================================================
+⚔️ BATTLE 32: B07M6PKCM3 | Q: rustic wooden serving tray with handles
+👉 BASELINE Thinking...
+   📝 BASELINE Output:
+      Title: Rustic Wooden Serving Tray with Handles - Unique Damask Pattern, Grey
+      Feat : Handcrafted wooden serving tray with sturdy handles, featuring a unique damask p...
+   📊 BASELINE Stats: Vis=6.64 | VGS=0.25 | Overall=3.44
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: Rustic Wooden Serving Tray with Handles – Large Round Vase with Geometric Pattern Large round vase with wide opening | Matte gray and black finish | Geometric pattern on matte surface | Combination of metal and glass materials | 16"H x 13"W x 13"D | Wipe clean with soft, damp cloth
+      Feat : ...
+   📊 TRAINED Stats: Vis=2.46 | VGS=0.35 | Overall=1.41
+🏆 WINNER: Baseline
+
+============================================================
+⚔️ BATTLE 33: B01MEEBCHA | Q: rustic wooden serving tray with handles
+👉 BASELINE Thinking...
+   ❌ BASELINE Failed to parse output.
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: Rustic Wooden Serving Tray with Handles, White Dinner Set – 18-Piece Porcelain Plates & Bowls, Smooth Finish White dinner set featuring 18 pieces of porcelain plates and bowls | Various plate sizes, stacked bowls for visual appeal | Smooth polished finish on ceramic material | Simple elegant design highlighting clean lines and uniform white color
+      Feat : ...
+   📊 TRAINED Stats: Vis=1.55 | VGS=0.92 | Overall=1.23
+🏆 WINNER: Trained
+
+============================================================
+⚔️ BATTLE 34: B082Q98JRB | Q: soft faux fur throw blanket for couch
+👉 BASELINE Thinking...
+   ❌ BASELINE Failed to parse output.
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: Soft Faux Fur Throw Blanket – Tan, 28" x 23" – Cozy Ottoman Soft faux fur throw blanket in warm beige color | Durable fabric-covered down-blend cushion provides lasting comfort | 28"W x 23"D x 19"H with wooden leg height of 2.75"H | Removable and reversible cushion for durability and comfort | Vacuum or wipe clean, spot clean if needed
+      Feat : ...
+   📊 TRAINED Stats: Vis=1.04 | VGS=0.56 | Overall=0.80
+🏆 WINNER: Trained
+
+============================================================
+⚔️ BATTLE 35: B07XYNVF6L | Q: soft faux fur throw blanket for couch
+👉 BASELINE Thinking...
+   📝 BASELINE Output:
+      Title: Soft Faux Fur Throw Blanket for Couch: Navy Blue, Lightweight, and Cozy
+      Feat : Size: 172×178cm. Soft faux fur material with a textured, plush finish. Lightweig...
+   📊 BASELINE Stats: Vis=3.42 | VGS=0.34 | Overall=1.88
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: Soft Faux Fur Throw Blanket – Navy Blue & Purple Geometric Pattern – Lightweight, Warm & Cozy – 127" x 178" Soft faux fur throw blanket with a unique navy blue and purple geometric pattern | Lightweight and warm for cozy nights on the couch or as a decorative accent for your bed | Made from soft textured fabric with a subtle sheen | Measures 127" x 178" (320 cm x 450 cm) to fit most sofas, beds, and chairs | Machine washable in cold water with similar colors, tumble dry low
+      Feat : ...
+   📊 TRAINED Stats: Vis=0.58 | VGS=0.61 | Overall=0.59
+🏆 WINNER: Baseline
+
+============================================================
+⚔️ BATTLE 36: B07Q5ZXC59 | Q: soft faux fur throw blanket for couch
+👉 BASELINE Thinking...
+   📝 BASELINE Output:
+      Title: Soft Faux Fur Throw Blanket for Couch: Plush, Cozy, and Warm
+      Feat : Soft faux fur throw blanket with a plush pile shag texture; Made of power-loomed...
+   📊 BASELINE Stats: Vis=2.32 | VGS=0.66 | Overall=1.49
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: Soft Faux Fur Throw Blanket – Large Brown Leather Couch Large brown leather couch with wooden frame | Placed in front of window allowing natural light | Rug on wooden floor adding warmth and comfort | Potted plant next to couch providing greenery | Chair, vase, bowl enhancing cozy atmosphere
+      Feat : ...
+   📊 TRAINED Stats: Vis=0.50 | VGS=0.85 | Overall=0.67
+🏆 WINNER: Baseline
+
+============================================================
+⚔️ BATTLE 37: B071FS1QRJ | Q: modern pendant light fixture gold
+👉 BASELINE Thinking...
+   ❌ BASELINE Failed to parse output.
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: Modern Gold Pendant Light Fixture – 10K Gold Circle with Orange-Yellow Gemstone Center, Stud Earrings Gold necklace featuring circle pendant with orange-yellow gemstone center | Circular earrings matching pendant design | 10K gold material for shiny elegant appearance | Harmonious stylish accessory for any occasion
+      Feat : ...
+   📊 TRAINED Stats: Vis=0.00 | VGS=0.69 | Overall=0.35
+🏆 WINNER: Trained
+
+============================================================
+⚔️ BATTLE 38: B07B4YZWKD | Q: modern pendant light fixture gold
+👉 BASELINE Thinking...
+   📝 BASELINE Output:
+      Title: Modern Pendant Light Fixture Gold: Stone & Beam Schoolhouse Ceiling Chandelier with Glass Milk White Shade, 21" x 8" x 53" Inches, 42" Cord
+      Feat : Vintage schoolhouse lighting meets modern design in this pendant light. Black ma...
+   📊 BASELINE Stats: Vis=0.93 | VGS=0.69 | Overall=0.81
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: Modern Pendant Light Fixture Gold – Black Metal Frame with White Glass Globes (3) at Different Heights Black metal frame | White glass globes (3) at different heights | Modern sleek design | Hanging length: 42" | Indoor use only
+      Feat : ...
+   📊 TRAINED Stats: Vis=2.37 | VGS=0.73 | Overall=1.55
+🏆 WINNER: Trained
+
+============================================================
+⚔️ BATTLE 39: B07HK85JKQ | Q: modern pendant light fixture gold
+👉 BASELINE Thinking...
+   📝 BASELINE Output:
+      Title: Modern Gold Pendant Light Fixture with Elongated Decorative LED Bulb and Satin Brass Finish
+      Feat : Mid-century-modern metal pendant light fixture with satin-brass finish, elongate...
+   📊 BASELINE Stats: Vis=0.66 | VGS=0.48 | Overall=0.57
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: Modern White Glass Bottle Pendant Light Fixture with Gold Top and Ring Clear glass bottle body | Gold top and ring accents | Simple white background highlighting clean design | No shade needed, decorative gold accents make statement
+      Feat : ...
+   📊 TRAINED Stats: Vis=0.00 | VGS=0.59 | Overall=0.30
+🏆 WINNER: Baseline
+
+============================================================
+⚔️ BATTLE 40: B07JLSNZ1K | Q: decorative throw pillows for living room sofa
+👉 BASELINE Thinking...
+   ❌ BASELINE Failed to parse output.
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: Amazon Brand – Stone & Beam Round Throw Pillow with White Buttons, 24" x 12", Tan Made in USA and imported | Round throw pillow with white buttons on edges for a unique decorative touch | Hidden zipper at bottom of pillow | 12"L x 24"W | Pillow cover and insert | Spot clean
+      Feat : ...
+   📊 TRAINED Stats: Vis=1.42 | VGS=0.82 | Overall=1.12
+🏆 WINNER: Trained
+
+============================================================
+⚔️ BATTLE 41: B07JLZC571 | Q: decorative throw pillows for living room sofa
+👉 BASELINE Thinking...
+   ❌ BASELINE Failed to parse output.
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: Amazon Brand – Stone & Beam Rustic Stripe Throw Pillow – 17" x 17", Light Linen, Diagonal Striped Pattern Made in USA and imported | Beautiful yarn-dyed stripe features a stubby texture in the tonal yarns. Pillow can be layered with others or stand by itself. Back of pillow is solid yellow-colored fabric. Hidden zipper at bottom of pillow. | 17"L x 17"W | Pillow cover and insert | Spot clean. | Pillow insert arrives in vacuum-sealed bag. Carefully remove insert from packaging, let it fully expand before putting inside of pillow cover.
+      Feat : ...
+   📊 TRAINED Stats: Vis=0.85 | VGS=0.99 | Overall=0.92
+🏆 WINNER: Trained
+
+============================================================
+⚔️ BATTLE 42: B07HZ7634C | Q: decorative throw pillows for living room sofa
+👉 BASELINE Thinking...
+   ❌ BASELINE Failed to parse output.
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: Amazon Brand – Stone & Beam Blaine Modern Loveseat Sofa, Light Brown Wood Frame, Smooth Polyester Upholstery Large light brown couch with solid wood frame and smooth polyester upholstery | Curved back and generous seating area create cozy inviting atmosphere | Sturdy wooden legs provide base | Comfortable seat height 19.3" and depth 22" | Seat back height 25.6", arm height 24.4", leg height 4.9" | Removable/reversible cushions for durability and comfort | Solid wood frame and legs with 100% polyester upholstery | Assemble in less than 15 minutes | Free returns within 30 days, 3-year warranty
+      Feat : ...
+   📊 TRAINED Stats: Vis=0.00 | VGS=0.83 | Overall=0.42
+🏆 WINNER: Trained
+
+============================================================
+⚔️ BATTLE 43: B00LRK8HJ8 | Q: portable bluetooth speaker waterproof
+👉 BASELINE Thinking...
+   📝 BASELINE Output:
+      Title: Waterproof Portable Bluetooth Speaker
+      Feat : Compact and lightweight waterproof speaker with a sleek, modern design; features...
+   📊 BASELINE Stats: Vis=1.53 | VGS=0.27 | Overall=0.90
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: AmazonBasics Portable Power Bank with Micro USB Cable - 3,000 mAh Waterproof Black Leather Case Waterproof black leather case with matte finish and rectangular shape | Slightly rounded edge for comfortable grip | Secure leather strap for carrying | 3,000mAh lithium-ion polymer battery for reduced weight and increased safety | Plugs into Micro USB 2.0 and 3.0 ports to charge smartphone or Bluetooth headset | Neatly stows Micro USB cable when not in use | Power overload protection; USB charging cable and carrying pouch included (Phone cables sold separately) | Measures 4 x 2.5 x 0.3 inches; weighs 2.3 ounces | Backed by an AmazonBasics 1-Year Limited Warranty
+      Feat : ...
+   📊 TRAINED Stats: Vis=0.00 | VGS=0.87 | Overall=0.43
+🏆 WINNER: Baseline
+
+============================================================
+⚔️ BATTLE 44: B0857LB5GX | Q: portable bluetooth speaker waterproof
+👉 BASELINE Thinking...
+   📝 BASELINE Output:
+      Title: Waterproof Bluetooth Speaker - Compact, Rugged, and Portable
+      Feat : IPX7 waterproof rating for worry-free outdoor use; 10-hour battery life; Clear a...
+   📊 BASELINE Stats: Vis=0.54 | VGS=0.00 | Overall=0.27
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: Amazon Brand - Solimo Designer Floral Matte Soft Back Case for Samsung Phone – Waterproof Snug fit for Samsung phone with perfect cut-outs for volume buttons, audio & charging ports | Compatible with Samsung phone | Easy to put & take off with perfect cutouts for volume buttons, audio & charging ports. | Stylish floral pattern in pink and purple on matte finish | Extreme precision design allows easy access to all buttons and ports while featuring raised bezel to lift screen and camera off flat surface.
+      Feat : ...
+   📊 TRAINED Stats: Vis=0.00 | VGS=0.51 | Overall=0.25
+🏆 WINNER: Baseline
+
+============================================================
+⚔️ BATTLE 45: B0856BPTY5 | Q: portable bluetooth speaker waterproof
+👉 BASELINE Thinking...
+   📝 BASELINE Output:
+      Title: Waterproof Bluetooth Speaker: Compact & Rugged, Perfect for Outdoor Adventures
+      Feat : Compact and rugged design for outdoor use; Water-resistant and shock-absorbent m...
+   📊 BASELINE Stats: Vis=1.15 | VGS=0.00 | Overall=0.57
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: Amazon Brand - Solimo Designer Waterproof Bluetooth Speaker with Cute Animal Illustrations – Blue & White Smooth Glossy Finish Snug fit for Lyf Water 8, perfect cut-outs for volume buttons, audio and charging ports | Compatible with Lyf Water 8 | Easy to put & take off with perfect cutouts for volume buttons, audio & charging ports. | Stylish design featuring cute cat, dog, fish illustrations and cloud pattern on smooth glossy finish | Extreme precision design allows easy access to all buttons and ports while featuring raised bezel to life screen and camera off flat surface
+      Feat : ...
+   📊 TRAINED Stats: Vis=0.00 | VGS=0.41 | Overall=0.20
+🏆 WINNER: Baseline
+
+============================================================
+⚔️ BATTLE 46: B07NVLWGQ6 | Q: non stick frying pan skillet induction
+👉 BASELINE Thinking...
+   📝 BASELINE Output:
+      Title: Induction Non-Stick Frying Pan Skillet with Free Scrub Pad - 500g
+      Feat : Cuts through grease, oil sediments and food residue | Removes malodor from dirty...
+   📊 BASELINE Stats: Vis=0.00 | VGS=0.64 | Overall=0.32
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: Presto! Non-Stick Frying Pan Skillet Induction Cooker, Yellow Yellow plastic container | Smooth texture | Green lid with yellow circle | Securely fastened lid | Contains non-stick frying pan skillet for induction cooking | Free scrub pad included
+      Feat : ...
+   📊 TRAINED Stats: Vis=0.00 | VGS=0.54 | Overall=0.27
+🏆 WINNER: Baseline
+
+============================================================
+⚔️ BATTLE 47: B083M2Y9V3 | Q: non stick frying pan skillet induction
+👉 BASELINE Thinking...
+   📝 BASELINE Output:
+      Title: Non-Stick Frying Pan Skillet Induction Cooktop Compatible, 2-Pack
+      Feat : Induction cooktop compatible non-stick frying pan skillet set with PFOA-free and...
+   📊 BASELINE Stats: Vis=0.45 | VGS=0.59 | Overall=0.52
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: AmazonCommercial Non-Stick Frying Pan Skillet Induction, 22cm Diameter, 4cm Depth, Pack of 2 Non-stick frying pan skillet induction | Smooth glossy finish | Free from patterns and prints | Rectangular shape with rounded corners and slightly curved edges | Uniform design and size | Stackable design with anti-jam lugs for space-saving storage and easy retrieval – pans won’t stick together | Oven-safe, freezer-safe, and dishwasher-safe; wipes clean easily with a damp cloth | 22cm diameter by 4cm depth; measures 10.1 cm x 6.4 cm x 3.9 cm overall; weighs 1.4 pounds
+      Feat : ...
+   📊 TRAINED Stats: Vis=2.07 | VGS=0.51 | Overall=1.29
+🏆 WINNER: Trained
+
+============================================================
+⚔️ BATTLE 48: B07F8CL9PC | Q: non stick frying pan skillet induction
+👉 BASELINE Thinking...
+   📝 BASELINE Output:
+      Title: Amazon Brand - Solimo Pomace Olive Oil, 5l: Induction-Friendly Non-Stick Frying Pan Skillet with Green Label and Olives Visual
+      Feat : Non-stick surface for easy food release | Free from trans-fats | Contains Omega-...
+   📊 BASELINE Stats: Vis=0.00 | VGS=0.55 | Overall=0.27
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: Solimo Pomace Olive Oil – Non-Stick Frying Pan Skillet Induction Cooking – 5L Free from trans-fats | Contains Omega-3 monounsaturated fatty acid and antioxidants | Contains a mild flavor of olives | Suitable for everyday Indian cooking, deep frying, non-stick frying pan skillet induction cooking | Store carefully away from direct heat & sunlight; It is characteristic for olive oil to get cloudy below 4℃
+      Feat : ...
+   📊 TRAINED Stats: Vis=0.00 | VGS=0.82 | Overall=0.41
+🏆 WINNER: Trained
+
+============================================================
+⚔️ BATTLE 49: B07TTD7KDM | Q: large round wall mirror black frame
+👉 BASELINE Thinking...
+   📝 BASELINE Output:
+      Title: Large Round Wall Mirror Black Frame
+      Feat : Premium glass construction, Smooth and glare-free surface, Magnetic backing for ...
+   📊 BASELINE Stats: Vis=1.99 | VGS=0.38 | Overall=1.18
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: Large Round Wall Mirror – Black Frame Clear glass display case | Smooth glass surface | White background | Rectangular shape | Large size | Black frame
+      Feat : ...
+   📊 TRAINED Stats: Vis=4.20 | VGS=0.58 | Overall=2.39
+🏆 WINNER: Trained
+
+============================================================
+⚔️ BATTLE 50: B08GL2N8B2 | Q: large round wall mirror black frame
+👉 BASELINE Thinking...
+   📝 BASELINE Output:
+      Title: Large Round Wall Mirror with Black Frame
+      Feat : Material: Glass, Color: Black, Finish: Distressed; Shape: Round; Subject: Contem...
+   📊 BASELINE Stats: Vis=0.00 | VGS=0.76 | Overall=0.38
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: Large Round Distressed Wood Clock – White Face with Black Numbers and Hands – Silent Sweep Movement Distressed wood frame with a rustic vintage look | White clock face with black numbers and hands for easy time reading | Simple minimalistic design with no patterns or prints | Silent sweep movement | 12-inch round diameter
+      Feat : ...
+   📊 TRAINED Stats: Vis=0.00 | VGS=0.75 | Overall=0.37
+🏆 WINNER: Baseline
+
+============================================================
+⚔️ BATTLE 51: B08GL2N8FK | Q: large round wall mirror black frame
+👉 BASELINE Thinking...
+   📝 BASELINE Output:
+      Title: Large Round Wall Mirror with Black Frame and Silent Sweep Movement
+      Feat : Material: Plastic, Color: Black, Finish: Other | Shape: Round, subject: contempo...
+   📊 BASELINE Stats: Vis=0.00 | VGS=1.00 | Overall=0.50
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: Amazon Brand - Solimo Large Round Blue Wall Clock with White Face and Roman Numerals – Silent Sweep Movement, Black Plastic Frame Large round blue wall clock with white face featuring Roman numerals I, V, X, L, C | Modern elegant design with silent sweep movement | Black plastic frame | 12-inch diameter dial | Glass transparent face | Includes 1 AA battery
+      Feat : ...
+   📊 TRAINED Stats: Vis=0.00 | VGS=1.00 | Overall=0.50
+🏆 WINNER: Tie
+
+============================================================
+⚔️ BATTLE 52: B07XDSBBM7 | Q: electric kettle stainless steel auto shut off
+👉 BASELINE Thinking...
+   📝 BASELINE Output:
+      Title: Electric Kettle Stainless Steel Auto Shut Off
+      Feat : Stainless steel kettle with auto shut off feature, compact design, easy to clean...
+   📊 BASELINE Stats: Vis=0.72 | VGS=0.33 | Overall=0.53
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: Electric Kettle Stainless Steel Auto Shut Off, Silver Stainless steel body and black lid | Smooth shiny surface | Standard size for everyday use | Simple minimalistic design | Auto shut off feature for safety | Durable construction
+      Feat : ...
+   📊 TRAINED Stats: Vis=0.00 | VGS=0.50 | Overall=0.25
+🏆 WINNER: Baseline
+
+============================================================
+⚔️ BATTLE 53: B0731G364H | Q: electric kettle stainless steel auto shut off
+👉 BASELINE Thinking...
+   📝 BASELINE Output:
+      Title: AmazonBasics Stainless Steel Electric Kettle with Auto Shut Off, Quick Boiling and Temperature Control
+      Feat : Electric kettle features stainless steel construction for durability and resista...
+   📊 BASELINE Stats: Vis=0.89 | VGS=0.00 | Overall=0.45
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: AmazonBasics Stainless Steel Kettlebell – 10 lbs, Matte Black Finish Stainless steel kettlebell for strength training exercises | High-quality stainless steel construction for durability and corrosion resistance | Matte black finish with slightly rough texture | Round top and flat bottom design | Textured wide handle for comfortable grip
+      Feat : ...
+   📊 TRAINED Stats: Vis=0.00 | VGS=1.00 | Overall=0.50
+🏆 WINNER: Trained
+
+============================================================
+⚔️ BATTLE 54: B07V6M4MSN | Q: electric kettle stainless steel auto shut off
+👉 BASELINE Thinking...
+   📝 BASELINE Output:
+      Title: AmazonBasics 1500W Ceramic Personal Heater with Adjustable Thermostat, Black and Stainless Steel Auto Shut Off
+      Feat : Ceramic space heater with adjustable thermostat for cozy and safe warmth—ideal f...
+   📊 BASELINE Stats: Vis=0.00 | VGS=0.57 | Overall=0.29
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: AmazonBasics 1500W Ceramic Portable Heater with Adjustable Thermostat and Auto Shut-Off – Black & Silver Mesh Design Black and silver mesh design for sleek modern look | 1500-watt high setting, 3 output options: Low, High, or Fan Only | Adjustable thermostat for cozy safe warmth | Power indicator light lets you know when it's plugged in | Tip-over switch with auto shut-off and overheat protection with auto shut-off | ETL listed for safety | Carrying handle for easy transport | Not for use in bathrooms laundry areas or other high-humidity rooms | Choice of Black or Silver color | Backed by an AmazonBasics limited 1-year warranty
+      Feat : ...
+   📊 TRAINED Stats: Vis=0.00 | VGS=0.67 | Overall=0.33
+🏆 WINNER: Trained
+
+============================================================
+⚔️ BATTLE 55: B007M6GP9U | Q: waffle weave shower curtain grey
+👉 BASELINE Thinking...
+   📝 BASELINE Output:
+      Title: Waffle Weave Shower Curtain, Grey
+      Feat : Soft and absorbent waffle weave fabric; 100% cotton construction; Machine washab...
+   📊 BASELINE Stats: Vis=3.40 | VGS=0.38 | Overall=1.89
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: Pinzon 700-Gram Hotel Stitch Washcloth 2-Pack, White & Brown Striped Pure white dense cotton washcloth embellished with a double row of brown satin stitching; made in Portugal | 100‑percent cotton; 700 grams per square meter; terry woven loops of 2‑ply yarns | Offered in a variety of colors; coordinates with Pinzon Hotel Stitch bath and bedding collections | Machine washable and dryable | Measures 12 by 12 inches | Set of 2
+      Feat : ...
+   📊 TRAINED Stats: Vis=0.00 | VGS=0.92 | Overall=0.46
+🏆 WINNER: Baseline
+
+============================================================
+⚔️ BATTLE 56: B07QC76DTB | Q: waffle weave shower curtain grey
+👉 BASELINE Thinking...
+   📝 BASELINE Output:
+      Title: Grey Waffle Weave Shower Curtain: Modern, Textured Design for Bathroom Decor
+      Feat : Features a unique waffle weave design with textured grey fabric; Easy to install...
+   📊 BASELINE Stats: Vis=7.42 | VGS=0.32 | Overall=3.87
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: Rivet Modern Waffle Weave Shower Curtain – Grey Grey waffle weave fabric with white geometric pattern | 72" x 72" size fits most standard shower curtains | Water repellent and mildew resistant for easy care | Hanging grommets at top of curtain for easy installation | Machine wash cold, tumble dry low
+      Feat : ...
+   📊 TRAINED Stats: Vis=5.03 | VGS=0.22 | Overall=2.63
+🏆 WINNER: Baseline
+
+============================================================
+⚔️ BATTLE 57: B003S9W4ZY | Q: waffle weave shower curtain grey
+👉 BASELINE Thinking...
+   📝 BASELINE Output:
+      Title: Waffle Weave Shower Curtain Grey: Soft, Lightweight, and Absorbent
+      Feat : Unique waffle weave design for increased water absorption; Grey color provides a...
+   📊 BASELINE Stats: Vis=2.12 | VGS=0.46 | Overall=1.29
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: Pike Street Soft Light Brown Folded Blanket – Rectangular, Smooth Texture, Single-Ply Sateen 100% Egyptian Cotton | Soft light brown color | Smooth texture | Rectangular shape | Folded neatly with aligned edges and slightly overlapping corners | Deep pocket fitted sheet fits mattresses up to 18-inch
+      Feat : ...
+   📊 TRAINED Stats: Vis=0.00 | VGS=0.93 | Overall=0.47
+🏆 WINNER: Baseline
+
+============================================================
+⚔️ BATTLE 58: B07GNNPB3M | Q: ceramic coffee mug set with stand
+👉 BASELINE Thinking...
+   ❌ BASELINE Failed to parse output.
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: Amazon Brand – Stone & Beam Round Ceramic Table Desk Lamp with Light Bulb – 11" x 11" x 20", Burnt Orange Base and White Glossy Shade Modern round ceramic base in burnt orange color | Smooth glossy white shade | Large size: 20"H x 11"W x 11"D | Simple assembly required | Indoor use only
+      Feat : ...
+   📊 TRAINED Stats: Vis=0.00 | VGS=0.81 | Overall=0.40
+🏆 WINNER: Trained
+
+============================================================
+⚔️ BATTLE 59: B07HCMJ6G7 | Q: ceramic coffee mug set with stand
+👉 BASELINE Thinking...
+   📝 BASELINE Output:
+      Title: Ceramic Coffee Mug Set with Stand and Unique Design
+      Feat : Includes a ceramic coffee mug set with stand, featuring a unique design with sil...
+   📊 BASELINE Stats: Vis=4.11 | VGS=0.00 | Overall=2.06
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: Amazon Collection Ceramic Coffee Mug Set with Stand – Square Round Diamond Accent Wedding Ring Style, Size 9 Square round diamond accent | White ceramic mug set with stand | Unique design | Elegant and sophisticated appearance
+      Feat : ...
+   📊 TRAINED Stats: Vis=2.07 | VGS=0.31 | Overall=1.19
+🏆 WINNER: Baseline
+
+============================================================
+⚔️ BATTLE 60: B07HCRTHX1 | Q: ceramic coffee mug set with stand
+👉 BASELINE Thinking...
+   📝 BASELINE Output:
+      Title: Ceramic Coffee Mug Set with Stand - Elegant Design, 14-Piece Collection
+      Feat : Set of 14 ceramic coffee mugs with matching stand, featuring a silver wedding ri...
+   📊 BASELINE Stats: Vis=3.68 | VGS=0.12 | Overall=1.90
+👉 TRAINED Thinking...
+   📝 TRAINED Output:
+      Title: Amazon Brand – Find. Women's 14-Diamond Accent Silver Wedding Ring with White Diamond Center, Size 9 White diamond center stone | 14 round diamonds accentuating the band | Solid sterling silver construction | Comfort fit band for smooth wearability | Size 9
+      Feat : ...
+   📊 TRAINED Stats: Vis=0.00 | VGS=0.79 | Overall=0.39
+🏆 WINNER: Baseline
