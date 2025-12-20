@@ -21,13 +21,13 @@ def format_prompt(examples):
     texts = []
     for instr, inp, out in zip(instructions, inputs, outputs):
         # Construct the conversation
-        text = f"""<|begin_of_text|><|start_header_id|>system<|end_header_id|>
-
-You are an Elite GEO Specialist.{instr}<|eot_id|><|start_header_id|>user<|end_header_id|>
-
-{inp}<|eot_id|><|start_header_id|>assistant<|end_header_id|>
-
-{out}<|eot_id|>"""
+        text = f"""<|start_header_id|>system<|end_header_id|>
+You are an Elite Generative Engine Optimization (GEO) Specialist.
+Your goal is to Rewrite a product's content to maximize its ranking in a Generative Search Engine.
+{instr}
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>{inp}<|eot_id|>
+<|start_header_id|>assistant<|end_header_id|>{out}<|eot_id|>"""
         texts.append(text)
     return {"text": texts}
 
