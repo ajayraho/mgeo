@@ -36,7 +36,7 @@ for name, path in files.items():
         print(f"[ERROR] {name} NOT FOUND → {abs_path}")
 
 # Hyperparameters
-SAMPLES_PER_PRODUCT = 4   # How many variations to try per product
+SAMPLES_PER_PRODUCT = 5   # How many variations to try per product
 LAMBDA_PENALTY = 0.5      # Same safety setting as your verified success
 
 def score_variation(target_id, target_query, new_title, new_features, repo_data, sim_agent, vgs_judge):
@@ -169,11 +169,15 @@ def main():
         best_trajectory = None
 
         # --- THE EXPLORATION LOOP ---
+        # --- NEW HARVEST LOGIC ---
+        # We don't track just one winner. We save EVERYTHING that works.
+        
         for i in range(SAMPLES_PER_PRODUCT):
+            # 1. Optimize
             result = opt_agent.optimize_product(query, product_data, visual_desc, mgeo_rules)
-            
             if not result: continue
             
+            # 2. Score
             reward, vis, vgs = score_variation(
                 target_id, query, 
                 result['optimized_title'], 
@@ -181,21 +185,22 @@ def main():
                 repo, sim_agent, vgs_judge
             )
             
-            # Select Best
-            if reward > best_reward:
-                best_reward = reward
+            # 3. The Harvest Filter
+            # CRITERIA:
+            # - Vis > 0.2: It successfully moved up the ranking (Rank < ~20).
+            # - VGS > 0.65: It is truthful (Safe for Sliding Window logic).
+            # - Reward > 0: General sanity check.
+            if vis > 0.3 and vgs > 0.65 and reward > 0:
                 
-                best_trajectory = {
+                trajectory = {
                     "instruction": f"Optimize the product text for query: '{query}'.\nVisual Truth: {visual_desc}\nApply MGEO Principles.",
                     "input": f"Title: {product_data['title']}\nFeatures: {product_data['features']}",
                     "output": f"{result['optimized_title']}\n{result['optimized_features']}",
                     "metrics": {"reward": reward, "vis": vis, "vgs": vgs}
                 }
-
-        # --- SAVE THE WINNER ---
-        if best_trajectory and best_reward > 0.1:
-            collected_examples.append(best_trajectory)
-            tqdm.write(f"   🌟 Saved Winner for {target_id}: Reward {best_reward:.4f}")
+                
+                collected_examples.append(trajectory)
+                tqdm.write(f"   🌟 Saved Variant: Vis {vis:.2f} | VGS {vgs:.2f} | Reward {reward:.2f}")
         
         # --- CHECKPOINT ---
         # We save progress whether we found a winner or not, to mark this Item as "Attempted"
