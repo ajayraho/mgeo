@@ -17,7 +17,7 @@ venv/
 # keep dataset csv/json if they are inputs, but ignore generated logs & cache
 data/*_checkpoint*
 data/.ipynb_checkpoints/
-
+data/images/
 # ---- Model artifacts ----
 fine_tuned_optimizer
 fine_tuned_optimizer/checkpoint-*/
@@ -38,8 +38,11 @@ models/special_tokens_map.json
 models/tokenizer.json
 models/tokenizer_config.json
 
+geo_v2_clean/
+llama-3-8b-instruct.Q4_K_M.gguf
 # ---- Unsloth & llama.cpp build artifacts ----
 llama.cpp
+llama.cpp/
 llama.cpp/build/
 llama.cpp/bin/
 llama.cpp/*.so
