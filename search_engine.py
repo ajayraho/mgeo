@@ -3,26 +3,31 @@ import numpy as np
 import torch
 from sentence_transformers import SentenceTransformer, util
 import os
-import pickle
+import argparse  # Added for command line arguments
 
 # --- CONFIGURATION ---
 MODEL_NAME = 'BAAI/bge-large-en-v1.5'
 DEVICE = 'cuda' if torch.cuda.is_available() else 'cpu'
 BATCH_SIZE = 128
-CACHE_FILE = 'data/search_index.pt'  # The file where we store the vectors
 
 class LocalSearchEngine:
-    def __init__(self, dataframe, force_refresh=False):
+    def __init__(self, dataframe, cache_file, force_refresh=False):
         """
         Initializes the Search Engine with Persistent Caching.
+        
+        Args:
+            dataframe: The pd.DataFrame containing product data.
+            cache_file: Path to the .pt file where vectors will be stored.
+            force_refresh: If True, ignores existing cache and re-computes.
         """
+        self.cache_file = cache_file # Store the specific cache path for this instance
         print(f"🚀 Initializing Search Engine on {DEVICE}...")
         self.df = dataframe.copy().reset_index(drop=True)
         self.model = None 
         
         # 1. Try to Load from Disk
-        if os.path.exists(CACHE_FILE) and not force_refresh:
-            print(f"   📂 Found cached index '{CACHE_FILE}'. Loading...")
+        if os.path.exists(self.cache_file) and not force_refresh:
+            print(f"   📂 Found cached index '{self.cache_file}'. Loading...")
             try:
                 self.load_index()
                 print("   ✅ Loaded from disk successfully.")
@@ -48,15 +53,21 @@ class LocalSearchEngine:
         
         self.embeddings = embeddings_cpu
         self.save_index()
-        print("   💾 Index saved to disk.")
+        print(f"   💾 Index saved to disk at: {self.cache_file}")
         print("✅ Search Engine Online.")
 
     def _create_search_payload(self):
         def clean(x): return str(x).strip() if pd.notna(x) else ""
+        
+        # Ensure columns exist to prevent crash on arbitrary CSVs
+        for col in ['title', 'features']:
+            if col not in self.df.columns:
+                self.df[col] = ""
+
         instruction = "Represent this product document for retrieval: "
         self.df['search_payload'] = (
             instruction + 
-            "Category: " + self.df['category'].apply(clean) + " ; " +
+            # "Category: " + self.df['category'].apply(clean) + " ; " +
             "Title: " + self.df['title'].apply(clean) + " ; " +
             "Description: " + self.df['features'].apply(clean)
         )
@@ -67,12 +78,12 @@ class LocalSearchEngine:
             'embeddings': self.embeddings.cpu(),
             'dataframe': self.df
         }
-        torch.save(payload, CACHE_FILE)
+        torch.save(payload, self.cache_file)
 
     def load_index(self):
         """Loads from disk. Fixes PyTorch 2.6+ security error."""
         # weights_only=False is required to load Pandas DataFrames
-        payload = torch.load(CACHE_FILE, map_location=DEVICE, weights_only=False)
+        payload = torch.load(self.cache_file, map_location=DEVICE, weights_only=False)
         self.embeddings = payload['embeddings'].to(DEVICE)
         self.df = payload['dataframe']
 
@@ -105,27 +116,47 @@ class LocalSearchEngine:
         context_str = ""
         for i, (idx, row) in enumerate(results_df.iterrows()):
             context_str += f"""
-[Result #{i+1} | ID: {row['item_id']}]
-Category: {row['category']}
-Title: {row['title']}
-Features: {str(row['features'])}...
+[Result #{i+1} | ID: {row.get('item_id', 'N/A')}]
+Category: {row.get('category', 'N/A')}
+Title: {row.get('title', 'N/A')}
+Features: {str(row.get('features', 'N/A'))}...
 Score: {row['relevance_score']:.4f}
 --------------------------------------------------
 """
         return context_str
 
-# --- INTEGRATION TEST ---
+# --- MAIN EXECUTION ---
 if __name__ == "__main__":
-    # 1. Load your DataFrame from the Loader
-    df = pd.read_csv('data/amazon_dataset.csv')
+    # 1. Setup Argument Parser
+    parser = argparse.ArgumentParser(description="Embed a CSV dataset for Semantic Search.")
+    parser.add_argument("csv_path", type=str, help="Path to the input CSV file.")
     
-    # First Run: Will Compute
-    # print("\n--- RUN 1 (Computing) ---")
-    # engine = LocalSearchEngine(df, force_refresh=True)
+    args = parser.parse_args()
+    input_csv = args.csv_path
     
-    # Second Run: Will Load from Cache
-    print("\n--- Loading ---")
-    engine_cached = LocalSearchEngine(df)
+    # 2. Determine Output Filename (.csv -> .pt)
+    base, ext = os.path.splitext(input_csv)
+    output_pt = base + ".pt"
     
-    # Test Search
-    print(engine_cached.format_for_rag(engine_cached.search("women shoes", top_k=5)))
+    if not os.path.exists(input_csv):
+        print(f"❌ Error: File '{input_csv}' not found.")
+        exit(1)
+
+    print(f"📂 Reading CSV: {input_csv}")
+    print(f"💾 Target Cache: {output_pt}")
+
+    # 3. Load Data
+    try:
+        df = pd.read_csv(input_csv)
+        df = df[['title', 'features', 'brand']]
+    except Exception as e:
+        print(f"❌ Failed to read CSV: {e}")
+        exit(1)
+
+    # 4. Initialize Engine (Computes and Saves .pt file)
+    engine = LocalSearchEngine(df, cache_file=output_pt)
+
+    # 5. Quick Test
+    print("\n🔎 Running Sanity Check (Query: 'quality product')...")
+    results = engine.search("quality product", top_k=10)
+    print(engine.format_for_rag(results))
