@@ -6,6 +6,7 @@ import json
 from tqdm import tqdm
 import argparse
 import sys
+import re
 
 # --- CONFIGURATION ---
 IMAGE_DIR = "data/images"          # Where your images are stored
@@ -13,10 +14,20 @@ OUTPUT_FILE = "data/dense_captions.json"
 MODEL_ID = "llava-hf/llava-1.5-13b-hf" 
 BATCH_SAVE_INTERVAL = 10           # Save more frequently for safety
 
+# --- HYBRID PROMPT: Classification + Your Strict Extraction Rules ---
 SYSTEM_PROMPT = """
 You are a Visual Attribute Extractor for an E-Commerce AI.
-Analyze this product image in extreme detail. 
-Focus ONLY on visual features. Do not write a sales pitch.
+Your task is to CLASSIFY the image type and then ANALYZE the product in extreme detail.
+
+STEP 1: CLASSIFY the image into exactly one of these categories:
+- [PRODUCT_SOLO]: The product is the main focus against a clean/plain/white background.
+- [LIFESTYLE]: The product is shown in a real-world setting (e.g., room, outdoors).
+- [MODEL]: A human model is wearing or holding the product.
+- [INFOGRAPHIC]: Image contains mostly text, size charts, diagrams, or comparisons.
+
+STEP 2: VISUAL EXTRACTION
+Focus ONLY on visual features of the product itself. 
+Ignore the background, packaging boxes (unless the product is the box), surrounding props, and models (unless describing fit).
 
 EXTRACT THESE DETAILS:
 1. Material & Texture (e.g., Suede, Ribbed, Glossy, Matte, Knit)
@@ -24,8 +35,13 @@ EXTRACT THESE DETAILS:
 3. Color Nuances (e.g., Teal, Navy, Distressed Gold, rather than just "Blue")
 4. Shape & Cut (e.g., High-top, V-neck, Chesterfield, Round-toe)
 5. Distinctive Parts (e.g., Brass buckles, Wooden legs, Embroidery)
+6. DEFECTS/DETAILS: Note specific fasteners (zippers, buttons), stitching styles, or surface patterns.
 
-Output a dense, factual paragraph description.
+CONSTRAINT:
+- Output the [TYPE] tag on the first line.
+- Follow with a single, dense paragraph description.
+- Use dry, clinical language (e.g., "The object is..." NOT "This lovely item...").
+- Do NOT interpret the product's use (e.g., do not say "good for parties"). Focus only on appearance.
 """
 
 def setup_model():
@@ -53,12 +69,28 @@ def generate_caption(model, processor, image_path):
         inputs = processor(text=prompt, images=image, return_tensors="pt").to("cuda", torch.float16)
 
         # Generate
-        generate_ids = model.generate(**inputs, max_new_tokens=200, do_sample=False)
+        generate_ids = model.generate(**inputs, max_new_tokens=300, do_sample=False)
         output_text = processor.batch_decode(generate_ids, skip_special_tokens=True)[0]
         
-        # Cleanup response
-        cleaned_text = output_text.split("ASSISTANT:")[-1].strip()
-        return cleaned_text
+        # Cleanup response (Remove Prompt)
+        raw_response = output_text.split("ASSISTANT:")[-1].strip()
+        
+        # --- PARSING LOGIC ---
+        # We look for the [TYPE] tag at the start
+        classification = "UNKNOWN"
+        description = raw_response
+        
+        # Regex to find [TAG] at the start
+        match = re.match(r"\[(PRODUCT_SOLO|LIFESTYLE|MODEL|INFOGRAPHIC)\]", raw_response)
+        if match:
+            classification = match.group(1) # Extract text inside brackets
+            # Remove the tag from the description to keep your dense paragraph clean
+            description = raw_response.replace(match.group(0), "").strip()
+        
+        return {
+            "type": classification, 
+            "caption": description
+        }
         
     except Exception as e:
         print(f"   ⚠️ Error processing {image_path}: {e}")
@@ -86,9 +118,12 @@ def extract_target_ids(query_repo_path):
 
 def main():
     # 1. Argument Parsing
-    parser = argparse.ArgumentParser(description="Generate visual captions for products.")
+    parser = argparse.ArgumentParser(description="Generate classified visual captions for products.")
     parser.add_argument("query_repo", help="Path to query_repo.json OR 'all' to process every image.")
+    parser.add_argument("--flat_structure", action="store_true", help="Use old flat directory structure (images directly in root).")
     args = parser.parse_args()
+
+    product_has_dir = not args.flat_structure
 
     # 2. Check Directories
     if not os.path.exists(IMAGE_DIR):
@@ -101,39 +136,66 @@ def main():
         print(f"📂 Found existing captions file ({OUTPUT_FILE}). Loading...")
         with open(OUTPUT_FILE, 'r') as f:
             captions = json.load(f)
-        print(f"   Loaded {len(captions)} existing captions.")
+        print(f"   Loaded {len(captions)} existing entries.")
     
-    # 4. Map Directory Files (item_id -> filename)
-    print("🔍 Scanning Image Directory...")
-    available_files = {} # item_id -> filename
-    for f in os.listdir(IMAGE_DIR):
-        if f.lower().endswith(('.jpg', '.jpeg', '.png')):
-            # Assuming filename is "B07XYZ.jpg" -> item_id = "B07XYZ"
-            item_id = os.path.splitext(f)[0]
-            available_files[item_id] = f
+    # 4 & 5. Map Directory & Build Queue
+    queue = [] # Format: (item_id, full_relative_path, sub_key_or_none)
 
-    # 5. Determine Processing Queue
-    queue = []
-    
+    # Determine Targets
     if args.query_repo.lower() == 'all':
         print("🌍 Mode: ALL. Processing entire directory.")
-        # Process everything that isn't already captioned
-        for item_id, filename in available_files.items():
-            if item_id not in captions:
-                queue.append((item_id, filename))
+        if product_has_dir:
+            # Scan subdirectories
+            target_ids = [d for d in os.listdir(IMAGE_DIR) if os.path.isdir(os.path.join(IMAGE_DIR, d))]
+        else:
+            # Scan files
+            target_ids = [os.path.splitext(f)[0] for f in os.listdir(IMAGE_DIR) if f.endswith(('.jpg', '.png'))]
     else:
         print(f"🎯 Mode: TARGETED. Processing items from {args.query_repo}")
         target_ids = extract_target_ids(args.query_repo)
+
+    print("🔍 Scanning Image Directory...")
+    
+    # --- NEW LOGIC: Directory per Product ---
+    if product_has_dir:
+        for tid in target_ids:
+            product_folder = os.path.join(IMAGE_DIR, tid)
+            
+            if not os.path.isdir(product_folder):
+                continue
+            
+            # Ensure output structure is dict for this item
+            if tid not in captions or not isinstance(captions[tid], dict):
+                pass 
+
+            # Scan for all images inside
+            for img_file in os.listdir(product_folder):
+                if img_file.lower().endswith(('.jpg', '.jpeg', '.png')):
+                    img_key = os.path.splitext(img_file)[0] # e.g., "0", "1"
+                    
+                    # Check if already processed
+                    already_done = (
+                        tid in captions and 
+                        isinstance(captions[tid], dict) and 
+                        img_key in captions[tid]
+                    )
+                    
+                    if not already_done:
+                        full_rel_path = os.path.join(tid, img_file)
+                        queue.append((tid, full_rel_path, img_key))
+
+    # --- OLD LOGIC: Flat Structure (Backward Compatibility) ---
+    else:
+        available_files = {} 
+        for f in os.listdir(IMAGE_DIR):
+            if f.lower().endswith(('.jpg', '.jpeg', '.png')):
+                item_id = os.path.splitext(f)[0]
+                available_files[item_id] = f
         
-        # Filter: Must be in Target List AND Available in Folder AND Not already captioned
         for tid in target_ids:
             if tid in available_files:
                 if tid not in captions:
-                    queue.append((tid, available_files[tid]))
-            else:
-                # Silent skip or warn if image missing for a target item
-                # tqdm.write(f"Warning: Image for target {tid} not found.")
-                pass
+                    queue.append((tid, available_files[tid], None))
 
     if not queue:
         print("✅ No new images to process. All targets are already captioned.")
@@ -148,12 +210,23 @@ def main():
     processed_count = 0
     
     try:
-        for item_id, filename in tqdm(queue, desc="Generating Captions"):
-            image_path = os.path.join(IMAGE_DIR, filename)
-            description = generate_caption(model, processor, image_path)
+        for item_id, rel_path, sub_key in tqdm(queue, desc="Classifying & Captioning"):
+            image_path = os.path.join(IMAGE_DIR, rel_path)
             
-            if description:
-                captions[item_id] = description
+            # Generate the structured result
+            result = generate_caption(model, processor, image_path)
+            
+            if result:
+                # --- NEW OUTPUT FORMAT: Nested Dict ---
+                if product_has_dir:
+                    if item_id not in captions or not isinstance(captions[item_id], dict):
+                        captions[item_id] = {}
+                    captions[item_id][sub_key] = result # {type: "...", caption: "..."}
+                
+                # --- OLD OUTPUT FORMAT: Flat Dict ---
+                else:
+                    captions[item_id] = result # {type: "...", caption: "..."}
+                
                 processed_count += 1
             
             # Periodic Save
@@ -167,7 +240,7 @@ def main():
         # Final Save
         with open(OUTPUT_FILE, 'w') as f:
             json.dump(captions, f, indent=4)
-        print(f"✅ Saved {len(captions)} total captions to {OUTPUT_FILE}")
+        print(f"✅ Saved {len(captions)} total items to {OUTPUT_FILE}")
 
 if __name__ == "__main__":
     main()

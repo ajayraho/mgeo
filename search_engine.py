@@ -55,20 +55,61 @@ class LocalSearchEngine:
         self.save_index()
         print(f"   💾 Index saved to disk at: {self.cache_file}")
         print("✅ Search Engine Online.")
+    def _clean_specs(self, x):
+        """
+        Converts a dictionary string "{'Color': 'Red'}" 
+        into a clean semantic string "Color: Red ; ..."
+        """
+        import ast
+        try:
+            # 1. Handle Empty/NaN
+            if pd.isna(x) or x == "": 
+                return ""
+            
+            # 2. Parse String -> Dict (Safe eval)
+            # If it's already a dict (from .pt load), use it directly.
+            if isinstance(x, dict):
+                specs = x
+            else:
+                specs = ast.literal_eval(str(x))
+            
+            if not isinstance(specs, dict): 
+                return ""
+            
+            # 3. Format into "Key: Value" string
+            # We skip internal keys like 'node' or 'dimensions' if you want, 
+            # or just take everything that is a string/number.
+            parts = []
+            for k, v in specs.items():
+                # Filter out complex nested lists/dicts to keep it simple
+                if isinstance(v, (str, int, float)):
+                    parts.append(f"{k}: {v}")
+            
+            return " ; ".join(parts)
+            
+        except Exception:
+            return ""
 
     def _create_search_payload(self):
         def clean(x): return str(x).strip() if pd.notna(x) else ""
         
-        # Ensure columns exist to prevent crash on arbitrary CSVs
-        for col in ['title', 'features']:
+        # 1. Ensure columns exist
+        for col in ['title', 'features', 'specs']:
             if col not in self.df.columns:
                 self.df[col] = ""
 
+        # 2. Pre-process the Specs (Dict -> String)
+        print("   🔨 Formatting specifications for vectorization...")
+        # This creates the clean "Color: Red ; Brand: X" string
+        self.df['formatted_specs'] = self.df['specs'].apply(self._clean_specs)
+
+        # 3. Construct the Master Vector String
         instruction = "Represent this product document for retrieval: "
+        
         self.df['search_payload'] = (
             instruction + 
-            # "Category: " + self.df['category'].apply(clean) + " ; " +
             "Title: " + self.df['title'].apply(clean) + " ; " +
+            "Specs: " + self.df['formatted_specs'] + " ; " +  # <--- Cleaned Text
             "Description: " + self.df['features'].apply(clean)
         )
 
@@ -117,9 +158,9 @@ class LocalSearchEngine:
         for i, (idx, row) in enumerate(results_df.iterrows()):
             context_str += f"""
 [Result #{i+1} | ID: {row.get('item_id', 'N/A')}]
-Category: {row.get('category', 'N/A')}
 Title: {row.get('title', 'N/A')}
-Features: {str(row.get('features', 'N/A'))}...
+Features: {str(row.get('features', 'N/A'))}
+Specs: {str(row.get('formatted_specs', 'N/A'))}
 Score: {row['relevance_score']:.4f}
 --------------------------------------------------
 """
@@ -148,7 +189,6 @@ if __name__ == "__main__":
     # 3. Load Data
     try:
         df = pd.read_csv(input_csv)
-        df = df[['title', 'features', 'brand']]
     except Exception as e:
         print(f"❌ Failed to read CSV: {e}")
         exit(1)

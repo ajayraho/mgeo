@@ -1,49 +1,57 @@
 import json
 import pandas as pd
+import ast
+import os
 from search_engine import LocalSearchEngine
-from synthetic_reviews import SocialProofGenerator
+
 # --- CONFIGURATION ---
 OUTPUT_FILE = "data/query.json"
 TOP_K = 10
-DATA_FILE = "data/amazon_dataset.csv"
+# We use the PT file directly because it contains the DF + Vectors
+DATA_FILE = "data/mgeo_master_dataset.csv"
+CACHE_FILE = "data/mgeo_master_dataset.pt"
 
 QUERIES = [
-    "Women's floral embroidery slip-on shoes",
-    "Men's leather oxford dress shoes black",
-    "Bohemian style multi-colored rug",
-    "Industrial style metal pendant light",
-    "Vintage brass drawer handles",
-    "Running shoes with breathable mesh",
-    "Tufted velvet chesterfield sofa",
-    "Geometric print throw pillow blue",
-    "Ceramic vase modern white",
-    "Women's high heel sandals gladiator style",
-    "mobile back cover",
-    "3D printer",
-    "Soft plush lemur toy for kids",
-    "Daylight LED GU10 spotlight bulbs 50W",
-    "Pink duvet cover set with zipper",
-    "Camel top handle bag",
-    "Platinum plated pearl and zirconia ring",
-    "Microfiber fitted sheet wrinkle resistant",
-    "Low moisture mozzarella cheese bar",
-    "Clear glass cooler drinkware set 15 ounce",
+    "Dolphin silver pendant",
+    "Glitter crystal necklace bohemian style",
+    "Matte black nail polish long lasting",
+    "floral citrus perfume for women",
+    "Bronze hoop earrings African boho style",
+    "pink sweatsuit long sleeve for teen girls",
+    "Red silk scarf for formal evening",
+    "Vintage leather jacket with distressed look",
+    "Best anti-fog goggles for blue light protection",
+    "Comfortable black sandals for office work",
+    "Grace Karin sleeveless pleated cocktail dress summer",
+    "Wedding anniversary handmade wooden sign gift",
+    "wide tooth comb for curly hair",
+    "handmade floral greeting cards 5x7",
+    "Light blue waterproof sofa cover for pets",
+    "Christopher Knight Home iron fireplace screen black", 
+    "handmade floral greeting cards",
+    "linen pillow cover independence day theme",
+    "waterproof chair seat covers teal for dining",
+    "cotton kitchen towels diamond stripe",
+    "black curtain rod set",
+    "Soft winter Christmas stockings set of 3 for kids",
+    "black leather watch strap 20mm",
+    "waterproof eyeliner pen",
+    "shampoo for dry scalp with natural oils",
 ]
 
-def parse_json_col(val):
-    """Helper to safely parse JSON strings back to Dicts for the final output."""
+def parse_col(val):
+    """Safely parses stringified lists/dicts (e.g. specs or images)."""
     if pd.isna(val) or val == "":
         return None
-    if isinstance(val, dict):
+    if isinstance(val, (dict, list)):
         return val
     try:
-        return json.loads(val)
+        return ast.literal_eval(str(val))
     except:
         return val
 
 def build_repository():
-    print("Loading Rich Dataset...")
-    # This loads the dataframe with ['item_id', 'origin', 'category', 'title', 'features', 'path', 'other_attributes']
+    
     df = pd.read_csv(DATA_FILE)
     
     if df.empty:
@@ -51,9 +59,8 @@ def build_repository():
         return
 
     # Initialize Engine (Uses Cache if available)
-    engine = LocalSearchEngine(df, force_refresh=False)
-    proof_gen = SocialProofGenerator()
-
+    engine = LocalSearchEngine(df, force_refresh=False, cache_file=CACHE_FILE)
+    
     repository = []
     
     print(f"\nGeneratng Golden Set ({len(QUERIES)} queries)...")
@@ -66,35 +73,41 @@ def build_repository():
 
         # Convert results to Rich JSON
         results_list = []
-        for _, row in results_df.iterrows():
+        for i, (_, row) in enumerate(results_df.iterrows()):
             
-            # We parse the stored JSON strings back into objects
-            # so the final JSON is nested, not double-stringified.
-            origin_data = parse_json_col(row.get('origin'))
-            specs_data = parse_json_col(row.get('other_attributes'))
+            # Parse 'specs' (formerly other_attributes/details)
+            specs_data = parse_col(row.get('specs'))
+            
+            # Parse 'images' (formerly path)
+            images_data = parse_col(row.get('images'))
 
-            stars, reviews = proof_gen.generate()
-          
+            # Handle Rating (Real Data now, not synthetic)
+            # Default to 0/0 if missing
+            rating_val = row.get('rating') if pd.notna(row.get('rating')) else 0.0
+            reviews_val = row.get('rating_number') if pd.notna(row.get('rating_number')) else 0
+
             item_data = {
-                "rank": len(results_list) + 1, # Explicit Ranking
-                "item_id": row['item_id'],
-                "relevance_score": float(row['relevance_score']),
-                "category": row['category'],
+                "rank": i + 1,
+                "item_id": row.get('item_id'),
+                "relevance_score": float(row.get('relevance_score', 0.0)),
+                
+                # Category might be 'dataset_source' or 'category' depending on your merge
+                # We try 'category' first, fallback to 'dataset_source'
+                "category": row.get('category') or row.get('dataset_source'),
                 
                 # Core Content
-                "title": row['title'],
-                "features": row['features'],
+                "title": row.get('title'),
+                "features": row.get('features'),
                 
-                # The "Perfect" Context (What you asked for)
-                "origin": origin_data,       # e.g. {"domain_name": "amazon.co.uk"}
-                "specifications": specs_data, # e.g. {"material": "Leather", "color": "Black"}
+                # Context
+                "specifications": specs_data,
 
-                # Frozen Social Proof
-                "rating": stars,
-                "reviews": reviews,
+                # Social Proof (Real)
+                "rating": float(rating_val),
+                "reviews": int(reviews_val),
               
-                # For LLaVA
-                "image_path": row['path']
+                # Visuals
+                "images": images_data
             }
             results_list.append(item_data)
             
@@ -105,6 +118,7 @@ def build_repository():
         })
 
     # Save to Disk
+    os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
     with open(OUTPUT_FILE, 'w') as f:
         json.dump(repository, f, indent=4)
         
