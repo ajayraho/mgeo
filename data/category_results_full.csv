@@ -1,0 +1,24 @@
+Category,Query,Item_ID,Baseline_Score,Trained_Score,Score_Delta,Winner,Baseline_Vis,Trained_Vis,Baseline_VGS,Trained_VGS
+Beauty,intense hydration ultra repair cream,B003XKKCZW,0.5,0.74925,0.24924999999999997,Trained,0.0,0.4985,1.0,1.0
+Beauty,intense hydration ultra repair cream,B07M7BR7WJ,0.5,0.5,0.0,Tie,0.0,0.0,1.0,1.0
+Beauty,intense hydration ultra repair cream,B081RBRCMJ,0.8813,0.4266,-0.4547,Baseline,0.9793,0.0599,0.7833,0.7933
+Beauty,eyebrow fiber for defined brows,B07JLYP98Q,0.917,0.7452000000000001,-0.17179999999999995,Baseline,1.0667,0.6951,0.7673,0.7953
+Beauty,eyebrow fiber for defined brows,B083H7G738,0.4112,0.4127,0.0015000000000000013,Trained,0.0,0.0,0.8224,0.8254
+Beauty,eyebrow fiber for defined brows,B01MATMJXF,0.5,0.494,-0.006000000000000005,Baseline,0.0,0.0,1.0,0.988
+Home and Kitchen,silicone nail art mat for salon use,B07J9T4QVR,1.161,1.1689,0.007900000000000018,Trained,1.322,1.3378,1.0,1.0
+Home and Kitchen,silicone nail art mat for salon use,B0928BHSV4,0.46745,1.17455,0.7071000000000001,Trained,0.0,1.6872,0.9349,0.6619
+Home and Kitchen,silicone nail art mat for salon use,B09S33FR5H,4.3302,1.31,-3.0201999999999996,Baseline,7.6604,1.9061,1.0,0.7139
+Handmade Products,body butter for dry skin with shea butter,B08WM4CXT7,0.5,0.5,0.0,Tie,0.0,0.0,1.0,1.0
+Handmade Products,body butter for dry skin with shea butter,B09BHYPJ3Q,0.5,0.5,0.0,Tie,0.0,0.0,1.0,1.0
+Handmade Products,body butter for dry skin with shea butter,B00VU7YSVY,0.7416,1.4476499999999999,0.7060499999999998,Trained,0.4832,1.9403,1.0,0.955
+Beauty,butterfly hair clip with tassel for thick hair,B092CT47J1,1.4066999999999998,1.1190499999999999,-0.28764999999999996,Baseline,2.1416,1.4545,0.6718,0.7836
+Beauty,butterfly hair clip with tassel for thick hair,B018CJ98LC,2.0258,3.4417,1.4159000000000002,Trained,3.1978,5.9632,0.8538,0.9202
+Beauty,butterfly hair clip with tassel for thick hair,B08C76XQCQ,1.57285,1.6298,0.056949999999999834,Trained,2.1457,2.3773,1.0,0.8823
+Handmade Products,vegan lip balm with lemongrass 5 pack,B0735D8CCY,0.879,0.47125,-0.40775,Baseline,1.2134,0.1939,0.5446,0.7486
+Handmade Products,vegan lip balm with lemongrass 5 pack,B098F1Z311,0.57155,1.76275,1.1912,Trained,0.1918,2.6698,0.9513,0.8557
+Handmade Products,vegan lip balm with lemongrass 5 pack,B07XKCBF5Q,3.0875,0.67875,-2.40875,Baseline,5.3452,0.693,0.8298,0.6645
+Beauty,strong hair shampoo thickening fullness,B0B64W2DKK,1.002,0.6121,-0.3899,Baseline,1.3233,0.2995,0.6807,0.9247
+Beauty,strong hair shampoo thickening fullness,B082SZTGRB,0.7423,0.3705,-0.37179999999999996,Baseline,0.5353,0.0,0.9493,0.741
+Beauty,strong hair shampoo thickening fullness,B09NBNC7XV,1.18065,0.90145,-0.2792,Baseline,1.3613,0.8218,1.0,0.9811
+Beauty,black braid hair 24 inch,B096Y112VT,0.49455,0.6415500000000001,0.14700000000000008,Trained,0.1967,0.5769,0.7924,0.7062
+Beauty,black braid hair 24 inch,B08P8CPW24,0.63505,0.49575,-0.13929999999999998,Baseline,0.3973,0.0,0.8728,0.9915

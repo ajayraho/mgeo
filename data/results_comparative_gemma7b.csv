@@ -1,0 +1,91 @@
+query,product_id,Baseline_Vis,Baseline_VGS,Baseline_Overall,Trained_Vis,Trained_VGS,Trained_Overall,Winner,Baseline_Pct,Trained_Pct
+intense hydration ultra repair cream,B003XKKCZW,0.0,1.0,0.5,0.0,1.0,0.5,Tie,0.0%,0.0%
+intense hydration ultra repair cream,B07M7BR7WJ,0.0,1.0,0.5,0.0,0.7918,0.3959,Baseline,50.0%,0.0%
+intense hydration ultra repair cream,B081RBRCMJ,0.0,0.5702,0.2851,0.4769,0.7119,0.5944,Trained,33.3%,33.3%
+eyebrow fiber for defined brows,B07JLYP98Q,0.0,0.8275,0.41375,0.0,0.7444,0.3722,Baseline,50.0%,25.0%
+eyebrow fiber for defined brows,B083H7G738,0.0,0.6859,0.34295,2.5829,0.8683,1.7256,Trained,40.0%,40.0%
+eyebrow fiber for defined brows,B01MATMJXF,0.8365,0.5573,0.6969000000000001,0.5186,0.8991,0.70885,Trained,33.3%,50.0%
+silicone nail art mat for salon use,B07J9T4QVR,0.0,1.0,0.5,3.1361,1.0,2.06805,Trained,28.6%,57.1%
+silicone nail art mat for salon use,B0928BHSV4,5.6913,0.642,3.16665,1.2218,0.7708,0.9963,Baseline,37.5%,50.0%
+silicone nail art mat for salon use,B09S33FR5H,1.6277,0.7424,1.18505,0.7358,0.6832,0.7095,Baseline,44.4%,44.4%
+body butter for dry skin with shea butter,B08WM4CXT7,0.7862,1.0,0.8931,1.4924,0.786,1.1392,Trained,40.0%,50.0%
+body butter for dry skin with shea butter,B09BHYPJ3Q,0.0,1.0,0.5,0.0,1.0,0.5,Tie,36.4%,45.5%
+body butter for dry skin with shea butter,B00VU7YSVY,1.1077,0.8728,0.99025,0.4156,0.9235,0.66955,Baseline,41.7%,41.7%
+butterfly hair clip with tassel for thick hair,B092CT47J1,0.0,0.6836,0.3418,0.0,0.9618,0.4809,Trained,38.5%,46.2%
+butterfly hair clip with tassel for thick hair,B018CJ98LC,0.0,0.9955,0.49775,4.6832,1.0,2.8416,Trained,35.7%,50.0%
+butterfly hair clip with tassel for thick hair,B08C76XQCQ,0.0,0.8152,0.4076,0.7283,0.7658,0.74705,Trained,33.3%,53.3%
+vegan lip balm with lemongrass 5 pack,B0735D8CCY,0.1889,0.5888,0.38885000000000003,4.2006,0.5707,2.38565,Trained,31.2%,56.2%
+vegan lip balm with lemongrass 5 pack,B098F1Z311,1.5819,0.5827,1.0823,1.3152,0.8783,1.09675,Trained,29.4%,58.8%
+vegan lip balm with lemongrass 5 pack,B07XKCBF5Q,0.0,0.9248,0.4624,3.1779,0.7679,1.9729,Trained,27.8%,61.1%
+strong hair shampoo thickening fullness,B0B64W2DKK,0.6136,0.9105,0.76205,3.0671,0.8344,1.95075,Trained,26.3%,63.2%
+strong hair shampoo thickening fullness,B082SZTGRB,1.6116,0.8236,1.2176,0.0403,0.981,0.51065,Baseline,30.0%,60.0%
+strong hair shampoo thickening fullness,B09NBNC7XV,0.9926,0.805,0.8988,0.2503,0.7924,0.52135,Baseline,33.3%,57.1%
+black braid hair 24 inch,B096Y112VT,0.0,1.0,0.5,2.0284,0.6966,1.3625,Trained,31.8%,59.1%
+black braid hair 24 inch,B08P8CPW24,0.3245,0.7116,0.51805,1.5261,0.9443,1.2352,Trained,30.4%,60.9%
+black braid hair 24 inch,B098FGQ9Z6,1.8444,1.0,1.4222000000000001,0.0402,0.8978,0.46900000000000003,Baseline,33.3%,58.3%
+fleece sweatshirt big & tall with ribbed collar,B09HW26SWL,0.0,0.8785,0.43925,0.6412,0.8587,0.74995,Trained,32.0%,60.0%
+fleece sweatshirt big & tall with ribbed collar,B09D3NVGDX,0.0,0.6493,0.32465,0.0,0.8636,0.4318,Trained,30.8%,61.5%
+fleece sweatshirt big & tall with ribbed collar,B0819KD2Q1,0.0,0.8296,0.4148,0.1651,0.7333,0.4492,Trained,29.6%,63.0%
+plus size underwear soft cotton briefs,B0834C3KYG,2.2432,0.7469,1.49505,4.575,0.7467,2.66085,Trained,28.6%,64.3%
+plus size underwear soft cotton briefs,B077THFWSZ,0.0,0.6833,0.34165,0.0,0.8868,0.4434,Trained,27.6%,65.5%
+plus size underwear soft cotton briefs,B005GVBU2K,0.0,0.6907,0.34535,0.0,0.8168,0.4084,Trained,26.7%,66.7%
+black sandals non slip thick sole,B082M1P54F,0.0,0.8945,0.44725,0.656,0.7114,0.6837,Trained,25.8%,67.7%
+black sandals non slip thick sole,B0BPPFZ813,0.0,1.0,0.5,0.0891,0.8734,0.48124999999999996,Baseline,28.1%,65.6%
+black sandals non slip thick sole,B0C2C4BP1V,0.9141,1.0,0.95705,0.0,0.912,0.456,Baseline,30.3%,63.6%
+funny saying t shirt birthday gift,B08T7B88ZR,0.0,0.6286,0.3143,3.2294,0.7135,1.97145,Trained,29.4%,64.7%
+funny saying t shirt birthday gift,B09JC2VHF8,0.6951,0.5342,0.61465,2.2959,0.7438,1.51985,Trained,28.6%,65.7%
+funny saying t shirt birthday gift,B07S2YXDGK,0.5404,0.7802,0.6603,0.4727,0.7674,0.62005,Baseline,30.6%,63.9%
+Modern unisex seaside sneaker,B076JX4QWT,0.1539,0.6637,0.4088,0.6065,0.7667,0.6866000000000001,Trained,29.7%,64.9%
+Modern unisex seaside sneaker,B0BH3ZNZWG,0.764,0.5904,0.6772,0.1007,0.7705,0.4356,Baseline,31.6%,63.2%
+Modern unisex seaside sneaker,B0B6VZQ7XG,0.0,0.5872,0.2936,0.1815,0.436,0.30874999999999997,Trained,30.8%,64.1%
+red cycling jersey for mountain bike,B0796RQBYL,0.0,1.0,0.5,2.3881,0.4707,1.4294,Trained,30.0%,65.0%
+red cycling jersey for mountain bike,B07C7XYD67,5.6597,0.778,3.2188499999999998,1.2662,0.8662,1.0662,Baseline,31.7%,63.4%
+red cycling jersey for mountain bike,B08TRX6WR5,0.0,0.9583,0.47915,0.1569,0.7776,0.46725,Baseline,33.3%,61.9%
+women's insulated gloves thinsulate cold weather,B00FS9CWCC,0.0,0.7368,0.3684,0.9507,0.8048,0.87775,Trained,32.6%,62.8%
+women's insulated gloves thinsulate cold weather,B081JQTQ5V,0.0,0.9727,0.48635,2.1949,0.8769,1.5359,Trained,31.8%,63.6%
+women's insulated gloves thinsulate cold weather,B0B8XBJDQB,0.0,0.8523,0.42615,6.1887,0.8297,3.5092,Trained,31.1%,64.4%
+off shoulder top bell sleeves summer event,B08YK5N7KC,0.0,1.0,0.5,0.5995,1.0,0.79975,Trained,30.4%,65.2%
+off shoulder top bell sleeves summer event,B088FNF56Z,1.4754,0.6842,1.0798,31.6363,0.72,16.17815,Trained,29.8%,66.0%
+off shoulder top bell sleeves summer event,B0B122J8NX,0.6459,0.6685,0.6572,0.0,0.7875,0.39375,Baseline,31.2%,64.6%
+moonstone triple moon cuff bracelet,B09JV9V753,0.0,0.8493,0.42465,0.0,0.9286,0.4643,Trained,30.6%,65.3%
+moonstone triple moon cuff bracelet,B07C2KKH1F,0.0,0.8256,0.4128,2.1383,0.2778,1.20805,Trained,30.0%,66.0%
+moonstone triple moon cuff bracelet,B0765N8M8W,3.3878,1.0,2.1939,1.0246,0.9259,0.97525,Baseline,31.4%,64.7%
+sea glass turquoise earrings handmade,B07RC1SJ2J,0.6065,0.7708,0.68865,0.4481,0.9745,0.7113,Trained,30.8%,65.4%
+sea glass turquoise earrings handmade,B07CMMS8PV,4.4869,0.9673,2.7271,1.204,0.9541,1.07905,Baseline,32.1%,64.2%
+sea glass turquoise earrings handmade,B079SRWT8R,0.6215,0.7514,0.68645,3.4878,0.7494,2.1186,Trained,31.5%,64.8%
+handmade bible globe ornament Christmas,B01C4I9J16,0.0,0.7008,0.3504,0.0,1.0,0.5,Trained,30.9%,65.5%
+handmade bible globe ornament Christmas,B09JLVS7GC,0.4843,1.0,0.74215,0.0,1.0,0.5,Baseline,32.1%,64.3%
+handmade bible globe ornament Christmas,B08L76V45M,1.2793,0.5514,0.9153500000000001,0.0,0.6959,0.34795,Baseline,33.3%,63.2%
+broken heart necklace gold,B092JJS23Q,0.0,0.9586,0.4793,0.6762,0.8994,0.7878000000000001,Trained,32.8%,63.8%
+broken heart necklace gold,B0C2MWSP5J,0.7408,0.6981,0.71945,0.0,0.8139,0.40695,Baseline,33.9%,62.7%
+broken heart necklace gold,B0BS49JQMK,0.0,0.8033,0.40165,0.2079,0.9163,0.5621,Trained,33.3%,63.3%
+lightweight geometric leather earrings,B07MXRJRTG,0.051,0.8645,0.45775000000000005,0.0,1.0,0.5,Trained,32.8%,63.9%
+lightweight geometric leather earrings,B07PYXLPSK,2.6147,0.609,1.61185,0.6219,0.5384,0.5801499999999999,Baseline,33.9%,62.9%
+lightweight geometric leather earrings,B085WNDGQB,0.7503,0.8172,0.78375,0.764,0.7219,0.74295,Baseline,34.9%,61.9%
+customize dog name tag for gold,B09V7MRMJ7,0.0,0.9655,0.48275,1.7607,0.9956,1.37815,Trained,34.4%,62.5%
+customize dog name tag for gold,B09TDLSJZX,0.0,1.0,0.5,0.0,1.0,0.5,Tie,33.8%,61.5%
+customize dog name tag for gold,B0BR846PYC,0.4815,0.9752,0.7283499999999999,2.8437,1.0,1.92185,Trained,33.3%,62.1%
+skull skeleton silicone cake mold,B07M757257,0.6325,1.0,0.8162499999999999,1.7379,1.0,1.36895,Trained,32.8%,62.7%
+skull skeleton silicone cake mold,B09VBTSJVG,0.4714,0.9243,0.69785,3.0223,0.8089,1.9156,Trained,32.4%,63.2%
+skull skeleton silicone cake mold,B08FR3LBN4,0.6529,0.969,0.8109500000000001,0.8305,1.0,0.91525,Trained,31.9%,63.8%
+Red Rose Afghan hound dish towel,B07X28213H,0.0,0.7901,0.39505,1.6861,0.425,1.05555,Trained,31.4%,64.3%
+Red Rose Afghan hound dish towel,B085128GG9,0.5385,0.6252,0.58185,0.7068,0.7096,0.7081999999999999,Trained,31.0%,64.8%
+Red Rose Afghan hound dish towel,B015T1WKF2,0.0,0.8986,0.4493,0.3123,0.8998,0.60605,Trained,30.6%,65.3%
+stainless steel oil filter for cooking,B07W4YVMP1,0.0,0.7672,0.3836,4.0098,0.8906,2.4502,Trained,30.1%,65.8%
+stainless steel oil filter for cooking,B08BJQS4ZX,0.9421,0.8088,0.8754500000000001,0.9342,0.8713,0.9027499999999999,Trained,29.7%,66.2%
+stainless steel oil filter for cooking,B091D468ZB,0.9942,0.7121,0.85315,0.4707,0.6368,0.55375,Baseline,30.7%,65.3%
+essential oil storage box 40 bottle capacity,B07JD1Z2BM,1.5951,1.0,1.29755,1.7712,0.9823,1.37675,Trained,30.3%,65.8%
+essential oil storage box 40 bottle capacity,B01DR382P6,0.0,1.0,0.5,2.141,0.8278,1.4844,Trained,29.9%,66.2%
+essential oil storage box 40 bottle capacity,B07RYFJ9Y7,3.2967,0.6057,1.9512,3.0866,0.732,1.9093,Baseline,30.8%,65.4%
+red green tablecloth for dinner party,B07WTBC69Q,0.0,1.0,0.5,0.1503,1.0,0.57515,Trained,30.4%,65.8%
+red green tablecloth for dinner party,B0915MH9HQ,0.581,1.0,0.7905,0.0,1.0,0.5,Baseline,31.2%,65.0%
+red green tablecloth for dinner party,B07JXSCZGD,0.4477,0.8306,0.63915,0.8187,0.9414,0.88005,Trained,30.9%,65.4%
+Egyptian cotton pillowcase with zipper,B084DPYLKX,6.4242,0.7502,3.5872,2.4408,0.8926,1.6666999999999998,Baseline,31.7%,64.6%
+Egyptian cotton pillowcase with zipper,B0BN95NVNX,5.0569,0.7546,2.90575,0.9372,0.885,0.9111,Baseline,32.5%,63.9%
+Egyptian cotton pillowcase with zipper,B092MLNXXP,2.9839,0.9724,1.97815,0.5361,1.0,0.76805,Baseline,33.3%,63.1%
+egg basket storage for kitchen decor,B09JVKMHBF,0.9369,0.9899,0.9634,0.0,1.0,0.5,Baseline,34.1%,62.4%
+egg basket storage for kitchen decor,B082QWHF17,0.0,0.8599,0.42995,1.6062,0.9149,1.26055,Trained,33.7%,62.8%
+egg basket storage for kitchen decor,B08DY7WXZ8,1.0173,0.8572,0.93725,1.3807,0.8849,1.1328,Trained,33.3%,63.2%
+bathroom slippers thick sole cushion non slip,B08TWZ16P2,1.8183,0.705,1.26165,3.8618,0.9543,2.4080500000000002,Trained,33.0%,63.6%
+bathroom slippers thick sole cushion non slip,B08Z3NMPWP,0.5771,0.6736,0.62535,0.0,0.5303,0.26515,Baseline,33.7%,62.9%
+bathroom slippers thick sole cushion non slip,B0B5GT6CNZ,0.356,0.8272,0.5916,2.0817,0.8449,1.4633,Trained,33.3%,63.3%
